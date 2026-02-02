@@ -14,7 +14,7 @@ from collections import defaultdict
 # Configuration - Repository URLs
 REPOSITORIES = {
     "ibro": "https://git.luna-app.eu/ibro/services.git",
-    "50n50": "https://git.luna-app.eu/50n50/services.git"
+    "50n50": "https://git.luna-app.eu/50n50/sources.git"
 }
 
 OUTPUT_DIR = Path("organized_sources")
