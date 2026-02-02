@@ -150,6 +150,9 @@ def organize_sources():
     # Structure: {repo_name: {type: [sources]}}
     organized_data = defaultdict(lambda: defaultdict(list))
     
+    # Structure for combined files by type across all repositories
+    combined_by_type = defaultdict(list)
+    
     # Statistics
     total_files_found = 0
     total_files_processed = 0
@@ -183,14 +186,7 @@ def organize_sources():
             source_type = json_data.get("type", "other")
             normalized_type = normalize_type(source_type)
             
-            # Add metadata about file location
-            json_data["_metadata"] = {
-                "original_file": str(relative_path),
-                "repository": repo_name,
-                "original_type": source_type
-            }
-            
-            # Add to organized structure
+            # Add to organized structure (without modifying the original JSON)
             organized_data[repo_name][normalized_type].append(json_data)
             total_files_processed += 1
             
@@ -203,9 +199,6 @@ def organize_sources():
     print(f"{'='*60}")
     
     all_types = set()
-    
-    # Group all sources by type across all repositories for combined files
-    combined_by_type = defaultdict(list)
     
     for repo_name, types_dict in organized_data.items():
         repo_dir = OUTPUT_DIR / repo_name
@@ -225,10 +218,8 @@ def organize_sources():
             
             print(f"  ✅ {source_type}.json ({len(sources)} sources)")
             
-            # Add to combined structure
+            # Add to combined structure (without modifying the original JSON)
             for source in sources:
-                # Add repository info to each source
-                source["repository"] = repo_name
                 combined_by_type[source_type].append(source)
     
     # Create combined files by type across all repositories
@@ -242,14 +233,14 @@ def organize_sources():
     for source_type, sources in sorted(combined_by_type.items()):
         output_file = combined_dir / f"{source_type}.json"
         
-        # Sort by repository then by sourceName
-        sources.sort(key=lambda x: (x.get("repository", ""), x.get("sourceName", x.get("name", "")).lower()))
+        # Sort by sourceName for consistency
+        sources.sort(key=lambda x: x.get("sourceName", "").lower())
         
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(sources, f, indent=2, ensure_ascii=False)
         
-        repos = set(s.get("repository", "Unknown") for s in sources)
-        print(f"  ✅ combined/{source_type}.json ({len(sources)} sources from {len(repos)} repos)")
+        repos = set()  # We can't track repos anymore since we don't add metadata
+        print(f"  ✅ combined/{source_type}.json ({len(sources)} sources)")
     
     # Create a summary file
     print(f"\n{'='*60}")
@@ -287,11 +278,8 @@ def organize_sources():
     
     # Add combined summary
     for source_type, sources in combined_by_type.items():
-        repos = set(s.get("repository", "Unknown") for s in sources)
         summary["combined_summary"][source_type] = {
-            "total_sources": len(sources),
-            "repositories": sorted(list(repos)),
-            "repository_count": len(repos)
+            "total_sources": len(sources)
         }
     
     summary_file = OUTPUT_DIR / "summary.json"
@@ -324,8 +312,7 @@ def organize_sources():
     # Print combined summary
     print(f"\n🔗 Combined files:")
     for source_type, sources in combined_by_type.items():
-        repos = set(s.get("repository", "Unknown") for s in sources)
-        print(f"  • {source_type}.json: {len(sources)} sources from {len(repos)} repositories")
+        print(f"  • {source_type}.json: {len(sources)} sources")
     
     # Step 3: Clean up cloned repositories
     print(f"\n{'='*60}")
