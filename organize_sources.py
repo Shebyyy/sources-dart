@@ -41,7 +41,7 @@ def normalize_type(type_str: str) -> str:
     return type_lower.replace("/", "_").replace(" ", "_").replace("-", "_")
 
 def find_json_files(directory: Path) -> List[Path]:
-    """Recursively find all JSON files in a directory."""
+    """Recursively find all JSON files in a directory, ignoring root-level files."""
     json_files = []
     
     if not directory.exists():
@@ -51,7 +51,12 @@ def find_json_files(directory: Path) -> List[Path]:
         if item.is_file():
             # Skip hidden files and common non-source files
             if not any(part.startswith('.') for part in item.parts):
-                json_files.append(item)
+                # Only include files that are in subdirectories (depth > 1)
+                # This ignores files like: repository/file.json
+                # But includes: repository/subfolder/file.json
+                relative_path = item.relative_to(directory)
+                if len(relative_path.parts) > 1:
+                    json_files.append(item)
     
     return json_files
 
