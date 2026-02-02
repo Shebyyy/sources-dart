@@ -1,49 +1,60 @@
-name: Organize Source Files
+name: Organize Sources by Type
 
 on:
-  schedule:
-    # Run daily at midnight UTC
-    - cron: '0 0 * * *'
-  workflow_dispatch: # Allow manual trigger
   push:
-    branches:
-      - main
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+    inputs:
+      force_run:
+        description: 'Force run the workflow'
+        required: false
+        default: 'false'
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: '0 2 * * *'
 
 jobs:
-  organize:
+  organize-sources:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Checkout repository
+      uses: actions/checkout@v4
       
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      
-      - name: Clone source repositories
-        run: |
-          echo "Cloning 50n50/sources..."
-          git clone https://git.luna-app.eu/50n50/sources.git temp_repos/50n50
-          
-          echo "Cloning ibro/services..."
-          git clone https://git.luna-app.eu/ibro/services.git temp_repos/ibro
-          
-          echo "Repositories cloned successfully"
-          ls -la temp_repos/
-      
-      - name: Run organization script
-        run: python organize_sources.py
-      
-      - name: Cleanup temp repositories
-        run: rm -rf temp_repos/
-      
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add organized_sources/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update organized source files [$(date +'%Y-%m-%d %H:%M:%S')]" && git push)
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Run organization script
+      env:
+        GIT_TERMINAL_PROMPT: 0
+        GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
+      run: |
+        python3 organize_sources.py
+        
+    - name: Upload organized sources
+      uses: actions/upload-artifact@v4
+      with:
+        name: organized-sources
+        path: organized_sources/
+        retention-days: 30
+        
+    - name: Commit and push if changes
+      if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Add organized sources
+        git add organized_sources/ || true
+        
+        # Check if there are changes
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Auto-update: Organize sources by type [$(date +'%Y-%m-%d %H:%M:%S')]" || true
+          git push || true
+        fi
