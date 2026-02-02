@@ -1,0 +1,172 @@
+{
+  "generated_at": "/home/runner/work/sources-dart/sources-dart",
+  "total_repositories": 1,
+  "total_types": 3,
+  "all_types": [
+    "anime",
+    "movies_shows",
+    "novels"
+  ],
+  "statistics": {
+    "files_found": 107,
+    "files_processed": 107,
+    "files_failed": 0
+  },
+  "repositories": {
+    "ibro": {
+      "types": [
+        "anime",
+        "movies_shows",
+        "novels"
+      ],
+      "total_sources": 107,
+      "sources_by_type": {
+        "anime": {
+          "count": 73,
+          "sources": [
+            "AbleFlix",
+            "AniBunker",
+            "Anify",
+            "Anikuro",
+            "Anime-Portal",
+            "AnimeLIB (DUB - First Stream)",
+            "AnimeLIB (DUB - Studio Band)",
+            "AnimeLIB (DUB)",
+            "AnimeLIB (HardSUB - SubVost)",
+            "AnimeLIB (HardSUB - Ушастая)",
+            "AnimeLIB (SOFTSUB)",
+            "AnimeLIB (SUB - All Streams)",
+            "AnimeLIB (SUB - First Stream)",
+            "Animepahe",
+            "Animepahe (DUB)",
+            "AnimeStars",
+            "Animex",
+            "AnimeZ",
+            "Aniwave",
+            "Aniwave (SCRAPER)",
+            "Anizone",
+            "ArabicToons",
+            "Black Clover Pace",
+            "Borucut",
+            "CinemaDeck 2",
+            "City Sonic",
+            "Concentrated Bleach",
+            "DBZ Recut",
+            "Development",
+            "Dragon Ball Recut",
+            "Dragon Ball Super: Ultra Instinct Cut",
+            "FRAnime",
+            "GidOnline",
+            "HD Today",
+            "HDRezka",
+            "Hexa",
+            "Jut.su",
+            "KissAssAnime",
+            "KissKH",
+            "Kuudere",
+            "Let's Stream",
+            "LUNAR",
+            "Lycoris Cafe",
+            "MyFlixer",
+            "Narucannon",
+            "One Pace",
+            "One Pace (French)",
+            "One Pace (Spanish)",
+            "One Piece Film Red: AmaLee Score",
+            "One Piece Treasure Edition",
+            "Onigashima Paced",
+            "Otakuu",
+            "Peak",
+            "Purstream",
+            "Rebuild of Naruto",
+            "RistoAnime",
+            "SFlix",
+            "SpacePowerFans",
+            "Sudatchi",
+            "Sunduq",
+            "Tanime",
+            "ToonAnime",
+            "TopCinema",
+            "UASERIAL",
+            "Vidnest",
+            "VidSrc",
+            "WaveWatch",
+            "WTFlix",
+            "WTFlix - Animepahe",
+            "WTFlix - EmbedSU",
+            "XPrime",
+            "Yu Yu Hakusho Pace",
+            "Yummy Anime (Clone - SovetRomantica)"
+          ]
+        },
+        "movies_shows": {
+          "count": 31,
+          "sources": [
+            "111movies",
+            "Autoembed",
+            "Bingeflix",
+            "CinemaDeck",
+            "Cinepulse",
+            "DRAMA COOL",
+            "FlickyStream",
+            "Frembed (Movies)",
+            "HopCorn+",
+            "KDramaHood (BROKEN)",
+            "Kepala Bergetar 4",
+            "Kepala Bergetar 9",
+            "KinoGer",
+            "Mokmobi (BROKEN)",
+            "Movies7.im",
+            "MovieZone (BROKEN)",
+            "Movix",
+            "Net3lix",
+            "Rama Oriental Fansub",
+            "RGShows",
+            "Rive",
+            "RuMov",
+            "StreamCloud",
+            "VidAPI",
+            "VidFast",
+            "Vidify",
+            "VidLink",
+            "Vidrock",
+            "VidSrc.cc",
+            "Vidzee",
+            "VixSrc"
+          ]
+        },
+        "novels": {
+          "count": 3,
+          "sources": [
+            "NovelBuddy",
+            "NovelDot",
+            "NovelFire"
+          ]
+        }
+      }
+    }
+  },
+  "combined_summary": {
+    "anime": {
+      "total_sources": 73,
+      "repositories": [
+        "ibro"
+      ],
+      "repository_count": 1
+    },
+    "movies_shows": {
+      "total_sources": 31,
+      "repositories": [
+        "ibro"
+      ],
+      "repository_count": 1
+    },
+    "novels": {
+      "total_sources": 3,
+      "repositories": [
+        "ibro"
+      ],
+      "repository_count": 1
+    }
+  }
+}
