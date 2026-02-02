@@ -1,15 +1,18 @@
 {
   "generated_at": "/home/runner/work/sources-dart/sources-dart",
-  "total_repositories": 1,
-  "total_types": 3,
+  "total_repositories": 2,
+  "total_types": 6,
   "all_types": [
     "anime",
+    "audiobooks",
+    "manga",
     "movies_shows",
-    "novels"
+    "novels",
+    "other"
   ],
   "statistics": {
-    "files_found": 107,
-    "files_processed": 107,
+    "files_found": 295,
+    "files_processed": 295,
     "files_failed": 0
   },
   "repositories": {
@@ -144,27 +147,282 @@
           ]
         }
       }
+    },
+    "50n50": {
+      "types": [
+        "anime",
+        "audiobooks",
+        "manga",
+        "movies_shows",
+        "novels",
+        "other"
+      ],
+      "total_sources": 188,
+      "sources_by_type": {
+        "anime": {
+          "count": 122,
+          "sources": [
+            "1TamilCrow",
+            "An1me",
+            "Anicore",
+            "AniCrush",
+            "AniHQ",
+            "AniLiberty",
+            "AniLibria",
+            "Anime-Sama",
+            "Anime3rb",
+            "Anime4Up",
+            "AnimeAV1",
+            "AnimeBalkan",
+            "AnimeBum",
+            "AnimeDefenders",
+            "AnimeEpisodeSeries",
+            "AnimeFHD",
+            "AnimeGG",
+            "AnimeHeaven",
+            "AnimeIndo",
+            "AnimeKai (Dub)",
+            "AnimeKai (Hardsub)",
+            "AnimeKai Arabic",
+            "AnimeKhor",
+            "AnimeLand",
+            "Animeler",
+            "AnimeLib",
+            "AnimeMeow",
+            "AnimeNana",
+            "AnimeNix",
+            "AnimeNoSub",
+            "AnimePahe",
+            "Animeq",
+            "AnimeSaturn",
+            "AnimesDigital",
+            "AnimesDrive",
+            "AnimesOnline",
+            "AnimeSRBIJA",
+            "AnimesRoll",
+            "AnimesRoll",
+            "AnimeToast",
+            "Animetsu",
+            "AnimeUnity",
+            "AnimeVost",
+            "AnimeWeek",
+            "AnimeWorld",
+            "AnimeXin",
+            "AnimeYTX",
+            "Animez",
+            "AniTube",
+            "AniWatch",
+            "AniWorld (ENG SUB)",
+            "AniWorld (GER DUB)",
+            "AniWorld (GER SUB)",
+            "AniWorld (Local Test)",
+            "Anoboye",
+            "ArabSeed",
+            "Ashi (あし) - Literally Everything",
+            "AZ-Animex",
+            "Beatz-Anime",
+            "CKSub",
+            "CoFlix",
+            "Comet",
+            "CrimsonFanSubs",
+            "Desu-Online",
+            "Development",
+            "Dmand5",
+            "Donghanosekai",
+            "DonghuaStream",
+            "Dora-Video",
+            "DoraBash",
+            "EgyDead",
+            "EgyDead (Fasel reuploader)",
+            "FaselHD",
+            "FireAnime DUB",
+            "FireAnime English (SUB)",
+            "FireAnime SUB",
+            "Franime",
+            "GnulaHD",
+            "Hexa",
+            "HiAnime",
+            "HiCartoon",
+            "Hicine",
+            "HollyMovieHD",
+            "IPTV-org",
+            "Iyinghua",
+            "Kaido",
+            "Kawaiifu",
+            "Kawaiines",
+            "KickAssAnimes",
+            "KimCartoon",
+            "Kisskh",
+            "Kuramanime",
+            "LmAnime",
+            "LuciferDonghua",
+            "Mapple",
+            "MavAnimes",
+            "MediaFusion",
+            "Monoschinos2",
+            "Nimegami",
+            "Nivod",
+            "OneTouch TV",
+            "PelisPlusHD",
+            "Senshi",
+            "SmashyStream",
+            "Soundcloud",
+            "Tidal",
+            "Tiktok",
+            "TokyoInsider",
+            "Torrentio",
+            "Tsumi (詰み) - Literally Everything 2.0",
+            "VerAnimes",
+            "VerSeriesOnline",
+            "VidEasy",
+            "VidFast",
+            "VidLink",
+            "VidSrc",
+            "WatchAnimeWorld",
+            "WitAnime",
+            "X",
+            "XiaoXintv",
+            "XPrime",
+            "YouTube"
+          ]
+        },
+        "audiobooks": {
+          "count": 1,
+          "sources": [
+            "Audible"
+          ]
+        },
+        "manga": {
+          "count": 13,
+          "sources": [
+            "Comix",
+            "KaliScan",
+            "MangaBuddy",
+            "MangaCloud",
+            "MangaDex",
+            "MangaFire",
+            "MangaFreak",
+            "MangaKatana",
+            "MangaPark",
+            "MangaPub",
+            "MangaTaro",
+            "RumanHua1",
+            "WeebCentral"
+          ]
+        },
+        "movies_shows": {
+          "count": 41,
+          "sources": [
+            "111477",
+            "1Movies",
+            "AK.SV",
+            "ArabLionz",
+            "Asia2TV",
+            "AsiaLiveAction",
+            "CineCalidad",
+            "Cloudy",
+            "Cuevana3",
+            "DDYS",
+            "DivXFilmeOnline",
+            "DoramasYT",
+            "EstrenosDoramas",
+            "FilmeHD",
+            "Filmpalast",
+            "FlixLatam",
+            "FunMoviesLix",
+            "HDFilme",
+            "hdhub4u",
+            "HiMovies",
+            "HonaDrama",
+            "KissAsian",
+            "KissCartoon",
+            "MegaKino",
+            "Movi",
+            "OnlineMoviesHindi",
+            "PoseidonHD2",
+            "PrMovies",
+            "s.to (ENG DUB)",
+            "s.to (GER DUB)",
+            "SHahidd4u",
+            "Soaper Live",
+            "SoloLatino",
+            "StreamingUnity",
+            "ToonItalia",
+            "ToonTales",
+            "TopStreamFilm",
+            "Turkish123",
+            "VegaMovies",
+            "Veziseriale",
+            "WeAreChecking"
+          ]
+        },
+        "novels": {
+          "count": 8,
+          "sources": [
+            "ChiReads",
+            "HelioScan",
+            "MangaKatana",
+            "NovelBin",
+            "NovelCool",
+            "NovelNext",
+            "ReadNovelFull",
+            "ReadNovels"
+          ]
+        },
+        "other": {
+          "count": 3,
+          "sources": [
+            "Unknown",
+            "Atsu",
+            "Public Domain in the US"
+          ]
+        }
+      }
     }
   },
   "combined_summary": {
     "anime": {
-      "total_sources": 73,
+      "total_sources": 195,
       "repositories": [
+        "50n50",
         "ibro"
       ],
-      "repository_count": 1
+      "repository_count": 2
     },
     "movies_shows": {
-      "total_sources": 31,
+      "total_sources": 72,
       "repositories": [
+        "50n50",
         "ibro"
+      ],
+      "repository_count": 2
+    },
+    "novels": {
+      "total_sources": 11,
+      "repositories": [
+        "50n50",
+        "ibro"
+      ],
+      "repository_count": 2
+    },
+    "audiobooks": {
+      "total_sources": 1,
+      "repositories": [
+        "50n50"
       ],
       "repository_count": 1
     },
-    "novels": {
+    "manga": {
+      "total_sources": 13,
+      "repositories": [
+        "50n50"
+      ],
+      "repository_count": 1
+    },
+    "other": {
       "total_sources": 3,
       "repositories": [
-        "ibro"
+        "50n50"
       ],
       "repository_count": 1
     }

@@ -22,8 +22,7 @@
       "original_file": "chireads/chireads.json",
       "repository": "50n50",
       "original_type": "novels"
-    },
-    "repository": "50n50"
+    }
   },
   {
     "sourceName": "HelioScan",
@@ -48,8 +47,7 @@
       "original_file": "helioscans/helioscans.json",
       "repository": "50n50",
       "original_type": "novels"
-    },
-    "repository": "50n50"
+    }
   },
   {
     "sourceName": "MangaKatana",
@@ -73,8 +71,7 @@
       "original_file": "temp/temp.json",
       "repository": "50n50",
       "original_type": "novels"
-    },
-    "repository": "50n50"
+    }
   },
   {
     "sourceName": "NovelBin",
@@ -99,8 +96,7 @@
       "original_file": "novelbin/novelbin.json",
       "repository": "50n50",
       "original_type": "novels"
-    },
-    "repository": "50n50"
+    }
   },
   {
     "sourceName": "NovelCool",
@@ -124,8 +120,7 @@
       "original_file": "novelcool/novelcool.json",
       "repository": "50n50",
       "original_type": "novels"
-    },
-    "repository": "50n50"
+    }
   },
   {
     "sourceName": "NovelNext",
@@ -150,8 +145,7 @@
       "original_file": "novelnext/novelnext.json",
       "repository": "50n50",
       "original_type": "novels"
-    },
-    "repository": "50n50"
+    }
   },
   {
     "sourceName": "ReadNovelFull",
@@ -176,8 +170,7 @@
       "original_file": "readnovelfull/readnovelfull.json",
       "repository": "50n50",
       "original_type": "novels"
-    },
-    "repository": "50n50"
+    }
   },
   {
     "sourceName": "ReadNovels",
@@ -202,82 +195,6 @@
       "original_file": "readnovels/readnovels.json",
       "repository": "50n50",
       "original_type": "novels"
-    },
-    "repository": "50n50"
-  },
-  {
-    "sourceName": "NovelBuddy",
-    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/novelbuddy/icon.png",
-    "author": {
-      "name": "ibro",
-      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
-      "url": "https://github.com/xibrox"
-    },
-    "version": "1.1.2",
-    "language": "English",
-    "streamType": "novels",
-    "quality": "N/A",
-    "baseUrl": "https://novelbuddy.com/",
-    "searchBaseUrl": "https://novelbuddy.com/search?sort=views&q=%s",
-    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/novelbuddy/novelbuddy.js",
-    "type": "novels",
-    "asyncJS": true,
-    "novel": true,
-    "_metadata": {
-      "original_file": "novelbuddy/novelbuddy.json",
-      "repository": "ibro",
-      "original_type": "novels"
-    },
-    "repository": "ibro"
-  },
-  {
-    "sourceName": "NovelDot",
-    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/noveldot/icon.png",
-    "author": {
-      "name": "ibro",
-      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
-      "url": "https://github.com/xibrox"
-    },
-    "version": "1.0.4",
-    "language": "English",
-    "streamType": "novels",
-    "quality": "N/A",
-    "baseUrl": "https://noveldot.com/",
-    "searchBaseUrl": "https://www.noveldot.com/novel/lnsearchlive/index.php",
-    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/noveldot/noveldot.js",
-    "type": "novels",
-    "asyncJS": true,
-    "novel": true,
-    "_metadata": {
-      "original_file": "noveldot/noveldot.json",
-      "repository": "ibro",
-      "original_type": "novels"
-    },
-    "repository": "ibro"
-  },
-  {
-    "sourceName": "NovelFire",
-    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/novelfire/icon.png",
-    "author": {
-      "name": "ibro",
-      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
-      "url": "https://github.com/xibrox"
-    },
-    "version": "1.0.5",
-    "language": "English",
-    "streamType": "novels",
-    "quality": "N/A",
-    "baseUrl": "https://novelfire.net/",
-    "searchBaseUrl": "https://novelfire.net/ajax/searchLive?inputContent=%s",
-    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/novelfire/novelfire.js",
-    "type": "novels",
-    "asyncJS": true,
-    "novel": true,
-    "_metadata": {
-      "original_file": "novelfire/novelfire.json",
-      "repository": "ibro",
-      "original_type": "novels"
-    },
-    "repository": "ibro"
+    }
   }
 ]
