@@ -1,56 +1,22 @@
 #!/usr/bin/env python3
 """
-Script to organize source JSON files from multiple repositories by type.
-Fetches JSON files from git.luna-app.eu repositories and organizes them.
+Script to organize source JSON files from cloned repositories by type.
+Works with locally cloned git repositories.
 """
 
 import os
 import json
-import requests
 from pathlib import Path
 from typing import Dict, List, Any
 from collections import defaultdict
 
 # Configuration
-REPOS = {
-    "50n50": "https://git.luna-app.eu/50n50/sources",
-    "ibro": "https://git.luna-app.eu/ibro/services"
+SOURCE_REPOS = {
+    "50n50": "temp_sources/50n50",
+    "ibro": "temp_sources/ibro"
 }
 
-# Output directory structure
 OUTPUT_DIR = Path("organized_sources")
-
-def get_api_url(repo_url: str) -> str:
-    """Convert git repo URL to API URL."""
-    # git.luna-app.eu uses Gitea, API format: /api/v1/repos/{owner}/{repo}
-    parts = repo_url.replace("https://git.luna-app.eu/", "").split("/")
-    owner, repo = parts[0], parts[1]
-    return f"https://git.luna-app.eu/api/v1/repos/{owner}/{repo}"
-
-def get_repo_tree(api_url: str, branch: str = "main") -> List[Dict]:
-    """Get the file tree of a repository."""
-    tree_url = f"{api_url}/git/trees/{branch}?recursive=1"
-    response = requests.get(tree_url)
-    
-    if response.status_code != 200:
-        print(f"Failed to fetch tree from {tree_url}: {response.status_code}")
-        return []
-    
-    data = response.json()
-    return data.get("tree", [])
-
-def fetch_json_file(repo_owner: str, repo_name: str, file_path: str) -> Dict[str, Any]:
-    """Fetch a JSON file content from the repository."""
-    raw_url = f"https://git.luna-app.eu/{repo_owner}/{repo_name}/raw/branch/main/{file_path}"
-    
-    try:
-        response = requests.get(raw_url)
-        if response.status_code == 200:
-            return response.json()
-    except Exception as e:
-        print(f"Error fetching {file_path}: {e}")
-    
-    return None
 
 def normalize_type(type_str: str) -> str:
     """Normalize the type string to a consistent format."""
@@ -59,98 +25,201 @@ def normalize_type(type_str: str) -> str:
     
     type_lower = type_str.lower()
     
-    # Map various type strings to standard categories
+    # Handle compound types like "shows/movies/anime"
+    types_found = []
+    
     if "anime" in type_lower:
-        return "anime"
-    elif "manga" in type_lower:
-        return "manga"
-    elif "novel" in type_lower:
-        return "novels"
-    elif "movie" in type_lower or "show" in type_lower:
-        if "anime" in type_lower:
-            return "anime"
-        return "movies_shows"
-    else:
-        return type_lower.replace("/", "_").replace(" ", "_")
+        types_found.append("anime")
+    if "manga" in type_lower:
+        types_found.append("manga")
+    if "novel" in type_lower:
+        types_found.append("novels")
+    if "movie" in type_lower or "show" in type_lower:
+        # Only add movies_shows if anime wasn't already found
+        if "anime" not in types_found:
+            types_found.append("movies_shows")
+    
+    # If we found specific types, return the first one (prioritize anime > manga > novels)
+    if types_found:
+        return types_found[0]
+    
+    # Otherwise, sanitize and return as-is
+    return type_lower.replace("/", "_").replace(" ", "_").replace("-", "_")
+
+def find_json_files(directory: Path) -> List[Path]:
+    """Recursively find all JSON files in a directory."""
+    json_files = []
+    
+    if not directory.exists():
+        print(f"Warning: Directory {directory} does not exist")
+        return json_files
+    
+    for item in directory.rglob("*.json"):
+        if item.is_file():
+            # Skip hidden files and common non-source files
+            if not any(part.startswith('.') for part in item.parts):
+                json_files.append(item)
+    
+    return json_files
+
+def load_json_file(file_path: Path) -> Dict[str, Any]:
+    """Load a JSON file and return its contents."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return data
+    except json.JSONDecodeError as e:
+        print(f"Error decoding JSON from {file_path}: {e}")
+    except Exception as e:
+        print(f"Error reading {file_path}: {e}")
+    
+    return None
 
 def organize_sources():
     """Main function to organize source files."""
+    print("=" * 60)
+    print("Starting Source Organization")
+    print("=" * 60)
+    
     # Create output directory
     OUTPUT_DIR.mkdir(exist_ok=True)
     
     # Structure: {repo_name: {type: [sources]}}
     organized_data = defaultdict(lambda: defaultdict(list))
     
-    for repo_name, repo_url in REPOS.items():
-        print(f"\nProcessing repository: {repo_name}")
+    # Statistics
+    total_files_found = 0
+    total_files_processed = 0
+    total_files_failed = 0
+    
+    for repo_name, repo_path in SOURCE_REPOS.items():
+        print(f"\n{'='*60}")
+        print(f"Processing repository: {repo_name}")
+        print(f"Path: {repo_path}")
+        print(f"{'='*60}")
         
-        api_url = get_api_url(repo_url)
-        tree = get_repo_tree(api_url)
+        repo_dir = Path(repo_path)
         
-        if not tree:
-            print(f"Could not fetch tree for {repo_name}")
+        if not repo_dir.exists():
+            print(f"❌ Repository path not found: {repo_path}")
             continue
         
         # Find all JSON files
-        json_files = [item for item in tree if item["path"].endswith(".json") and item["type"] == "blob"]
+        json_files = find_json_files(repo_dir)
+        total_files_found += len(json_files)
         
-        print(f"Found {len(json_files)} JSON files in {repo_name}")
+        print(f"📁 Found {len(json_files)} JSON files")
         
-        for file_item in json_files:
-            file_path = file_item["path"]
-            print(f"  Fetching: {file_path}")
+        for json_file in json_files:
+            relative_path = json_file.relative_to(repo_dir)
+            print(f"\n  📄 Processing: {relative_path}")
             
-            json_data = fetch_json_file(repo_name, 
-                                       "sources" if repo_name == "50n50" else "services", 
-                                       file_path)
+            json_data = load_json_file(json_file)
             
-            if json_data:
-                # Get the type from JSON
-                source_type = json_data.get("type", "other")
-                normalized_type = normalize_type(source_type)
-                
-                # Add to organized structure
-                organized_data[repo_name][normalized_type].append(json_data)
-                print(f"    Added to {repo_name}/{normalized_type}")
+            if json_data is None:
+                print(f"    ⚠️  Failed to load JSON")
+                total_files_failed += 1
+                continue
+            
+            # Get the type from JSON
+            source_type = json_data.get("type", "other")
+            normalized_type = normalize_type(source_type)
+            
+            # Add metadata about file location
+            json_data["_metadata"] = {
+                "original_file": str(relative_path),
+                "repository": repo_name,
+                "original_type": source_type
+            }
+            
+            # Add to organized structure
+            organized_data[repo_name][normalized_type].append(json_data)
+            total_files_processed += 1
+            
+            source_name = json_data.get("sourceName", "Unknown")
+            print(f"    ✅ Added '{source_name}' to {repo_name}/{normalized_type}")
     
     # Create directory structure and write files
+    print(f"\n{'='*60}")
+    print("Writing Organized Files")
+    print(f"{'='*60}")
+    
+    all_types = set()
+    
     for repo_name, types_dict in organized_data.items():
         repo_dir = OUTPUT_DIR / repo_name
         repo_dir.mkdir(exist_ok=True)
         
-        print(f"\nWriting files for {repo_name}:")
+        print(f"\n📂 Repository: {repo_name}")
         
-        for source_type, sources in types_dict.items():
+        for source_type, sources in sorted(types_dict.items()):
+            all_types.add(source_type)
             output_file = repo_dir / f"{source_type}.json"
+            
+            # Sort sources by sourceName for consistency
+            sources.sort(key=lambda x: x.get("sourceName", "").lower())
             
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(sources, f, indent=2, ensure_ascii=False)
             
-            print(f"  Created: {output_file} ({len(sources)} sources)")
+            print(f"  ✅ {source_type}.json ({len(sources)} sources)")
     
     # Create a summary file
+    print(f"\n{'='*60}")
+    print("Creating Summary")
+    print(f"{'='*60}")
+    
     summary = {
+        "generated_at": str(Path.cwd()),
         "total_repositories": len(organized_data),
+        "total_types": len(all_types),
+        "all_types": sorted(list(all_types)),
+        "statistics": {
+            "files_found": total_files_found,
+            "files_processed": total_files_processed,
+            "files_failed": total_files_failed
+        },
         "repositories": {}
     }
     
     for repo_name, types_dict in organized_data.items():
-        summary["repositories"][repo_name] = {
-            "types": list(types_dict.keys()),
+        repo_summary = {
+            "types": sorted(list(types_dict.keys())),
             "total_sources": sum(len(sources) for sources in types_dict.values()),
-            "sources_by_type": {t: len(s) for t, s in types_dict.items()}
+            "sources_by_type": {}
         }
+        
+        for source_type, sources in sorted(types_dict.items()):
+            repo_summary["sources_by_type"][source_type] = {
+                "count": len(sources),
+                "sources": [s.get("sourceName", "Unknown") for s in sources]
+            }
+        
+        summary["repositories"][repo_name] = repo_summary
     
     summary_file = OUTPUT_DIR / "summary.json"
     with open(summary_file, 'w', encoding='utf-8') as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
     
-    print(f"\nSummary written to: {summary_file}")
-    print("\nOrganization complete!")
-    print(f"Total repositories processed: {len(organized_data)}")
+    print(f"✅ Summary written to: {summary_file}")
+    
+    # Print final statistics
+    print(f"\n{'='*60}")
+    print("Organization Complete!")
+    print(f"{'='*60}")
+    print(f"📊 Statistics:")
+    print(f"  • Total files found: {total_files_found}")
+    print(f"  • Successfully processed: {total_files_processed}")
+    print(f"  • Failed: {total_files_failed}")
+    print(f"  • Repositories: {len(organized_data)}")
+    print(f"  • Unique types: {len(all_types)}")
+    print(f"  • Types: {', '.join(sorted(all_types))}")
+    
+    print(f"\n📂 Output directory: {OUTPUT_DIR.absolute()}")
+    
     for repo_name, types_dict in organized_data.items():
         total = sum(len(sources) for sources in types_dict.values())
-        print(f"  {repo_name}: {total} sources across {len(types_dict)} types")
+        print(f"  • {repo_name}: {total} sources across {len(types_dict)} types")
 
 if __name__ == "__main__":
     organize_sources()
