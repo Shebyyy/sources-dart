@@ -11,8 +11,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 295,
-    "files_processed": 295,
+    "files_found": 294,
+    "files_processed": 294,
     "files_failed": 0
   },
   "repositories": {
@@ -157,7 +157,7 @@
         "novels",
         "other"
       ],
-      "total_sources": 188,
+      "total_sources": 187,
       "sources_by_type": {
         "anime": {
           "count": 122,
@@ -370,9 +370,8 @@
           ]
         },
         "other": {
-          "count": 3,
+          "count": 2,
           "sources": [
-            "Unknown",
             "Atsu",
             "Public Domain in the US"
           ]
@@ -420,7 +419,7 @@
       "repository_count": 1
     },
     "other": {
-      "total_sources": 3,
+      "total_sources": 2,
       "repositories": [
         "50n50"
       ],
