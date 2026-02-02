@@ -24,21 +24,15 @@ def normalize_type(type_str: str) -> str:
     if not type_str:
         return "other"
     
-    type_lower = type_str.lower()
+    # Clean up the type string
+    type_clean = type_str.lower().strip()
+    # Replace common separators with underscores
+    type_clean = type_clean.replace("/", "_").replace(" ", "_").replace("-", "_")
+    # Remove multiple underscores
+    while "__" in type_clean:
+        type_clean = type_clean.replace("__", "_")
     
-    # Type mappings
-    if "anime" in type_lower:
-        return "anime"
-    elif "manga" in type_lower or "mangas" in type_lower:
-        return "manga"
-    elif "novel" in type_lower or "novels" in type_lower:
-        return "novels"
-    elif "movie" in type_lower or "show" in type_lower:
-        # Only add movies_shows if anime wasn't already found
-        return "movies_shows"
-    
-    # If no specific type found, return sanitized version
-    return type_lower.replace("/", "_").replace(" ", "_").replace("-", "_")
+    return type_clean
 
 def find_json_files(directory: Path) -> List[Path]:
     """Recursively find all JSON files in a directory, ignoring root-level files."""
