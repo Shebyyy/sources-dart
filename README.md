@@ -22,7 +22,7 @@ This project automatically organizes source JSON files from multiple repositorie
 ## Current Repositories
 
 - **ibro**: `https://git.luna-app.eu/ibro/services.git`
-- **50n50**: `https://git.luna-app.eu/50n50/services.git`
+- **50n50**: `https://git.luna-app.eu/50n50/sources.git`
 
 ## Output Structure
 
@@ -35,7 +35,7 @@ organized_sources/
 │   └── movies_shows.json   # All movies/shows from ibro
 ├── 50n50/                   # Individual repo organization
 │   ├── anime.json          # All anime from 50n50
-│   ├── manga.json          # All manga from 50n0
+│   ├── manga.json          # All manga from 50n50
 │   └── ...                 # Other types
 ├── combined/               # Combined across all repos
 │   ├── anime.json          # All anime from all repos
@@ -75,7 +75,7 @@ To add more repositories, update the `REPOSITORIES` dictionary in `organize_sour
 ```python
 REPOSITORIES = {
     "ibro": "https://git.luna-app.eu/ibro/services.git",
-    "50n50": "https://git.luna-app.eu/50n50/services.git",
+    "50n50": "https://git.luna-app.eu/50n50/sources.git",
     "new_user": "https://git.luna-app.eu/new_user/services.git"  # Add new repository
 }
 ```
