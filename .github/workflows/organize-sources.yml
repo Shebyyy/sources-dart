@@ -24,16 +24,26 @@ jobs:
         with:
           python-version: '3.11'
       
-      - name: Install dependencies
+      - name: Clone source repositories
         run: |
-          pip install requests
+          echo "Cloning 50n50/sources..."
+          git clone https://git.luna-app.eu/50n50/sources.git temp_repos/50n50
+          
+          echo "Cloning ibro/services..."
+          git clone https://git.luna-app.eu/ibro/services.git temp_repos/ibro
+          
+          echo "Repositories cloned successfully"
+          ls -la temp_repos/
       
       - name: Run organization script
         run: python organize_sources.py
+      
+      - name: Cleanup temp repositories
+        run: rm -rf temp_repos/
       
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update organized source files" && git push)
+          git add organized_sources/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update organized source files [$(date +'%Y-%m-%d %H:%M:%S')]" && git push)
