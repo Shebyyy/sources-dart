@@ -1,0 +1,171 @@
+[
+  {
+    "sourceName": "Comix",
+    "iconURL": "https://files.catbox.moe/ksu7ea.png",
+    "version": "1.0",
+    "language": "English",
+    "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/comix/comix.js",
+    "author": {
+      "name": "50/50",
+      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "type": "mangas",
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "KaliScan",
+    "iconURL": "https://kaliscan.io/static/sites/icons/apple-touch-icon.png",
+    "version": "1.0",
+    "language": "English",
+    "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/kaliscan/kaliscan.js",
+    "author": {
+      "name": "50/50",
+      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "type": "mangas",
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "MangaBuddy",
+    "iconURL": "https://mangabuddy.com/static/sites/mangabuddy/icons/apple-touch-icon.png",
+    "version": "1.0",
+    "language": "English",
+    "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangabuddy/mangabuddy.js",
+    "author": {
+      "name": "50/50",
+      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "type": "mangas",
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "MangaCloud",
+    "iconURL": "https://files.catbox.moe/v73ujk.png",
+    "version": "1.0",
+    "language": "English",
+    "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangacloud/mangacloud.js",
+    "author": {
+      "name": "50/50",
+      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "type": "mangas",
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "MangaDex",
+    "iconURL": "https://files.catbox.moe/ouogm2.png",
+    "version": "1.0",
+    "language": "Multi Language",
+    "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangadex/mangadex.js",
+    "author": {
+      "name": "50/50",
+      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "type": "mangas",
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "MangaFire",
+    "iconURL": "https://s.mfcdn.cc/assets/sites/mangafire/favicon.png?v3",
+    "version": "1.0",
+    "language": "English",
+    "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangafire/mangafire.js",
+    "author": {
+      "name": "50/50",
+      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "type": "mangas",
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "MangaFreak",
+    "iconURL": "https://files.catbox.moe/903u7e.png",
+    "version": "1.0",
+    "language": "English",
+    "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangafreak/mangafreak.js",
+    "author": {
+      "name": "50/50",
+      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "type": "mangas",
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "MangaKatana",
+    "iconURL": "https://mangakatana.com/static/img/fav.png",
+    "version": "1.0",
+    "language": "English",
+    "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangakatana/mangakatana.js",
+    "author": {
+      "name": "50/50",
+      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "type": "mangas",
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "MangaPark",
+    "iconURL": "https://files.catbox.moe/jvjmzf.png",
+    "version": "1.0",
+    "language": "English",
+    "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangapark/mangapark.js",
+    "author": {
+      "name": "50/50",
+      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "type": "mangas",
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "MangaPub",
+    "iconURL": "https://mangapub.com/static/images/default/apple-touch-icon.png",
+    "version": "1.0",
+    "language": "English",
+    "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangapub/mangapub.js",
+    "author": {
+      "name": "50/50",
+      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "type": "mangas",
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "MangaTaro",
+    "iconURL": "https://mangataro.org/content/media/cropped-favicon-192x192.png",
+    "version": "1.0",
+    "language": "English",
+    "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangataro/mangataro.js",
+    "author": {
+      "name": "50/50",
+      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "type": "mangas",
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "RumanHua1",
+    "iconURL": "https://i.ibb.co/TDfbbwDB/Untitled-design.png",
+    "version": "1.0",
+    "language": "Chinese",
+    "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/rumanhua1/rumanhua.js",
+    "author": {
+      "name": "50/50",
+      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "type": "mangas",
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "WeebCentral",
+    "iconURL": "https://favicons.statusgator.com/1bi5zotvuQiK08wI.png",
+    "version": "1.0",
+    "language": "English",
+    "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/weebcentral/weebcentral.js",
+    "author": {
+      "name": "50/50",
+      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "type": "mangas",
+    "supportsLuna": true
+  }
+]

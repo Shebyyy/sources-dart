@@ -1,14 +1,21 @@
 {
   "generated_at": "/home/runner/work/sources-dart/sources-dart",
   "total_repositories": 2,
-  "total_types": 6,
+  "total_types": 13,
   "all_types": [
     "anime",
+    "anime_movies_shows",
+    "anime_shows_movies",
+    "animes",
     "audiobooks",
-    "manga",
+    "mangas",
+    "movies",
     "movies_shows",
     "novels",
-    "other"
+    "other",
+    "shows",
+    "shows_movies",
+    "shows_movies_anime"
   ],
   "statistics": {
     "files_found": 294,
@@ -19,15 +26,18 @@
     "ibro": {
       "types": [
         "anime",
-        "movies_shows",
-        "novels"
+        "anime_movies_shows",
+        "anime_shows_movies",
+        "movies",
+        "novels",
+        "shows",
+        "shows_movies"
       ],
       "total_sources": 107,
       "sources_by_type": {
         "anime": {
-          "count": 73,
+          "count": 50,
           "sources": [
-            "AbleFlix",
             "AniBunker",
             "Anify",
             "Anikuro",
@@ -48,29 +58,18 @@
             "Aniwave",
             "Aniwave (SCRAPER)",
             "Anizone",
-            "ArabicToons",
             "Black Clover Pace",
             "Borucut",
-            "CinemaDeck 2",
-            "City Sonic",
             "Concentrated Bleach",
             "DBZ Recut",
             "Development",
             "Dragon Ball Recut",
             "Dragon Ball Super: Ultra Instinct Cut",
             "FRAnime",
-            "GidOnline",
-            "HD Today",
-            "HDRezka",
-            "Hexa",
             "Jut.su",
-            "KissAssAnime",
-            "KissKH",
             "Kuudere",
-            "Let's Stream",
             "LUNAR",
             "Lycoris Cafe",
-            "MyFlixer",
             "Narucannon",
             "One Pace",
             "One Pace (French)",
@@ -80,53 +79,93 @@
             "Onigashima Paced",
             "Otakuu",
             "Peak",
-            "Purstream",
             "Rebuild of Naruto",
             "RistoAnime",
-            "SFlix",
             "SpacePowerFans",
             "Sudatchi",
-            "Sunduq",
             "Tanime",
             "ToonAnime",
+            "WTFlix - Animepahe",
+            "Yu Yu Hakusho Pace",
+            "Yummy Anime (Clone - SovetRomantica)"
+          ]
+        },
+        "anime_movies_shows": {
+          "count": 2,
+          "sources": [
+            "GidOnline",
+            "HDRezka"
+          ]
+        },
+        "anime_shows_movies": {
+          "count": 21,
+          "sources": [
+            "AbleFlix",
+            "ArabicToons",
+            "CinemaDeck 2",
+            "City Sonic",
+            "HD Today",
+            "Hexa",
+            "KissAssAnime",
+            "KissKH",
+            "Let's Stream",
+            "MyFlixer",
+            "Purstream",
+            "SFlix",
+            "Sunduq",
             "TopCinema",
             "UASERIAL",
             "Vidnest",
             "VidSrc",
             "WaveWatch",
             "WTFlix",
-            "WTFlix - Animepahe",
             "WTFlix - EmbedSU",
-            "XPrime",
-            "Yu Yu Hakusho Pace",
-            "Yummy Anime (Clone - SovetRomantica)"
+            "XPrime"
           ]
         },
-        "movies_shows": {
-          "count": 31,
+        "movies": {
+          "count": 6,
           "sources": [
-            "111movies",
             "Autoembed",
-            "Bingeflix",
-            "CinemaDeck",
             "Cinepulse",
-            "DRAMA COOL",
-            "FlickyStream",
             "Frembed (Movies)",
             "HopCorn+",
+            "KinoGer",
+            "RuMov"
+          ]
+        },
+        "novels": {
+          "count": 3,
+          "sources": [
+            "NovelBuddy",
+            "NovelDot",
+            "NovelFire"
+          ]
+        },
+        "shows": {
+          "count": 1,
+          "sources": [
+            "Rama Oriental Fansub"
+          ]
+        },
+        "shows_movies": {
+          "count": 24,
+          "sources": [
+            "111movies",
+            "Bingeflix",
+            "CinemaDeck",
+            "DRAMA COOL",
+            "FlickyStream",
             "KDramaHood (BROKEN)",
             "Kepala Bergetar 4",
             "Kepala Bergetar 9",
-            "KinoGer",
             "Mokmobi (BROKEN)",
             "Movies7.im",
             "MovieZone (BROKEN)",
             "Movix",
             "Net3lix",
-            "Rama Oriental Fansub",
             "RGShows",
             "Rive",
-            "RuMov",
             "StreamCloud",
             "VidAPI",
             "VidFast",
@@ -137,30 +176,29 @@
             "Vidzee",
             "VixSrc"
           ]
-        },
-        "novels": {
-          "count": 3,
-          "sources": [
-            "NovelBuddy",
-            "NovelDot",
-            "NovelFire"
-          ]
         }
       }
     },
     "50n50": {
       "types": [
         "anime",
+        "anime_movies_shows",
+        "anime_shows_movies",
+        "animes",
         "audiobooks",
-        "manga",
+        "mangas",
+        "movies",
         "movies_shows",
         "novels",
-        "other"
+        "other",
+        "shows",
+        "shows_movies",
+        "shows_movies_anime"
       ],
       "total_sources": 187,
       "sources_by_type": {
         "anime": {
-          "count": 122,
+          "count": 85,
           "sources": [
             "1TamilCrow",
             "An1me",
@@ -200,7 +238,6 @@
             "AnimesOnline",
             "AnimeSRBIJA",
             "AnimesRoll",
-            "AnimesRoll",
             "AnimeToast",
             "Animetsu",
             "AnimeUnity",
@@ -217,13 +254,9 @@
             "AniWorld (GER SUB)",
             "AniWorld (Local Test)",
             "Anoboye",
-            "ArabSeed",
-            "Ashi (あし) - Literally Everything",
             "AZ-Animex",
             "Beatz-Anime",
             "CKSub",
-            "CoFlix",
-            "Comet",
             "CrimsonFanSubs",
             "Desu-Online",
             "Development",
@@ -232,58 +265,65 @@
             "DonghuaStream",
             "Dora-Video",
             "DoraBash",
-            "EgyDead",
-            "EgyDead (Fasel reuploader)",
-            "FaselHD",
             "FireAnime DUB",
             "FireAnime English (SUB)",
             "FireAnime SUB",
             "Franime",
-            "GnulaHD",
-            "Hexa",
             "HiAnime",
+            "Iyinghua",
+            "Kaido",
+            "Kawaiines",
+            "KickAssAnimes",
+            "Kuramanime",
+            "LmAnime",
+            "LuciferDonghua",
+            "MavAnimes",
+            "Monoschinos2",
+            "Nimegami",
+            "Senshi",
+            "TokyoInsider",
+            "VerAnimes",
+            "WatchAnimeWorld",
+            "WitAnime"
+          ]
+        },
+        "anime_movies_shows": {
+          "count": 20,
+          "sources": [
+            "Ashi (あし) - Literally Everything",
+            "Comet",
             "HiCartoon",
             "Hicine",
             "HollyMovieHD",
             "IPTV-org",
-            "Iyinghua",
-            "Kaido",
-            "Kawaiifu",
-            "Kawaiines",
-            "KickAssAnimes",
-            "KimCartoon",
             "Kisskh",
-            "Kuramanime",
-            "LmAnime",
-            "LuciferDonghua",
             "Mapple",
-            "MavAnimes",
             "MediaFusion",
-            "Monoschinos2",
-            "Nimegami",
             "Nivod",
-            "OneTouch TV",
-            "PelisPlusHD",
-            "Senshi",
-            "SmashyStream",
             "Soundcloud",
             "Tidal",
             "Tiktok",
-            "TokyoInsider",
             "Torrentio",
             "Tsumi (詰み) - Literally Everything 2.0",
-            "VerAnimes",
             "VerSeriesOnline",
-            "VidEasy",
-            "VidFast",
-            "VidLink",
             "VidSrc",
-            "WatchAnimeWorld",
-            "WitAnime",
             "X",
             "XiaoXintv",
-            "XPrime",
             "YouTube"
+          ]
+        },
+        "anime_shows_movies": {
+          "count": 2,
+          "sources": [
+            "GnulaHD",
+            "KimCartoon"
+          ]
+        },
+        "animes": {
+          "count": 2,
+          "sources": [
+            "AnimesRoll",
+            "Kawaiifu"
           ]
         },
         "audiobooks": {
@@ -292,7 +332,7 @@
             "Audible"
           ]
         },
-        "manga": {
+        "mangas": {
           "count": 13,
           "sources": [
             "Comix",
@@ -310,50 +350,24 @@
             "WeebCentral"
           ]
         },
-        "movies_shows": {
-          "count": 41,
+        "movies": {
+          "count": 3,
           "sources": [
-            "111477",
-            "1Movies",
-            "AK.SV",
-            "ArabLionz",
-            "Asia2TV",
-            "AsiaLiveAction",
-            "CineCalidad",
-            "Cloudy",
-            "Cuevana3",
-            "DDYS",
-            "DivXFilmeOnline",
-            "DoramasYT",
-            "EstrenosDoramas",
-            "FilmeHD",
-            "Filmpalast",
-            "FlixLatam",
-            "FunMoviesLix",
-            "HDFilme",
-            "hdhub4u",
-            "HiMovies",
-            "HonaDrama",
-            "KissAsian",
-            "KissCartoon",
-            "MegaKino",
             "Movi",
-            "OnlineMoviesHindi",
-            "PoseidonHD2",
             "PrMovies",
-            "s.to (ENG DUB)",
-            "s.to (GER DUB)",
+            "Soaper Live"
+          ]
+        },
+        "movies_shows": {
+          "count": 7,
+          "sources": [
+            "AK.SV",
+            "DDYS",
+            "Filmpalast",
+            "HiMovies",
+            "OnlineMoviesHindi",
             "SHahidd4u",
-            "Soaper Live",
-            "SoloLatino",
-            "StreamingUnity",
-            "ToonItalia",
-            "ToonTales",
-            "TopStreamFilm",
-            "Turkish123",
-            "VegaMovies",
-            "Veziseriale",
-            "WeAreChecking"
+            "Turkish123"
           ]
         },
         "novels": {
@@ -375,55 +389,108 @@
             "Atsu",
             "Public Domain in the US"
           ]
+        },
+        "shows": {
+          "count": 4,
+          "sources": [
+            "s.to (ENG DUB)",
+            "s.to (GER DUB)",
+            "ToonTales",
+            "WeAreChecking"
+          ]
+        },
+        "shows_movies": {
+          "count": 27,
+          "sources": [
+            "111477",
+            "1Movies",
+            "ArabLionz",
+            "Asia2TV",
+            "AsiaLiveAction",
+            "CineCalidad",
+            "Cloudy",
+            "Cuevana3",
+            "DivXFilmeOnline",
+            "DoramasYT",
+            "EstrenosDoramas",
+            "FilmeHD",
+            "FlixLatam",
+            "FunMoviesLix",
+            "HDFilme",
+            "hdhub4u",
+            "HonaDrama",
+            "KissAsian",
+            "KissCartoon",
+            "MegaKino",
+            "PoseidonHD2",
+            "SoloLatino",
+            "StreamingUnity",
+            "ToonItalia",
+            "TopStreamFilm",
+            "VegaMovies",
+            "Veziseriale"
+          ]
+        },
+        "shows_movies_anime": {
+          "count": 13,
+          "sources": [
+            "ArabSeed",
+            "CoFlix",
+            "EgyDead",
+            "EgyDead (Fasel reuploader)",
+            "FaselHD",
+            "Hexa",
+            "OneTouch TV",
+            "PelisPlusHD",
+            "SmashyStream",
+            "VidEasy",
+            "VidFast",
+            "VidLink",
+            "XPrime"
+          ]
         }
       }
     }
   },
   "combined_summary": {
     "anime": {
-      "total_sources": 195,
-      "repositories": [
-        "50n50",
-        "ibro"
-      ],
-      "repository_count": 2
+      "total_sources": 135
     },
-    "movies_shows": {
-      "total_sources": 72,
-      "repositories": [
-        "50n50",
-        "ibro"
-      ],
-      "repository_count": 2
+    "anime_movies_shows": {
+      "total_sources": 22
+    },
+    "anime_shows_movies": {
+      "total_sources": 23
+    },
+    "movies": {
+      "total_sources": 9
     },
     "novels": {
-      "total_sources": 11,
-      "repositories": [
-        "50n50",
-        "ibro"
-      ],
-      "repository_count": 2
+      "total_sources": 11
+    },
+    "shows": {
+      "total_sources": 5
+    },
+    "shows_movies": {
+      "total_sources": 51
+    },
+    "animes": {
+      "total_sources": 2
     },
     "audiobooks": {
-      "total_sources": 1,
-      "repositories": [
-        "50n50"
-      ],
-      "repository_count": 1
+      "total_sources": 1
     },
-    "manga": {
-      "total_sources": 13,
-      "repositories": [
-        "50n50"
-      ],
-      "repository_count": 1
+    "mangas": {
+      "total_sources": 13
+    },
+    "movies_shows": {
+      "total_sources": 7
     },
     "other": {
-      "total_sources": 2,
-      "repositories": [
-        "50n50"
-      ],
-      "repository_count": 1
+      "total_sources": 2
+    },
+    "shows_movies_anime": {
+      "total_sources": 13
     }
   }
 }

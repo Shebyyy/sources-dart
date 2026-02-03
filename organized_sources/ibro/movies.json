@@ -1,0 +1,114 @@
+[
+  {
+    "sourceName": "Autoembed",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/autoembed/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.2",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://api.themoviedb.org/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=453752deba3272cd109112cd41127fd8&query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/autoembed/autoembed.js",
+    "type": "movies",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "Cinepulse",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/cinepulse/icon.png",
+    "author": {
+      "name": "ibro & 50/50",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "2.0.3",
+    "language": "French",
+    "streamType": "HLS & MP4",
+    "quality": "1080p",
+    "baseUrl": "https://cinepulse.to/",
+    "searchBaseUrl": "https://api.cinepulse.to/content/advanced-search?query=%s&sortBy=pertinence",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/cinepulse/cinepulse.js",
+    "type": "movies",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "Frembed (Movies)",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/frembed/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "2.0.0",
+    "language": "French",
+    "streamType": "MP4",
+    "quality": "1080p",
+    "baseUrl": "https://video.streamtales.cc/",
+    "searchBaseUrl": "https://frembed.xyz/api/public/search?query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/frembed/frembed.js",
+    "type": "movies",
+    "asyncJS": true
+  },
+  {
+    "sourceName": "HopCorn+",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/hopcorn/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.5",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://vidsrc.vip/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=aad3fab1607b552befd9a2ac37e556af&query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/hopcorn/hopcorn.js",
+    "type": "movies",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "KinoGer",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/kinoger/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.6",
+    "language": "German",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://kinoger.com/",
+    "searchBaseUrl": "https://kinoger.com/?do=search&subaction=search&story=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/kinoger/kinoger.js",
+    "type": "movies",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "RuMov",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/rumov/icon.jpg",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.3",
+    "language": "Russian",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://api.themoviedb.org/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=aad3fab1607b552befd9a2ac37e556af&query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/rumov/rumov.js",
+    "type": "movies",
+    "asyncJS": true
+  }
+]

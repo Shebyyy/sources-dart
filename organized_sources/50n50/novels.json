@@ -17,12 +17,7 @@
     "asyncJS": true,
     "novel": true,
     "downloadSupport": false,
-    "supportsSora": true,
-    "_metadata": {
-      "original_file": "chireads/chireads.json",
-      "repository": "50n50",
-      "original_type": "novels"
-    }
+    "supportsSora": true
   },
   {
     "sourceName": "HelioScan",
@@ -42,12 +37,7 @@
     "asyncJS": true,
     "novel": true,
     "downloadSupport": false,
-    "supportsSora": true,
-    "_metadata": {
-      "original_file": "helioscans/helioscans.json",
-      "repository": "50n50",
-      "original_type": "novels"
-    }
+    "supportsSora": true
   },
   {
     "sourceName": "MangaKatana",
@@ -66,12 +56,7 @@
     "type": "novels",
     "asyncJS": true,
     "novel": true,
-    "supportsSora": true,
-    "_metadata": {
-      "original_file": "temp/temp.json",
-      "repository": "50n50",
-      "original_type": "novels"
-    }
+    "supportsSora": true
   },
   {
     "sourceName": "NovelBin",
@@ -91,12 +76,7 @@
     "asyncJS": true,
     "novel": true,
     "downloadSupport": false,
-    "supportsSora": true,
-    "_metadata": {
-      "original_file": "novelbin/novelbin.json",
-      "repository": "50n50",
-      "original_type": "novels"
-    }
+    "supportsSora": true
   },
   {
     "sourceName": "NovelCool",
@@ -115,12 +95,7 @@
     "type": "novels",
     "asyncJS": true,
     "novel": true,
-    "supportsSora": true,
-    "_metadata": {
-      "original_file": "novelcool/novelcool.json",
-      "repository": "50n50",
-      "original_type": "novels"
-    }
+    "supportsSora": true
   },
   {
     "sourceName": "NovelNext",
@@ -140,12 +115,7 @@
     "asyncJS": true,
     "novel": true,
     "downloadSupport": false,
-    "supportsSora": true,
-    "_metadata": {
-      "original_file": "novelnext/novelnext.json",
-      "repository": "50n50",
-      "original_type": "novels"
-    }
+    "supportsSora": true
   },
   {
     "sourceName": "ReadNovelFull",
@@ -165,12 +135,7 @@
     "asyncJS": true,
     "novel": true,
     "downloadSupport": false,
-    "supportsSora": true,
-    "_metadata": {
-      "original_file": "readnovelfull/readnovelfull.json",
-      "repository": "50n50",
-      "original_type": "novels"
-    }
+    "supportsSora": true
   },
   {
     "sourceName": "ReadNovels",
@@ -190,11 +155,6 @@
     "asyncJS": true,
     "novel": true,
     "downloadSupport": false,
-    "supportsSora": true,
-    "_metadata": {
-      "original_file": "readnovels/readnovels.json",
-      "repository": "50n50",
-      "original_type": "novels"
-    }
+    "supportsSora": true
   }
 ]

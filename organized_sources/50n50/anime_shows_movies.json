@@ -1,0 +1,43 @@
+[
+  {
+    "sourceName": "GnulaHD",
+    "iconUrl": "https://i3.wp.com/ww3.gnulahd.nu/wp-content/uploads/2025/07/cropped-faviconhd3-192x192.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "Spanish (DUB/SUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://ww3.gnulahd.nu/",
+    "searchBaseUrl": "https://ww3.gnulahd.nu/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/gnulahd/gnulahd.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "KimCartoon",
+    "iconUrl": "https://i2.wp.com/kimcartoon.com.co/wp-content/uploads/2023/03/favicon.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.2",
+    "language": "English (DUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://vidmoly.to/",
+    "searchBaseUrl": "https://kimcartoon.com.co/?s=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/kimcartoon/kimcartoon.js",
+    "asyncJS": true,
+    "type": "anime/shows/movies",
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  }
+]

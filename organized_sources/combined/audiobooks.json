@@ -18,12 +18,6 @@
     "softsub": true,
     "downloadSupport": false,
     "supportsSora": true,
-    "supportsLuna": true,
-    "_metadata": {
-      "original_file": "audible/audible.json",
-      "repository": "50n50",
-      "original_type": "audiobooks"
-    },
-    "repository": "50n50"
+    "supportsLuna": true
   }
 ]

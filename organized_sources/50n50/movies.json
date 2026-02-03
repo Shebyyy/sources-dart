@@ -1,0 +1,64 @@
+[
+  {
+    "sourceName": "Movi",
+    "iconUrl": "https://www.movi.pk/wp-content/uploads/2024/12/favicon.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "Hindi (DUB/SUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://www.movi.pk/",
+    "searchBaseUrl": "https://www.movi.pk/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/movi/movi.js",
+    "type": "movies",
+    "asyncJS": true,
+    "softsub": false,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "PrMovies",
+    "iconUrl": "https://prmovies.casa/wp-content/uploads/2025/08/100595544-play-button-round-green-3d-icon-symbol-.jpg",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "Hindi",
+    "streamType": "HLS",
+    "encrypted": true,
+    "quality": "1080p",
+    "baseUrl": "https://spedostream.com",
+    "searchBaseUrl": "https://spedostream.com",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/prmovies/prmovies.js",
+    "type": "movies",
+    "asyncJS": true,
+    "softsub": false,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "Soaper Live",
+    "iconUrl": "https://files.catbox.moe/gwqviy.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.4",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://soaper.live/",
+    "searchBaseUrl": "https://soaper.live/%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/soaperlive/soaperlive.js",
+    "asyncJS": true,
+    "type": "movies",
+    "supportsSora": true,
+    "supportsLuna": true
+  }
+]

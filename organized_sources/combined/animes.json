@@ -1,0 +1,44 @@
+[
+  {
+    "sourceName": "AnimesRoll",
+    "iconUrl": "https://cdn.countryflags.com/thumbs/portugal/flag-button-round-250.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "Portuguese",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://www.anroll.net/",
+    "searchBaseUrl": "https://www.anroll.net/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animesroll/animesroll.js",
+    "type": "animes",
+    "asyncJS": true,
+    "softsub": false,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "Kawaiifu",
+    "iconUrl": "https://kawaiifu.com/wp-content/uploads/2018/05/Kawaiifu_favicon.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English (DUB/SUB)",
+    "streamType": "mp4",
+    "quality": "1080p",
+    "baseUrl": "https://kawaiifu.com/",
+    "searchBaseUrl": "https://kawaiifu.com/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/kawaiifu/kawaiifu.js",
+    "type": "animes",
+    "asyncJS": true,
+    "softsub": false,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  }
+]

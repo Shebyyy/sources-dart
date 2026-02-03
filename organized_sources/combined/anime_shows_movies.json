@@ -1,0 +1,444 @@
+[
+  {
+    "sourceName": "AbleFlix",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/ableflix/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.1.4",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://ableflix.cc/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=653bb8af90162bd98fc7ee32bcbbfb3d&query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/ableflix/ableflix.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true
+  },
+  {
+    "sourceName": "ArabicToons",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/arabictoons/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "2.0.4",
+    "language": "Arabic (DUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://www.arabic-toons.com/",
+    "searchBaseUrl": "https://www.arabic-toons.com/livesearch.php?q=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/arabictoons/arabictoons.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true
+  },
+  {
+    "sourceName": "CinemaDeck 2",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/cinemadeck/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.1",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://vidify.top/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=68e094699525b18a70bab2f86b1fa706&query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/cinemadeck/cinemadeck2.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "City Sonic",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/citysonic/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.2.8",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://videostr.net/",
+    "searchBaseUrl": "https://citysonic.tv/search/%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/citysonic/citysonic.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "GnulaHD",
+    "iconUrl": "https://i3.wp.com/ww3.gnulahd.nu/wp-content/uploads/2025/07/cropped-faviconhd3-192x192.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "Spanish (DUB/SUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://ww3.gnulahd.nu/",
+    "searchBaseUrl": "https://ww3.gnulahd.nu/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/gnulahd/gnulahd.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "HD Today",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/hdtoday/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.6",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://videostr.net/",
+    "searchBaseUrl": "https://hdtodayz.to/search/%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/hdtoday/hdtoday.js",
+    "type": "anime/shows/movies",
+    "downloadSupport": false,
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "Hexa",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/hexa/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.2",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://api.themoviedb.org/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=71fdb081b0133511ac14ac0cc10fd307&query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/hexa/hexa.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "KimCartoon",
+    "iconUrl": "https://i2.wp.com/kimcartoon.com.co/wp-content/uploads/2023/03/favicon.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.2",
+    "language": "English (DUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://vidmoly.to/",
+    "searchBaseUrl": "https://kimcartoon.com.co/?s=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/kimcartoon/kimcartoon.js",
+    "asyncJS": true,
+    "type": "anime/shows/movies",
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "KissAssAnime",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/kaa/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://uaserial.me/",
+    "searchBaseUrl": "https://uaserial.me/search?query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/kaa/kaa.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "KissKH",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/kisskh/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.9",
+    "language": "Korean/English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://kisskh.co/",
+    "searchBaseUrl": "https://kisskh.co/api/DramaList/Search?q=%s&type=0",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/kisskh/kisskh.js",
+    "type": "anime/shows/movies",
+    "downloadSupport": true,
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "Let's Stream",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/letstream/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.5",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://api.themoviedb.org/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=653bb8af90162bd98fc7ee32bcbbfb3d&query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/letstream/letstream.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true
+  },
+  {
+    "sourceName": "MyFlixer",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/myflixer/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.2.5",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://videostr.net/",
+    "searchBaseUrl": "https://myflixerz.to/search/%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/myflixer/myflixer.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "Purstream",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/purstream/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.1",
+    "language": "French",
+    "streamType": "MP4",
+    "quality": "1080p",
+    "baseUrl": "https://purstream.to/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=f3d757824f08ea2cff45eb8f47ca3a1e&query=%s&language=fr-FR&page=1&include_adult=false&sort_by=popularity.desc",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/purstream/purstream.js",
+    "type": "anime/shows/movies",
+    "downloadSupport": true,
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "SFlix",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/sflix/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.2.7",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://videostr.net/",
+    "searchBaseUrl": "https://sflix.to/search/%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/sflix/sflix.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "Sunduq",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/sunduq/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.3.16",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://anilist.co/user/xibrox/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=9801b6b0548ad57581d111ea690c85c8&query=%s&include_adult=false",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/sunduq/sunduq.js",
+    "type": "anime/shows/movies",
+    "downloadSupport": true,
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "TopCinema",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/topcinema/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.9",
+    "language": "Arabic",
+    "streamType": "HLS & MP4",
+    "quality": "1080p",
+    "baseUrl": "https://web6.topcinema.cam/",
+    "searchBaseUrl": "https://web6.topcinema.cam/search/?query=%s&type=all",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/topcinema/topcinema.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "UASERIAL",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/uaserial/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "2.0.4",
+    "language": "Ukrainian",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://uaserial.me/",
+    "searchBaseUrl": "https://uaserial.me/search?query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/uaserial/uaserial.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "Vidnest",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/vidnest/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.18",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://vidnest.fun/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=9801b6b0548ad57581d111ea690c85c8&query=%s&include_adult=false",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/vidnest/vidnest.js",
+    "type": "anime/shows/movies",
+    "downloadSupport": true,
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "VidSrc",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/vidsrc/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.5",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://cloudnestra.com/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=68e094699525b18a70bab2f86b1fa706&query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/vidsrc/vidsrc.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true
+  },
+  {
+    "sourceName": "WaveWatch",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/wavewatch/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.4",
+    "language": "French",
+    "streamType": "HLS & MP4",
+    "quality": "1080p",
+    "baseUrl": "https://beta.wavewatch.xyz/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=f3d757824f08ea2cff45eb8f47ca3a1e&query=%s&language=fr-FR&page=1&include_adult=false&sort_by=popularity.desc",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/wavewatch/wavewatch.js",
+    "type": "anime/shows/movies",
+    "downloadSupport": true,
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "WTFlix",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/wtflix/icon.png",
+    "author": {
+      "name": "ibro - with API from Szvn",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.1",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://flix.1anime.app/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=68e094699525b18a70bab2f86b1fa706&query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/wtflix/wtflix.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "WTFlix - EmbedSU",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/wtflix/icon.png",
+    "author": {
+      "name": "ibro - with API from Szvn",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://flix.1anime.app/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=68e094699525b18a70bab2f86b1fa706&query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/wtflix/wtflixEmbedSU.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "XPrime",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/xprime/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.1.7",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://xprime.tv/",
+    "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=84259f99204eeb7d45c7e3d8e36c6123&query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/xprime/xprime.js",
+    "type": "anime/shows/movies",
+    "asyncJS": true,
+    "softsub": true
+  }
+]

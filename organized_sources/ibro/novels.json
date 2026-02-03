@@ -16,12 +16,7 @@
     "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/novelbuddy/novelbuddy.js",
     "type": "novels",
     "asyncJS": true,
-    "novel": true,
-    "_metadata": {
-      "original_file": "novelbuddy/novelbuddy.json",
-      "repository": "ibro",
-      "original_type": "novels"
-    }
+    "novel": true
   },
   {
     "sourceName": "NovelDot",
@@ -40,12 +35,7 @@
     "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/noveldot/noveldot.js",
     "type": "novels",
     "asyncJS": true,
-    "novel": true,
-    "_metadata": {
-      "original_file": "noveldot/noveldot.json",
-      "repository": "ibro",
-      "original_type": "novels"
-    }
+    "novel": true
   },
   {
     "sourceName": "NovelFire",
@@ -64,11 +54,6 @@
     "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/novelfire/novelfire.js",
     "type": "novels",
     "asyncJS": true,
-    "novel": true,
-    "_metadata": {
-      "original_file": "novelfire/novelfire.json",
-      "repository": "ibro",
-      "original_type": "novels"
-    }
+    "novel": true
   }
 ]

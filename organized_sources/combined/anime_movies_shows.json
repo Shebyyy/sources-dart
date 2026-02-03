@@ -1,0 +1,463 @@
+[
+  {
+    "sourceName": "Ashi (あし) - Literally Everything",
+    "iconUrl": "https://files.catbox.moe/y8v199.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.2.1",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://animekai.to/",
+    "searchBaseUrl": "https://animekai.to/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/ashi/ashi.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "Comet",
+    "iconUrl": "https://i.imgur.com/jmVoVMu.jpeg",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.1",
+    "language": "English",
+    "streamType": "MKV",
+    "quality": "4K",
+    "baseUrl": "https://www.google.com/",
+    "searchBaseUrl": "https://www.google.com/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/comet/comet.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "settings": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "GidOnline",
+    "iconUrl": "https://files.catbox.moe/vo4xzy.png",
+    "author": {
+      "name": "Cufiy",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "1.0.0",
+    "language": "Russian",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://gidonline.eu/",
+    "searchBaseUrl": "https://gidonline.eu/search=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/JMcrafter26/sora-modules/refs/heads/main/modules/gidonline/gidonline.js",
+    "type": "anime/movies/shows",
+    "downloadSupport": false,
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "HDRezka",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/hdrezka/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.0",
+    "language": "Russian",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://rezka.ag/",
+    "searchBaseUrl": "https://rezka.ag/search/?do=search&subaction=search&q=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/hdrezka/hdrezka.js",
+    "type": "anime/movies/shows",
+    "downloadSupport": false,
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "HiCartoon",
+    "iconUrl": "https://hicartoon.to/assets/images/icons-512.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://hicartoon.to/home",
+    "searchBaseUrl": "https://hicartoon.to/home",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/hicartoon/hicartoon.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "Hicine",
+    "iconUrl": "https://files.catbox.moe/y8v199.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "Hindi",
+    "streamType": "MKV",
+    "quality": "4K",
+    "baseUrl": "https://hicine.info/",
+    "searchBaseUrl": "https://hicine.info/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/hicine/hicine.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "supportsSora": false,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "HollyMovieHD",
+    "iconUrl": "https://files.catbox.moe/r092e6.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English (Hardsub)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://hollymoviehd.cc/home/",
+    "searchBaseUrl": "https://hollymoviehd.cc/home/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/hollymoviehd/hollymoviehd.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsLuna": true,
+    "note": "Requires Luna, aka Sora 2.0"
+  },
+  {
+    "sourceName": "IPTV-org",
+    "iconUrl": "https://files.catbox.moe/q9hxx0.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "Multi",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://iptv-org.github.io/",
+    "searchBaseUrl": "https://iptv-org.github.io/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/iptv-org/iptv-org.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "note": "USE DEFAULT PLAYER - USE DEFAULT PLAYER - USE DEFAULT PLAYER - USE DEFAULT PLAYER",
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "Kisskh",
+    "iconUrl": "https://files.catbox.moe/wi6a1a.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://kisskh.co/",
+    "searchBaseUrl": "https://kisskh.co/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/kisskh/kisskh.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "Mapple",
+    "iconUrl": "https://files.catbox.moe/evufrq.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.5",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "4K",
+    "baseUrl": "https://mapple.uk/",
+    "searchBaseUrl": "https://mapple.uk/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mapple/mapple.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "MediaFusion",
+    "iconUrl": "https://github.com/mhdzumair/MediaFusion/raw/main/resources/images/mediafusion_logo.png?raw=true",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.1",
+    "language": "English",
+    "streamType": "MKV",
+    "quality": "4K",
+    "baseUrl": "https://www.google.com/",
+    "searchBaseUrl": "https://www.google.com/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mediafusion/mediafusion.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "settings": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "Nivod",
+    "iconUrl": "https://www.nivod.cc/static/nivod/image/logo/logo_512x512.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "Chinese",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://www.nivod.cc/",
+    "searchBaseUrl": "https://www.nivod.cc/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/nivod/nivod.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "Soundcloud",
+    "iconUrl": "https://cdn-icons-png.flaticon.com/512/145/145809.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "Music",
+    "streamType": "HLS",
+    "quality": "128 kbps",
+    "baseUrl": "https://soundcloud.com/",
+    "searchBaseUrl": "https://soundcloud.com/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/soundcloud/soundcloud.js",
+    "asyncJS": true,
+    "softsub": true,
+    "type": "anime/movies/shows",
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "Tidal",
+    "iconUrl": "https://images.icon-icons.com/2429/PNG/512/tidal_logo_icon_147227.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.1",
+    "language": "Music",
+    "streamType": "mp4",
+    "quality": "Lossless",
+    "baseUrl": "https://tidal.com/",
+    "searchBaseUrl": "https://tidal.com/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/tidal/tidal.js",
+    "asyncJS": true,
+    "softsub": true,
+    "type": "anime/movies/shows",
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "Tiktok",
+    "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrZd7mszoX8inKkbUKb6ffie8YF2-c00RL7w&s",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://www.google.com/",
+    "searchBaseUrl": "https://www.google.com/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/tiktok/tiktok.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "Torrentio",
+    "iconUrl": "https://torrentio.org/wp-content/uploads/2024/12/cropped-Torrentio-Favicon-192x192.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.1",
+    "language": "English",
+    "streamType": "MKV",
+    "quality": "4K",
+    "baseUrl": "https://www.google.com/",
+    "searchBaseUrl": "https://www.google.com/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/torrentio/torrentio.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "settings": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "Tsumi (詰み) - Literally Everything 2.0",
+    "iconUrl": "https://files.catbox.moe/krovkt.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.7",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "4K",
+    "baseUrl": "https://google.com/",
+    "searchBaseUrl": "https://google.com/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/checkmate/checkmate.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "VerSeriesOnline",
+    "iconUrl": "https://www.verseriesonline.net/images/faveicon.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.1",
+    "language": "Spanish",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://www.verseriesonline.net/",
+    "searchBaseUrl": "https://www.verseriesonline.net/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/verseriesonline/verseriesonline.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "VidSrc",
+    "iconUrl": "https://vsrc.su/template/vidsrc-ico.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.2",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://vsrc.su/",
+    "searchBaseUrl": "https://vsrc.su/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/vidsrc/vidsrc.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "X",
+    "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJO2SeTQHtzL024EkApdOOoQ1QlTxBsqKCSQ&s",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://x.com/",
+    "searchBaseUrl": "https://x.com/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/x/x.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "XiaoXintv",
+    "iconUrl": "https://files.catbox.moe/ngvoho.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "Chinese",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://xiaoxintv.cc/",
+    "searchBaseUrl": "https://xiaoxintv.cc/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/xiaoxintv/xiaoxintv.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "YouTube",
+    "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/YouTube_social_red_circle_%282017%29.svg/2048px-YouTube_social_red_circle_%282017%29.svg.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.1",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://www.youtube.com/",
+    "searchBaseUrl": "https://www.youtube.com/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/youtube/youtube.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  }
+]

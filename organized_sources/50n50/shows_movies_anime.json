@@ -1,0 +1,271 @@
+[
+  {
+    "sourceName": "ArabSeed",
+    "iconUrl": "https://a.asd.homes/wp-content/themes/Elshaikh2021/UI/images/logo333.webp",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.2",
+    "language": "Arabic",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://a.asd.homes/",
+    "searchBaseUrl": "https://a.asd.homes/?s=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/arabseed/arabseed.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "CoFlix",
+    "iconUrl": "https://coflix.cc/wp-content/uploads/2022/10/cropped-coflix-180x180-1.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.1",
+    "language": "French",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://uqload.cx/",
+    "searchBaseUrl": "https://uqload.cx/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/coflix/coflix.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "softsub": false,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "EgyDead",
+    "iconUrl": "https://tv3.egydead.live/wp-content/uploads/2019/01/cropped-yXYdE2f-192x192.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.1",
+    "language": "Arabic",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://tv3.egydead.live/",
+    "searchBaseUrl": "https://tv3.egydead.live/?s=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/egydead/egydead.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "EgyDead (Fasel reuploader)",
+    "iconUrl": "https://tv3.egydead.live/wp-content/uploads/2019/01/cropped-yXYdE2f-192x192.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.1",
+    "language": "Arabic",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://egydead.com.co/",
+    "searchBaseUrl": "https://egydead.com.co/?s=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/egydead%20(Fasel%20reuploader)/egydead.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "FaselHD",
+    "iconUrl": "https://www.faselhds.xyz/wp-content/themes/faselhd_2020/images/favicon.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.2",
+    "language": "Arabic",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://www.faselhds.xyz/",
+    "searchBaseUrl": "https://www.faselhds.xyz/?s=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/faselhd/faselhd.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "Hexa",
+    "iconUrl": "https://files.catbox.moe/8ua0ls.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.9",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://hexa.watch/",
+    "searchBaseUrl": "https://hexa.watch/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/hexa/hexa.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "OneTouch TV",
+    "iconUrl": "https://onetouchtv.xyz/favicon.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://s1.devcorp.me/",
+    "searchBaseUrl": "https://s1.devcorp.me/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/onetouch/onetouch.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "PelisPlusHD",
+    "iconUrl": "https://pelisplushd.bz/images/logo/favicon.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "Spanish (DUB/SUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://pelisplushd.bz/",
+    "searchBaseUrl": "https://pelisplushd.bz/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/pelisplushd/pelisplushd.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "softsub": false,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "SmashyStream",
+    "iconUrl": "https://smashystream.xyz/icon.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.3",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://smashystream.xyz/",
+    "searchBaseUrl": "https://smashystream.xyz/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/smashystream/smashystream.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "VidEasy",
+    "iconUrl": "https://www.videasy.net/logo.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.1.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "4K",
+    "baseUrl": "https://player.videasy.net/",
+    "searchBaseUrl": "https://player.videasy.net/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/videasy/videasy.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "VidFast",
+    "iconUrl": "https://files.catbox.moe/i6r78t.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.1.1",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://vidfast.pro/",
+    "searchBaseUrl": "https://vidfast.pro/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/vidfast/vidfast.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "VidLink",
+    "iconUrl": "https://files.catbox.moe/cp4uzk.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://vidlink.pro",
+    "searchBaseUrl": "https://vidlink.pro",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/vidlink/vidlink.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "XPrime",
+    "iconUrl": "https://files.catbox.moe/i6t2mb.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.1",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://xprime.tv/",
+    "searchBaseUrl": "https://xprime.tv/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/xprime/xprime.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  }
+]

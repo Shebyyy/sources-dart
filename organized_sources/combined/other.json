@@ -9,13 +9,7 @@
       "name": "50/50",
       "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "supportsLuna": true,
-    "_metadata": {
-      "original_file": "atsu/atsu.json",
-      "repository": "50n50",
-      "original_type": "other"
-    },
-    "repository": "50n50"
+    "supportsLuna": true
   },
   {
     "sourceName": "Public Domain in the US",
@@ -33,12 +27,6 @@
     "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/wikipedia/wikipedia.js",
     "asyncJS": true,
     "streamAsyncJS": false,
-    "supportsLuna": true,
-    "_metadata": {
-      "original_file": "wikipedia/wikipedia.json",
-      "repository": "50n50",
-      "original_type": "other"
-    },
-    "repository": "50n50"
+    "supportsLuna": true
   }
 ]

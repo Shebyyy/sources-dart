@@ -1,0 +1,87 @@
+[
+  {
+    "sourceName": "s.to (ENG DUB)",
+    "iconUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/s.to/sto.png",
+    "author": {
+      "name": "Cufiy & Hamzo",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "0.4.1",
+    "language": "English (DUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://google.com",
+    "searchBaseUrl": "https://s.to/ajax/seriesSearch?keyword=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/s.to/sToEngDub_v2.js",
+    "asyncJS": true,
+    "streamAsyncJS": false,
+    "type": "shows",
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "s.to (GER DUB)",
+    "iconUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/s.to/sto.png",
+    "author": {
+      "name": "Cufiy & Hamzo",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "0.4.1",
+    "language": "German (DUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://google.com",
+    "searchBaseUrl": "https://s.to/ajax/seriesSearch?keyword=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/s.to/sToGerDub_v2.js",
+    "asyncJS": true,
+    "streamAsyncJS": false,
+    "type": "shows",
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "ToonTales",
+    "iconUrl": "https://www.toontales.net/wp-content/uploads/cropped-favicon-192x192.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "mp4",
+    "encrypted": true,
+    "quality": "1080p",
+    "baseUrl": "https://www.toontales.net/",
+    "searchBaseUrl": "https://www.toontales.net/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/toontales/toontales.js",
+    "type": "shows",
+    "asyncJS": true,
+    "softsub": false,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "WeAreChecking",
+    "iconUrl": "https://files.catbox.moe/lpsbf8.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://wearechecking.wtf/",
+    "searchBaseUrl": "https://wearechecking.wtf/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/wearechecking/wearechecking.js",
+    "type": "shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true
+  }
+]

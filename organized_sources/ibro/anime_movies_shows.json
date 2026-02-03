@@ -1,0 +1,42 @@
+[
+  {
+    "sourceName": "GidOnline",
+    "iconUrl": "https://files.catbox.moe/vo4xzy.png",
+    "author": {
+      "name": "Cufiy",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "1.0.0",
+    "language": "Russian",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://gidonline.eu/",
+    "searchBaseUrl": "https://gidonline.eu/search=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/JMcrafter26/sora-modules/refs/heads/main/modules/gidonline/gidonline.js",
+    "type": "anime/movies/shows",
+    "downloadSupport": false,
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "HDRezka",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/hdrezka/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.0",
+    "language": "Russian",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://rezka.ag/",
+    "searchBaseUrl": "https://rezka.ag/search/?do=search&subaction=search&q=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/hdrezka/hdrezka.js",
+    "type": "anime/movies/shows",
+    "downloadSupport": false,
+    "asyncJS": true,
+    "softsub": true
+  }
+]
