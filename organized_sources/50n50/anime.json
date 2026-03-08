@@ -1,5 +1,27 @@
 [
   {
+    "sourceName": "123Anime",
+    "iconUrl": "https://123animes.ru/assets/favicons/apple-touch-icon.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English (DUB/HARDSUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://play.shipimagesbolt.online/",
+    "searchBaseUrl": "https://play.shipimagesbolt.online/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/123anime/123anime.js",
+    "type": "anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "supportsMojuru": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
     "sourceName": "1TamilCrow",
     "iconUrl": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.1tamilcrow.net/wp-content/uploads/2020/09/Tamil-Crow-e1600735514979.png",
     "author": {
@@ -112,17 +134,17 @@
   },
   {
     "sourceName": "AniLiberty",
-    "iconUrl": "https://anilibria.top/static/apple-touch-icon.png",
+    "iconUrl": "https://aniliberty.top/static/favicon-96x96.png",
     "author": {
       "name": "emp0ry",
       "icon": "https://avatars.githubusercontent.com/u/64217088"
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "language": "Russian",
     "streamType": "HLS",
     "quality": "1080p",
-    "baseUrl": "https://anilibria.top/api/v1/",
-    "searchBaseUrl": "https://anilibria.top/api/v1/app/search/releases?query=%s",
+    "baseUrl": "https://aniliberty.top/api/v1/",
+    "searchBaseUrl": "https://aniliberty.top/api/v1/app/search/releases?query=%s",
     "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/aniliberty/aniliberty.js",
     "asyncJS": true,
     "streamAsyncJS": false,
@@ -289,7 +311,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.0",
+    "version": "1.0.2",
     "language": "English (SUB)",
     "streamType": "HLS",
     "quality": "1080p",
@@ -408,6 +430,28 @@
     "asyncJS": true,
     "softsub": true,
     "downloadSupport": false,
+    "supportsMojuru": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "AnimeKai",
+    "iconUrl": "https://apktodo.io/uploads/2025/5/animekai-icon.jpg",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://animekai.to/",
+    "searchBaseUrl": "https://animekai.to/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animekai/animekai.js",
+    "type": "anime",
+    "asyncJS": true,
+    "softsub": false,
+    "downloadSupport": true,
     "supportsMojuru": true,
     "supportsSora": true,
     "supportsLuna": true
@@ -554,7 +598,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.1",
+    "version": "1.0.3",
     "language": "Russian",
     "streamType": "MP4 & HLS",
     "quality": "4K",
@@ -896,7 +940,7 @@
       "name": "emp0ry",
       "icon": "https://avatars.githubusercontent.com/u/64217088"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "Russian",
     "streamType": "MP4",
     "quality": "720p",
@@ -941,7 +985,7 @@
       "name": "sobet",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPQ1qIiALbM3xDWGsuJzu6ItaQGwb9ICRRw&s"
     },
-    "version": "1.0.4",
+    "version": "1.0.5",
     "language": "Italian",
     "streamType": "MP4",
     "quality": "1080p",
@@ -952,7 +996,8 @@
     "asyncJS": true,
     "supportsMojuru": true,
     "supportsSora": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "downloadSupport": false
   },
   {
     "sourceName": "AnimeXin",
@@ -1588,7 +1633,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
@@ -1839,6 +1884,29 @@
     "type": "anime",
     "asyncJS": true,
     "softsub": false,
+    "downloadSupport": false,
+    "supportsMojuru": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "YummyAnime",
+    "iconUrl": "https://site.yummyani.me/img/icon/yummy-192.png",
+    "author": {
+      "name": "emp0ry",
+      "icon": "https://avatars.githubusercontent.com/u/64217088"
+    },
+    "version": "1.0.2",
+    "language": "Russian",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://api.yani.tv",
+    "searchBaseUrl": "https://api.yani.tv/search?limit=30&q=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/yummyanime/yummyanime.js",
+    "asyncJS": true,
+    "streamAsyncJS": true,
+    "softsub": false,
+    "type": "anime",
     "downloadSupport": false,
     "supportsMojuru": true,
     "supportsSora": true,

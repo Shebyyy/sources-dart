@@ -67,7 +67,7 @@
   {
     "sourceName": "MangaFire",
     "iconURL": "https://s.mfcdn.cc/assets/sites/mangafire/favicon.png?v3",
-    "version": "1.0",
+    "version": "1.0.1",
     "language": "English",
     "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangafire/mangafire.js",
     "author": {
@@ -80,7 +80,7 @@
   {
     "sourceName": "MangaFreak",
     "iconURL": "https://files.catbox.moe/903u7e.png",
-    "version": "1.0",
+    "version": "1.0.1",
     "language": "English",
     "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangafreak/mangafreak.js",
     "author": {

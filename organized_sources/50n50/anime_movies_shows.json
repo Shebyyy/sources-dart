@@ -127,6 +127,27 @@
     "supportsLuna": true
   },
   {
+    "sourceName": "Jiao (脚) - Literally Everything 3.0",
+    "iconUrl": "https://files.catbox.moe/ra8gmq.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "MKV",
+    "quality": "1080p",
+    "baseUrl": "https://a.111477.xyz/",
+    "searchBaseUrl": "https://a.111477.xyz/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/jiao/jiao.js",
+    "type": "anime/movies/shows",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
     "sourceName": "Kisskh",
     "iconUrl": "https://files.catbox.moe/wi6a1a.png",
     "author": {
