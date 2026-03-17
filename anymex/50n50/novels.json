@@ -1,0 +1,122 @@
+[
+  {
+    "sourceName": "ChiReads",
+    "iconUrl": "https://chireads.com/wp-content/uploads/2020/04/2020LOGO-2.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "French",
+    "streamType": "novels",
+    "quality": "N/A",
+    "baseUrl": "https://chireads.com/",
+    "searchBaseUrl": "https://chireads.com/search/%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/chireads/chireads.js",
+    "type": "novels",
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true
+  },
+  {
+    "sourceName": "LnCrawler",
+    "iconUrl": "https://files.catbox.moe/ec7bnh.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "novels",
+    "quality": "N/A",
+    "baseUrl": "https://lncrawler.monster/",
+    "searchBaseUrl": "https://lncrawler.monster/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/lncrawler/lncrawler.js",
+    "type": "novels",
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true
+  },
+  {
+    "sourceName": "NovelBin",
+    "iconUrl": "https://novelbin.com/img/logo.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "novels",
+    "quality": "N/A",
+    "baseUrl": "https://novelbin.com/",
+    "searchBaseUrl": "https://novelbin.com/search/?wd=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/novelbin/novelbin.js",
+    "type": "novels",
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true
+  },
+  {
+    "sourceName": "NovelNext",
+    "iconUrl": "https://novelnext.dramanovels.io/img/logo.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "novels",
+    "quality": "N/A",
+    "baseUrl": "https://novelnext.dramanovels.io",
+    "searchBaseUrl": "https://novelnext.dramanovels.iosearch/%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/novelnext/novelnext.js",
+    "type": "novels",
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true
+  },
+  {
+    "sourceName": "ReadNovelFull",
+    "iconUrl": "https://readnovelfull.com/img/logo.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "novels",
+    "quality": "N/A",
+    "baseUrl": "https://readnovelfull.com/",
+    "searchBaseUrl": "https://readnovelfull.com/search/?wd=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/readnovelfull/readnovelfull.js",
+    "type": "novels",
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true
+  },
+  {
+    "sourceName": "ReadNovels",
+    "iconUrl": "https://readnovel.eu/apple-touch-icon.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "novels",
+    "quality": "N/A",
+    "baseUrl": "https://readnovel.eu/",
+    "searchBaseUrl": "https://readnovel.eu/search/%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/readnovels/readnovels.js",
+    "type": "novels",
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true
+  }
+]
