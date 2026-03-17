@@ -1,0 +1,59 @@
+name: anymex sora Ext by Type
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+    inputs:
+      force_run:
+        description: 'Force run the workflow'
+        required: false
+        default: 'false'
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: '0 2 * * *'
+
+jobs:
+  organize-sources:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Run organization script
+      env:
+        GIT_TERMINAL_PROMPT: 0
+        GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
+      run: |
+        python3 anymex-sora.py
+
+    - name: Upload organized sources
+      uses: actions/upload-artifact@v4
+      with:
+        name: organized-sources
+        path: anymex/
+        retention-days: 30
+
+    - name: Commit and push if changes
+      if: github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        # Add organized sources
+        git add anymex/ || true
+
+        # Check if there are changes
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Auto-update: Organize sources by type [$(date +'%Y-%m-%d %H:%M:%S')]" || true
+          git push || true
+        fi
