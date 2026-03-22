@@ -271,7 +271,7 @@
       "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
       "url": "https://github.com/xibrox"
     },
-    "version": "1.1.2",
+    "version": "1.1.6",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
@@ -291,7 +291,7 @@
       "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
       "url": "https://github.com/xibrox"
     },
-    "version": "1.0.31",
+    "version": "1.0.33",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
