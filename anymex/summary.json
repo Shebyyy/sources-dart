@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 221,
-    "files_processed": 221,
+    "files_found": 222,
+    "files_processed": 222,
     "files_failed": 0
   },
   "repositories": {
@@ -20,10 +20,10 @@
         "novels",
         "other"
       ],
-      "total_sources": 114,
+      "total_sources": 115,
       "sources_by_type": {
         "anime": {
-          "count": 94,
+          "count": 95,
           "sources": [
             "123Anime",
             "1Movies",
@@ -118,7 +118,8 @@
             "WatchAnimeWorld",
             "WitAnime",
             "XiaoXintv",
-            "YouTube"
+            "YouTube",
+            "YummyAnime"
           ]
         },
         "manga": {

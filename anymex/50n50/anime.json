@@ -2074,5 +2074,29 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true
+  },
+  {
+    "sourceName": "YummyAnime",
+    "iconUrl": "https://site.yummyani.me/img/icon/yummy-192.png",
+    "author": {
+      "name": "emp0ry",
+      "icon": "https://avatars.githubusercontent.com/u/64217088"
+    },
+    "version": "1.0.3",
+    "language": "Russian",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://api.yani.tv",
+    "searchBaseUrl": "https://api.yani.tv/search?limit=30&q=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/yummyanime/yummyanime.js",
+    "asyncJS": true,
+    "streamAsyncJS": true,
+    "softsub": false,
+    "type": "anime",
+    "downloadSupport": false,
+    "supportsMojuru": true,
+    "supportsDartotsu": true,
+    "supportsSora": true,
+    "supportsLuna": true
   }
 ]
