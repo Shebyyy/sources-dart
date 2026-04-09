@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 222,
-    "files_processed": 222,
+    "files_found": 223,
+    "files_processed": 223,
     "files_failed": 0
   },
   "repositories": {
@@ -164,10 +164,10 @@
         "anime",
         "novels"
       ],
-      "total_sources": 107,
+      "total_sources": 108,
       "sources_by_type": {
         "anime": {
-          "count": 104,
+          "count": 105,
           "sources": [
             "111movies",
             "AbleFlix",
@@ -183,6 +183,7 @@
             "AnimeLIB (SOFTSUB)",
             "AnimeLIB (SUB - All Streams)",
             "AnimeLIB (SUB - First Stream)",
+            "Animepahe",
             "Animepahe",
             "Animepahe (DUB)",
             "AnimeStars",
