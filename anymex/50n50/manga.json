@@ -11,7 +11,8 @@
     },
     "type": "mangas",
     "supportsDartotsu": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "supportsAnymex": true
   },
   {
     "sourceName": "KaliScan",
@@ -25,7 +26,8 @@
     },
     "type": "mangas",
     "supportsDartotsu": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "supportsAnymex": true
   },
   {
     "sourceName": "MangaBuddy",
@@ -39,7 +41,8 @@
     },
     "type": "mangas",
     "supportsDartotsu": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "supportsAnymex": true
   },
   {
     "sourceName": "MangaCloud",
@@ -53,7 +56,8 @@
     },
     "type": "mangas",
     "supportsDartotsu": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "supportsAnymex": true
   },
   {
     "sourceName": "MangaDex",
@@ -67,7 +71,8 @@
     },
     "type": "mangas",
     "supportsDartotsu": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "supportsAnymex": true
   },
   {
     "sourceName": "MangaFire",
@@ -81,7 +86,8 @@
     },
     "type": "mangas",
     "supportsDartotsu": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "supportsAnymex": true
   },
   {
     "sourceName": "MangaFreak",
@@ -95,7 +101,8 @@
     },
     "type": "mangas",
     "supportsDartotsu": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "supportsAnymex": true
   },
   {
     "sourceName": "MangaKatana",
@@ -109,7 +116,8 @@
     },
     "type": "mangas",
     "supportsDartotsu": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "supportsAnymex": true
   },
   {
     "sourceName": "MangaPark",
@@ -123,7 +131,8 @@
     },
     "type": "mangas",
     "supportsDartotsu": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "supportsAnymex": true
   },
   {
     "sourceName": "MangaPub",
@@ -137,7 +146,8 @@
     },
     "type": "mangas",
     "supportsDartotsu": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "supportsAnymex": true
   },
   {
     "sourceName": "MangaTaro",
@@ -151,7 +161,8 @@
     },
     "type": "mangas",
     "supportsDartotsu": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "supportsAnymex": true
   },
   {
     "sourceName": "RumanHua1",
@@ -165,7 +176,8 @@
     },
     "type": "mangas",
     "supportsDartotsu": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "supportsAnymex": true
   },
   {
     "sourceName": "WeebCentral",
@@ -179,6 +191,7 @@
     },
     "type": "mangas",
     "supportsDartotsu": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "supportsAnymex": true
   }
 ]

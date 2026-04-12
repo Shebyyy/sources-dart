@@ -17,7 +17,8 @@
     "asyncJS": true,
     "novel": true,
     "downloadSupport": false,
-    "supportsSora": true
+    "supportsSora": true,
+    "supportsTsumi": true
   },
   {
     "sourceName": "LnCrawler",
@@ -37,7 +38,8 @@
     "asyncJS": true,
     "novel": true,
     "downloadSupport": false,
-    "supportsSora": true
+    "supportsSora": true,
+    "supportsTsumi": true
   },
   {
     "sourceName": "NovelBin",
@@ -57,7 +59,8 @@
     "asyncJS": true,
     "novel": true,
     "downloadSupport": false,
-    "supportsSora": true
+    "supportsSora": true,
+    "supportsTsumi": true
   },
   {
     "sourceName": "NovelNext",
@@ -77,7 +80,8 @@
     "asyncJS": true,
     "novel": true,
     "downloadSupport": false,
-    "supportsSora": true
+    "supportsSora": true,
+    "supportsTsumi": true
   },
   {
     "sourceName": "ReadNovelFull",
@@ -97,7 +101,8 @@
     "asyncJS": true,
     "novel": true,
     "downloadSupport": false,
-    "supportsSora": true
+    "supportsSora": true,
+    "supportsTsumi": true
   },
   {
     "sourceName": "ReadNovels",
@@ -117,6 +122,7 @@
     "asyncJS": true,
     "novel": true,
     "downloadSupport": false,
-    "supportsSora": true
+    "supportsSora": true,
+    "supportsTsumi": true
   }
 ]
