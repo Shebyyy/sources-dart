@@ -22,7 +22,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "1Movies",
@@ -44,7 +45,8 @@
     "downloadSupport": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "1TamilCrow",
@@ -69,7 +71,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AK.SV",
@@ -89,7 +92,8 @@
     "type": "movies/shows",
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "An1me",
@@ -115,7 +119,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AniCrush",
@@ -140,7 +145,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AniHQ",
@@ -165,7 +171,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AniLiberty",
@@ -191,7 +198,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Anime-Sama",
@@ -216,7 +224,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeAV1",
@@ -242,7 +251,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeBalkan",
@@ -264,7 +274,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeDefenders",
@@ -289,7 +300,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeGG",
@@ -314,7 +326,8 @@
     "supportsMojuru": true,
     "supportsDartotsu": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeHeaven",
@@ -338,7 +351,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeIndo",
@@ -363,7 +377,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeKai",
@@ -388,7 +403,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeKai (Dub)",
@@ -414,7 +430,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeKai (Hardsub)",
@@ -440,7 +457,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeKai Arabic",
@@ -466,7 +484,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeKhor",
@@ -491,7 +510,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeLand",
@@ -516,7 +536,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Animeler",
@@ -541,7 +562,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeLib",
@@ -566,7 +588,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeNana",
@@ -591,7 +614,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeNix",
@@ -616,7 +640,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeNoSub",
@@ -639,7 +664,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimePahe",
@@ -664,7 +690,8 @@
     "supportsMojuru": true,
     "supportsDartotsu": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeSaturn",
@@ -687,7 +714,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimesDigital",
@@ -712,7 +740,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeSRBIJA",
@@ -735,7 +764,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeToast",
@@ -758,7 +788,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Animetsu",
@@ -783,7 +814,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeUnity",
@@ -806,7 +838,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeVost",
@@ -832,7 +865,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeWeek",
@@ -857,7 +891,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeWorld",
@@ -881,7 +916,8 @@
     "supportsLuna": true,
     "downloadSupport": false,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AnimeXin",
@@ -906,7 +942,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Animez",
@@ -931,7 +968,8 @@
     "supportsMojuru": true,
     "supportsDartotsu": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AniTube",
@@ -956,7 +994,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AniWatch",
@@ -981,7 +1020,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AniWorld (ENG SUB)",
@@ -1007,7 +1047,8 @@
     "supportsLuna": true,
     "supportsSoru": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AniWorld (GER DUB)",
@@ -1033,7 +1074,8 @@
     "supportsLuna": true,
     "supportsSoru": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AniWorld (GER SUB)",
@@ -1059,7 +1101,8 @@
     "supportsLuna": true,
     "supportsSoru": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "AniWorld (Local Test)",
@@ -1081,7 +1124,8 @@
     "supportsMojuru": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Anoboye",
@@ -1106,7 +1150,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Ashi (あし) - Literally Everything",
@@ -1128,7 +1173,8 @@
     "downloadSupport": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Asia2TV",
@@ -1150,7 +1196,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "CoFlix",
@@ -1172,7 +1219,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "CrimsonFanSubs",
@@ -1197,7 +1245,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Cuevana3",
@@ -1219,7 +1268,8 @@
     "downloadSupport": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Development",
@@ -1242,7 +1292,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "DonghuaStream",
@@ -1267,7 +1318,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Dora-Video",
@@ -1290,7 +1342,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "FaselHD",
@@ -1311,7 +1364,8 @@
     "downloadSupport": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Filmpalast",
@@ -1333,7 +1387,8 @@
     "type": "movies/shows",
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "FireAnime DUB",
@@ -1356,7 +1411,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "FireAnime English (SUB)",
@@ -1379,7 +1435,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "FireAnime SUB",
@@ -1402,7 +1459,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "HDFilme",
@@ -1424,7 +1482,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Hexa",
@@ -1446,7 +1505,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "HiAnime",
@@ -1471,7 +1531,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "HiMovies",
@@ -1493,7 +1554,8 @@
     "downloadSupport": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "IPTV-org",
@@ -1516,7 +1578,8 @@
     "note": "USE DEFAULT PLAYER - USE DEFAULT PLAYER - USE DEFAULT PLAYER - USE DEFAULT PLAYER",
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Kaido",
@@ -1541,7 +1604,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Kawaiifu",
@@ -1563,7 +1627,8 @@
     "downloadSupport": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "KickAssAnimes",
@@ -1588,7 +1653,8 @@
     "supportsMojuru": true,
     "supportsDartotsu": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "KimCartoon",
@@ -1609,7 +1675,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Kisskh",
@@ -1631,7 +1698,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "LmAnime",
@@ -1656,7 +1724,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "LuciferDonghua",
@@ -1681,7 +1750,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Monoschinos2",
@@ -1706,7 +1776,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Nimegami",
@@ -1731,7 +1802,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Nivod",
@@ -1753,7 +1825,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "OneTouch TV",
@@ -1775,7 +1848,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "PoseidonHD2",
@@ -1797,7 +1871,8 @@
     "downloadSupport": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "s.to (ENG DUB)",
@@ -1819,7 +1894,8 @@
     "type": "shows",
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "s.to (GER DUB)",
@@ -1841,7 +1917,8 @@
     "type": "shows",
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Senshi",
@@ -1866,7 +1943,8 @@
     "supportsMojuru": true,
     "supportsDartotsu": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "StreamingUnity",
@@ -1887,7 +1965,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "downloadSupport": false,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Tidal",
@@ -1909,7 +1988,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Tiktok",
@@ -1931,7 +2011,8 @@
     "downloadSupport": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "TokyoInsider",
@@ -1974,7 +2055,8 @@
     "downloadSupport": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "TopStreamFilm",
@@ -1997,7 +2079,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Turkish123",
@@ -2018,7 +2101,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "downloadSupport": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "VerAnimes",
@@ -2043,7 +2127,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "Veziseriale",
@@ -2065,7 +2150,8 @@
     "downloadSupport": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "VidEasy",
@@ -2087,7 +2173,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "VidFast",
@@ -2109,7 +2196,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "VidLink",
@@ -2131,7 +2219,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "WatchAnimeWorld",
@@ -2156,7 +2245,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "WitAnime",
@@ -2182,7 +2272,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "XiaoXintv",
@@ -2204,7 +2295,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "YouTube",
@@ -2226,7 +2318,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "YummyAnime",
@@ -2252,6 +2345,7 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsAnymex": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   }
 ]

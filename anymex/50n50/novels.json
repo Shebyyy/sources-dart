@@ -18,7 +18,8 @@
     "novel": true,
     "downloadSupport": false,
     "supportsSora": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "LnCrawler",
@@ -39,7 +40,8 @@
     "novel": true,
     "downloadSupport": false,
     "supportsSora": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "NovelBin",
@@ -60,7 +62,8 @@
     "novel": true,
     "downloadSupport": false,
     "supportsSora": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "NovelNext",
@@ -81,7 +84,8 @@
     "novel": true,
     "downloadSupport": false,
     "supportsSora": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "ReadNovelFull",
@@ -102,7 +106,8 @@
     "novel": true,
     "downloadSupport": false,
     "supportsSora": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "ReadNovels",
@@ -123,6 +128,7 @@
     "novel": true,
     "downloadSupport": false,
     "supportsSora": true,
-    "supportsTsumi": true
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   }
 ]
