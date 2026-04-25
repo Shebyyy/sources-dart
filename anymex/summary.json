@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 223,
-    "files_processed": 223,
+    "files_found": 227,
+    "files_processed": 227,
     "files_failed": 0
   },
   "repositories": {
@@ -20,10 +20,10 @@
         "novels",
         "other"
       ],
-      "total_sources": 115,
+      "total_sources": 119,
       "sources_by_type": {
         "anime": {
-          "count": 95,
+          "count": 99,
           "sources": [
             "123Anime",
             "1Movies",
@@ -31,6 +31,7 @@
             "AK.SV",
             "An1me",
             "AniCrush",
+            "AniDub",
             "AniHQ",
             "AniLiberty",
             "Anime-Sama",
@@ -99,10 +100,13 @@
             "Nimegami",
             "Nivod",
             "OneTouch TV",
+            "OnWave",
             "PoseidonHD2",
             "s.to (ENG DUB)",
             "s.to (GER DUB)",
+            "SameBand",
             "Senshi",
+            "ShizaProject",
             "StreamingUnity",
             "Tidal",
             "Tiktok",

@@ -149,6 +149,30 @@
     "supportsHiyoku": true
   },
   {
+    "sourceName": "AniDub",
+    "iconUrl": "https://anidub.org/templates/CinemaBlue/images/jutfun.png",
+    "author": {
+      "name": "emp0ry",
+      "icon": "https://avatars.githubusercontent.com/u/64217088"
+    },
+    "version": "1.0.0",
+    "language": "Russian",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://anidub.org/",
+    "searchBaseUrl": "https://anidub.org/index.php?do=search&subaction=search&story=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/anidub/anidub.js",
+    "asyncJS": true,
+    "streamAsyncJS": true,
+    "softsub": false,
+    "type": "anime",
+    "downloadSupport": false,
+    "supportsMojuru": true,
+    "supportsDartotsu": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
     "sourceName": "AniHQ",
     "iconUrl": "https://anihq.to/wp-content/uploads/cropped-Icon-1-1-192x192.png",
     "author": {
@@ -181,7 +205,7 @@
       "name": "emp0ry",
       "icon": "https://avatars.githubusercontent.com/u/64217088"
     },
-    "version": "1.0.3",
+    "version": "1.0.4",
     "language": "Russian",
     "streamType": "HLS",
     "quality": "1080p",
@@ -196,10 +220,7 @@
     "supportsMojuru": true,
     "supportsDartotsu": true,
     "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsLuna": true
   },
   {
     "sourceName": "Anime-Sama",
@@ -849,7 +870,7 @@
       "name": "emp0ry",
       "icon": "https://avatars.githubusercontent.com/u/64217088"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "Russian",
     "streamType": "MP4",
     "quality": "720p",
@@ -864,10 +885,7 @@
     "supportsMojuru": true,
     "supportsDartotsu": true,
     "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsLuna": true
   },
   {
     "sourceName": "AnimeWeek",
@@ -1853,6 +1871,30 @@
     "supportsHiyoku": true
   },
   {
+    "sourceName": "OnWave",
+    "iconUrl": "https://onwavedub.org/logo.png",
+    "author": {
+      "name": "emp0ry",
+      "icon": "https://avatars.githubusercontent.com/u/64217088"
+    },
+    "version": "1.0.0",
+    "language": "Russian",
+    "streamType": "MP4/HLS",
+    "quality": "1080p",
+    "baseUrl": "https://onwavedub.org/api/v1",
+    "searchBaseUrl": "https://onwavedub.org/api/v1/catalog?query=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/onwave/onwave.js",
+    "asyncJS": true,
+    "streamAsyncJS": true,
+    "softsub": false,
+    "type": "anime",
+    "downloadSupport": false,
+    "supportsMojuru": true,
+    "supportsDartotsu": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
     "sourceName": "PoseidonHD2",
     "iconUrl": "https://www.poseidonhd2.co/apple-touch-icon.png",
     "author": {
@@ -1922,6 +1964,30 @@
     "supportsHiyoku": true
   },
   {
+    "sourceName": "SameBand",
+    "iconUrl": "https://sameband.studio/templates/sameband/dleimages/favicon/touch-icon-ipad.png",
+    "author": {
+      "name": "emp0ry",
+      "icon": "https://avatars.githubusercontent.com/u/64217088"
+    },
+    "version": "1.0.0",
+    "language": "Russian",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://sameband.studio/",
+    "searchBaseUrl": "https://sameband.studio/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/sameband/sameband.js",
+    "asyncJS": true,
+    "streamAsyncJS": true,
+    "softsub": false,
+    "type": "anime",
+    "downloadSupport": false,
+    "supportsMojuru": true,
+    "supportsDartotsu": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
     "sourceName": "Senshi",
     "iconUrl": "https://files.catbox.moe/6s18ae.png",
     "author": {
@@ -1946,6 +2012,30 @@
     "supportsAnymex": true,
     "supportsTsumi": true,
     "supportsHiyoku": true
+  },
+  {
+    "sourceName": "ShizaProject",
+    "iconUrl": "https://shizaproject.com/favicon.ico",
+    "author": {
+      "name": "emp0ry",
+      "icon": "https://avatars.githubusercontent.com/u/64217088"
+    },
+    "version": "1.0.0",
+    "language": "Russian",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://shizaproject.com/",
+    "searchBaseUrl": "https://shizaproject.com/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/shizaproject/shizaproject.js",
+    "asyncJS": true,
+    "streamAsyncJS": true,
+    "softsub": false,
+    "type": "anime",
+    "downloadSupport": false,
+    "supportsMojuru": true,
+    "supportsDartotsu": true,
+    "supportsSora": true,
+    "supportsLuna": true
   },
   {
     "sourceName": "StreamingUnity",
@@ -2329,7 +2419,7 @@
       "name": "emp0ry",
       "icon": "https://avatars.githubusercontent.com/u/64217088"
     },
-    "version": "1.0.3",
+    "version": "1.0.4",
     "language": "Russian",
     "streamType": "HLS",
     "quality": "1080p",
@@ -2344,9 +2434,6 @@
     "supportsMojuru": true,
     "supportsDartotsu": true,
     "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsLuna": true
   }
 ]
