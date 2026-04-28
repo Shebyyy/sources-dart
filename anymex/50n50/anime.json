@@ -357,7 +357,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.6",
+    "version": "1.0.7",
     "language": "English (SUB)",
     "streamType": "HLS",
     "quality": "720p",
@@ -366,7 +366,7 @@
     "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animeheaven/animeheaven.js",
     "type": "anime",
     "asyncJS": true,
-    "note": "Website was recently hit by a DMCA, so not everything might work right away, please give them time to reupload anime!",
+    "downloadSupport": true,
     "supportsMojuru": true,
     "supportsDartotsu": true,
     "supportsSora": true,
