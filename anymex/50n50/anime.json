@@ -32,7 +32,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.2.2",
+    "version": "1.2.3",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
@@ -2251,7 +2251,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.1.1",
+    "version": "1.1.2",
     "language": "English",
     "streamType": "HLS",
     "quality": "4K",
@@ -2274,7 +2274,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.2.0",
+    "version": "1.2.1",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
