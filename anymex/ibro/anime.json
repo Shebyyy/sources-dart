@@ -77,6 +77,26 @@
     "softsub": true
   },
   {
+    "sourceName": "Anikoto",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/anikoto/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.1",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://anikototv.to/",
+    "searchBaseUrl": "https://anikototv.to/search?query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/anikoto/anikoto.js",
+    "type": "anime",
+    "downloadSupport": true,
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
     "sourceName": "Anikuro",
     "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/anikuro/icon.png",
     "author": {
@@ -350,13 +370,53 @@
       "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
       "url": "https://github.com/xibrox"
     },
-    "version": "1.1.15",
+    "version": "1.1.21",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://animex.one/",
     "searchBaseUrl": "https://animex.one/search?query=%s",
     "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/animex/animex.js",
+    "type": "anime",
+    "downloadSupport": true,
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "Animex (DUB)",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/animex/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://animex.one/",
+    "searchBaseUrl": "https://animex.one/search?query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/animex/dub/animex.js",
+    "type": "anime",
+    "downloadSupport": true,
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "Animex (SUB)",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/animex/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://animex.one/",
+    "searchBaseUrl": "https://animex.one/search?query=%s",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/animex/sub/animex.js",
     "type": "anime",
     "downloadSupport": true,
     "asyncJS": true,
