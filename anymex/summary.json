@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 223,
-    "files_processed": 223,
+    "files_found": 224,
+    "files_processed": 224,
     "files_failed": 0
   },
   "repositories": {
@@ -18,13 +18,14 @@
         "anime",
         "novels"
       ],
-      "total_sources": 111,
+      "total_sources": 112,
       "sources_by_type": {
         "anime": {
-          "count": 108,
+          "count": 109,
           "sources": [
             "111movies",
             "AbleFlix",
+            "AllAnime",
             "AniBunker",
             "Anify",
             "Anikoto",

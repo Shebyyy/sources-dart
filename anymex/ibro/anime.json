@@ -38,6 +38,26 @@
     "asyncJS": true
   },
   {
+    "sourceName": "AllAnime",
+    "iconUrl": "https://raw.githubusercontent.com/Kohi-den/extensions-source/refs/heads/main/src/en/allanime/res/mipmap-xxxhdpi/ic_launcher.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.8",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://mp4upload.com/",
+    "searchBaseUrl": "https://mp4upload.com/",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/allmanga/allmanga.js",
+    "type": "anime",
+    "downloadSupport": true,
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
     "sourceName": "AniBunker",
     "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/anibunker/icon.png",
     "author": {
