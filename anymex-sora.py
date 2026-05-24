@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Script to clone repositories and organize source JSON files by type.
-Handles everything: cloning, processing, and organizing.
+Also fetches modules from the Sora Module Library API for repos that
+only contain .js files (no JSON metadata).
 
 Output structure:
   anymex/
@@ -21,8 +22,10 @@ Output structure:
 import os
 import json
 import subprocess
+import urllib.request
+import urllib.error
 from pathlib import Path
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 from collections import defaultdict
 
 # Configuration - Repository URLs
@@ -39,6 +42,9 @@ REPOSITORIES = {
     "justbbcr": "https://github.com/justbbcr/streamex.git",
     "mxfia19-twitch": "https://github.com/MXFia19/Twitchnosub-Sora.git",
 }
+
+# Sora Module Library API - used as fallback for repos without JSON metadata
+SORA_API_URL = "https://library.cufiy.net/api/modules.json"
 
 OUTPUT_DIR = Path("anymex")
 
@@ -86,6 +92,59 @@ def canonical_type(type_str: str) -> str:
     return TYPE_CONSOLIDATION.get(normalized, "other")
 
 
+def get_repo_key_from_url(url: str) -> Optional[str]:
+    """Map a scriptUrl from the Sora API to a repo key matching REPOSITORIES dict."""
+    if not url:
+        return None
+
+    # raw.githubusercontent.com/OWNER/REPO/...
+    import re
+    raw_gh = re.match(r"https://raw\.githubusercontent\.com/([^/]+)/", url)
+    if raw_gh:
+        owner = raw_gh.group(1)
+        owner_map = {
+            "50n50": "50n50",
+            "CPRmichel": "cprmichel",
+            "Ylruhc": "ylruhc",
+            "xdfkenny": "xdfkenny",
+            "Soony5": "soony5",
+            "justbbcr": "justbbcr",
+            "MXFia19": "mxfia19-twitch",
+        }
+        return owner_map.get(owner, owner)
+
+    # git.luna-app.eu/OWNER/REPO/...
+    luna = re.match(r"https://git\.luna-app\.eu/([^/]+)/", url)
+    if luna:
+        owner = luna.group(1)
+        owner_map = {
+            "ibro": "ibro",
+            "50n50": "50n50",
+            "Cufiy": "cufiy",
+            "emp0ry": "emp0ry",
+        }
+        return owner_map.get(owner, owner)
+
+    # gitlab.com/GROUP/REPO/...
+    gl = re.match(r"https://gitlab\.com/([^/]+)/", url)
+    if gl:
+        owner = gl.group(1)
+        owner_map = {
+            "mxfia19-group": "mxfia19",
+            "50n50": "50n50",
+        }
+        return owner_map.get(owner, owner)
+
+    # codeberg.org/OWNER/REPO/...
+    cb = re.match(r"https://codeberg\.org/([^/]+)/", url)
+    if cb:
+        owner = cb.group(1)
+        owner_map = {"50n50": "50n50"}
+        return owner_map.get(owner, owner)
+
+    return None
+
+
 def find_json_files(directory: Path) -> List[Path]:
     """Recursively find all JSON files in subdirectories (depth > 1)."""
     json_files = []
@@ -110,6 +169,30 @@ def load_json_file(file_path: Path) -> Dict[str, Any]:
     except Exception as e:
         print(f"  ⚠️  Error reading {file_path}: {e}")
     return None
+
+
+def fetch_sora_api() -> List[Dict[str, Any]]:
+    """Fetch module list from the Sora Module Library API."""
+    print("\n🌐 Fetching Sora Module Library API...")
+    try:
+        req = urllib.request.Request(
+            SORA_API_URL,
+            headers={"User-Agent": "sources-dart-bot/1.0"}
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            if isinstance(data, list):
+                print(f"  ✅ Fetched {len(data)} modules from API")
+                return data
+            else:
+                print(f"  ⚠️  Unexpected API response format")
+                return []
+    except urllib.error.URLError as e:
+        print(f"  ❌ Failed to fetch Sora API: {e}")
+        return []
+    except Exception as e:
+        print(f"  ❌ Error fetching Sora API: {e}")
+        return []
 
 
 def clone_repositories() -> List[str]:
@@ -183,8 +266,12 @@ def organize_sources():
     # {repo_name: {canonical_type: [sources]}}
     organized_data: Dict[str, Dict[str, List[Any]]] = defaultdict(lambda: defaultdict(list))
 
+    # Track which sourceNames we already have per repo+type (to avoid API duplicates)
+    existing_names: Dict[str, set] = defaultdict(set)
+
     total_found = total_processed = total_failed = 0
 
+    # Step 3: Process cloned repos for JSON files
     for repo_name in repositories:
         print(f"\n{'='*60}")
         print(f"Processing repository: {repo_name}")
@@ -193,7 +280,7 @@ def organize_sources():
         repo_dir = Path(repo_name)
         json_files = find_json_files(repo_dir)
         total_found += len(json_files)
-        print(f"📁 Found {len(json_files)} JSON files")
+        print(f"📁 Found {len(json_files)} JSON files in subdirectories")
 
         for json_file in json_files:
             relative_path = json_file.relative_to(repo_dir)
@@ -206,14 +293,52 @@ def organize_sources():
 
             raw_type = data.get("type", "other")
             canon = canonical_type(raw_type)
+            source_name = data.get("sourceName", "Unknown")
 
             organized_data[repo_name][canon].append(data)
+            existing_names[f"{repo_name}/{canon}"].add(source_name)
             total_processed += 1
 
-            source_name = data.get("sourceName", "Unknown")
             print(f"    ✅ '{source_name}' → {repo_name}/{canon}  (raw type: '{raw_type}')")
 
-    # Step 3: Write output files under anymex/<repo>/
+    # Step 4: Fetch from Sora API and fill in missing modules
+    #         (for repos that only have .js files, no JSON metadata)
+    print(f"\n{'='*60}")
+    print("Fetching from Sora Module Library API (fallback)")
+    print(f"{'='*60}")
+
+    api_modules = fetch_sora_api()
+    api_added = 0
+
+    for module in api_modules:
+        script_url = module.get("scriptUrl", "")
+        repo_key = get_repo_key_from_url(script_url)
+
+        if not repo_key:
+            continue
+
+        # Only add if this repo is in our REPOSITORIES config
+        if repo_key not in REPOSITORIES:
+            continue
+
+        raw_type = module.get("type", "other")
+        canon = canonical_type(raw_type)
+        source_name = module.get("sourceName", "Unknown")
+        names_key = f"{repo_key}/{canon}"
+
+        # Skip if already found via cloned repo JSON files
+        if source_name in existing_names.get(names_key, set()):
+            continue
+
+        organized_data[repo_key][canon].append(module)
+        existing_names[names_key].add(source_name)
+        api_added += 1
+
+        print(f"  ✅ API: '{source_name}' → {repo_key}/{canon}")
+
+    print(f"\n📊 Added {api_added} modules from API that weren't in cloned repo JSONs")
+
+    # Step 5: Write output files under anymex/<repo>/
     print(f"\n{'='*60}")
     print("Writing Organized Files  →  anymex/<repo>/")
     print(f"{'='*60}")
@@ -236,15 +361,16 @@ def organize_sources():
 
             print(f"  ✅ {canon}.json  ({len(sources)} sources)")
 
-    # Step 4: Summary
+    # Step 6: Summary
     summary = {
         "output_root": str(OUTPUT_DIR.absolute()),
         "total_repositories": len(organized_data),
         "canonical_types": sorted(list(all_canon_types)),
         "statistics": {
             "files_found": total_found,
-            "files_processed": total_processed,
+            "files_processed": total_processed + api_added,
             "files_failed": total_failed,
+            "api_added": api_added,
         },
         "repositories": {
             repo_name: {
@@ -267,22 +393,23 @@ def organize_sources():
         json.dump(summary, f, indent=2, ensure_ascii=False)
     print(f"\n✅ Summary → {summary_file}")
 
-    # Step 5: Final stats
+    # Step 7: Final stats
     print(f"\n{'='*60}")
     print("Organization Complete!")
     print(f"{'='*60}")
     print(f"📊 Statistics:")
-    print(f"  • Files found:     {total_found}")
-    print(f"  • Processed:       {total_processed}")
-    print(f"  • Failed:          {total_failed}")
-    print(f"  • Repositories:    {len(organized_data)}")
-    print(f"  • Canonical types: {', '.join(sorted(all_canon_types))}")
+    print(f"  • JSON files found:  {total_found}")
+    print(f"  • From cloned repos: {total_processed}")
+    print(f"  • From API fallback: {api_added}")
+    print(f"  • Failed:            {total_failed}")
+    print(f"  • Repositories:      {len(organized_data)}")
+    print(f"  • Canonical types:   {', '.join(sorted(all_canon_types))}")
     print(f"\n📂 Output root: {OUTPUT_DIR.absolute()}")
     for repo_name, types_dict in organized_data.items():
         total = sum(len(s) for s in types_dict.values())
         print(f"  • anymex/{repo_name}/  →  {total} sources across {len(types_dict)} files")
 
-    # Step 6: Cleanup cloned repos
+    # Step 8: Cleanup cloned repos
     print(f"\n{'='*60}")
     print("Cleaning Up Cloned Repos")
     print(f"{'='*60}")
