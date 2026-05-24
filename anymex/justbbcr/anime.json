@@ -1,0 +1,29 @@
+[
+  {
+    "id": "j6VYM",
+    "sourceName": "StreameX",
+    "iconUrl": "https://www.streamex.net/favicon.ico",
+    "version": "1.0.4",
+    "language": "French",
+    "streamType": "MP4",
+    "quality": "1080p",
+    "baseUrl": "https://www.streamex.net/",
+    "scriptUrl": "https://raw.githubusercontent.com/justbbcr/streamex/main/streamex.js",
+    "softsub": true,
+    "manifestUrl": "https://raw.githubusercontent.com/justbbcr/streamex/main/streamex.json",
+    "status": "active",
+    "addedAt": "2026-03-08 21:09:33",
+    "installCount": 26,
+    "type": "anime/shows/movies",
+    "note": "",
+    "recommendation": 0,
+    "downloadSupport": true,
+    "combo": false,
+    "featured": 0,
+    "author": {
+      "name": "Kamizu",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/justbbcr"
+    }
+  }
+]

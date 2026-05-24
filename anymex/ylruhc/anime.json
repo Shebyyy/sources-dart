@@ -1,0 +1,28 @@
+[
+  {
+    "id": "Tkat",
+    "sourceName": "AllAnime(Default)",
+    "iconUrl": "https://raw.githubusercontent.com/Kohi-den/extensions-source/refs/heads/main/src/en/allanime/res/mipmap-xxxhdpi/ic_launcher.png",
+    "version": "1.0.0",
+    "language": "English (SUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://mp4upload.com/",
+    "scriptUrl": "https://raw.githubusercontent.com/Ylruhc/AllAnime/refs/heads/main/Default/allMangaDefault.js",
+    "softsub": false,
+    "manifestUrl": "https://git.luna-app.eu/Churly/AllAnime/raw/branch/main/AllAnime/AllAnime.json",
+    "status": "active",
+    "addedAt": "2025-05-05 16:59:03",
+    "installCount": 2038,
+    "type": "anime",
+    "note": "",
+    "recommendation": 0,
+    "downloadSupport": true,
+    "combo": false,
+    "featured": 0,
+    "author": {
+      "name": "Churly",
+      "icon": "https://i.pinimg.com/236x/90/2c/ea/902ceaa5610ef7f8f81c2f3881799f2c.jpg"
+    }
+  }
+]

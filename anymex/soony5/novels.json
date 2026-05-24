@@ -1,0 +1,29 @@
+[
+  {
+    "id": "jEY0b",
+    "sourceName": "MangaWorld Novels",
+    "iconUrl": "https://raw.githubusercontent.com/Soony5/MangaWorld/refs/heads/main/android-icon-192x192.png",
+    "version": "1.0.0",
+    "language": "Italiano",
+    "streamType": "novels",
+    "quality": "Alta",
+    "baseUrl": "https://www.mangaworld.mx/",
+    "scriptUrl": "https://raw.githubusercontent.com/Soony5/MangaWorld/refs/heads/main/mangaworld.js",
+    "softsub": false,
+    "manifestUrl": "https://raw.githubusercontent.com/Soony5/MangaWorld/refs/heads/main/mangaworld.json",
+    "status": "active",
+    "addedAt": "2026-04-24 16:10:02",
+    "installCount": 0,
+    "type": "novels",
+    "note": "",
+    "recommendation": 0,
+    "downloadSupport": "",
+    "combo": false,
+    "featured": 0,
+    "author": {
+      "name": "Soony5",
+      "icon": "https://i.postimg.cc/RVkn062P/icon.png",
+      "url": "https://github.com/Soony5"
+    }
+  }
+]

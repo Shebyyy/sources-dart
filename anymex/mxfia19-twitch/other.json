@@ -1,0 +1,29 @@
+[
+  {
+    "id": "juvGY",
+    "sourceName": "Twitch NoSub",
+    "iconUrl": "https://pngimg.com/uploads/twitch/twitch_PNG13.png",
+    "version": "1.0.1",
+    "language": "Multi",
+    "streamType": "HLS",
+    "quality": "Source",
+    "baseUrl": "https://twitch.tv/",
+    "scriptUrl": "https://raw.githubusercontent.com/MXFia19/Twitchnosub-Sora/refs/heads/main/script_twitch_nosub.js",
+    "softsub": false,
+    "manifestUrl": "https://raw.githubusercontent.com/MXFia19/Twitchnosub-Sora/refs/heads/main/Twitch_nosub.json",
+    "status": "active",
+    "addedAt": "2026-01-24 19:37:47",
+    "installCount": 88,
+    "type": "vod/livestream",
+    "note": "Search for the streamer name and his vod will appear (live support)",
+    "recommendation": 0,
+    "downloadSupport": "",
+    "combo": false,
+    "featured": 0,
+    "author": {
+      "name": "MXFia19",
+      "icon": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg",
+      "url": "https://github.com/MXFia19"
+    }
+  }
+]
