@@ -1,0 +1,167 @@
+[
+  {
+    "sourceName": "Anime Base (DUB)",
+    "iconUrl": "https://anime-base.net/images/ablogo.png",
+    "author": {
+      "name": "Cufiy",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "1.0.2",
+    "language": "German (DUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://anime-base.net/",
+    "searchBaseUrl": "https://anime-base.net/search=%s",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/anime-base/anime-base-DUB.js",
+    "type": "anime",
+    "downloadSupport": true,
+    "asyncJS": true
+  },
+  {
+    "sourceName": "Anime Base (ENG SUB)",
+    "iconUrl": "https://anime-base.net/images/ablogo.png",
+    "author": {
+      "name": "Cufiy",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "1.0.2",
+    "language": "English (SUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://anime-base.net/",
+    "searchBaseUrl": "https://anime-base.net/search=%s",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/anime-base/anime-base-ENGSUB.js",
+    "type": "anime",
+    "downloadSupport": true,
+    "asyncJS": true,
+    "note": "# PLEASE READ \nThis is a german site. Because of this, not all anime have english subtitles available. Please don't report this as a bug."
+  },
+  {
+    "sourceName": "Anime Base (SUB)",
+    "iconUrl": "https://anime-base.net/images/ablogo.png",
+    "author": {
+      "name": "Cufiy",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "1.0.2",
+    "language": "German (SUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://anime-base.net/",
+    "searchBaseUrl": "https://anime-base.net/search=%s",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/anime-base/anime-base-SUB.js",
+    "type": "anime",
+    "downloadSupport": true,
+    "asyncJS": true
+  },
+  {
+    "sourceName": "AniWorld (ENG SUB)",
+    "iconUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/aniworld/aniworld.png",
+    "author": {
+      "name": "Cufiy & Hamzo",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "0.3.3",
+    "language": "English (SUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://google.com",
+    "searchBaseUrl": "https://aniworld.to/ajax/seriesSearch?keyword=%s",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/aniworld/v2/AniWorldEngSub_v2.js",
+    "asyncJS": true,
+    "streamAsyncJS": false,
+    "type": "anime",
+    "supportsMojuru": true,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsSoru": true
+  },
+  {
+    "sourceName": "AniWorld (GER DUB)",
+    "iconUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/aniworld/aniworld.png",
+    "author": {
+      "name": "Cufiy & Hamzo",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "0.3.3",
+    "language": "German (DUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://google.com",
+    "searchBaseUrl": "https://aniworld.to/ajax/seriesSearch?keyword=%s",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/aniworld/v2/AniWorldGerDub_v2.js",
+    "asyncJS": true,
+    "streamAsyncJS": false,
+    "type": "anime",
+    "supportsMojuru": true,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsSoru": true
+  },
+  {
+    "sourceName": "AniWorld (GER SUB)",
+    "iconUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/aniworld/aniworld.png",
+    "author": {
+      "name": "Cufiy & Hamzo",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "0.3.3",
+    "language": "German (SUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://google.com",
+    "searchBaseUrl": "https://aniworld.to/ajax/seriesSearch?keyword=%s",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/aniworld/v2/AniWorldGerSub_v2.js",
+    "asyncJS": true,
+    "streamAsyncJS": false,
+    "type": "anime",
+    "supportsMojuru": true,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsSoru": true
+  },
+  {
+    "sourceName": "Filmpalast",
+    "iconUrl": "https://files.catbox.moe/tv81m8.png",
+    "author": {
+      "name": "Cufiy",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "1.3.4",
+    "type": "Movies/Shows",
+    "language": "German (DUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://filmpalast.to",
+    "searchBaseUrl": "https://filmpalast.to/search/title/%s",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/filmpalast/filmpalast_v2.js",
+    "asyncJS": true,
+    "streamAsyncJS": false
+  },
+  {
+    "sourceName": "Latanime",
+    "iconUrl": "https://latanime.org/public/img/logito.png",
+    "author": {
+      "name": "Cufiy",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "1.0.1",
+    "language": "Spanish (DUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "type": "anime",
+    "baseUrl": "https://latanime.org/",
+    "searchBaseUrl": "https://latanime.org/buscar?q=%s",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/latanime/latanime.js",
+    "asyncJS": true,
+    "downloadSupport": true
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "sourceName": "Catflix (Website Down)",
+    "iconUrl": "https://github.com/JMcrafter26/sora-modules/blob/main/modules/catflix/icon.png?raw=true",
+    "author": {
+      "name": "Cufiy",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "1.1.464",
+    "language": "English (DUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "type": "movies/shows/anime",
+    "baseUrl": "https://catflix.su/",
+    "searchBaseUrl": "https://catflix.su/search?q=%s",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/catflix/catflix.js",
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
+    "sourceName": "Moflix",
+    "iconUrl": "https://moflix-stream.xyz/favicon/icon-512x512.png",
+    "author": {
+      "name": "Cufiy",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "1.0.12",
+    "language": "German",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "type": "movie/series",
+    "baseUrl": "https://moflix-stream.xyz/",
+    "searchBaseUrl": "https://moflix-stream.xyz/api/v1/search/%s?loader=searchAutocomplete",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/moflix/moflix.js",
+    "asyncJS": true,
+    "downloadSupport": true
+  },
+  {
+    "sourceName": "RGShows",
+    "iconUrl": "https://files.catbox.moe/34bqj4.jpeg",
+    "author": {
+      "name": "Cufiy",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "1.0.36",
+    "language": "English (DUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://rgshows.me",
+    "searchBaseUrl": "https://rgshows.me/search?q=",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/rgshows/rgshows.js",
+    "asyncJS": true,
+    "streamAsyncJS": false,
+    "softsubs": false,
+    "type": "tv/movies"
+  }
+]
