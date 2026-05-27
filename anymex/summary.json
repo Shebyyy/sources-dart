@@ -14,119 +14,6 @@
     "api_added": 5
   },
   "repositories": {
-    "cufiy": {
-      "types": [
-        "anime",
-        "other"
-      ],
-      "total_sources": 11,
-      "sources_by_type": {
-        "anime": {
-          "count": 8,
-          "sources": [
-            "Anime Base (DUB)",
-            "Anime Base (ENG SUB)",
-            "Anime Base (SUB)",
-            "AniWorld (ENG SUB)",
-            "AniWorld (GER DUB)",
-            "AniWorld (GER SUB)",
-            "Filmpalast",
-            "Latanime"
-          ]
-        },
-        "other": {
-          "count": 3,
-          "sources": [
-            "Catflix (Website Down)",
-            "Moflix",
-            "RGShows"
-          ]
-        }
-      }
-    },
-    "xdfkenny": {
-      "types": [
-        "anime"
-      ],
-      "total_sources": 1,
-      "sources_by_type": {
-        "anime": {
-          "count": 1,
-          "sources": [
-            "AnimeJara"
-          ]
-        }
-      }
-    },
-    "mxfia19": {
-      "types": [
-        "anime",
-        "other"
-      ],
-      "total_sources": 14,
-      "sources_by_type": {
-        "anime": {
-          "count": 10,
-          "sources": [
-            "Anime Kami",
-            "anime ultra",
-            "Anime-Sama",
-            "dessin-anime",
-            "Miruro",
-            "Movix",
-            "Nakastream",
-            "Nakios",
-            "Purstream",
-            "VoirAnime"
-          ]
-        },
-        "other": {
-          "count": 4,
-          "sources": [
-            "Bingebox",
-            "Cinepulse",
-            "LiveWatch",
-            "Twitch NoSub"
-          ]
-        }
-      }
-    },
-    "emp0ry": {
-      "types": [
-        "anime"
-      ],
-      "total_sources": 7,
-      "sources_by_type": {
-        "anime": {
-          "count": 7,
-          "sources": [
-            "AniDub",
-            "AniLiberty",
-            "AnimeVost",
-            "OnWave",
-            "SameBand",
-            "ShizaProject",
-            "YummyAnime"
-          ]
-        }
-      }
-    },
-    "cprmichel": {
-      "types": [
-        "anime"
-      ],
-      "total_sources": 3,
-      "sources_by_type": {
-        "anime": {
-          "count": 3,
-          "sources": [
-            "Kinoger",
-            "Moflix",
-            "Movie2k"
-          ]
-        }
-      }
-    },
     "ibro": {
       "types": [
         "anime",
@@ -254,6 +141,119 @@
             "NovelBuddy",
             "NovelDot",
             "NovelFire"
+          ]
+        }
+      }
+    },
+    "cufiy": {
+      "types": [
+        "anime",
+        "other"
+      ],
+      "total_sources": 11,
+      "sources_by_type": {
+        "anime": {
+          "count": 8,
+          "sources": [
+            "Anime Base (DUB)",
+            "Anime Base (ENG SUB)",
+            "Anime Base (SUB)",
+            "AniWorld (ENG SUB)",
+            "AniWorld (GER DUB)",
+            "AniWorld (GER SUB)",
+            "Filmpalast",
+            "Latanime"
+          ]
+        },
+        "other": {
+          "count": 3,
+          "sources": [
+            "Catflix (Website Down)",
+            "Moflix",
+            "RGShows"
+          ]
+        }
+      }
+    },
+    "mxfia19": {
+      "types": [
+        "anime",
+        "other"
+      ],
+      "total_sources": 14,
+      "sources_by_type": {
+        "anime": {
+          "count": 10,
+          "sources": [
+            "Anime Kami",
+            "anime ultra",
+            "Anime-Sama",
+            "dessin-anime",
+            "Miruro",
+            "Movix",
+            "Nakastream",
+            "Nakios",
+            "Purstream",
+            "VoirAnime"
+          ]
+        },
+        "other": {
+          "count": 4,
+          "sources": [
+            "Bingebox",
+            "Cinepulse",
+            "LiveWatch",
+            "Twitch NoSub"
+          ]
+        }
+      }
+    },
+    "cprmichel": {
+      "types": [
+        "anime"
+      ],
+      "total_sources": 3,
+      "sources_by_type": {
+        "anime": {
+          "count": 3,
+          "sources": [
+            "Kinoger",
+            "Moflix",
+            "Movie2k"
+          ]
+        }
+      }
+    },
+    "xdfkenny": {
+      "types": [
+        "anime"
+      ],
+      "total_sources": 1,
+      "sources_by_type": {
+        "anime": {
+          "count": 1,
+          "sources": [
+            "AnimeJara"
+          ]
+        }
+      }
+    },
+    "emp0ry": {
+      "types": [
+        "anime"
+      ],
+      "total_sources": 7,
+      "sources_by_type": {
+        "anime": {
+          "count": 7,
+          "sources": [
+            "AniDub",
+            "AniLiberty",
+            "AnimeVost",
+            "OnWave",
+            "SameBand",
+            "ShizaProject",
+            "YummyAnime"
           ]
         }
       }
