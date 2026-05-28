@@ -54,7 +54,7 @@
       "icon": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg",
       "url": "https://github.com/MXFia19"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "Multi",
     "streamType": "hls",
     "quality": "1080p",
@@ -67,7 +67,7 @@
     "softsub": false,
     "supportsSora": true,
     "supportsLuna": false,
-    "changelog": "mise a jour du lien"
+    "changelog": ""
   },
   {
     "sourceName": "Twitch NoSub",

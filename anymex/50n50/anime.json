@@ -1,17 +1,17 @@
 [
   {
     "sourceName": "123Anime",
-    "iconUrl": "https://123animes.ru/assets/favicons/apple-touch-icon.png",
+    "iconUrl": "https://123animehub.cc/assets/favicons/apple-touch-icon.png",
     "author": {
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "English (DUB/HARDSUB)",
     "streamType": "HLS",
     "quality": "1080p",
-    "baseUrl": "https://play.shipimagesbolt.online/",
-    "searchBaseUrl": "https://play.shipimagesbolt.online/",
+    "baseUrl": "https://123animehub.cc/",
+    "searchBaseUrl": "https://123animehub.cc/",
     "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/123anime/123anime.js",
     "type": "anime",
     "asyncJS": true,
@@ -23,30 +23,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "1Movies",
-    "iconUrl": "https://1movies.bz/assets/uploads/675b5c22f2829fc8e3a4030af7f4284acad017e5241280b3dc21.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.2.5",
-    "language": "English",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://animekai.to/",
-    "searchBaseUrl": "https://1movies.bz/home",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/1movies/1movies.js",
-    "type": "shows/movies",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "1TamilCrow",
@@ -55,7 +33,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "Tamil",
     "streamType": "HLS",
     "quality": "1080p",
@@ -72,7 +50,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AK.SV",
@@ -81,7 +60,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.5",
+    "version": "1.0.6",
     "language": "Arabic (SUB)",
     "streamType": "MP4",
     "quality": "1080p",
@@ -102,7 +81,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "language": "Greek",
     "streamType": "HLS",
     "encrypted": true,
@@ -120,33 +99,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "AniCrush",
-    "iconUrl": "https://pbs.twimg.com/profile_images/1734825444543733760/dFCwrelN_400x400.jpg",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.1",
-    "language": "English (DUB/SUB)",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://megacloud.blog/",
-    "searchBaseUrl": "https://megacloud.blog/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/anicrush/anicrush.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": true,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AniHQ",
@@ -155,7 +109,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
@@ -172,33 +126,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "Anime-Sama",
-    "iconUrl": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/autres/logo_icon.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.1.1",
-    "language": "French",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://anime-sama.fr/",
-    "searchBaseUrl": "https://anime-sama.fr/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/anime-sama/anime-sama.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": false,
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimeAV1",
@@ -225,30 +154,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "AnimeBalkan",
-    "iconUrl": "https://i.ibb.co/7tRnVMqY/favicon.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.0",
-    "language": "Croatian",
-    "streamType": "MP4",
-    "quality": "720p",
-    "baseUrl": "https://animebalkan.org//",
-    "searchBaseUrl": "https://animebalkan.org/?s=%s",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animebalkan/animebalkan.js",
-    "type": "anime",
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimeDefenders",
@@ -257,7 +164,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.4",
+    "version": "1.0.5",
     "language": "English (SUB)",
     "streamType": "HLS",
     "quality": "1080p",
@@ -274,7 +181,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimeGG",
@@ -300,7 +208,8 @@
     "supportsDartotsu": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimeHeaven",
@@ -309,7 +218,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.7",
+    "version": "1.0.8",
     "language": "English (SUB)",
     "streamType": "HLS",
     "quality": "720p",
@@ -325,140 +234,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "AnimeIndo",
-    "iconUrl": "https://animeindo.skin/favicon/favicon-32x32.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.0",
-    "language": "Indonesian",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://animeindo.skin/home",
-    "searchBaseUrl": "https://animeindo.skin/home",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animeindo/animeindo.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "AnimeKai",
-    "iconUrl": "https://apktodo.io/uploads/2025/5/animekai-icon.jpg",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.4",
-    "language": "English",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://animekai.to/",
-    "searchBaseUrl": "https://animekai.to/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animekai/animekai.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": false,
-    "downloadSupport": true,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "AnimeKai (Dub)",
-    "iconUrl": "https://apktodo.io/uploads/2025/5/animekai-icon.jpg",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.1.7",
-    "language": "English",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://animekai.to/",
-    "searchBaseUrl": "https://animekai.to/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animekai/dub/animekai.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": false,
-    "downloadSupport": true,
-    "note": "Make sure you're on the latest version of Sora.",
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "AnimeKai (Hardsub)",
-    "iconUrl": "https://apktodo.io/uploads/2025/5/animekai-icon.jpg",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.1.6",
-    "language": "English",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://animekai.to/",
-    "searchBaseUrl": "https://animekai.to/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animekai/hardsub/animekai.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": false,
-    "downloadSupport": true,
-    "note": "Make sure you're on the latest version of Sora.",
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "AnimeKai Arabic",
-    "iconUrl": "https://apktodo.io/uploads/2025/5/animekai-icon.jpg",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.1",
-    "language": "Arabic",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://animekai.to/",
-    "searchBaseUrl": "https://animekai.to/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animekai/arabic/animekai.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": true,
-    "note": "Make sure you're on the latest version of Sora.",
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimeKhor",
@@ -484,7 +261,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimeLand",
@@ -510,33 +288,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "Animeler",
-    "iconUrl": "https://animeler.pw/wp-content/uploads/cropped-animelerpw-224x224.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.1",
-    "language": "Turkish",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://animeler.pw/",
-    "searchBaseUrl": "https://animeler.pw/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animeler/animeler.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": true,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimeLib",
@@ -545,7 +298,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.4",
+    "version": "1.0.5",
     "language": "Russian",
     "streamType": "MP4 & HLS",
     "quality": "4K",
@@ -562,59 +315,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "AnimeNana",
-    "iconUrl": "https://animenana.com/favicon.ico",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.1",
-    "language": "English (Hardsub)",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://animenana.com/",
-    "searchBaseUrl": "https://animenana.com/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animenana/animenana.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": false,
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "AnimeNix",
-    "iconUrl": "https://i3.wp.com/animenix.com/wp-content/uploads/2024/11/cropped-favicon-1-192x192.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.0",
-    "language": "Spanish (DUB/SUB)",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://www.yourupload.com/",
-    "searchBaseUrl": "https://www.yourupload.com/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animenix/animenix.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": false,
-    "downloadSupport": true,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimeNoSub",
@@ -623,7 +325,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.4",
+    "version": "1.0.5",
     "language": "English (SUB/DUB)",
     "streamType": "HLS",
     "quality": "1080p",
@@ -638,7 +340,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimePahe",
@@ -647,7 +350,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.3",
+    "version": "1.0.4",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
@@ -664,31 +367,8 @@
     "supportsDartotsu": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "AnimeSaturn",
-    "iconUrl": "https://www.animesaturn.cx/immagini/apple-touch-icon.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.0",
-    "language": "Italian (SUB)",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://www.animesaturn.cx/",
-    "searchBaseUrl": "https://www.animesaturn.cx/?q=%s",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animesaturn/animesaturn.js",
-    "asyncJS": true,
-    "type": "anime",
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimesDigital",
@@ -714,7 +394,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimeSRBIJA",
@@ -738,7 +419,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimeToast",
@@ -762,7 +444,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "Animetsu",
@@ -771,7 +454,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "3.0.1",
+    "version": "3.0.2",
     "language": "English (DUB/SUB)",
     "streamType": "HLS",
     "quality": "1080p",
@@ -789,7 +472,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimeUnity",
@@ -813,7 +497,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimeWeek",
@@ -822,7 +507,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.8",
+    "version": "1.0.9",
     "language": "Korean",
     "streamType": "HLS",
     "quality": "1080p",
@@ -839,7 +524,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimeWorld",
@@ -864,7 +550,8 @@
     "downloadSupport": false,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AnimeXin",
@@ -890,33 +577,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "Animez",
-    "iconUrl": "https://files.catbox.moe/gnkywd.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.0",
-    "language": "English (Hardsub)",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://animeyy.com/",
-    "searchBaseUrl": "https://animeyy.com/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animez/animez.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": false,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AniTube",
@@ -925,7 +587,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "Portuguese",
     "streamType": "HLS",
     "quality": "1080p",
@@ -942,33 +604,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "AniWatch",
-    "iconUrl": "https://aniwatchtv.to/apple-touch-icon.png?v=0.1",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.0",
-    "language": "English (DUB/SUB)",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://megacloud.blog/",
-    "searchBaseUrl": "https://bshar1865-hianime.vercel.app/api/v2/hianime/search?q=%s",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/aniwatch/aniwatch.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": true,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AniWorld (ENG SUB)",
@@ -995,7 +632,8 @@
     "supportsSoru": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AniWorld (GER DUB)",
@@ -1022,7 +660,8 @@
     "supportsSoru": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AniWorld (GER SUB)",
@@ -1049,7 +688,8 @@
     "supportsSoru": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "AniWorld (Local Test)",
@@ -1072,7 +712,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "Anoboye",
@@ -1098,30 +739,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "Ashi (あし) - Literally Everything",
-    "iconUrl": "https://files.catbox.moe/ptq3a5.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.3.3",
-    "language": "English",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://animekai.to/",
-    "searchBaseUrl": "https://animekai.to/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/ashi/ashi.js",
-    "type": "anime/movies/shows",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "Asia2TV",
@@ -1130,7 +749,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "Arabic",
     "streamType": "HLS",
     "quality": "1080p",
@@ -1153,7 +772,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "French",
     "streamType": "HLS",
     "quality": "1080p",
@@ -1164,55 +783,6 @@
     "asyncJS": true,
     "softsub": false,
     "downloadSupport": false,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "CrimsonFanSubs",
-    "iconUrl": "https://i3.wp.com/crimsonfansubs.com/wp-content/uploads/2021/06/cropped-favicon-image-192x192.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.0",
-    "language": "Chinese",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://crimsonfansubs.com/",
-    "searchBaseUrl": "https://crimsonfansubs.com/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/crimsonfansubs/crimsonfansubs.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": false,
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "Cuevana3",
-    "iconUrl": "https://www.cuevana3.eu/apple-touch-icon.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.0",
-    "language": "Spanish (DUB/SUB)",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://www.cuevana3.eu/",
-    "searchBaseUrl": "https://www.cuevana3.eu/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/cuevana3/cuevana3.js",
-    "type": "shows/movies",
-    "asyncJS": true,
-    "softsub": false,
-    "downloadSupport": true,
     "supportsSora": true,
     "supportsLuna": true,
     "supportsTsumi": true,
@@ -1240,7 +810,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "DonghuaStream",
@@ -1266,53 +837,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "Dora-Video",
-    "iconUrl": "https://www.dora-video.cn/favicon.ico",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.5",
-    "language": "Chinese (DUB)",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://www.dora-video.cn/",
-    "searchBaseUrl": "https://www.dora-video.cn/search/%s",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/dora-video/dora-video.js",
-    "asyncJS": true,
-    "type": "anime",
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "FaselHD",
-    "iconUrl": "https://www.faselhds.xyz/wp-content/themes/faselhd_2020/images/favicon.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.2",
-    "language": "Arabic",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://www.faselhds.xyz/",
-    "searchBaseUrl": "https://www.faselhds.xyz/?s=%s",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/faselhd/faselhd.js",
-    "type": "shows/movies/anime",
-    "asyncJS": true,
-    "downloadSupport": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "Filmpalast",
@@ -1359,7 +885,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "FireAnime English (SUB)",
@@ -1383,7 +910,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "FireAnime SUB",
@@ -1407,7 +935,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "HDFilme",
@@ -1416,7 +945,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "German",
     "streamType": "HLS",
     "quality": "1080p",
@@ -1427,78 +956,6 @@
     "asyncJS": true,
     "softsub": false,
     "downloadSupport": false,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "Hexa",
-    "iconUrl": "https://files.catbox.moe/8ua0ls.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.9",
-    "language": "English",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://hexa.watch/",
-    "searchBaseUrl": "https://hexa.watch/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/hexa/hexa.js",
-    "type": "shows/movies/anime",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": false,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "HiAnime",
-    "iconUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/hianime/iconapp.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "4.1.0",
-    "language": "English (DUB/SUB)",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://megacloud.blog/",
-    "searchBaseUrl": "https://bshar1865-hianime.vercel.app/api/v2/hianime/search?q=%s",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/hianime/hianime.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": true,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "HiMovies",
-    "iconUrl": "https://himovies.sx/images/group_1/theme_1/favicon.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.1",
-    "language": "English",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://himovies.sx/",
-    "searchBaseUrl": "https://himovies.sx/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/himovies/himovies.js",
-    "type": "movies/shows",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": true,
     "supportsSora": true,
     "supportsLuna": true,
     "supportsTsumi": true,
@@ -1529,79 +986,30 @@
     "supportsHiyoku": true
   },
   {
-    "sourceName": "Kaido",
-    "iconUrl": "https://kaido.to/images/favicon.png?v=0.1",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "3.0.2",
-    "language": "English (SUB)",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://rapid-cloud.co/",
-    "searchBaseUrl": "https://rapid-cloud.co/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/kaido/kaido.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": true,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
+    "id": "BCsU3",
     "sourceName": "Kawaiifu",
     "iconUrl": "https://kawaiifu.com/wp-content/uploads/2018/05/Kawaiifu_favicon.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
     "version": "1.0.0",
     "language": "English (DUB/SUB)",
     "streamType": "mp4",
     "quality": "1080p",
     "baseUrl": "https://kawaiifu.com/",
-    "searchBaseUrl": "https://kawaiifu.com/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/kawaiifu/kawaiifu.js",
-    "type": "animes",
-    "asyncJS": true,
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/kawaiifu/kawaiifu.js",
     "softsub": false,
+    "manifestUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/kawaiifu/kawaiifu.json",
+    "status": "active",
+    "addedAt": "2025-08-22 20:27:30",
+    "installCount": 188,
+    "type": "animes",
+    "note": "",
+    "recommendation": 0,
     "downloadSupport": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "KickAssAnimes",
-    "iconUrl": "https://files.catbox.moe/qh522x.png",
+    "combo": false,
+    "featured": 0,
     "author": {
       "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.1",
-    "language": "English",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://kickass-anime.ro/",
-    "searchBaseUrl": "https://kickass-anime.ro/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/kickassanimes/kickassanimes.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": false,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&amp;s"
+    }
   },
   {
     "sourceName": "KimCartoon",
@@ -1672,7 +1080,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "LuciferDonghua",
@@ -1698,7 +1107,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "Monoschinos2",
@@ -1707,7 +1117,7 @@
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "Spanish (DUB/SUB)",
     "streamType": "HLS",
     "quality": "1080p",
@@ -1724,7 +1134,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "Nimegami",
@@ -1750,7 +1161,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "Nivod",
@@ -1793,29 +1205,6 @@
     "asyncJS": true,
     "softsub": true,
     "downloadSupport": false,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "PoseidonHD2",
-    "iconUrl": "https://www.poseidonhd2.co/apple-touch-icon.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.0",
-    "language": "Spanish (DUB/SUB)",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://poseidonhd2.co/",
-    "searchBaseUrl": "https://poseidonhd2.co/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/poseidonhd2/poseidonhd2.js",
-    "type": "shows/movies",
-    "asyncJS": true,
-    "softsub": false,
-    "downloadSupport": true,
     "supportsSora": true,
     "supportsLuna": true,
     "supportsTsumi": true,
@@ -1891,7 +1280,8 @@
     "supportsDartotsu": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "StreamingUnity",
@@ -1914,72 +1304,6 @@
     "downloadSupport": false,
     "supportsTsumi": true,
     "supportsHiyoku": true
-  },
-  {
-    "sourceName": "Tidal",
-    "iconUrl": "https://images.icon-icons.com/2429/PNG/512/tidal_logo_icon_147227.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.1",
-    "language": "Music",
-    "streamType": "mp4",
-    "quality": "Lossless",
-    "baseUrl": "https://tidal.com/",
-    "searchBaseUrl": "https://tidal.com/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/tidal/tidal.js",
-    "asyncJS": true,
-    "softsub": true,
-    "type": "anime/movies/shows",
-    "downloadSupport": false,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "Tiktok",
-    "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrZd7mszoX8inKkbUKb6ffie8YF2-c00RL7w&s",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.0",
-    "language": "English",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://www.google.com/",
-    "searchBaseUrl": "https://www.google.com/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/tiktok/tiktok.js",
-    "type": "anime/movies/shows",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "TokyoInsider",
-    "iconUrl": "https://files.catbox.moe/0c4r1z.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.0",
-    "language": "English",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://www.tokyoinsider.com/",
-    "searchBaseUrl": "https://www.tokyoinsider.com/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/tokyoinsider/tokyoinsider.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": true,
-    "supportsLuna": true
   },
   {
     "sourceName": "ToonTales",
@@ -2006,37 +1330,13 @@
     "supportsHiyoku": true
   },
   {
-    "sourceName": "TopStreamFilm",
-    "iconUrl": "https://www.topstreamfilm.live/templates/topstreamfilm/images/cropped-topstreamIcon-192x192.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.1",
-    "language": "German",
-    "streamType": "HLS",
-    "encrypted": true,
-    "quality": "1080p",
-    "baseUrl": "https://www.topstreamfilm.live/",
-    "searchBaseUrl": "https://www.topstreamfilm.live/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/topstreamfilm/topstreamfilm.js",
-    "type": "shows/movies",
-    "asyncJS": true,
-    "softsub": false,
-    "downloadSupport": false,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
     "sourceName": "Turkish123",
     "iconUrl": "https://hds.turkish123.com/wp-content/uploads/favicon.png",
     "author": {
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.0.6",
+    "version": "1.0.7",
     "language": "Turkish",
     "streamType": "HLS",
     "quality": "8K UHD",
@@ -2052,62 +1352,13 @@
     "supportsHiyoku": true
   },
   {
-    "sourceName": "VerAnimes",
-    "iconUrl": "https://wwv.veranimes.net/cdn/img/favicon.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.1",
-    "language": "Spanish",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://wwv.veranimes.net/",
-    "searchBaseUrl": "https://wwv.veranimes.net/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/veranimes/veranimes.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": false,
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "Veziseriale",
-    "iconUrl": "https://www3.veziseriale.org/wp-content/uploads/2019/12/popcorn-152-295665.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.0",
-    "language": "Romanian",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://www3.veziseriale.org//",
-    "searchBaseUrl": "https://www3.veziseriale.org/?s=",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/veziseriale/veziseriale.js",
-    "type": "shows/movies",
-    "asyncJS": true,
-    "softsub": false,
-    "downloadSupport": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
     "sourceName": "VidEasy",
     "iconUrl": "https://www.videasy.net/logo.png",
     "author": {
       "name": "50/50",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
     },
-    "version": "1.1.2",
+    "version": "1.1.4",
     "language": "English",
     "streamType": "HLS",
     "quality": "4K",
@@ -2193,34 +1444,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "WitAnime",
-    "iconUrl": "https://witanime.red/wp-content/uploads/2023/08/cropped-Logo-WITU-192x192.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.0",
-    "language": "Arabic",
-    "streamType": "HLS/MP4",
-    "encrypted": true,
-    "quality": "1080p",
-    "baseUrl": "https://mp4upload.com/",
-    "searchBaseUrl": "https://mp4upload.com/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/witanime/witanime.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": false,
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "supportsShirox": true
   },
   {
     "sourceName": "XiaoXintv",
@@ -2236,29 +1461,6 @@
     "baseUrl": "https://xiaoxintv.cc/",
     "searchBaseUrl": "https://xiaoxintv.cc/",
     "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/xiaoxintv/xiaoxintv.js",
-    "type": "anime/movies/shows",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": false,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true
-  },
-  {
-    "sourceName": "YouTube",
-    "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/YouTube_social_red_circle_%282017%29.svg/2048px-YouTube_social_red_circle_%282017%29.svg.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "version": "1.0.1",
-    "language": "English",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://www.youtube.com/",
-    "searchBaseUrl": "https://www.youtube.com/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/youtube/youtube.js",
     "type": "anime/movies/shows",
     "asyncJS": true,
     "softsub": true,
