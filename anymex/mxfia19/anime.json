@@ -113,7 +113,7 @@
   },
   {
     "sourceName": "Movix",
-    "iconUrl": "https://movix.health/movix.png",
+    "iconUrl": "https://movix.online/movix.png",
     "author": {
       "name": "MXFia19",
       "icon": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg",
@@ -123,7 +123,7 @@
     "language": "French",
     "streamType": "HLS/MP4",
     "quality": "1080p",
-    "baseUrl": "https://movix.cash/",
+    "baseUrl": "https://movix.cloud/",
     "searchBaseUrl": "https://api.themoviedb.org/3/search/",
     "scriptUrl": "https://gitlab.com/mxfia19-group/module-sora/-/raw/main/movix/movix.js",
     "type": "anime/shows/movies",
