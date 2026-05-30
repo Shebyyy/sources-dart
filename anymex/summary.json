@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 224,
-    "files_processed": 230,
+    "files_found": 225,
+    "files_processed": 231,
     "files_failed": 0,
     "api_added": 6
   },
@@ -265,10 +265,10 @@
         "novels",
         "other"
       ],
-      "total_sources": 78,
+      "total_sources": 79,
       "sources_by_type": {
         "anime": {
-          "count": 58,
+          "count": 59,
           "sources": [
             "123Anime",
             "1TamilCrow",
@@ -317,6 +317,7 @@
             "Nimegami",
             "Nivod",
             "OneTouch TV",
+            "Otaku-Streamers",
             "s.to (ENG DUB)",
             "s.to (GER DUB)",
             "Senshi",

@@ -1211,6 +1211,33 @@
     "supportsHiyoku": true
   },
   {
+    "sourceName": "Otaku-Streamers",
+    "iconUrl": "https://files.catbox.moe/alcwg2.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English (Hardsub)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://beta.otaku-streamers.com/",
+    "searchBaseUrl": "https://beta.otaku-streamers.com/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/otaku-streamers/otaku-streamers.js",
+    "type": "anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsMojuru": true,
+    "supportsDartotsu": true,
+    "supportsAnymex": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true,
+    "supportsShirox": true
+  },
+  {
     "sourceName": "s.to (ENG DUB)",
     "iconUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/s.to/sto.png",
     "author": {
