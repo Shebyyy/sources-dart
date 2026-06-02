@@ -581,6 +581,60 @@
     "supportsShirox": true
   },
   {
+    "sourceName": "AniNeko",
+    "iconUrl": "https://files.catbox.moe/6tgiww.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://anineko.to/",
+    "searchBaseUrl": "https://anineko.to/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/anineko/anineko.js",
+    "type": "anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "supportsMojuru": true,
+    "supportsDartotsu": true,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsAnymex": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true,
+    "supportsShirox": true
+  },
+  {
+    "sourceName": "AniStream",
+    "iconUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/anistream/icon.png",
+    "author": {
+      "name": "Sheby",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV5QZYcWJtmyE3PvSxaJQao_vIGclDxn1Iv6UceLljBQ&s=10"
+    },
+    "version": "1.0.4",
+    "language": "Multi-Language",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://anistream.one/",
+    "searchBaseUrl": "https://graphql.animex.one/graphql",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/anistream/anistream.js",
+    "type": "anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsDartotsu": true,
+    "supportsMojuru": true,
+    "supportsAnymex": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true,
+    "supportsShirox": true
+  },
+  {
     "sourceName": "AniTube",
     "iconUrl": "https://www.anitube.news/wp-content/uploads/cropped-Favicon6-192x192.png",
     "author": {
@@ -1082,6 +1136,29 @@
     "supportsTsumi": true,
     "supportsHiyoku": true,
     "supportsShirox": true
+  },
+  {
+    "sourceName": "LordFlix",
+    "iconUrl": "https://lordflix.org/mstile-150x150.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "4K",
+    "baseUrl": "https://lordflix.org/",
+    "searchBaseUrl": "https://lordflix.org/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/lordflix/lordflix.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
     "sourceName": "LuciferDonghua",

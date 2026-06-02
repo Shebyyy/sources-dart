@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 225,
-    "files_processed": 231,
+    "files_found": 228,
+    "files_processed": 234,
     "files_failed": 0,
     "api_added": 6
   },
@@ -265,10 +265,10 @@
         "novels",
         "other"
       ],
-      "total_sources": 79,
+      "total_sources": 82,
       "sources_by_type": {
         "anime": {
-          "count": 59,
+          "count": 62,
           "sources": [
             "123Anime",
             "1TamilCrow",
@@ -292,6 +292,8 @@
             "AnimeWeek",
             "AnimeWorld",
             "AnimeXin",
+            "AniNeko",
+            "AniStream",
             "AniTube",
             "AniWorld (ENG SUB)",
             "AniWorld (GER DUB)",
@@ -312,6 +314,7 @@
             "KimCartoon",
             "Kisskh",
             "LmAnime",
+            "LordFlix",
             "LuciferDonghua",
             "Monoschinos2",
             "Nimegami",
