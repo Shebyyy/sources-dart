@@ -32,24 +32,9 @@
   {
     "sourceName": "MangaBuddy",
     "iconURL": "https://mangabuddy.com/static/sites/mangabuddy/icons/apple-touch-icon.png",
-    "version": "1.0",
+    "version": "2.0",
     "language": "English",
     "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangabuddy/mangabuddy.js",
-    "author": {
-      "name": "50/50",
-      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
-    },
-    "type": "mangas",
-    "supportsDartotsu": true,
-    "supportsLuna": true,
-    "supportsAnymex": true
-  },
-  {
-    "sourceName": "MangaCloud",
-    "iconURL": "https://files.catbox.moe/v73ujk.png",
-    "version": "1.0",
-    "language": "English",
-    "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangacloud/mangacloud.js",
     "author": {
       "name": "50/50",
       "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
