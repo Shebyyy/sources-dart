@@ -1,18 +1,180 @@
 {
   "output_root": "/home/runner/work/sources-dart/sources-dart/anymex",
-  "total_repositories": 11,
+  "total_repositories": 10,
   "canonical_types": [
     "anime",
+    "manga",
     "novels",
     "other"
   ],
   "statistics": {
-    "files_found": 17,
-    "files_processed": 137,
+    "files_found": 230,
+    "files_processed": 235,
     "files_failed": 0,
-    "api_added": 120
+    "api_added": 5
   },
   "repositories": {
+    "ibro": {
+      "types": [
+        "anime",
+        "novels"
+      ],
+      "total_sources": 112,
+      "sources_by_type": {
+        "anime": {
+          "count": 109,
+          "sources": [
+            "111movies",
+            "AbleFlix",
+            "AllAnime",
+            "AniBunker",
+            "Anify",
+            "Anikoto",
+            "Anikuro",
+            "Anime-Portal",
+            "AnimeLIB (DUB - First Stream)",
+            "AnimeLIB (DUB - Studio Band)",
+            "AnimeLIB (DUB)",
+            "AnimeLIB (HardSUB - SubVost)",
+            "AnimeLIB (HardSUB - Ушастая)",
+            "AnimeLIB (SOFTSUB)",
+            "AnimeLIB (SUB - All Streams)",
+            "AnimeLIB (SUB - First Stream)",
+            "Animepahe",
+            "Animepahe (DUB)",
+            "Animepahe (SUB)",
+            "AnimeStars",
+            "Animex",
+            "Animex (DUB)",
+            "Animex (SUB)",
+            "AnimeZ",
+            "Aniwave",
+            "Aniwave (SCRAPER)",
+            "Anizone",
+            "ArabicToons",
+            "Autoembed",
+            "Bingeflix",
+            "Black Clover Pace",
+            "Borucut",
+            "CinemaDeck",
+            "CinemaDeck 2",
+            "Cinepulse",
+            "City Sonic",
+            "Concentrated Bleach",
+            "DBZ Recut",
+            "Development",
+            "Dragon Ball Recut",
+            "Dragon Ball Super: Ultra Instinct Cut",
+            "DRAMA COOL",
+            "FlickyStream",
+            "FRAnime",
+            "Frembed (Movies)",
+            "GidOnline",
+            "HD Today",
+            "HDRezka",
+            "Hexa",
+            "HopCorn+",
+            "Jut.su",
+            "KDramaHood (BROKEN)",
+            "Kepala Bergetar 4",
+            "Kepala Bergetar 9",
+            "KinoGer",
+            "KissAssAnime",
+            "KissKH",
+            "Kuudere",
+            "Let's Stream",
+            "LUNAR",
+            "Lycoris Cafe",
+            "Mokmobi (BROKEN)",
+            "Movies7.im",
+            "MovieZone (BROKEN)",
+            "Movix",
+            "MyFlixer",
+            "Narucannon",
+            "Net3lix",
+            "One Pace",
+            "One Pace (French)",
+            "One Pace (Spanish)",
+            "One Piece Film Red: AmaLee Score",
+            "One Piece Treasure Edition",
+            "Onigashima Paced",
+            "Otakuu",
+            "Peak",
+            "Purstream",
+            "Rama Oriental Fansub",
+            "Rebuild of Naruto",
+            "RGShows",
+            "RistoAnime",
+            "Rive",
+            "RuMov",
+            "SFlix",
+            "SpacePowerFans",
+            "StreamCloud",
+            "Sudatchi",
+            "Sunduq",
+            "Tanime",
+            "ToonAnime",
+            "TopCinema",
+            "UASERIAL",
+            "VidAPI",
+            "VidFast",
+            "Vidify",
+            "VidLink",
+            "Vidnest",
+            "Vidrock",
+            "VidSrc",
+            "VidSrc.cc",
+            "Vidzee",
+            "VixSrc",
+            "WaveWatch",
+            "WTFlix",
+            "WTFlix - Animepahe",
+            "WTFlix - EmbedSU",
+            "XPrime",
+            "Yu Yu Hakusho Pace",
+            "Yummy Anime (Clone - SovetRomantica)"
+          ]
+        },
+        "novels": {
+          "count": 3,
+          "sources": [
+            "NovelBuddy",
+            "NovelDot",
+            "NovelFire"
+          ]
+        }
+      }
+    },
+    "cufiy": {
+      "types": [
+        "anime",
+        "other"
+      ],
+      "total_sources": 11,
+      "sources_by_type": {
+        "anime": {
+          "count": 8,
+          "sources": [
+            "Anime Base (DUB)",
+            "Anime Base (ENG SUB)",
+            "Anime Base (SUB)",
+            "AniWorld (ENG SUB)",
+            "AniWorld (GER DUB)",
+            "AniWorld (GER SUB)",
+            "Filmpalast",
+            "Latanime"
+          ]
+        },
+        "other": {
+          "count": 3,
+          "sources": [
+            "Catflix (Website Down)",
+            "Moflix",
+            "RGShows"
+          ]
+        }
+      }
+    },
     "mxfia19": {
       "types": [
         "anime",
@@ -76,167 +238,6 @@
         }
       }
     },
-    "50n50": {
-      "types": [
-        "anime",
-        "novels",
-        "other"
-      ],
-      "total_sources": 61,
-      "sources_by_type": {
-        "anime": {
-          "count": 54,
-          "sources": [
-            "123Anime",
-            "1TamilCrow",
-            "AK.SV",
-            "An1me",
-            "AniHQ",
-            "AnimeAV1",
-            "AnimeDefenders",
-            "AnimeGG",
-            "AnimeHeaven",
-            "AnimeKhor",
-            "AnimeLand",
-            "AnimeLib",
-            "AnimeNoSub",
-            "AnimePahe",
-            "AnimesDigital",
-            "AnimeSRBIJA",
-            "Animetsu",
-            "AnimeUnity",
-            "AnimeVerse",
-            "AnimeWeek",
-            "AnimeWorld",
-            "AnimeXin",
-            "AniNeko",
-            "AniStream",
-            "AniTube",
-            "Anoboye",
-            "Asia2TV",
-            "CoFlix",
-            "DonghuaStream",
-            "FireAnime DUB",
-            "FireAnime English (SUB)",
-            "FireAnime SUB",
-            "HDFilme",
-            "IPTV-org",
-            "Kawaiifu",
-            "KimCartoon",
-            "Kisskh",
-            "LmAnime",
-            "LordFlix",
-            "LuciferDonghua",
-            "Monoschinos2",
-            "Nimegami",
-            "Nivod",
-            "OneTouch TV",
-            "Otaku-Streamers",
-            "s.to (GER DUB)",
-            "Senshi",
-            "StreamingUnity",
-            "ToonTales",
-            "Turkish123",
-            "VidEasy",
-            "VidFast",
-            "VidLink",
-            "XiaoXintv"
-          ]
-        },
-        "novels": {
-          "count": 6,
-          "sources": [
-            "ChiReads",
-            "LnCrawler",
-            "NovelBin",
-            "NovelNext",
-            "ReadNovelFull",
-            "ReadNovels"
-          ]
-        },
-        "other": {
-          "count": 1,
-          "sources": [
-            "HDRezka"
-          ]
-        }
-      }
-    },
-    "ylruhc": {
-      "types": [
-        "anime"
-      ],
-      "total_sources": 1,
-      "sources_by_type": {
-        "anime": {
-          "count": 1,
-          "sources": [
-            "AllAnime(Default)"
-          ]
-        }
-      }
-    },
-    "ibro": {
-      "types": [
-        "anime",
-        "novels"
-      ],
-      "total_sources": 42,
-      "sources_by_type": {
-        "anime": {
-          "count": 40,
-          "sources": [
-            "AniBunker",
-            "Anify",
-            "Anikoto",
-            "Anikuro",
-            "Anime-Portal",
-            "Animepahe",
-            "Animepahe (DUB)",
-            "Animepahe (SUB)",
-            "Animex",
-            "Animex (DUB)",
-            "Animex (SUB)",
-            "Aniwave",
-            "Anizone",
-            "ArabicToons",
-            "Black Clover Pace",
-            "Borucut",
-            "Concentrated Bleach",
-            "DBZ Recut",
-            "Dragon Ball Recut",
-            "DRAMA COOL",
-            "FlickyStream",
-            "KissKH",
-            "Lycoris Cafe",
-            "Narucannon",
-            "One Pace",
-            "One Pace (French)",
-            "One Pace (Spanish)",
-            "One Piece Film Red: AmaLee Score",
-            "One Piece Treasure Edition",
-            "Onigashima Paced",
-            "Rama Oriental Fansub",
-            "Rebuild of Naruto",
-            "RistoAnime",
-            "Rive",
-            "SpacePowerFans",
-            "StreamCloud",
-            "Sunduq",
-            "VidLink",
-            "Vidrock",
-            "Yu Yu Hakusho Pace"
-          ]
-        },
-        "novels": {
-          "count": 2,
-          "sources": [
-            "NovelBuddy",
-            "NovelFire"
-          ]
-        }
-      }
-    },
     "emp0ry": {
       "types": [
         "anime"
@@ -257,20 +258,117 @@
         }
       }
     },
-    "cufiy": {
+    "50n50": {
       "types": [
-        "anime"
+        "anime",
+        "manga",
+        "novels",
+        "other"
       ],
-      "total_sources": 5,
+      "total_sources": 84,
       "sources_by_type": {
         "anime": {
-          "count": 5,
+          "count": 64,
           "sources": [
+            "123Anime",
+            "1TamilCrow",
+            "AK.SV",
+            "AllAnime",
+            "An1me",
+            "AniHQ",
+            "AnimeAV1",
+            "AnimeDefenders",
+            "AnimeGG",
+            "AnimeHeaven",
+            "AnimeKhor",
+            "AnimeLand",
+            "AnimeLib",
+            "AnimeNoSub",
+            "AnimePahe",
+            "AnimesDigital",
+            "AnimeSRBIJA",
+            "AnimeToast",
+            "Animetsu",
+            "AnimeUnity",
+            "AnimeVerse",
+            "AnimeWeek",
+            "AnimeWorld",
+            "AnimeXin",
+            "AniNeko",
+            "AniStream",
+            "AniTube",
             "AniWorld (ENG SUB)",
             "AniWorld (GER DUB)",
             "AniWorld (GER SUB)",
+            "AniWorld (Local Test)",
+            "Anoboye",
+            "Asia2TV",
+            "CoFlix",
+            "Development",
+            "DonghuaStream",
             "Filmpalast",
-            "Latanime"
+            "FireAnime DUB",
+            "FireAnime English (SUB)",
+            "FireAnime SUB",
+            "HDFilme",
+            "IPTV-org",
+            "Kawaiifu",
+            "KimCartoon",
+            "Kisskh",
+            "LmAnime",
+            "LordFlix",
+            "LuciferDonghua",
+            "Monoschinos2",
+            "Nimegami",
+            "Nivod",
+            "OneTouch TV",
+            "Otaku-Streamers",
+            "s.to (ENG DUB)",
+            "s.to (GER DUB)",
+            "Senshi",
+            "StreamingUnity",
+            "ToonTales",
+            "Turkish123",
+            "VidEasy",
+            "VidFast",
+            "VidLink",
+            "WatchAnimeWorld",
+            "XiaoXintv"
+          ]
+        },
+        "manga": {
+          "count": 12,
+          "sources": [
+            "Comix",
+            "KaliScan",
+            "MangaBuddy",
+            "MangaDex",
+            "MangaFire",
+            "MangaFreak",
+            "MangaKatana",
+            "MangaPark",
+            "MangaPub",
+            "MangaTaro",
+            "RumanHua1",
+            "WeebCentral"
+          ]
+        },
+        "novels": {
+          "count": 6,
+          "sources": [
+            "ChiReads",
+            "LnCrawler",
+            "NovelBin",
+            "NovelNext",
+            "ReadNovelFull",
+            "ReadNovels"
+          ]
+        },
+        "other": {
+          "count": 2,
+          "sources": [
+            "HDRezka",
+            "Public Domain in the US"
           ]
         }
       }

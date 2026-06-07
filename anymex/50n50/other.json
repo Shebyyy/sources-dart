@@ -1,28 +1,47 @@
 [
   {
-    "id": "jD7Cl",
     "sourceName": "HDRezka",
     "iconUrl": "https://rezka.ag/apple-touch-icon-144.png",
-    "version": "1.0.0",
-    "language": "Russian",
-    "streamType": "MP4 &amp; HLS",
-    "quality": "4K",
-    "baseUrl": "https://rezka.ag",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/hdrezka/hdrezka.js",
-    "softsub": true,
-    "manifestUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/hdrezka/hdrezka.json",
-    "status": "active",
-    "addedAt": "2026-06-03 18:43:40",
-    "installCount": 0,
-    "type": "movies/shows/anime",
-    "note": "",
-    "recommendation": 0,
-    "downloadSupport": true,
-    "combo": false,
-    "featured": 0,
     "author": {
       "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&amp;s"
-    }
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "Russian",
+    "streamType": "MP4 & HLS",
+    "quality": "4K",
+    "baseUrl": "https://rezka.ag",
+    "searchBaseUrl": "https://rezka.ag",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/hdrezka/hdrezka.js",
+    "type": "movies/shows/anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": true,
+    "supportsMojuru": true,
+    "supportsDartotsu": true,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsAnymex": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true,
+    "supportsShirox": true
+  },
+  {
+    "sourceName": "Public Domain in the US",
+    "iconUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/wikipedia/wikipedia-logo.png",
+    "author": {
+      "name": "Sulfur",
+      "icon": "https://git.luna-app.eu/50n50/sources/raw/branch/main/asset.png"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://en.wikipedia.org/wiki/List_of_films_in_the_public_domain_in_the_United_States",
+    "searchBaseUrl": "https://en.wikipedia.org/wiki/List_of_films_in_the_public_domain_in_the_United_States",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/wikipedia/wikipedia.js",
+    "asyncJS": true,
+    "streamAsyncJS": false,
+    "supportsLuna": true
   }
 ]

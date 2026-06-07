@@ -1,158 +1,134 @@
 [
   {
-    "id": "ZoMo",
     "sourceName": "ChiReads",
     "iconUrl": "https://chireads.com/wp-content/uploads/2020/04/2020LOGO-2.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
     "version": "1.0.0",
     "language": "French",
     "streamType": "novels",
     "quality": "N/A",
     "baseUrl": "https://chireads.com/",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/chireads/chireads.js",
-    "softsub": false,
-    "manifestUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/chireads/chireads.json",
-    "status": "active",
-    "addedAt": "2025-07-24 11:00:22",
-    "installCount": 269,
+    "searchBaseUrl": "https://chireads.com/search/%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/chireads/chireads.js",
     "type": "novels",
-    "note": "",
-    "recommendation": 0,
-    "downloadSupport": "",
-    "combo": false,
-    "featured": 0,
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&amp;s"
-    }
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
-    "id": "jtEzf",
     "sourceName": "LnCrawler",
     "iconUrl": "https://files.catbox.moe/ec7bnh.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
     "version": "1.0.0",
     "language": "English",
     "streamType": "novels",
     "quality": "N/A",
     "baseUrl": "https://lncrawler.monster/",
+    "searchBaseUrl": "https://lncrawler.monster/",
     "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/lncrawler/lncrawler.js",
-    "softsub": false,
-    "manifestUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/lncrawler/lncrawler.json",
-    "status": "active",
-    "addedAt": "2026-03-14 11:36:43",
-    "installCount": 52,
     "type": "novels",
-    "note": "",
-    "recommendation": 0,
-    "downloadSupport": "",
-    "combo": false,
-    "featured": 0,
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&amp;s"
-    }
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
-    "id": "3liw",
     "sourceName": "NovelBin",
     "iconUrl": "https://novelbin.com/img/logo.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
     "version": "1.0.0",
     "language": "English",
     "streamType": "novels",
     "quality": "N/A",
     "baseUrl": "https://novelbin.com/",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/novelbin/novelbin.js",
-    "softsub": false,
-    "manifestUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/novelbin/novelbin.json",
-    "status": "active",
-    "addedAt": "2025-07-24 09:25:07",
-    "installCount": 550,
+    "searchBaseUrl": "https://novelbin.com/search/?wd=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/novelbin/novelbin.js",
     "type": "novels",
-    "note": "",
-    "recommendation": 0,
-    "downloadSupport": "",
-    "combo": false,
-    "featured": 0,
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&amp;s"
-    }
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
-    "id": "Zv28",
     "sourceName": "NovelNext",
     "iconUrl": "https://novelnext.dramanovels.io/img/logo.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
     "version": "1.0.0",
     "language": "English",
     "streamType": "novels",
     "quality": "N/A",
     "baseUrl": "https://novelnext.dramanovels.io",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/novelnext/novelnext.js",
-    "softsub": false,
-    "manifestUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/novelnext/novelnext.json",
-    "status": "active",
-    "addedAt": "2025-07-24 13:42:02",
-    "installCount": 410,
+    "searchBaseUrl": "https://novelnext.dramanovels.iosearch/%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/novelnext/novelnext.js",
     "type": "novels",
-    "note": "",
-    "recommendation": 0,
-    "downloadSupport": "",
-    "combo": false,
-    "featured": 0,
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&amp;s"
-    }
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
-    "id": "3JHD",
     "sourceName": "ReadNovelFull",
     "iconUrl": "https://readnovelfull.com/img/logo.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
     "version": "1.0.0",
     "language": "English",
     "streamType": "novels",
     "quality": "N/A",
     "baseUrl": "https://readnovelfull.com/",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/readnovelfull/readnovelfull.js",
-    "softsub": false,
-    "manifestUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/readnovelfull/readnovelfull.json",
-    "status": "active",
-    "addedAt": "2025-07-24 10:12:37",
-    "installCount": 505,
+    "searchBaseUrl": "https://readnovelfull.com/search/?wd=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/readnovelfull/readnovelfull.js",
     "type": "novels",
-    "note": "",
-    "recommendation": 0,
-    "downloadSupport": "",
-    "combo": false,
-    "featured": 0,
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&amp;s"
-    }
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   },
   {
-    "id": "sQsf",
     "sourceName": "ReadNovels",
     "iconUrl": "https://readnovel.eu/apple-touch-icon.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
     "version": "1.0.0",
     "language": "English",
     "streamType": "novels",
     "quality": "N/A",
     "baseUrl": "https://readnovel.eu/",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/readnovels/readnovels.js",
-    "softsub": false,
-    "manifestUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/readnovels/readnovels.json",
-    "status": "active",
-    "addedAt": "2025-07-23 15:29:13",
-    "installCount": 659,
+    "searchBaseUrl": "https://readnovel.eu/search/%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/readnovels/readnovels.js",
     "type": "novels",
-    "note": "",
-    "recommendation": 0,
-    "downloadSupport": "",
-    "combo": false,
-    "featured": 0,
-    "author": {
-      "name": "50/50",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&amp;s"
-    }
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true
   }
 ]
