@@ -1627,5 +1627,32 @@
     "supportsLuna": true,
     "supportsTsumi": true,
     "supportsHiyoku": true
+  },
+  {
+    "sourceName": "YummyAnime",
+    "iconUrl": "https://ru.yummyani.me/favicon.ico",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "Russian",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://ru.yummyani.me/",
+    "searchBaseUrl": "https://ru.yummyani.me/catalog?q=%s",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/yummyanime/yummyanime2.js",
+    "type": "anime",
+    "asyncJS": true,
+    "softsub": false,
+    "downloadSupport": false,
+    "supportsMojuru": true,
+    "supportsDartotsu": true,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsAnymex": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true,
+    "supportsShirox": true
   }
 ]

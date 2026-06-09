@@ -3,8 +3,8 @@
     "sourceName": "AniDub",
     "iconUrl": "https://anidub.org/templates/CinemaBlue/images/jutfun.png",
     "author": {
-      "name": "emp0ry",
-      "icon": "https://avatars.githubusercontent.com/u/64217088"
+      "name": "anonymous",
+      "icon": "https://git.luna-app.eu/avatars/11bb6ee2fdba48e70ee21594f4ac96344358be3bb9770732ba8c406b5cda98f0?size=512$0"
     },
     "version": "1.0.2",
     "language": "Russian",
@@ -12,7 +12,7 @@
     "quality": "4K",
     "baseUrl": "https://anidub.org/",
     "searchBaseUrl": "https://anidub.org/index.php?do=search&subaction=search&story=%s",
-    "scriptUrl": "https://git.luna-app.eu/emp0ry/sources/raw/branch/main/anidub/anidub.js",
+    "scriptUrl": "https://git.luna-app.eu/anonymous/sources/raw/branch/main/anidub/anidub.js",
     "asyncJS": true,
     "streamAsyncJS": true,
     "softsub": false,
@@ -27,8 +27,8 @@
     "sourceName": "AniLiberty",
     "iconUrl": "https://aniliberty.top/static/favicon-96x96.png",
     "author": {
-      "name": "emp0ry",
-      "icon": "https://avatars.githubusercontent.com/u/64217088"
+      "name": "anonymous",
+      "icon": "https://git.luna-app.eu/avatars/11bb6ee2fdba48e70ee21594f4ac96344358be3bb9770732ba8c406b5cda98f0?size=512$0"
     },
     "version": "1.0.6",
     "language": "Russian",
@@ -36,7 +36,7 @@
     "quality": "1080p",
     "baseUrl": "https://aniliberty.top/api/v1/",
     "searchBaseUrl": "https://aniliberty.top/api/v1/app/search/releases?query=%s",
-    "scriptUrl": "https://git.luna-app.eu/emp0ry/sources/raw/branch/main/aniliberty/aniliberty.js",
+    "scriptUrl": "https://git.luna-app.eu/anonymous/sources/raw/branch/main/aniliberty/aniliberty.js",
     "asyncJS": true,
     "streamAsyncJS": true,
     "softsub": false,
@@ -51,8 +51,8 @@
     "sourceName": "AnimeVost",
     "iconUrl": "https://git.luna-app.eu/emp0ry/sources/raw/branch/main/animevost/logo.png",
     "author": {
-      "name": "emp0ry",
-      "icon": "https://avatars.githubusercontent.com/u/64217088"
+      "name": "anonymous",
+      "icon": "https://git.luna-app.eu/avatars/11bb6ee2fdba48e70ee21594f4ac96344358be3bb9770732ba8c406b5cda98f0?size=512$0"
     },
     "version": "1.0.3",
     "language": "Russian",
@@ -60,7 +60,7 @@
     "quality": "720p",
     "baseUrl": "https://api.animevost.org/v1/",
     "searchBaseUrl": "https://api.animevost.org/v1/search?name=%s",
-    "scriptUrl": "https://git.luna-app.eu/emp0ry/sources/raw/branch/main/animevost/animevost.js",
+    "scriptUrl": "https://git.luna-app.eu/anonymous/sources/raw/branch/main/animevost/animevost.js",
     "asyncJS": true,
     "streamAsyncJS": false,
     "softsub": false,
@@ -72,11 +72,35 @@
     "supportsLuna": true
   },
   {
+    "sourceName": "HDRezka",
+    "iconUrl": "https://rezka.ag/favicon.ico",
+    "author": {
+      "name": "anonymous",
+      "icon": "https://git.luna-app.eu/avatars/11bb6ee2fdba48e70ee21594f4ac96344358be3bb9770732ba8c406b5cda98f0?size=512$0"
+    },
+    "version": "1.0.0",
+    "language": "Russian",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://rezka.ag",
+    "searchBaseUrl": "https://rezka.ag/search/?do=search&subaction=search&q=%s",
+    "scriptUrl": "https://git.luna-app.eu/anonymous/sources/raw/branch/main/hdrezka/hdrezka2.js",
+    "asyncJS": true,
+    "streamAsyncJS": true,
+    "softsub": true,
+    "type": "shows/movies/anime",
+    "downloadSupport": false,
+    "supportsMojuru": true,
+    "supportsDartotsu": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
     "sourceName": "OnWave",
     "iconUrl": "https://onwavedub.org/logo.png",
     "author": {
-      "name": "emp0ry",
-      "icon": "https://avatars.githubusercontent.com/u/64217088"
+      "name": "anonymous",
+      "icon": "https://git.luna-app.eu/avatars/11bb6ee2fdba48e70ee21594f4ac96344358be3bb9770732ba8c406b5cda98f0?size=512$0"
     },
     "version": "1.0.2",
     "language": "Russian",
@@ -84,7 +108,7 @@
     "quality": "1080p",
     "baseUrl": "https://onwavedub.org/api/v1",
     "searchBaseUrl": "https://onwavedub.org/api/v1/catalog?query=%s",
-    "scriptUrl": "https://git.luna-app.eu/emp0ry/sources/raw/branch/main/onwave/onwave.js",
+    "scriptUrl": "https://git.luna-app.eu/anonymous/sources/raw/branch/main/onwave/onwave.js",
     "asyncJS": true,
     "streamAsyncJS": true,
     "softsub": false,
@@ -99,8 +123,8 @@
     "sourceName": "SameBand",
     "iconUrl": "https://sameband.studio/templates/sameband/dleimages/favicon/touch-icon-ipad.png",
     "author": {
-      "name": "emp0ry",
-      "icon": "https://avatars.githubusercontent.com/u/64217088"
+      "name": "anonymous",
+      "icon": "https://git.luna-app.eu/avatars/11bb6ee2fdba48e70ee21594f4ac96344358be3bb9770732ba8c406b5cda98f0?size=512$0"
     },
     "version": "1.0.1",
     "language": "Russian",
@@ -108,7 +132,7 @@
     "quality": "1080p",
     "baseUrl": "https://sameband.studio/",
     "searchBaseUrl": "https://sameband.studio/",
-    "scriptUrl": "https://git.luna-app.eu/emp0ry/sources/raw/branch/main/sameband/sameband.js",
+    "scriptUrl": "https://git.luna-app.eu/anonymous/sources/raw/branch/main/sameband/sameband.js",
     "asyncJS": true,
     "streamAsyncJS": true,
     "softsub": false,
@@ -123,8 +147,8 @@
     "sourceName": "ShizaProject",
     "iconUrl": "https://git.luna-app.eu/emp0ry/sources/raw/branch/main/shizaproject/logo.png",
     "author": {
-      "name": "emp0ry",
-      "icon": "https://avatars.githubusercontent.com/u/64217088"
+      "name": "anonymous",
+      "icon": "https://git.luna-app.eu/avatars/11bb6ee2fdba48e70ee21594f4ac96344358be3bb9770732ba8c406b5cda98f0?size=512$0"
     },
     "version": "1.0.1",
     "language": "Russian",
@@ -132,7 +156,7 @@
     "quality": "720p",
     "baseUrl": "https://shizaproject.com/",
     "searchBaseUrl": "https://shizaproject.com/",
-    "scriptUrl": "https://git.luna-app.eu/emp0ry/sources/raw/branch/main/shizaproject/shizaproject.js",
+    "scriptUrl": "https://git.luna-app.eu/anonymous/sources/raw/branch/main/shizaproject/shizaproject.js",
     "asyncJS": true,
     "streamAsyncJS": true,
     "softsub": false,
@@ -147,8 +171,8 @@
     "sourceName": "YummyAnime",
     "iconUrl": "https://site.yummyani.me/img/icon/yummy-192.png",
     "author": {
-      "name": "emp0ry",
-      "icon": "https://avatars.githubusercontent.com/u/64217088"
+      "name": "anonymous",
+      "icon": "https://git.luna-app.eu/avatars/11bb6ee2fdba48e70ee21594f4ac96344358be3bb9770732ba8c406b5cda98f0?size=512$0"
     },
     "version": "1.0.5",
     "language": "Russian",
@@ -156,7 +180,7 @@
     "quality": "720p",
     "baseUrl": "https://api.yani.tv",
     "searchBaseUrl": "https://api.yani.tv/search?limit=30&q=%s",
-    "scriptUrl": "https://git.luna-app.eu/emp0ry/sources/raw/branch/main/yummyanime/yummyanime.js",
+    "scriptUrl": "https://git.luna-app.eu/anonymous/sources/raw/branch/main/yummyanime/yummyanime.js",
     "asyncJS": true,
     "streamAsyncJS": true,
     "softsub": false,
