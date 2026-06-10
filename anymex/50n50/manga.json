@@ -137,7 +137,7 @@
   {
     "sourceName": "MangaTaro",
     "iconURL": "https://mangataro.org/content/media/cropped-favicon-192x192.png",
-    "version": "1.0",
+    "version": "1.0.1",
     "language": "English",
     "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangataro/mangataro.js",
     "author": {
