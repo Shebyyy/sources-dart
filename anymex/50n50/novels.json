@@ -22,6 +22,28 @@
     "supportsHiyoku": true
   },
   {
+    "sourceName": "LightNovelWorld",
+    "iconUrl": "https://lightnovelworld.org/static/favicon.ico",
+    "author": {
+      "name": "50/50",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3122kQwublLkZ6rf1fEpUP79BxZOFmH9BSA&s"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "novels",
+    "quality": "N/A",
+    "baseUrl": "https://lightnovelworld.org/",
+    "searchBaseUrl": "https://lightnovelworld.org/api/search/?q=%s&search_type=title",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/lightnovelworld/lightnovelworld.js",
+    "type": "novels",
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true
+  },
+  {
     "sourceName": "LnCrawler",
     "iconUrl": "https://files.catbox.moe/ec7bnh.png",
     "author": {
