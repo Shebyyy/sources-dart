@@ -145,32 +145,16 @@
         }
       }
     },
-    "cufiy": {
+    "xdfkenny": {
       "types": [
-        "anime",
-        "other"
+        "anime"
       ],
-      "total_sources": 11,
+      "total_sources": 1,
       "sources_by_type": {
         "anime": {
-          "count": 8,
+          "count": 1,
           "sources": [
-            "Anime Base (DUB)",
-            "Anime Base (ENG SUB)",
-            "Anime Base (SUB)",
-            "AniWorld (ENG SUB)",
-            "AniWorld (GER DUB)",
-            "AniWorld (GER SUB)",
-            "Filmpalast",
-            "Latanime"
-          ]
-        },
-        "other": {
-          "count": 3,
-          "sources": [
-            "Catflix (Website Down)",
-            "Moflix",
-            "RGShows"
+            "AnimeJara"
           ]
         }
       }
@@ -208,36 +192,6 @@
         }
       }
     },
-    "cprmichel": {
-      "types": [
-        "anime"
-      ],
-      "total_sources": 3,
-      "sources_by_type": {
-        "anime": {
-          "count": 3,
-          "sources": [
-            "Kinoger",
-            "Moflix",
-            "Movie2k"
-          ]
-        }
-      }
-    },
-    "xdfkenny": {
-      "types": [
-        "anime"
-      ],
-      "total_sources": 1,
-      "sources_by_type": {
-        "anime": {
-          "count": 1,
-          "sources": [
-            "AnimeJara"
-          ]
-        }
-      }
-    },
     "emp0ry": {
       "types": [
         "anime"
@@ -255,6 +209,52 @@
             "SameBand",
             "ShizaProject",
             "YummyAnime"
+          ]
+        }
+      }
+    },
+    "cufiy": {
+      "types": [
+        "anime",
+        "other"
+      ],
+      "total_sources": 11,
+      "sources_by_type": {
+        "anime": {
+          "count": 8,
+          "sources": [
+            "Anime Base (DUB)",
+            "Anime Base (ENG SUB)",
+            "Anime Base (SUB)",
+            "AniWorld (ENG SUB)",
+            "AniWorld (GER DUB)",
+            "AniWorld (GER SUB)",
+            "Filmpalast",
+            "Latanime"
+          ]
+        },
+        "other": {
+          "count": 3,
+          "sources": [
+            "Catflix (Website Down)",
+            "Moflix",
+            "RGShows"
+          ]
+        }
+      }
+    },
+    "cprmichel": {
+      "types": [
+        "anime"
+      ],
+      "total_sources": 3,
+      "sources_by_type": {
+        "anime": {
+          "count": 3,
+          "sources": [
+            "Kinoger",
+            "Moflix",
+            "Movie2k"
           ]
         }
       }
