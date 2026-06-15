@@ -17,12 +17,7 @@
     "streamAsyncJS": true,
     "softsub": false,
     "type": "anime",
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportMiruShin": true
+    "downloadSupport": false
   },
   {
     "sourceName": "AniLiberty",
@@ -42,12 +37,7 @@
     "streamAsyncJS": true,
     "softsub": false,
     "type": "anime",
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportMiruShin": true
+    "downloadSupport": false
   },
   {
     "sourceName": "AnimeVost",
@@ -67,21 +57,16 @@
     "streamAsyncJS": false,
     "softsub": false,
     "type": "anime",
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportMiruShin": true
+    "downloadSupport": false
   },
   {
     "sourceName": "HDRezka",
-    "iconUrl": "https://rezka.ag/favicon.ico",
+    "iconUrl": "https://rezka.ag/i/share.jpg",
     "author": {
       "name": "anonymous",
       "icon": "https://git.luna-app.eu/avatars/11bb6ee2fdba48e70ee21594f4ac96344358be3bb9770732ba8c406b5cda98f0?size=512$0"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "Russian",
     "streamType": "HLS",
     "quality": "1080p",
@@ -92,12 +77,7 @@
     "streamAsyncJS": true,
     "softsub": true,
     "type": "shows/movies/anime",
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportMiruShin": true
+    "downloadSupport": false
   },
   {
     "sourceName": "OnWave",
@@ -117,12 +97,7 @@
     "streamAsyncJS": true,
     "softsub": false,
     "type": "anime",
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportMiruShin": true
+    "downloadSupport": false
   },
   {
     "sourceName": "SameBand",
@@ -142,12 +117,7 @@
     "streamAsyncJS": true,
     "softsub": false,
     "type": "anime",
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportMiruShin": true
+    "downloadSupport": false
   },
   {
     "sourceName": "ShizaProject",
@@ -167,12 +137,7 @@
     "streamAsyncJS": true,
     "softsub": false,
     "type": "anime",
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportMiruShin": true
+    "downloadSupport": false
   },
   {
     "sourceName": "YummyAnime",
@@ -192,11 +157,6 @@
     "streamAsyncJS": true,
     "softsub": false,
     "type": "anime",
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportMiruShin": true
+    "downloadSupport": false
   }
 ]
