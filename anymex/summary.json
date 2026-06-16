@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 234,
-    "files_processed": 239,
+    "files_found": 236,
+    "files_processed": 241,
     "files_failed": 0,
     "api_added": 5
   },
@@ -19,15 +19,16 @@
         "anime",
         "novels"
       ],
-      "total_sources": 112,
+      "total_sources": 113,
       "sources_by_type": {
         "anime": {
-          "count": 109,
+          "count": 110,
           "sources": [
             "111movies",
             "AbleFlix",
             "AllAnime",
             "AniBunker",
+            "AniDB",
             "Anify",
             "Anikoto",
             "Anikuro",
@@ -196,14 +197,15 @@
       "types": [
         "anime"
       ],
-      "total_sources": 8,
+      "total_sources": 9,
       "sources_by_type": {
         "anime": {
-          "count": 8,
+          "count": 9,
           "sources": [
             "AniDub",
             "AniLiberty",
             "AnimeVost",
+            "Doramaland",
             "HDRezka",
             "OnWave",
             "SameBand",

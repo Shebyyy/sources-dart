@@ -60,6 +60,26 @@
     "downloadSupport": false
   },
   {
+    "sourceName": "Doramaland",
+    "iconUrl": "https://dorama.land/static/fav/apple-touch-icon.png",
+    "author": {
+      "name": "anonymous",
+      "icon": "https://git.luna-app.eu/avatars/11bb6ee2fdba48e70ee21594f4ac96344358be3bb9770732ba8c406b5cda98f0?size=512$0"
+    },
+    "version": "1.0.0",
+    "language": "Russian",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://dorama.land/",
+    "searchBaseUrl": "https://dorama.land/search?q=%s",
+    "scriptUrl": "https://git.luna-app.eu/anonymous/sources/raw/branch/main/doramaland/doramaland2.js",
+    "asyncJS": true,
+    "streamAsyncJS": true,
+    "softsub": true,
+    "type": "shows/movies",
+    "downloadSupport": false
+  },
+  {
     "sourceName": "HDRezka",
     "iconUrl": "https://rezka.ag/i/share.jpg",
     "author": {
