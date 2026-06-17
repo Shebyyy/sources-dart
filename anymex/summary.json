@@ -3,15 +3,14 @@
   "total_repositories": 10,
   "canonical_types": [
     "anime",
-    "manga",
     "novels",
     "other"
   ],
   "statistics": {
-    "files_found": 236,
-    "files_processed": 241,
+    "files_found": 150,
+    "files_processed": 219,
     "files_failed": 0,
-    "api_added": 5
+    "api_added": 69
   },
   "repositories": {
     "ibro": {
@@ -264,14 +263,13 @@
     "50n50": {
       "types": [
         "anime",
-        "manga",
         "novels",
         "other"
       ],
-      "total_sources": 87,
+      "total_sources": 65,
       "sources_by_type": {
         "anime": {
-          "count": 66,
+          "count": 57,
           "sources": [
             "123Anime",
             "1TamilCrow",
@@ -290,7 +288,6 @@
             "AnimePahe",
             "AnimesDigital",
             "AnimeSRBIJA",
-            "AnimeToast",
             "Animetsu",
             "AnimeUnity",
             "AnimeVerse",
@@ -300,17 +297,11 @@
             "AniNeko",
             "AniStream",
             "AniTube",
-            "AniWorld (ENG SUB)",
-            "AniWorld (GER DUB)",
-            "AniWorld (GER SUB)",
-            "AniWorld (Local Test)",
             "Anoboye",
             "Asia2TV",
             "CoFlix",
-            "Development",
             "DonghuaStream",
             "Doramaland",
-            "Filmpalast",
             "FireAnime DUB",
             "FireAnime English (SUB)",
             "FireAnime SUB",
@@ -327,7 +318,6 @@
             "Nivod",
             "OneTouch TV",
             "Otaku-Streamers",
-            "s.to (ENG DUB)",
             "s.to (GER DUB)",
             "Senshi",
             "StreamingUnity",
@@ -336,26 +326,8 @@
             "VidEasy",
             "VidFast",
             "VidLink",
-            "WatchAnimeWorld",
             "XiaoXintv",
             "YummyAnime"
-          ]
-        },
-        "manga": {
-          "count": 12,
-          "sources": [
-            "Comix",
-            "KaliScan",
-            "MangaBuddy",
-            "MangaDex",
-            "MangaFire",
-            "MangaFreak",
-            "MangaKatana",
-            "MangaPark",
-            "MangaPub",
-            "MangaTaro",
-            "RumanHua1",
-            "WeebCentral"
           ]
         },
         "novels": {
@@ -371,10 +343,9 @@
           ]
         },
         "other": {
-          "count": 2,
+          "count": 1,
           "sources": [
-            "HDRezka",
-            "Public Domain in the US"
+            "HDRezka"
           ]
         }
       }
