@@ -7,7 +7,7 @@
       "icon": "https://files.catbox.moe/ttj4fc.gif",
       "url": "https://github.com/JMcrafter26"
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "language": "German (DUB)",
     "streamType": "HLS",
     "quality": "720p",
@@ -26,7 +26,7 @@
       "icon": "https://files.catbox.moe/ttj4fc.gif",
       "url": "https://github.com/JMcrafter26"
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "language": "English (SUB)",
     "streamType": "HLS",
     "quality": "720p",
@@ -46,7 +46,7 @@
       "icon": "https://files.catbox.moe/ttj4fc.gif",
       "url": "https://github.com/JMcrafter26"
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "language": "German (SUB)",
     "streamType": "HLS",
     "quality": "720p",
@@ -65,7 +65,7 @@
       "icon": "https://files.catbox.moe/ttj4fc.gif",
       "url": "https://github.com/JMcrafter26"
     },
-    "version": "0.3.3",
+    "version": "0.3.5",
     "language": "English (SUB)",
     "streamType": "HLS",
     "quality": "720p",
@@ -88,7 +88,7 @@
       "icon": "https://files.catbox.moe/ttj4fc.gif",
       "url": "https://github.com/JMcrafter26"
     },
-    "version": "0.3.3",
+    "version": "0.3.5",
     "language": "German (DUB)",
     "streamType": "HLS",
     "quality": "720p",
@@ -111,7 +111,7 @@
       "icon": "https://files.catbox.moe/ttj4fc.gif",
       "url": "https://github.com/JMcrafter26"
     },
-    "version": "0.3.3",
+    "version": "0.3.5",
     "language": "German (SUB)",
     "streamType": "HLS",
     "quality": "720p",
@@ -134,7 +134,7 @@
       "icon": "https://files.catbox.moe/ttj4fc.gif",
       "url": "https://github.com/JMcrafter26"
     },
-    "version": "1.3.4",
+    "version": "1.3.5",
     "type": "Movies/Shows",
     "language": "German (DUB)",
     "streamType": "HLS",
@@ -146,6 +146,66 @@
     "streamAsyncJS": false
   },
   {
+    "sourceName": "FireAnime DUB",
+    "iconUrl": "https://i.ibb.co/dJ1SN5ch/favicon.png",
+    "author": {
+      "name": "Cufiy & 50/50",
+      "icon": "https://files.catbox.moe/ttj4fc.gif"
+    },
+    "version": "1.1.7",
+    "language": "German (DUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://fireani.me/",
+    "searchBaseUrl": "https://fireani.me/api/anime/search?q=%s",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/fireanime/js/fireanime_DUB.js",
+    "asyncJS": true,
+    "type": "anime",
+    "supportsMojuru": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "FireAnime English (SUB)",
+    "iconUrl": "https://i.ibb.co/dJ1SN5ch/favicon.png",
+    "author": {
+      "name": "Cufiy & 50/50",
+      "icon": "https://files.catbox.moe/ttj4fc.gif"
+    },
+    "version": "1.1.7",
+    "language": "English (SUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://fireani.me/",
+    "searchBaseUrl": "https://fireani.me/api/anime/search?q=%s",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/fireanime/js/fireanime_ENG_SUB.js",
+    "asyncJS": true,
+    "type": "anime",
+    "supportsMojuru": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "FireAnime SUB",
+    "iconUrl": "https://i.ibb.co/dJ1SN5ch/favicon.png",
+    "author": {
+      "name": "Cufiy & 50/50",
+      "icon": "https://files.catbox.moe/ttj4fc.gif"
+    },
+    "version": "1.1.7",
+    "language": "German (SUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://fireani.me/",
+    "searchBaseUrl": "https://fireani.me/api/anime/search?q=%s",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/fireanime/js/fireanime_SUB.js",
+    "asyncJS": true,
+    "type": "anime",
+    "supportsMojuru": true,
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
     "sourceName": "Latanime",
     "iconUrl": "https://latanime.org/public/img/logito.png",
     "author": {
@@ -153,7 +213,7 @@
       "icon": "https://files.catbox.moe/ttj4fc.gif",
       "url": "https://github.com/JMcrafter26"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "Spanish (DUB)",
     "streamType": "HLS",
     "quality": "1080p",
@@ -163,5 +223,47 @@
     "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/latanime/latanime.js",
     "asyncJS": true,
     "downloadSupport": true
+  },
+  {
+    "sourceName": "s.to (ENG DUB)",
+    "iconUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/s.to/sto.png",
+    "author": {
+      "name": "Cufiy & Hamzo",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "0.4.4",
+    "language": "English (DUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://google.com",
+    "searchBaseUrl": "https://s.to/ajax/seriesSearch?keyword=%s",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/s.to/js/s.to_ENG.js",
+    "asyncJS": true,
+    "streamAsyncJS": false,
+    "type": "shows",
+    "supportsSora": true,
+    "supportsLuna": true
+  },
+  {
+    "sourceName": "s.to (GER DUB)",
+    "iconUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/s.to/sto.png",
+    "author": {
+      "name": "Cufiy & Hamzo",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "0.4.4",
+    "language": "German (DUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://google.com",
+    "searchBaseUrl": "https://s.to/ajax/seriesSearch?keyword=%s",
+    "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/s.to/js/s.to_GER.js",
+    "asyncJS": true,
+    "streamAsyncJS": false,
+    "type": "shows",
+    "supportsSora": true,
+    "supportsLuna": true
   }
 ]

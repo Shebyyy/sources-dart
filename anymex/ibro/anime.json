@@ -403,6 +403,26 @@
     "softsub": true
   },
   {
+    "sourceName": "Animetsu",
+    "iconUrl": "https://animetsu.live/apple-touch-icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.0",
+    "language": "English (DUB/SUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://animetsu.to/",
+    "searchBaseUrl": "https://animetsu.to/",
+    "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/animetsu/animetsu.js",
+    "type": "anime",
+    "downloadSupport": true,
+    "asyncJS": true,
+    "softsub": true
+  },
+  {
     "sourceName": "Animex",
     "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/animex/icon.png",
     "author": {

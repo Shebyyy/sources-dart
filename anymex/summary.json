@@ -7,10 +7,10 @@
     "other"
   ],
   "statistics": {
-    "files_found": 150,
-    "files_processed": 219,
+    "files_found": 156,
+    "files_processed": 220,
     "files_failed": 0,
-    "api_added": 69
+    "api_added": 64
   },
   "repositories": {
     "ibro": {
@@ -18,10 +18,10 @@
         "anime",
         "novels"
       ],
-      "total_sources": 113,
+      "total_sources": 114,
       "sources_by_type": {
         "anime": {
-          "count": 110,
+          "count": 111,
           "sources": [
             "111movies",
             "AbleFlix",
@@ -44,6 +44,7 @@
             "Animepahe (DUB)",
             "Animepahe (SUB)",
             "AnimeStars",
+            "Animetsu",
             "Animex",
             "Animex (DUB)",
             "Animex (SUB)",
@@ -219,10 +220,10 @@
         "anime",
         "other"
       ],
-      "total_sources": 11,
+      "total_sources": 16,
       "sources_by_type": {
         "anime": {
-          "count": 8,
+          "count": 13,
           "sources": [
             "Anime Base (DUB)",
             "Anime Base (ENG SUB)",
@@ -231,7 +232,12 @@
             "AniWorld (GER DUB)",
             "AniWorld (GER SUB)",
             "Filmpalast",
-            "Latanime"
+            "FireAnime DUB",
+            "FireAnime English (SUB)",
+            "FireAnime SUB",
+            "Latanime",
+            "s.to (ENG DUB)",
+            "s.to (GER DUB)"
           ]
         },
         "other": {
@@ -266,10 +272,10 @@
         "novels",
         "other"
       ],
-      "total_sources": 65,
+      "total_sources": 60,
       "sources_by_type": {
         "anime": {
-          "count": 57,
+          "count": 52,
           "sources": [
             "123Anime",
             "1TamilCrow",
@@ -288,7 +294,6 @@
             "AnimePahe",
             "AnimesDigital",
             "AnimeSRBIJA",
-            "Animetsu",
             "AnimeUnity",
             "AnimeVerse",
             "AnimeWeek",
@@ -302,9 +307,6 @@
             "CoFlix",
             "DonghuaStream",
             "Doramaland",
-            "FireAnime DUB",
-            "FireAnime English (SUB)",
-            "FireAnime SUB",
             "HDFilme",
             "IPTV-org",
             "Kawaiifu",
@@ -318,7 +320,6 @@
             "Nivod",
             "OneTouch TV",
             "Otaku-Streamers",
-            "s.to (GER DUB)",
             "Senshi",
             "StreamingUnity",
             "ToonTales",

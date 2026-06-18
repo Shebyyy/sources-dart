@@ -10,7 +10,7 @@
     "baseUrl": "https://rezka.ag",
     "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/hdrezka/hdrezka.js",
     "softsub": true,
-    "manifestUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/hdrezka/hdrezka.json",
+    "manifestUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/hdrezka/hdrezka.json",
     "status": "active",
     "addedAt": "2026-06-03 18:43:40",
     "installCount": 0,
