@@ -4,7 +4,7 @@
     "sourceName": "MangaWorld Novels",
     "iconUrl": "https://raw.githubusercontent.com/Soony5/MangaWorld/refs/heads/main/android-icon-192x192.png",
     "version": "1.0.0",
-    "language": "Italiano",
+    "language": "Italian",
     "streamType": "novels",
     "quality": "Alta",
     "baseUrl": "https://www.mangaworld.mx/",
@@ -22,7 +22,7 @@
     "featured": 0,
     "author": {
       "name": "Soony5",
-      "icon": "https://i.postimg.cc/RVkn062P/icon.png",
+      "icon": "https://files.catbox.moe/8r9nye.png",
       "url": "https://github.com/Soony5"
     }
   }
