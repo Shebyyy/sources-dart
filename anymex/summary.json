@@ -8,9 +8,9 @@
   ],
   "statistics": {
     "files_found": 156,
-    "files_processed": 220,
+    "files_processed": 164,
     "files_failed": 0,
-    "api_added": 64
+    "api_added": 8
   },
   "repositories": {
     "ibro": {
@@ -268,85 +268,17 @@
     },
     "50n50": {
       "types": [
-        "anime",
-        "novels",
-        "other"
+        "anime"
       ],
-      "total_sources": 60,
+      "total_sources": 4,
       "sources_by_type": {
         "anime": {
-          "count": 52,
+          "count": 4,
           "sources": [
-            "123Anime",
-            "1TamilCrow",
-            "AK.SV",
-            "AllAnime",
-            "An1me",
-            "AniHQ",
-            "AnimeAV1",
-            "AnimeDefenders",
-            "AnimeGG",
-            "AnimeHeaven",
-            "AnimeKhor",
-            "AnimeLand",
-            "AnimeLib",
-            "AnimeNoSub",
-            "AnimePahe",
-            "AnimesDigital",
-            "AnimeSRBIJA",
             "AnimeUnity",
-            "AnimeVerse",
-            "AnimeWeek",
             "AnimeWorld",
-            "AnimeXin",
-            "AniNeko",
             "AniStream",
-            "AniTube",
-            "Anoboye",
-            "Asia2TV",
-            "CoFlix",
-            "DonghuaStream",
-            "Doramaland",
-            "HDFilme",
-            "IPTV-org",
-            "Kawaiifu",
-            "KimCartoon",
-            "Kisskh",
-            "LmAnime",
-            "LordFlix",
-            "LuciferDonghua",
-            "Monoschinos2",
-            "Nimegami",
-            "Nivod",
-            "OneTouch TV",
-            "Otaku-Streamers",
-            "Senshi",
-            "StreamingUnity",
-            "ToonTales",
-            "Turkish123",
-            "VidEasy",
-            "VidFast",
-            "VidLink",
-            "XiaoXintv",
-            "YummyAnime"
-          ]
-        },
-        "novels": {
-          "count": 7,
-          "sources": [
-            "ChiReads",
-            "LightNovelWorld",
-            "LnCrawler",
-            "NovelBin",
-            "NovelNext",
-            "ReadNovelFull",
-            "ReadNovels"
-          ]
-        },
-        "other": {
-          "count": 1,
-          "sources": [
-            "HDRezka"
+            "StreamingUnity"
           ]
         }
       }
