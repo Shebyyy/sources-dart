@@ -1,57 +1,5 @@
 [
   {
-    "id": "6TxU",
-    "sourceName": "AnimeUnity",
-    "iconUrl": "https://github.com/cottonable/Ryu-preservation/blob/2f10226aa087154974a70c1ec78aa83a47daced9/Ryu/Assets.xcassets/Sources/AnimeUnity.imageset/apple-touch-icon.jpg?raw=true",
-    "version": "1.0.4",
-    "language": "Italian",
-    "streamType": "mp4",
-    "quality": "720p",
-    "baseUrl": "https://animeunity.so",
-    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/refs/heads/main/animeunity/animeunity.js",
-    "softsub": false,
-    "manifestUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/animeunity/animeuntiy.json",
-    "status": "active",
-    "addedAt": "2025-03-19 19:39:49",
-    "installCount": 381,
-    "type": "anime",
-    "note": "",
-    "recommendation": 0,
-    "downloadSupport": false,
-    "combo": false,
-    "featured": 0,
-    "author": {
-      "name": "sobet",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPQ1qIiALbM3xDWGsuJzu6ItaQGwb9ICRRw&amp;s"
-    }
-  },
-  {
-    "id": "thn9",
-    "sourceName": "AnimeWorld",
-    "iconUrl": "https://raw.githubusercontent.com/cranci1/Ryu/d48d716ec6c5ef9ae7b3711c117f920b0c7eb1ce/Ryu/Assets.xcassets/Sources/AnimeWorld.imageset/animeworld.png",
-    "version": "1.0.5",
-    "language": "Italian",
-    "streamType": "MP4",
-    "quality": "1080p",
-    "baseUrl": "https://animeworld.ac/",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animeworld/animeworld.js",
-    "softsub": false,
-    "manifestUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/animeworld/animeworld.json",
-    "status": "active",
-    "addedAt": "2025-03-19 19:39:50",
-    "installCount": 629,
-    "type": "anime",
-    "note": "",
-    "recommendation": 1,
-    "downloadSupport": "",
-    "combo": false,
-    "featured": 0,
-    "author": {
-      "name": "sobet",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPQ1qIiALbM3xDWGsuJzu6ItaQGwb9ICRRw&amp;s"
-    }
-  },
-  {
     "id": "jUaRK",
     "sourceName": "AniStream",
     "iconUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/anistream/icon.png",
@@ -75,32 +23,6 @@
     "author": {
       "name": "Sheby",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV5QZYcWJtmyE3PvSxaJQao_vIGclDxn1Iv6UceLljBQ&amp;s=10"
-    }
-  },
-  {
-    "id": "IwUS",
-    "sourceName": "StreamingUnity",
-    "iconUrl": "https://play-lh.googleusercontent.com/-BHc2mPj6oRWk0cjwMn5oYSd7rYl5RW1xn8BWdizIHBuh4cBQ6ev_EsxmA4Trt0o2jQ",
-    "version": "9000004",
-    "language": "Italian",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://streamingunity.bio/it",
-    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/streamingunity/streamingunity.js",
-    "softsub": false,
-    "manifestUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/streamingunity/streamingunity.json",
-    "status": "active",
-    "addedAt": "2025-05-24 18:30:50",
-    "installCount": 905,
-    "type": "shows/movies",
-    "note": "",
-    "recommendation": 1,
-    "downloadSupport": "",
-    "combo": false,
-    "featured": 0,
-    "author": {
-      "name": "sobet &amp; alessio",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPQ1qIiALbM3xDWGsuJzu6ItaQGwb9ICRRw&amp;s"
     }
   }
 ]
