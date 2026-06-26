@@ -1,16 +1,17 @@
 {
   "output_root": "/home/runner/work/sources-dart/sources-dart/anymex",
-  "total_repositories": 10,
+  "total_repositories": 9,
   "canonical_types": [
     "anime",
+    "manga",
     "novels",
     "other"
   ],
   "statistics": {
-    "files_found": 156,
-    "files_processed": 161,
+    "files_found": 228,
+    "files_processed": 232,
     "files_failed": 0,
-    "api_added": 5
+    "api_added": 4
   },
   "repositories": {
     "ibro": {
@@ -165,11 +166,12 @@
         "anime",
         "other"
       ],
-      "total_sources": 14,
+      "total_sources": 15,
       "sources_by_type": {
         "anime": {
-          "count": 10,
+          "count": 11,
           "sources": [
+            "Aether",
             "Anime Kami",
             "anime ultra",
             "Anime-Sama",
@@ -268,14 +270,103 @@
     },
     "50n50": {
       "types": [
-        "anime"
+        "anime",
+        "manga",
+        "novels",
+        "other"
       ],
-      "total_sources": 1,
+      "total_sources": 72,
       "sources_by_type": {
         "anime": {
+          "count": 52,
+          "sources": [
+            "123Anime",
+            "1TamilCrow",
+            "AK.SV",
+            "AllAnime",
+            "An1me",
+            "AniHQ",
+            "AnimeAV1",
+            "AnimeDefenders",
+            "AnimeGG",
+            "AnimeHeaven",
+            "AnimeKhor",
+            "AnimeLand",
+            "AnimeLib",
+            "AnimeNoSub",
+            "AnimePahe",
+            "AnimesDigital",
+            "AnimeSRBIJA",
+            "AnimeToast",
+            "Animetsu",
+            "AnimeVerse",
+            "AnimeWeek",
+            "AnimeXin",
+            "AniNeko",
+            "AniStream",
+            "AniTube",
+            "Anoboye",
+            "Asia2TV",
+            "CoFlix",
+            "Development",
+            "DonghuaStream",
+            "Doramaland",
+            "HDFilme",
+            "IPTV-org",
+            "KimCartoon",
+            "Kisskh",
+            "LmAnime",
+            "LordFlix",
+            "LuciferDonghua",
+            "Monoschinos2",
+            "Nimegami",
+            "Nivod",
+            "OneTouch TV",
+            "Otaku-Streamers",
+            "Senshi",
+            "ToonTales",
+            "Turkish123",
+            "VidEasy",
+            "VidFast",
+            "VidLink",
+            "WatchAnimeWorld",
+            "XiaoXintv",
+            "YummyAnime"
+          ]
+        },
+        "manga": {
+          "count": 12,
+          "sources": [
+            "Comix",
+            "KaliScan",
+            "MangaBuddy",
+            "MangaDex",
+            "MangaFire",
+            "MangaFreak",
+            "MangaKatana",
+            "MangaPark",
+            "MangaPub",
+            "MangaTaro",
+            "RumanHua1",
+            "WeebCentral"
+          ]
+        },
+        "novels": {
+          "count": 7,
+          "sources": [
+            "ChiReads",
+            "LightNovelWorld",
+            "LnCrawler",
+            "NovelBin",
+            "NovelNext",
+            "ReadNovelFull",
+            "ReadNovels"
+          ]
+        },
+        "other": {
           "count": 1,
           "sources": [
-            "AniStream"
+            "HDRezka"
           ]
         }
       }
@@ -304,20 +395,6 @@
           "count": 1,
           "sources": [
             "StreameX"
-          ]
-        }
-      }
-    },
-    "mxfia19-twitch": {
-      "types": [
-        "other"
-      ],
-      "total_sources": 1,
-      "sources_by_type": {
-        "other": {
-          "count": 1,
-          "sources": [
-            "Twitch NoSub"
           ]
         }
       }
