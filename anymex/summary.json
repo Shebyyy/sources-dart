@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 228,
-    "files_processed": 232,
+    "files_found": 232,
+    "files_processed": 236,
     "files_failed": 0,
     "api_added": 4
   },
@@ -275,10 +275,10 @@
         "novels",
         "other"
       ],
-      "total_sources": 72,
+      "total_sources": 76,
       "sources_by_type": {
         "anime": {
-          "count": 52,
+          "count": 56,
           "sources": [
             "123Anime",
             "1TamilCrow",
@@ -312,6 +312,7 @@
             "DonghuaStream",
             "Doramaland",
             "HDFilme",
+            "Hexa",
             "IPTV-org",
             "KimCartoon",
             "Kisskh",
@@ -323,9 +324,12 @@
             "Nivod",
             "OneTouch TV",
             "Otaku-Streamers",
+            "Otakutsu",
             "Senshi",
             "ToonTales",
+            "Tsumi (詰み) - Literally Everything 2.0",
             "Turkish123",
+            "VidCore",
             "VidEasy",
             "VidFast",
             "VidLink",
