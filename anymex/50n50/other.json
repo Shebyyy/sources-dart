@@ -24,6 +24,7 @@
     "supportsAnymex": true,
     "supportsTsumi": true,
     "supportsHiyoku": true,
-    "supportsShirox": true
+    "supportsShirox": true,
+    "supportsEclipse": true
   }
 ]
