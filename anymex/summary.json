@@ -8,12 +8,145 @@
     "other"
   ],
   "statistics": {
-    "files_found": 118,
-    "files_processed": 157,
+    "files_found": 232,
+    "files_processed": 236,
     "files_failed": 0,
-    "api_added": 39
+    "api_added": 4
   },
   "repositories": {
+    "ibro": {
+      "types": [
+        "anime",
+        "novels"
+      ],
+      "total_sources": 114,
+      "sources_by_type": {
+        "anime": {
+          "count": 111,
+          "sources": [
+            "111movies",
+            "AbleFlix",
+            "AllAnime",
+            "AniBunker",
+            "AniDB",
+            "Anify",
+            "Anikoto",
+            "Anikuro",
+            "Anime-Portal",
+            "AnimeLIB (DUB - First Stream)",
+            "AnimeLIB (DUB - Studio Band)",
+            "AnimeLIB (DUB)",
+            "AnimeLIB (HardSUB - SubVost)",
+            "AnimeLIB (HardSUB - Ушастая)",
+            "AnimeLIB (SOFTSUB)",
+            "AnimeLIB (SUB - All Streams)",
+            "AnimeLIB (SUB - First Stream)",
+            "Animepahe",
+            "Animepahe (DUB)",
+            "Animepahe (SUB)",
+            "AnimeStars",
+            "Animetsu",
+            "Animex",
+            "Animex (DUB)",
+            "Animex (SUB)",
+            "AnimeZ",
+            "Aniwave",
+            "Aniwave (SCRAPER)",
+            "Anizone",
+            "ArabicToons",
+            "Autoembed",
+            "Bingeflix",
+            "Black Clover Pace",
+            "Borucut",
+            "CinemaDeck",
+            "CinemaDeck 2",
+            "Cinepulse",
+            "City Sonic",
+            "Concentrated Bleach",
+            "DBZ Recut",
+            "Development",
+            "Dragon Ball Recut",
+            "Dragon Ball Super: Ultra Instinct Cut",
+            "DRAMA COOL",
+            "FlickyStream",
+            "FRAnime",
+            "Frembed (Movies)",
+            "GidOnline",
+            "HD Today",
+            "HDRezka",
+            "Hexa",
+            "HopCorn+",
+            "Jut.su",
+            "KDramaHood (BROKEN)",
+            "Kepala Bergetar 4",
+            "Kepala Bergetar 9",
+            "KinoGer",
+            "KissAssAnime",
+            "KissKH",
+            "Kuudere",
+            "Let's Stream",
+            "LUNAR",
+            "Lycoris Cafe",
+            "Mokmobi (BROKEN)",
+            "Movies7.im",
+            "MovieZone (BROKEN)",
+            "Movix",
+            "MyFlixer",
+            "Narucannon",
+            "Net3lix",
+            "One Pace",
+            "One Pace (French)",
+            "One Pace (Spanish)",
+            "One Piece Film Red: AmaLee Score",
+            "One Piece Treasure Edition",
+            "Onigashima Paced",
+            "Otakuu",
+            "Peak",
+            "Purstream",
+            "Rama Oriental Fansub",
+            "Rebuild of Naruto",
+            "RGShows",
+            "RistoAnime",
+            "Rive",
+            "RuMov",
+            "SFlix",
+            "SpacePowerFans",
+            "StreamCloud",
+            "Sudatchi",
+            "Sunduq",
+            "Tanime",
+            "ToonAnime",
+            "TopCinema",
+            "UASERIAL",
+            "VidAPI",
+            "VidFast",
+            "Vidify",
+            "VidLink",
+            "Vidnest",
+            "Vidrock",
+            "VidSrc",
+            "VidSrc.cc",
+            "Vidzee",
+            "VixSrc",
+            "WaveWatch",
+            "WTFlix",
+            "WTFlix - Animepahe",
+            "WTFlix - EmbedSU",
+            "XPrime",
+            "Yu Yu Hakusho Pace",
+            "Yummy Anime (Clone - SovetRomantica)"
+          ]
+        },
+        "novels": {
+          "count": 3,
+          "sources": [
+            "NovelBuddy",
+            "NovelDot",
+            "NovelFire"
+          ]
+        }
+      }
+    },
     "xdfkenny": {
       "types": [
         "anime"
@@ -238,60 +371,6 @@
           "count": 1,
           "sources": [
             "HDRezka"
-          ]
-        }
-      }
-    },
-    "ibro": {
-      "types": [
-        "anime",
-        "novels"
-      ],
-      "total_sources": 35,
-      "sources_by_type": {
-        "anime": {
-          "count": 33,
-          "sources": [
-            "AniBunker",
-            "AniDB",
-            "Anikoto",
-            "Anikuro",
-            "Anime-Portal",
-            "Animepahe",
-            "Animex",
-            "Animex (DUB)",
-            "Animex (SUB)",
-            "Aniwave",
-            "Anizone",
-            "ArabicToons",
-            "Black Clover Pace",
-            "Borucut",
-            "Concentrated Bleach",
-            "DBZ Recut",
-            "Dragon Ball Recut",
-            "DRAMA COOL",
-            "KissKH",
-            "Lycoris Cafe",
-            "Narucannon",
-            "One Pace",
-            "One Pace (French)",
-            "One Pace (Spanish)",
-            "One Piece Film Red: AmaLee Score",
-            "One Piece Treasure Edition",
-            "Onigashima Paced",
-            "Rama Oriental Fansub",
-            "Rebuild of Naruto",
-            "RistoAnime",
-            "SpacePowerFans",
-            "StreamCloud",
-            "Yu Yu Hakusho Pace"
-          ]
-        },
-        "novels": {
-          "count": 2,
-          "sources": [
-            "NovelBuddy",
-            "NovelFire"
           ]
         }
       }
