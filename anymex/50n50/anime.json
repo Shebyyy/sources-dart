@@ -1309,6 +1309,33 @@
     "supportsEclipse": true
   },
   {
+    "sourceName": "TürkAnime",
+    "iconUrl": "https://www.turkanime.tv/imajlar/favicon.ico",
+    "author": {
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
+    },
+    "version": "1.0.0",
+    "language": "Turkish",
+    "baseUrl": "https://www.turkanime.tv/",
+    "searchBaseUrl": "https://www.turkanime.tv/arama",
+    "scriptUrl": "https://raw.githubusercontent.com/50n50/sources/main/turkanime/turkanime.js",
+    "type": "anime",
+    "quality": "1080p",
+    "streamType": "HLS",
+    "asyncJS": true,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsDartotsu": true,
+    "supportsAnymex": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true,
+    "supportsShirox": true,
+    "supportsMojuru": true,
+    "supportsEclipse": true
+  },
+  {
     "sourceName": "VidCore",
     "iconUrl": "https://vidcore.net/favicon.ico",
     "author": {

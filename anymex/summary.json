@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 232,
-    "files_processed": 236,
+    "files_found": 234,
+    "files_processed": 238,
     "files_failed": 0,
     "api_added": 4
   },
@@ -275,10 +275,10 @@
         "novels",
         "other"
       ],
-      "total_sources": 76,
+      "total_sources": 78,
       "sources_by_type": {
         "anime": {
-          "count": 56,
+          "count": 57,
           "sources": [
             "123Anime",
             "1TamilCrow",
@@ -329,6 +329,7 @@
             "ToonTales",
             "Tsumi (詰み) - Literally Everything 2.0",
             "Turkish123",
+            "TürkAnime",
             "VidCore",
             "VidEasy",
             "VidFast",
@@ -339,7 +340,7 @@
           ]
         },
         "manga": {
-          "count": 12,
+          "count": 13,
           "sources": [
             "Comix",
             "KaliScan",
@@ -351,6 +352,7 @@
             "MangaPark",
             "MangaPub",
             "MangaTaro",
+            "MangaWorld",
             "RumanHua1",
             "WeebCentral"
           ]
