@@ -95,11 +95,13 @@ def canonical_type(type_str: str) -> str:
 
 def normalize_language(data: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Parse the raw 'language' field into two consistent extra fields,
+    Parse the raw 'language' field into consistent extra fields,
     without touching the original 'language' or 'softsub' fields:
 
       languageClean : just the language name, e.g. "English"
-      dubTypes      : lowercase list of tags, e.g. ["dub", "sub"], ["hardsub"], []
+      hasDub        : True if the source tags include dub
+      hasSub        : True if the source tags include sub or hardsub
+                      (hardsub is treated the same as sub, not tracked separately)
 
     Handles messy variants like:
       "English (DUB/HARDSUB)", "Russian (SOFTSUB)", "English (Hardsub)",
@@ -117,18 +119,22 @@ def normalize_language(data: Dict[str, Any]) -> Dict[str, Any]:
         clean = raw_lang
         tags_str = ""
 
-    dub_types: List[str] = []
+    tags: List[str] = []
     if tags_str:
         for part in re.split(r"[\/,]", tags_str):
             part = part.strip().lower()
-            if part and part not in dub_types:
-                dub_types.append(part)
+            if part:
+                tags.append(part)
 
-    if data.get("softsub") is True and "softsub" not in dub_types:
-        dub_types.append("softsub")
+    has_dub = "dub" in tags
+    has_sub = "sub" in tags or "hardsub" in tags or "softsub" in tags
+
+    if data.get("softsub") is True:
+        has_sub = True
 
     data["languageClean"] = clean
-    data["dubTypes"] = dub_types
+    data["hasDub"] = has_dub
+    data["hasSub"] = has_sub
     return data
 
 
