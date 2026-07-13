@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 234,
-    "files_processed": 238,
+    "files_found": 236,
+    "files_processed": 240,
     "files_failed": 0,
     "api_added": 4
   },
@@ -275,10 +275,10 @@
         "novels",
         "other"
       ],
-      "total_sources": 78,
+      "total_sources": 80,
       "sources_by_type": {
         "anime": {
-          "count": 57,
+          "count": 59,
           "sources": [
             "123Anime",
             "1TamilCrow",
@@ -325,6 +325,7 @@
             "OneTouch TV",
             "Otaku-Streamers",
             "Otakutsu",
+            "Peachify",
             "Senshi",
             "ToonTales",
             "Tsumi (詰み) - Literally Everything 2.0",
@@ -333,6 +334,7 @@
             "VidEasy",
             "VidFast",
             "VidLink",
+            "VidUp",
             "WatchAnimeWorld",
             "XiaoXintv",
             "XPass",

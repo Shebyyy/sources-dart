@@ -1206,6 +1206,30 @@
     "supportsEclipse": true
   },
   {
+    "sourceName": "Peachify",
+    "iconUrl": "https://peachify.top/favicon.ico",
+    "author": {
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://peachify.top/",
+    "searchBaseUrl": "https://peachify.top/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/peachify/peachify.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true,
+    "supportsEclipse": true
+  },
+  {
     "sourceName": "Senshi",
     "iconUrl": "https://files.catbox.moe/6s18ae.png",
     "author": {
@@ -1265,7 +1289,7 @@
       "name": "50/50",
       "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "1.1.2",
+    "version": "1.1.3",
     "language": "English",
     "streamType": "HLS",
     "quality": "4K",
@@ -1395,6 +1419,30 @@
     "baseUrl": "https://vidlink.pro",
     "searchBaseUrl": "https://vidlink.pro",
     "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/vidlink/vidlink.js",
+    "type": "shows/movies/anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true,
+    "supportsEclipse": true
+  },
+  {
+    "sourceName": "VidUp",
+    "iconUrl": "https://vidup.to/favicon.ico",
+    "author": {
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://vidup.to/",
+    "searchBaseUrl": "https://vidup.to/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/vidup/vidup.js",
     "type": "shows/movies/anime",
     "asyncJS": true,
     "softsub": true,
