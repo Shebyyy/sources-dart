@@ -19,9 +19,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AbleFlix",
@@ -41,7 +40,8 @@
     "type": "anime/shows/movies",
     "asyncJS": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "AllAnime",
@@ -63,9 +63,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AniBunker",
@@ -87,9 +86,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Portuguese",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AniDB",
@@ -111,9 +109,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Anify",
@@ -134,9 +131,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Anikoto",
@@ -158,9 +154,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Anikuro",
@@ -182,9 +177,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Anime-Portal",
@@ -205,9 +199,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeLIB (DUB - First Stream)",
@@ -227,9 +220,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "dub"
-    ]
+    "hasDub": true,
+    "hasSub": false
   },
   {
     "sourceName": "AnimeLIB (DUB - Studio Band)",
@@ -250,10 +242,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "dub",
-      "softsub"
-    ]
+    "hasDub": true,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeLIB (DUB)",
@@ -273,9 +263,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "dub"
-    ]
+    "hasDub": true,
+    "hasSub": false
   },
   {
     "sourceName": "AnimeLIB (HardSUB - SubVost)",
@@ -295,9 +284,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "hardsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeLIB (HardSUB - Ушастая)",
@@ -317,9 +305,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "hardsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeLIB (SOFTSUB)",
@@ -340,9 +327,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeLIB (SUB - All Streams)",
@@ -363,10 +349,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "sub",
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeLIB (SUB - First Stream)",
@@ -387,10 +371,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "sub",
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Animepahe",
@@ -412,9 +394,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Animepahe (DUB)",
@@ -436,9 +417,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Animepahe (SUB)",
@@ -460,9 +440,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeStars",
@@ -483,9 +462,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Animetsu",
@@ -507,11 +485,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "dub",
-      "sub",
-      "softsub"
-    ]
+    "hasDub": true,
+    "hasSub": true
   },
   {
     "sourceName": "Animex",
@@ -533,9 +508,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Animex (DUB)",
@@ -557,9 +531,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Animex (SUB)",
@@ -581,9 +554,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeZ",
@@ -603,7 +575,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Aniwave",
@@ -625,9 +598,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Aniwave (SCRAPER)",
@@ -649,9 +621,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Anizone",
@@ -673,9 +644,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "ArabicToons",
@@ -695,9 +665,8 @@
     "type": "anime/shows/movies",
     "asyncJS": true,
     "languageClean": "Arabic",
-    "dubTypes": [
-      "dub"
-    ]
+    "hasDub": true,
+    "hasSub": false
   },
   {
     "sourceName": "Autoembed",
@@ -718,9 +687,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Bingeflix",
@@ -741,9 +709,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Black Clover Pace",
@@ -763,7 +730,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Borucut",
@@ -783,7 +751,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "CinemaDeck",
@@ -804,9 +773,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "CinemaDeck 2",
@@ -827,9 +795,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Cinepulse",
@@ -850,9 +817,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "French",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "City Sonic",
@@ -873,9 +839,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Concentrated Bleach",
@@ -896,7 +861,8 @@
     "asyncJS": true,
     "downloadSupport": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "DBZ Recut",
@@ -917,7 +883,8 @@
     "downloadSupport": true,
     "asyncJS": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Development",
@@ -937,7 +904,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "Dev",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Dragon Ball Recut",
@@ -959,9 +927,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Japanese",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Dragon Ball Super: Ultra Instinct Cut",
@@ -983,9 +950,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "DRAMA COOL",
@@ -1006,9 +972,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Korean",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "FlickyStream",
@@ -1029,9 +994,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "FRAnime",
@@ -1051,7 +1015,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "French",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Frembed (Movies)",
@@ -1071,7 +1036,8 @@
     "type": "movies",
     "asyncJS": true,
     "languageClean": "French",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "GidOnline",
@@ -1093,9 +1059,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "HD Today",
@@ -1117,9 +1082,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "HDRezka",
@@ -1141,9 +1105,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Hexa",
@@ -1164,9 +1127,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "HopCorn+",
@@ -1187,9 +1149,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Jut.su",
@@ -1210,9 +1171,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "KDramaHood (BROKEN)",
@@ -1232,9 +1192,8 @@
     "type": "shows/movies",
     "softsub": true,
     "languageClean": "Korean",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Kepala Bergetar 4",
@@ -1255,9 +1214,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Malay",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Kepala Bergetar 9",
@@ -1278,9 +1236,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Malay",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "KinoGer",
@@ -1301,9 +1258,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "German",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "KissAssAnime",
@@ -1324,9 +1280,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "KissKH",
@@ -1348,9 +1303,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Korean/English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Kuudere",
@@ -1372,9 +1326,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Let's Stream",
@@ -1394,7 +1347,8 @@
     "type": "anime/shows/movies",
     "asyncJS": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "LUNAR",
@@ -1416,9 +1370,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Lycoris Cafe",
@@ -1439,10 +1392,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Polish",
-    "dubTypes": [
-      "hardsub",
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Mokmobi (BROKEN)",
@@ -1463,9 +1414,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Movies7.im",
@@ -1486,9 +1436,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "MovieZone (BROKEN)",
@@ -1509,9 +1458,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Movix",
@@ -1533,9 +1481,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "French",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "MyFlixer",
@@ -1556,9 +1503,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Narucannon",
@@ -1579,7 +1525,8 @@
     "note": "Use external player to watch the streams (e.g. VLC).",
     "asyncJS": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Net3lix",
@@ -1600,9 +1547,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "One Pace",
@@ -1622,7 +1568,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "One Pace (French)",
@@ -1642,7 +1589,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "French",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "One Pace (Spanish)",
@@ -1662,7 +1610,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "Spanish",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "One Piece Film Red: AmaLee Score",
@@ -1683,7 +1632,8 @@
     "downloadSupport": false,
     "asyncJS": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "One Piece Treasure Edition",
@@ -1703,7 +1653,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Onigashima Paced",
@@ -1723,7 +1674,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Otakuu",
@@ -1745,9 +1697,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Peak",
@@ -1769,9 +1720,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Purstream",
@@ -1793,9 +1743,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "French",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Rama Oriental Fansub",
@@ -1817,9 +1766,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Italian",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Rebuild of Naruto",
@@ -1841,7 +1789,8 @@
     "downloadSupport": true,
     "asyncJS": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "RGShows",
@@ -1863,9 +1812,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "RistoAnime",
@@ -1886,9 +1834,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Arabic",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Rive",
@@ -1909,9 +1856,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "RuMov",
@@ -1931,7 +1877,8 @@
     "type": "movies",
     "asyncJS": true,
     "languageClean": "Russian",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "SFlix",
@@ -1952,9 +1899,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "SpacePowerFans",
@@ -1976,9 +1922,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Arabic",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "StreamCloud",
@@ -1998,7 +1943,8 @@
     "type": "shows/movies",
     "asyncJS": true,
     "languageClean": "German",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Sudatchi",
@@ -2019,7 +1965,8 @@
     "note": "Use default (Apple Player) or external player to watch the streams (e.g. VLC).",
     "asyncJS": true,
     "languageClean": "Spanish",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Sunduq",
@@ -2041,9 +1988,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Tanime",
@@ -2065,9 +2011,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "ToonAnime",
@@ -2088,9 +2033,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "French",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "TopCinema",
@@ -2111,9 +2055,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Arabic",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "UASERIAL",
@@ -2134,9 +2077,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "Ukrainian",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "VidAPI",
@@ -2157,9 +2099,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "VidFast",
@@ -2181,9 +2122,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Vidify",
@@ -2205,9 +2145,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "VidLink",
@@ -2229,9 +2168,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Vidnest",
@@ -2253,9 +2191,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Vidrock",
@@ -2277,9 +2214,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "VidSrc",
@@ -2299,7 +2235,8 @@
     "type": "anime/shows/movies",
     "asyncJS": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "VidSrc.cc",
@@ -2321,9 +2258,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Vidzee",
@@ -2345,9 +2281,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "VixSrc",
@@ -2368,9 +2303,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "WaveWatch",
@@ -2392,9 +2326,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "French",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "WTFlix",
@@ -2415,9 +2348,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "WTFlix - Animepahe",
@@ -2438,9 +2370,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "WTFlix - EmbedSU",
@@ -2461,9 +2392,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "XPrime",
@@ -2484,9 +2414,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Yu Yu Hakusho Pace",
@@ -2506,7 +2435,8 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Yummy Anime (Clone - SovetRomantica)",
@@ -2526,8 +2456,7 @@
     "type": "anime",
     "asyncJS": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "hardsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   }
 ]

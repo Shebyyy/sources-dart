@@ -27,11 +27,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "dub",
-      "hardsub",
-      "softsub"
-    ]
+    "hasDub": true,
+    "hasSub": true
   },
   {
     "sourceName": "1TamilCrow",
@@ -61,7 +58,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Tamil",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Airflix",
@@ -88,9 +86,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AK.SV",
@@ -114,9 +111,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "Arabic",
-    "dubTypes": [
-      "sub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AllAnime",
@@ -146,9 +142,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "An1me",
@@ -179,7 +174,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Greek",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "AniHQ",
@@ -209,9 +205,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeAV1",
@@ -242,9 +237,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Spanish",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeDefenders",
@@ -274,9 +268,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "sub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeGG",
@@ -306,9 +299,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeHeaven",
@@ -337,9 +329,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "sub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeKhor",
@@ -369,7 +360,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Chinese",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "AnimeLand",
@@ -399,7 +391,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "AnimeLib",
@@ -429,9 +422,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeNoSub",
@@ -459,10 +451,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "sub",
-      "dub"
-    ]
+    "hasDub": true,
+    "hasSub": true
   },
   {
     "sourceName": "AnimePahe",
@@ -492,9 +482,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimesDigital",
@@ -524,7 +513,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Portuguese",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "AnimeSRBIJA",
@@ -552,7 +542,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Serbian",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "AnimeToast",
@@ -580,10 +571,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "German",
-    "dubTypes": [
-      "dub",
-      "sub"
-    ]
+    "hasDub": true,
+    "hasSub": true
   },
   {
     "sourceName": "Animetsu",
@@ -614,11 +603,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "dub",
-      "sub",
-      "softsub"
-    ]
+    "hasDub": true,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeVerse",
@@ -648,9 +634,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeWeek",
@@ -680,9 +665,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Korean",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeXin",
@@ -712,7 +696,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English/Indonesian",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "AniNeko",
@@ -742,9 +727,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "id": "jUaRK",
@@ -772,9 +756,8 @@
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV5QZYcWJtmyE3PvSxaJQao_vIGclDxn1Iv6UceLljBQ&amp;s=10"
     },
     "languageClean": "Multi-Language",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AniTube",
@@ -804,7 +787,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Portuguese",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Anoboye",
@@ -834,7 +818,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Chinese",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Asia2TV",
@@ -860,7 +845,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "Arabic",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "CoFlix",
@@ -886,7 +872,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "French",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Development",
@@ -914,7 +901,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Dev",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "DonghuaStream",
@@ -944,7 +932,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Chinese",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Doramaland",
@@ -974,9 +963,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "HDFilme",
@@ -1002,7 +990,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "German",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "IPTV-org",
@@ -1029,9 +1018,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "Multi",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "KimCartoon",
@@ -1056,9 +1044,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "dub"
-    ]
+    "hasDub": true,
+    "hasSub": false
   },
   {
     "sourceName": "Kisskh",
@@ -1084,9 +1071,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "LmAnime",
@@ -1116,9 +1102,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "LordFlix",
@@ -1144,9 +1129,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "LuciferDonghua",
@@ -1176,7 +1160,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Monoschinos2",
@@ -1206,10 +1191,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Spanish",
-    "dubTypes": [
-      "dub",
-      "sub"
-    ]
+    "hasDub": true,
+    "hasSub": true
   },
   {
     "sourceName": "Nimegami",
@@ -1239,9 +1222,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Indonesian",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Nivod",
@@ -1267,9 +1249,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "Chinese",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "OneTouch TV",
@@ -1295,9 +1276,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Otaku-Streamers",
@@ -1327,10 +1307,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "hardsub",
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Otakutsu",
@@ -1359,7 +1337,8 @@
     "supportsMojuru": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Peachify",
@@ -1385,9 +1364,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Senshi",
@@ -1417,9 +1395,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "ToonTales",
@@ -1446,7 +1423,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Tsumi (詰み) - Literally Everything 2.0",
@@ -1472,9 +1450,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Turkish123",
@@ -1499,7 +1476,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "Turkish",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "VidCore",
@@ -1529,9 +1507,8 @@
     "supportsMojuru": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "VidEasy",
@@ -1557,9 +1534,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "VidFast",
@@ -1585,9 +1561,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "VidLink",
@@ -1613,9 +1588,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "VidUp",
@@ -1641,9 +1615,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "WatchAnimeWorld",
@@ -1673,7 +1646,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Hindi",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "XiaoXintv",
@@ -1699,9 +1673,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "Chinese",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "XPass",
@@ -1728,9 +1701,8 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "YummyAnime",
@@ -1760,6 +1732,7 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Russian",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   }
 ]

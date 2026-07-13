@@ -26,9 +26,7 @@
     "supportsHiyoku": true,
     "downloadSupport": false,
     "languageClean": "Spanish",
-    "dubTypes": [
-      "dub",
-      "sub"
-    ]
+    "hasDub": true,
+    "hasSub": true
   }
 ]

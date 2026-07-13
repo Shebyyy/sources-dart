@@ -18,9 +18,8 @@
     "downloadSupport": true,
     "asyncJS": true,
     "languageClean": "German",
-    "dubTypes": [
-      "dub"
-    ]
+    "hasDub": true,
+    "hasSub": false
   },
   {
     "sourceName": "Anime Base (ENG SUB)",
@@ -42,9 +41,8 @@
     "asyncJS": true,
     "note": "# PLEASE READ \nThis is a german site. Because of this, not all anime have english subtitles available. Please don't report this as a bug.",
     "languageClean": "English",
-    "dubTypes": [
-      "sub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Anime Base (SUB)",
@@ -65,9 +63,8 @@
     "downloadSupport": true,
     "asyncJS": true,
     "languageClean": "German",
-    "dubTypes": [
-      "sub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AniWorld (ENG SUB)",
@@ -92,9 +89,8 @@
     "supportsLuna": true,
     "supportsSoru": true,
     "languageClean": "English",
-    "dubTypes": [
-      "sub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AniWorld (GER DUB)",
@@ -119,9 +115,8 @@
     "supportsLuna": true,
     "supportsSoru": true,
     "languageClean": "German",
-    "dubTypes": [
-      "dub"
-    ]
+    "hasDub": true,
+    "hasSub": false
   },
   {
     "sourceName": "AniWorld (GER SUB)",
@@ -146,9 +141,8 @@
     "supportsLuna": true,
     "supportsSoru": true,
     "languageClean": "German",
-    "dubTypes": [
-      "sub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Filmpalast",
@@ -169,9 +163,8 @@
     "asyncJS": true,
     "streamAsyncJS": false,
     "languageClean": "German",
-    "dubTypes": [
-      "dub"
-    ]
+    "hasDub": true,
+    "hasSub": false
   },
   {
     "sourceName": "FireAnime DUB",
@@ -193,9 +186,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "languageClean": "German",
-    "dubTypes": [
-      "dub"
-    ]
+    "hasDub": true,
+    "hasSub": false
   },
   {
     "sourceName": "FireAnime English (SUB)",
@@ -217,9 +209,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "languageClean": "English",
-    "dubTypes": [
-      "sub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "FireAnime SUB",
@@ -241,9 +232,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "languageClean": "German",
-    "dubTypes": [
-      "sub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Latanime",
@@ -264,9 +254,8 @@
     "asyncJS": true,
     "downloadSupport": true,
     "languageClean": "Spanish",
-    "dubTypes": [
-      "dub"
-    ]
+    "hasDub": true,
+    "hasSub": false
   },
   {
     "sourceName": "s.to (ENG DUB)",
@@ -289,9 +278,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "languageClean": "English",
-    "dubTypes": [
-      "dub"
-    ]
+    "hasDub": true,
+    "hasSub": false
   },
   {
     "sourceName": "s.to (GER DUB)",
@@ -314,8 +302,7 @@
     "supportsSora": true,
     "supportsLuna": true,
     "languageClean": "German",
-    "dubTypes": [
-      "dub"
-    ]
+    "hasDub": true,
+    "hasSub": false
   }
 ]

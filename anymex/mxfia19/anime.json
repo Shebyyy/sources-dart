@@ -22,9 +22,8 @@
     "supportsLuna": true,
     "changelog": "Add fast.aether scrape servers + vdrk subtitle source",
     "languageClean": "English",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Anime Kami",
@@ -48,9 +47,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "languageClean": "French",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "anime ultra",
@@ -74,9 +72,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "languageClean": "French",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Anime-Sama",
@@ -100,9 +97,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "languageClean": "French",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "dessin-anime",
@@ -127,9 +123,8 @@
     "supportsLuna": true,
     "changelog": "fix subtitles",
     "languageClean": "French",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Miruro",
@@ -154,7 +149,8 @@
     "supportsLuna": true,
     "changelog": "",
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Movix",
@@ -179,7 +175,8 @@
     "supportsLuna": true,
     "changelog": "fix extract",
     "languageClean": "French",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Nakastream",
@@ -205,9 +202,8 @@
     "changelog": "mise en place des bons headers pour eviter erreur 403",
     "settings": true,
     "languageClean": "French",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Nakios",
@@ -231,9 +227,8 @@
     "supportsSora": true,
     "supportsLuna": true,
     "languageClean": "French",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "Purstream",
@@ -258,9 +253,8 @@
     "supportsLuna": true,
     "changelog": "fix auto url change.",
     "languageClean": "French",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "VoirAnime",
@@ -285,6 +279,7 @@
     "supportsSora": true,
     "supportsLuna": true,
     "languageClean": "French",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   }
 ]

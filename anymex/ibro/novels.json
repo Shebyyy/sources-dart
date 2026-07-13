@@ -18,7 +18,8 @@
     "asyncJS": true,
     "novel": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "NovelDot",
@@ -39,7 +40,8 @@
     "asyncJS": true,
     "novel": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "NovelFire",
@@ -60,6 +62,7 @@
     "asyncJS": true,
     "novel": true,
     "languageClean": "English",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   }
 ]

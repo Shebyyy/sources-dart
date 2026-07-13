@@ -18,10 +18,8 @@
     "asyncJS": true,
     "softsub": true,
     "languageClean": "English",
-    "dubTypes": [
-      "dub",
-      "softsub"
-    ]
+    "hasDub": true,
+    "hasSub": true
   },
   {
     "sourceName": "Moflix",
@@ -42,7 +40,8 @@
     "asyncJS": true,
     "downloadSupport": true,
     "languageClean": "German",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "RGShows",
@@ -64,8 +63,7 @@
     "softsubs": false,
     "type": "tv/movies",
     "languageClean": "English",
-    "dubTypes": [
-      "dub"
-    ]
+    "hasDub": true,
+    "hasSub": false
   }
 ]

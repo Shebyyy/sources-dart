@@ -27,8 +27,7 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Russian",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   }
 ]

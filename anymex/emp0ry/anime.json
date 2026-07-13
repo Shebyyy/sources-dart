@@ -19,7 +19,8 @@
     "type": "anime",
     "downloadSupport": false,
     "languageClean": "Russian",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "AniLiberty",
@@ -41,7 +42,8 @@
     "type": "anime",
     "downloadSupport": false,
     "languageClean": "Russian",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "AnimeVost",
@@ -63,7 +65,8 @@
     "type": "anime",
     "downloadSupport": false,
     "languageClean": "Russian",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Doramaland",
@@ -85,9 +88,8 @@
     "type": "shows/movies",
     "downloadSupport": false,
     "languageClean": "Russian",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "HDRezka",
@@ -109,9 +111,8 @@
     "type": "shows/movies/anime",
     "downloadSupport": false,
     "languageClean": "Russian",
-    "dubTypes": [
-      "softsub"
-    ]
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "OnWave",
@@ -133,7 +134,8 @@
     "type": "anime",
     "downloadSupport": false,
     "languageClean": "Russian",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "SameBand",
@@ -155,7 +157,8 @@
     "type": "anime",
     "downloadSupport": false,
     "languageClean": "Russian",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "ShizaProject",
@@ -177,7 +180,8 @@
     "type": "anime",
     "downloadSupport": false,
     "languageClean": "Russian",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "YummyAnime",
@@ -199,6 +203,7 @@
     "type": "anime",
     "downloadSupport": false,
     "languageClean": "Russian",
-    "dubTypes": []
+    "hasDub": false,
+    "hasSub": false
   }
 ]
