@@ -388,6 +388,38 @@ def organize_sources():
         }
     }
 
+    # Step 5b: Write ONE combined file → anymex/all.json
+    #          One entry per author, with every type nested inside it:
+    #          [{ "author": "50n50", "repo": "...", "types": { "anime": [...], "manga": [...] } }, ...]
+    print(f"\n{'='*60}")
+    print("Writing Combined File  →  anymex/all.json")
+    print(f"{'='*60}")
+
+    combined_groups: List[Dict[str, Any]] = []
+
+    for repo_name in sorted(organized_data.keys()):
+        types_dict = organized_data[repo_name]
+        repo_url = REPOSITORIES.get(repo_name, "")
+        combined_groups.append({
+            "author": repo_name,
+            "repo": repo_url,
+            "types": {
+                canon: sources
+                for canon, sources in sorted(types_dict.items())
+            },
+        })
+
+    combined_file = OUTPUT_DIR / "all.json"
+    with open(combined_file, 'w', encoding='utf-8') as f:
+        json.dump(combined_groups, f, indent=2, ensure_ascii=False)
+
+    total_combined_sources = sum(
+        len(sources)
+        for group in combined_groups
+        for sources in group["types"].values()
+    )
+    print(f"  ✅ all.json  ({len(combined_groups)} authors, {total_combined_sources} sources total)")
+
     summary_file = OUTPUT_DIR / "summary.json"
     with open(summary_file, 'w', encoding='utf-8') as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
