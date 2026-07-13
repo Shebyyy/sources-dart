@@ -20,6 +20,7 @@ Output structure:
 """
 
 import os
+import re
 import json
 import subprocess
 import urllib.request
@@ -90,6 +91,45 @@ def canonical_type(type_str: str) -> str:
     """Map a normalized type string to its canonical output file name."""
     normalized = normalize_type(type_str)
     return TYPE_CONSOLIDATION.get(normalized, "other")
+
+
+def normalize_language(data: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Parse the raw 'language' field into two consistent extra fields,
+    without touching the original 'language' or 'softsub' fields:
+
+      languageClean : just the language name, e.g. "English"
+      dubTypes      : lowercase list of tags, e.g. ["dub", "sub"], ["hardsub"], []
+
+    Handles messy variants like:
+      "English (DUB/HARDSUB)", "Russian (SOFTSUB)", "English (Hardsub)",
+      "German (DUB/SUB)", "English", "Multi-Language"
+    Also folds in the separate boolean 'softsub' field if present and True,
+    since some repos only signal it that way instead of in the language string.
+    """
+    raw_lang = (data.get("language") or "").strip()
+
+    match = re.match(r"^(.*?)\s*\(([^)]*)\)\s*$", raw_lang)
+    if match:
+        clean = match.group(1).strip()
+        tags_str = match.group(2)
+    else:
+        clean = raw_lang
+        tags_str = ""
+
+    dub_types: List[str] = []
+    if tags_str:
+        for part in re.split(r"[\/,]", tags_str):
+            part = part.strip().lower()
+            if part and part not in dub_types:
+                dub_types.append(part)
+
+    if data.get("softsub") is True and "softsub" not in dub_types:
+        dub_types.append("softsub")
+
+    data["languageClean"] = clean
+    data["dubTypes"] = dub_types
+    return data
 
 
 def get_repo_key_from_url(url: str) -> Optional[str]:
@@ -294,6 +334,7 @@ def organize_sources():
             raw_type = data.get("type", "other")
             canon = canonical_type(raw_type)
             source_name = data.get("sourceName", "Unknown")
+            data = normalize_language(data)
 
             organized_data[repo_name][canon].append(data)
             existing_names[f"{repo_name}/{canon}"].add(source_name)
@@ -330,6 +371,7 @@ def organize_sources():
         if source_name in existing_names.get(names_key, set()):
             continue
 
+        module = normalize_language(module)
         organized_data[repo_key][canon].append(module)
         existing_names[names_key].add(source_name)
         api_added += 1
