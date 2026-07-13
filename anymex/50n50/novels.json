@@ -19,7 +19,9 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "languageClean": "French",
+    "dubTypes": []
   },
   {
     "sourceName": "LightNovelWorld",
@@ -41,7 +43,9 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "LnCrawler",
@@ -63,7 +67,9 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "NovelBin",
@@ -85,7 +91,9 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "NovelNext",
@@ -107,7 +115,9 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "ReadNovelFull",
@@ -129,7 +139,9 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "ReadNovels",
@@ -151,6 +163,8 @@
     "downloadSupport": false,
     "supportsSora": true,
     "supportsTsumi": true,
-    "supportsHiyoku": true
+    "supportsHiyoku": true,
+    "languageClean": "English",
+    "dubTypes": []
   }
 ]

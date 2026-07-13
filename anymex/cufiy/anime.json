@@ -16,7 +16,11 @@
     "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/anime-base/anime-base-DUB.js",
     "type": "anime",
     "downloadSupport": true,
-    "asyncJS": true
+    "asyncJS": true,
+    "languageClean": "German",
+    "dubTypes": [
+      "dub"
+    ]
   },
   {
     "sourceName": "Anime Base (ENG SUB)",
@@ -36,7 +40,11 @@
     "type": "anime",
     "downloadSupport": true,
     "asyncJS": true,
-    "note": "# PLEASE READ \nThis is a german site. Because of this, not all anime have english subtitles available. Please don't report this as a bug."
+    "note": "# PLEASE READ \nThis is a german site. Because of this, not all anime have english subtitles available. Please don't report this as a bug.",
+    "languageClean": "English",
+    "dubTypes": [
+      "sub"
+    ]
   },
   {
     "sourceName": "Anime Base (SUB)",
@@ -55,7 +63,11 @@
     "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/anime-base/anime-base-SUB.js",
     "type": "anime",
     "downloadSupport": true,
-    "asyncJS": true
+    "asyncJS": true,
+    "languageClean": "German",
+    "dubTypes": [
+      "sub"
+    ]
   },
   {
     "sourceName": "AniWorld (ENG SUB)",
@@ -78,7 +90,11 @@
     "supportsMojuru": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsSoru": true
+    "supportsSoru": true,
+    "languageClean": "English",
+    "dubTypes": [
+      "sub"
+    ]
   },
   {
     "sourceName": "AniWorld (GER DUB)",
@@ -101,7 +117,11 @@
     "supportsMojuru": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsSoru": true
+    "supportsSoru": true,
+    "languageClean": "German",
+    "dubTypes": [
+      "dub"
+    ]
   },
   {
     "sourceName": "AniWorld (GER SUB)",
@@ -124,7 +144,11 @@
     "supportsMojuru": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsSoru": true
+    "supportsSoru": true,
+    "languageClean": "German",
+    "dubTypes": [
+      "sub"
+    ]
   },
   {
     "sourceName": "Filmpalast",
@@ -143,7 +167,11 @@
     "searchBaseUrl": "https://filmpalast.to/search/title/%s",
     "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/filmpalast/filmpalast_v2.js",
     "asyncJS": true,
-    "streamAsyncJS": false
+    "streamAsyncJS": false,
+    "languageClean": "German",
+    "dubTypes": [
+      "dub"
+    ]
   },
   {
     "sourceName": "FireAnime DUB",
@@ -163,7 +191,11 @@
     "type": "anime",
     "supportsMojuru": true,
     "supportsSora": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "languageClean": "German",
+    "dubTypes": [
+      "dub"
+    ]
   },
   {
     "sourceName": "FireAnime English (SUB)",
@@ -183,7 +215,11 @@
     "type": "anime",
     "supportsMojuru": true,
     "supportsSora": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "languageClean": "English",
+    "dubTypes": [
+      "sub"
+    ]
   },
   {
     "sourceName": "FireAnime SUB",
@@ -203,7 +239,11 @@
     "type": "anime",
     "supportsMojuru": true,
     "supportsSora": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "languageClean": "German",
+    "dubTypes": [
+      "sub"
+    ]
   },
   {
     "sourceName": "Latanime",
@@ -222,7 +262,11 @@
     "searchBaseUrl": "https://latanime.org/buscar?q=%s",
     "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/latanime/latanime.js",
     "asyncJS": true,
-    "downloadSupport": true
+    "downloadSupport": true,
+    "languageClean": "Spanish",
+    "dubTypes": [
+      "dub"
+    ]
   },
   {
     "sourceName": "s.to (ENG DUB)",
@@ -243,7 +287,11 @@
     "streamAsyncJS": false,
     "type": "shows",
     "supportsSora": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "languageClean": "English",
+    "dubTypes": [
+      "dub"
+    ]
   },
   {
     "sourceName": "s.to (GER DUB)",
@@ -264,6 +312,10 @@
     "streamAsyncJS": false,
     "type": "shows",
     "supportsSora": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "languageClean": "German",
+    "dubTypes": [
+      "dub"
+    ]
   }
 ]

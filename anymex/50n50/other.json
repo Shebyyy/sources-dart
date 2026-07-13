@@ -25,6 +25,10 @@
     "supportsTsumi": true,
     "supportsHiyoku": true,
     "supportsShirox": true,
-    "supportsEclipse": true
+    "supportsEclipse": true,
+    "languageClean": "Russian",
+    "dubTypes": [
+      "softsub"
+    ]
   }
 ]

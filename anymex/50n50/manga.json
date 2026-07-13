@@ -14,7 +14,9 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsEclipse": true,
-    "supportsShirox": true
+    "supportsShirox": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "KaliScan",
@@ -31,7 +33,9 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsEclipse": true,
-    "supportsShirox": true
+    "supportsShirox": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "MangaBuddy",
@@ -48,7 +52,9 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsEclipse": true,
-    "supportsShirox": true
+    "supportsShirox": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "MangaDex",
@@ -65,7 +71,9 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsEclipse": true,
-    "supportsShirox": true
+    "supportsShirox": true,
+    "languageClean": "Multi Language",
+    "dubTypes": []
   },
   {
     "sourceName": "MangaFire",
@@ -82,7 +90,9 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsEclipse": true,
-    "supportsShirox": true
+    "supportsShirox": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "MangaFreak",
@@ -99,7 +109,9 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsEclipse": true,
-    "supportsShirox": true
+    "supportsShirox": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "MangaKatana",
@@ -116,7 +128,9 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsEclipse": true,
-    "supportsShirox": true
+    "supportsShirox": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "MangaPark",
@@ -133,7 +147,9 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsEclipse": true,
-    "supportsShirox": true
+    "supportsShirox": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "MangaPub",
@@ -150,7 +166,9 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsEclipse": true,
-    "supportsShirox": true
+    "supportsShirox": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "MangaTaro",
@@ -167,7 +185,9 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsEclipse": true,
-    "supportsShirox": true
+    "supportsShirox": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "MangaWorld",
@@ -184,7 +204,9 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsEclipse": true,
-    "supportsShirox": true
+    "supportsShirox": true,
+    "languageClean": "Italian",
+    "dubTypes": []
   },
   {
     "sourceName": "RumanHua1",
@@ -201,7 +223,9 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsEclipse": true,
-    "supportsShirox": true
+    "supportsShirox": true,
+    "languageClean": "Chinese",
+    "dubTypes": []
   },
   {
     "sourceName": "WeebCentral",
@@ -218,6 +242,8 @@
     "supportsLuna": true,
     "supportsAnymex": true,
     "supportsEclipse": true,
-    "supportsShirox": true
+    "supportsShirox": true,
+    "languageClean": "English",
+    "dubTypes": []
   }
 ]

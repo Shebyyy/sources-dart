@@ -24,6 +24,11 @@
     "supportsAnymex": true,
     "supportsTsumi": true,
     "supportsHiyoku": true,
-    "downloadSupport": false
+    "downloadSupport": false,
+    "languageClean": "Spanish",
+    "dubTypes": [
+      "dub",
+      "sub"
+    ]
   }
 ]

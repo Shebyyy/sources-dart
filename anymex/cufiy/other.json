@@ -16,7 +16,12 @@
     "searchBaseUrl": "https://catflix.su/search?q=%s",
     "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/catflix/catflix.js",
     "asyncJS": true,
-    "softsub": true
+    "softsub": true,
+    "languageClean": "English",
+    "dubTypes": [
+      "dub",
+      "softsub"
+    ]
   },
   {
     "sourceName": "Moflix",
@@ -35,7 +40,9 @@
     "searchBaseUrl": "https://moflix-stream.xyz/api/v1/search/%s?loader=searchAutocomplete",
     "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/moflix/moflix.js",
     "asyncJS": true,
-    "downloadSupport": true
+    "downloadSupport": true,
+    "languageClean": "German",
+    "dubTypes": []
   },
   {
     "sourceName": "RGShows",
@@ -55,6 +62,10 @@
     "asyncJS": true,
     "streamAsyncJS": false,
     "softsubs": false,
-    "type": "tv/movies"
+    "type": "tv/movies",
+    "languageClean": "English",
+    "dubTypes": [
+      "dub"
+    ]
   }
 ]

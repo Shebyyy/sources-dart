@@ -24,6 +24,10 @@
       "name": "Kamizu",
       "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
       "url": "https://github.com/justbbcr"
-    }
+    },
+    "languageClean": "French",
+    "dubTypes": [
+      "softsub"
+    ]
   }
 ]

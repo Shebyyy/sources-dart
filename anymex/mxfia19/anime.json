@@ -20,7 +20,11 @@
     "softsub": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "changelog": "Add fast.aether scrape servers + vdrk subtitle source"
+    "changelog": "Add fast.aether scrape servers + vdrk subtitle source",
+    "languageClean": "English",
+    "dubTypes": [
+      "softsub"
+    ]
   },
   {
     "sourceName": "Anime Kami",
@@ -42,7 +46,11 @@
     "asyncJS": true,
     "softsub": true,
     "supportsSora": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "languageClean": "French",
+    "dubTypes": [
+      "softsub"
+    ]
   },
   {
     "sourceName": "anime ultra",
@@ -64,7 +72,11 @@
     "asyncJS": true,
     "softsub": true,
     "supportsSora": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "languageClean": "French",
+    "dubTypes": [
+      "softsub"
+    ]
   },
   {
     "sourceName": "Anime-Sama",
@@ -86,7 +98,11 @@
     "asyncJS": true,
     "softsub": true,
     "supportsSora": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "languageClean": "French",
+    "dubTypes": [
+      "softsub"
+    ]
   },
   {
     "sourceName": "dessin-anime",
@@ -109,7 +125,11 @@
     "softsub": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "changelog": "fix subtitles"
+    "changelog": "fix subtitles",
+    "languageClean": "French",
+    "dubTypes": [
+      "softsub"
+    ]
   },
   {
     "sourceName": "Miruro",
@@ -132,7 +152,9 @@
     "softsub": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "changelog": ""
+    "changelog": "",
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "Movix",
@@ -155,7 +177,9 @@
     "softsub": false,
     "supportsSora": true,
     "supportsLuna": true,
-    "changelog": "fix extract"
+    "changelog": "fix extract",
+    "languageClean": "French",
+    "dubTypes": []
   },
   {
     "sourceName": "Nakastream",
@@ -179,7 +203,11 @@
     "supportsSora": true,
     "supportsLuna": true,
     "changelog": "mise en place des bons headers pour eviter erreur 403",
-    "settings": true
+    "settings": true,
+    "languageClean": "French",
+    "dubTypes": [
+      "softsub"
+    ]
   },
   {
     "sourceName": "Nakios",
@@ -201,7 +229,11 @@
     "asyncJS": true,
     "softsub": true,
     "supportsSora": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "languageClean": "French",
+    "dubTypes": [
+      "softsub"
+    ]
   },
   {
     "sourceName": "Purstream",
@@ -224,7 +256,11 @@
     "softsub": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "changelog": "fix auto url change."
+    "changelog": "fix auto url change.",
+    "languageClean": "French",
+    "dubTypes": [
+      "softsub"
+    ]
   },
   {
     "sourceName": "VoirAnime",
@@ -247,6 +283,8 @@
     "softsub": false,
     "changelog": "fix voe",
     "supportsSora": true,
-    "supportsLuna": true
+    "supportsLuna": true,
+    "languageClean": "French",
+    "dubTypes": []
   }
 ]

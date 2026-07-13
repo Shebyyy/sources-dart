@@ -20,7 +20,11 @@
     "softsub": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "changelog": ""
+    "changelog": "",
+    "languageClean": "English",
+    "dubTypes": [
+      "softsub"
+    ]
   },
   {
     "sourceName": "Cinepulse",
@@ -44,7 +48,11 @@
     "settings": true,
     "supportsSora": false,
     "supportsLuna": true,
-    "changelog": "update du domaine"
+    "changelog": "update du domaine",
+    "languageClean": "French",
+    "dubTypes": [
+      "softsub"
+    ]
   },
   {
     "sourceName": "LiveWatch",
@@ -67,7 +75,9 @@
     "softsub": false,
     "supportsSora": true,
     "supportsLuna": false,
-    "changelog": ""
+    "changelog": "",
+    "languageClean": "Multi",
+    "dubTypes": []
   },
   {
     "sourceName": "Twitch NoSub",
@@ -91,6 +101,8 @@
     "note": "Search for the streamer name and his vod will appear (live support)",
     "supportsSora": true,
     "supportsLuna": false,
-    "changelog": "ajout de luminous pour eviter les pubs"
+    "changelog": "ajout de luminous pour eviter les pubs",
+    "languageClean": "Multi",
+    "dubTypes": []
   }
 ]

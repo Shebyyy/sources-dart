@@ -16,7 +16,9 @@
     "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/novelbuddy/novelbuddy.js",
     "type": "novels",
     "asyncJS": true,
-    "novel": true
+    "novel": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "NovelDot",
@@ -35,7 +37,9 @@
     "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/noveldot/noveldot.js",
     "type": "novels",
     "asyncJS": true,
-    "novel": true
+    "novel": true,
+    "languageClean": "English",
+    "dubTypes": []
   },
   {
     "sourceName": "NovelFire",
@@ -54,6 +58,8 @@
     "scriptUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/novelfire/novelfire.js",
     "type": "novels",
     "asyncJS": true,
-    "novel": true
+    "novel": true,
+    "languageClean": "English",
+    "dubTypes": []
   }
 ]
