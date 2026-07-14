@@ -1,0 +1,26 @@
+[
+  {
+    "sourceName": "JKanime",
+    "iconUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=jkanime.net",
+    "author": {
+      "name": "alexrica",
+      "icon": "https://github.com/alexrica.png",
+      "url": "https://github.com/alexrica"
+    },
+    "version": "1.0.0",
+    "language": "Spanish (SUB)",
+    "streamType": "HLS",
+    "quality": "720p",
+    "baseUrl": "https://jkanime.net/",
+    "searchBaseUrl": "https://jkanime.net/buscar?q=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/alexrica/sora-modules/refs/heads/main/jkanime/script.js",
+    "type": "anime",
+    "downloadSupport": false,
+    "asyncJS": true,
+    "streamAsyncJS": false,
+    "softsub": false,
+    "languageClean": "Spanish",
+    "hasDub": false,
+    "hasSub": true
+  }
+]

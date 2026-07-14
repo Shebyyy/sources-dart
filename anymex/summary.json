@@ -1,6 +1,6 @@
 {
   "output_root": "/home/runner/work/sources-dart/sources-dart/anymex",
-  "total_repositories": 9,
+  "total_repositories": 11,
   "canonical_types": [
     "anime",
     "manga",
@@ -8,12 +8,26 @@
     "other"
   ],
   "statistics": {
-    "files_found": 236,
-    "files_processed": 240,
+    "files_found": 240,
+    "files_processed": 244,
     "files_failed": 0,
     "api_added": 4
   },
   "repositories": {
+    "alexrica": {
+      "types": [
+        "anime"
+      ],
+      "total_sources": 1,
+      "sources_by_type": {
+        "anime": {
+          "count": 1,
+          "sources": [
+            "JKanime"
+          ]
+        }
+      }
+    },
     "ibro": {
       "types": [
         "anime",
@@ -264,6 +278,22 @@
             "Kinoger",
             "Moflix",
             "Movie2k"
+          ]
+        }
+      }
+    },
+    "sobet": {
+      "types": [
+        "anime"
+      ],
+      "total_sources": 3,
+      "sources_by_type": {
+        "anime": {
+          "count": 3,
+          "sources": [
+            "AnimeUnity",
+            "AnimeWorld",
+            "StreamingUnity"
           ]
         }
       }
