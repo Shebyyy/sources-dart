@@ -34,7 +34,7 @@ REPOSITORIES = {
     "ibro": "https://git.luna-app.eu/ibro/services.git",
     "50n50": "https://git.luna-app.eu/50n50/sources.git",
     "cufiy": "https://git.luna-app.eu/Cufiy/sora-modules.git",
-    "emp0ry": "https://git.luna-app.eu/emp0ry/sources.git",
+    "emp0ry": "https://git.luna-app.eu/anonymous/sources.git",
     "mxfia19": "https://gitlab.com/mxfia19-group/module-sora.git",
     "cprmichel": "https://github.com/CPRmichel/sora-movie2k-module.git",
     "ylruhc": "https://github.com/Ylruhc/AllAnime.git",
@@ -42,6 +42,8 @@ REPOSITORIES = {
     "soony5": "https://github.com/Soony5/MangaWorld.git",
     "justbbcr": "https://github.com/justbbcr/streamex.git",
     "mxfia19-twitch": "https://github.com/MXFia19/Twitchnosub-Sora.git",
+    "alexrica": "https://github.com/alexrica/sora-modules.git",
+    "sobet": "https://git.luna-app.eu/sobet/sources.git",
 }
 
 # Sora Module Library API - used as fallback for repos without JSON metadata
