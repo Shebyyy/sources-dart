@@ -7,7 +7,11 @@
       "icon": "https://files.catbox.moe/741wp7.png"
     },
     "version": "1.0.3",
-    "language": "English (DUB/HARDSUB)",
+    "language": "English",
+    "languageType": [
+      "Dubbed",
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://123animehub.cc/",
@@ -27,7 +31,7 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "hasDub": true,
+    "hasDub": false,
     "hasSub": true
   },
   {
@@ -39,6 +43,9 @@
     },
     "version": "1.0.3",
     "language": "Tamil",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://www.1tamilcrow.net/",
@@ -70,6 +77,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://streamdata.vaplayer.ru/",
@@ -97,7 +107,10 @@
       "icon": "https://files.catbox.moe/741wp7.png"
     },
     "version": "1.0.6",
-    "language": "Arabic (SUB)",
+    "language": "Arabic",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "MP4",
     "quality": "1080p",
     "baseUrl": "https://ak.sv/",
@@ -112,7 +125,7 @@
     "supportsEclipse": true,
     "languageClean": "Arabic",
     "hasDub": false,
-    "hasSub": true
+    "hasSub": false
   },
   {
     "sourceName": "AllAnime",
@@ -123,6 +136,9 @@
     },
     "version": "1.0.1",
     "language": "English",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://allmanga.to/",
@@ -154,6 +170,9 @@
     },
     "version": "1.0.3",
     "language": "Greek",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "encrypted": true,
     "quality": "1080p",
@@ -186,6 +205,9 @@
     },
     "version": "1.0.3",
     "language": "English",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://anihq.strp2p.com/",
@@ -217,6 +239,9 @@
     },
     "version": "1.0.1",
     "language": "Spanish",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://animeav1.com/",
@@ -248,7 +273,10 @@
       "icon": "https://files.catbox.moe/741wp7.png"
     },
     "version": "1.0.6",
-    "language": "English (SUB)",
+    "language": "English",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://ee.anih1.top",
@@ -269,7 +297,7 @@
     "supportsEclipse": true,
     "languageClean": "English",
     "hasDub": false,
-    "hasSub": true
+    "hasSub": false
   },
   {
     "sourceName": "AnimeGG",
@@ -280,6 +308,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "mp4",
     "quality": "1080p",
     "baseUrl": "https://www.animegg.org/",
@@ -310,7 +341,10 @@
       "icon": "https://files.catbox.moe/741wp7.png"
     },
     "version": "1.0.8",
-    "language": "English (SUB)",
+    "language": "English",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "720p",
     "baseUrl": "https://animeheaven.me/",
@@ -330,7 +364,7 @@
     "supportsEclipse": true,
     "languageClean": "English",
     "hasDub": false,
-    "hasSub": true
+    "hasSub": false
   },
   {
     "sourceName": "AnimeKhor",
@@ -341,6 +375,9 @@
     },
     "version": "1.0.0",
     "language": "Chinese",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://animekhor.org/",
@@ -372,6 +409,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "mp4",
     "quality": "1080p",
     "baseUrl": "https://w7.animeland.tv/",
@@ -403,6 +443,9 @@
     },
     "version": "1.0.5",
     "language": "Russian",
+    "languageType": [
+      "Dubbed"
+    ],
     "streamType": "MP4 & HLS",
     "quality": "4K",
     "baseUrl": "https://animelib.org/ru",
@@ -433,7 +476,11 @@
       "icon": "https://files.catbox.moe/741wp7.png"
     },
     "version": "1.0.5",
-    "language": "English (SUB/DUB)",
+    "language": "English",
+    "languageType": [
+      "Dubbed",
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://vidmoly.to/",
@@ -451,8 +498,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "hasDub": true,
-    "hasSub": true
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "AnimePahe",
@@ -461,8 +508,12 @@
       "name": "50/50",
       "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "1.2.1",
+    "version": "1.3.0",
     "language": "English",
+    "languageType": [
+      "Dubbed",
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://animepahe.si/",
@@ -494,6 +545,9 @@
     },
     "version": "1.0.1",
     "language": "Portuguese",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://animesdigital.org/home",
@@ -525,6 +579,9 @@
     },
     "version": "1.0.1",
     "language": "Serbian",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "m3u8",
     "quality": "720p",
     "baseUrl": "https://www.animesrbija.com/",
@@ -553,7 +610,11 @@
       "icon": "https://files.catbox.moe/741wp7.png"
     },
     "version": "1.2.14",
-    "language": "German (DUB/SUB)",
+    "language": "German",
+    "languageType": [
+      "Dubbed",
+      "Subbed"
+    ],
     "streamType": "MP4",
     "quality": "1080p",
     "baseUrl": "https://www.animetoast.cc/",
@@ -571,8 +632,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "German",
-    "hasDub": true,
-    "hasSub": true
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Animetsu",
@@ -582,7 +643,11 @@
       "icon": "https://files.catbox.moe/741wp7.png"
     },
     "version": "3.0.2",
-    "language": "English (DUB/SUB)",
+    "language": "English",
+    "languageType": [
+      "Dubbed",
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://animetsu.to/",
@@ -603,7 +668,7 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "hasDub": true,
+    "hasDub": false,
     "hasSub": true
   },
   {
@@ -615,6 +680,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://animeverse.to/",
@@ -646,6 +714,9 @@
     },
     "version": "1.0.9",
     "language": "Korean",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://aniweek.com/",
@@ -676,7 +747,10 @@
       "icon": "https://files.catbox.moe/741wp7.png"
     },
     "version": "1.0.0",
-    "language": "English/Indonesian",
+    "language": "Indonesian",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://animexin.dev/",
@@ -695,7 +769,7 @@
     "supportsHiyoku": true,
     "supportsShirox": true,
     "supportsEclipse": true,
-    "languageClean": "English/Indonesian",
+    "languageClean": "Indonesian",
     "hasDub": false,
     "hasSub": false
   },
@@ -708,6 +782,10 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Dubbed",
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://anineko.to/",
@@ -768,6 +846,9 @@
     },
     "version": "1.0.1",
     "language": "Portuguese",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://www.anitube.news/",
@@ -799,6 +880,9 @@
     },
     "version": "1.0.0",
     "language": "Chinese",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://anoboye.com/",
@@ -830,6 +914,9 @@
     },
     "version": "1.0.1",
     "language": "Arabic",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://ww1.asia2tv.pw/",
@@ -857,6 +944,9 @@
     },
     "version": "1.0.2",
     "language": "French",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://uqload.cx/",
@@ -884,6 +974,9 @@
     },
     "version": "1.0.0",
     "language": "Dev",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "Dev",
     "quality": "Dev",
     "baseUrl": "https://google.com/",
@@ -913,6 +1006,9 @@
     },
     "version": "1.0.0",
     "language": "Chinese",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://donghuastream.org/",
@@ -944,6 +1040,9 @@
     },
     "version": "1.0.0",
     "language": "Russian",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://dorama.land/",
@@ -975,6 +1074,9 @@
     },
     "version": "1.0.1",
     "language": "German",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://supervideo.cc/",
@@ -1001,7 +1103,10 @@
       "icon": "https://files.catbox.moe/741wp7.png"
     },
     "version": "1.0.0",
-    "language": "Multi",
+    "language": "English",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://iptv-org.github.io/",
@@ -1017,7 +1122,7 @@
     "supportsTsumi": true,
     "supportsHiyoku": true,
     "supportsEclipse": true,
-    "languageClean": "Multi",
+    "languageClean": "English",
     "hasDub": false,
     "hasSub": true
   },
@@ -1029,7 +1134,10 @@
       "icon": "https://files.catbox.moe/741wp7.png"
     },
     "version": "1.0.2",
-    "language": "English (DUB)",
+    "language": "English",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://vidmoly.to/",
@@ -1044,7 +1152,7 @@
     "supportsHiyoku": true,
     "supportsEclipse": true,
     "languageClean": "English",
-    "hasDub": true,
+    "hasDub": false,
     "hasSub": false
   },
   {
@@ -1056,6 +1164,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://kisskh.do/",
@@ -1083,6 +1194,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://lmanime.com/",
@@ -1114,6 +1228,9 @@
     },
     "version": "1.0.1",
     "language": "English",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "4K",
     "baseUrl": "https://lordflix.org/",
@@ -1141,6 +1258,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Translated"
+    ],
     "streamType": "HLS",
     "quality": "4K",
     "baseUrl": "https://luciferdonghua.in/",
@@ -1171,7 +1291,11 @@
       "icon": "https://files.catbox.moe/741wp7.png"
     },
     "version": "1.0.2",
-    "language": "Spanish (DUB/SUB)",
+    "language": "Spanish",
+    "languageType": [
+      "Dubbed",
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://wwv.monoschinos2.net/",
@@ -1191,8 +1315,8 @@
     "supportsShirox": true,
     "supportsEclipse": true,
     "languageClean": "Spanish",
-    "hasDub": true,
-    "hasSub": true
+    "hasDub": false,
+    "hasSub": false
   },
   {
     "sourceName": "Nimegami",
@@ -1203,6 +1327,9 @@
     },
     "version": "1.0.0",
     "language": "Indonesian",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://nimegami.id/",
@@ -1234,6 +1361,9 @@
     },
     "version": "1.0.0",
     "language": "Chinese",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://www.nivod.cc/",
@@ -1261,6 +1391,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://s1.devcorp.me/",
@@ -1287,7 +1420,10 @@
       "icon": "https://files.catbox.moe/741wp7.png"
     },
     "version": "1.0.0",
-    "language": "English (Hardsub)",
+    "language": "English",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://beta.otaku-streamers.com/",
@@ -1319,6 +1455,10 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Dubbed",
+      "Subbed"
+    ],
     "baseUrl": "https://otakutsu.cc/",
     "searchBaseUrl": "https://otakutsu.cc/browse?query=%s",
     "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/otakutsu/otakutsu.js",
@@ -1349,6 +1489,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://peachify.top/",
@@ -1376,10 +1519,13 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://senshi.live/",
-    "searchBaseUrl": "hhttps://senshi.live/",
+    "searchBaseUrl": "https://senshi.live/",
     "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/senshi/senshi.js",
     "type": "anime",
     "asyncJS": true,
@@ -1407,6 +1553,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "mp4",
     "encrypted": true,
     "quality": "1080p",
@@ -1435,6 +1584,9 @@
     },
     "version": "1.1.3",
     "language": "English",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "4K",
     "baseUrl": "https://google.com/",
@@ -1462,6 +1614,9 @@
     },
     "version": "1.0.7",
     "language": "Turkish",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "8K UHD",
     "baseUrl": "https://hds.turkish123.com/",
@@ -1488,6 +1643,9 @@
     },
     "version": "1.0.1",
     "language": "English",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://vidcore.net/",
@@ -1519,6 +1677,9 @@
     },
     "version": "1.1.6",
     "language": "English",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "4K",
     "baseUrl": "https://player.videasy.net/",
@@ -1546,6 +1707,9 @@
     },
     "version": "1.2.2",
     "language": "English",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://vidfast.pro/",
@@ -1573,6 +1737,9 @@
     },
     "version": "1.0.1",
     "language": "English",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://vidlink.pro",
@@ -1600,6 +1767,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://vidup.to/",
@@ -1627,6 +1797,9 @@
     },
     "version": "1.0.1",
     "language": "Hindi",
+    "languageType": [
+      "Subbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://watchanimeworld.in/",
@@ -1658,6 +1831,9 @@
     },
     "version": "1.0.0",
     "language": "Chinese",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://xiaoxintv.cc/",
@@ -1685,6 +1861,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://play.xpass.top/",
@@ -1713,6 +1892,10 @@
     },
     "version": "1.0.0",
     "language": "Russian",
+    "languageType": [
+      "Subbed",
+      "Dubbed"
+    ],
     "streamType": "HLS",
     "quality": "1080p",
     "baseUrl": "https://ru.yummyani.me/",

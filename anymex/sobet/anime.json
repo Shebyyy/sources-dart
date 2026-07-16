@@ -1,12 +1,12 @@
 [
   {
     "sourceName": "AnimeUnity",
-    "iconUrl": "https://github.com/cottonable/Ryu-preservation/blob/2f10226aa087154974a70c1ec78aa83a47daced9/Ryu/Assets.xcassets/Sources/AnimeUnity.imageset/apple-touch-icon.jpg?raw=true",
+    "iconUrl": "https://raw.githubusercontent.com/cranci1/Ryu/2f10226aa087154974a70c1ec78aa83a47daced9/Ryu/Assets.xcassets/Sources/AnimeUnity.imageset/apple-touch-icon.jpg",
     "author": {
       "name": "sobet",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPQ1qIiALbM3xDWGsuJzu6ItaQGwb9ICRRw&s"
     },
-    "version": "1.1.0",
+    "version": "1.1.1",
     "language": "Italian",
     "streamType": "mp4",
     "quality": "720p",
@@ -56,11 +56,7 @@
     "scriptUrl": "https://git.luna-app.eu/sobet/sources/raw/branch/main/StreamingUnity/script.js",
     "asyncJS": true,
     "type": "shows/movies",
-    "supportsSora": true,
-    "supportsLuna": true,
-    "downloadSupport": false,
-    "supportsTsumi": true,
-    "supportsHiyoku": true,
+    "settings": true,
     "languageClean": "Italian",
     "hasDub": false,
     "hasSub": false

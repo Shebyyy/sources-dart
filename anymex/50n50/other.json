@@ -8,6 +8,10 @@
     },
     "version": "1.0.0",
     "language": "Russian",
+    "languageType": [
+      "Dubbed",
+      "Subbed"
+    ],
     "streamType": "MP4 & HLS",
     "quality": "4K",
     "baseUrl": "https://rezka.ag",

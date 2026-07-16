@@ -8,6 +8,9 @@
     },
     "version": "1.0.0",
     "language": "French",
+    "languageType": [
+      "Native"
+    ],
     "streamType": "novels",
     "quality": "N/A",
     "baseUrl": "https://chireads.com/",
@@ -33,6 +36,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Translated"
+    ],
     "streamType": "novels",
     "quality": "N/A",
     "baseUrl": "https://lightnovelworld.org/",
@@ -58,6 +64,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Translated"
+    ],
     "streamType": "novels",
     "quality": "N/A",
     "baseUrl": "https://lncrawler.monster/",
@@ -83,6 +92,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Translated"
+    ],
     "streamType": "novels",
     "quality": "N/A",
     "baseUrl": "https://novelbin.com/",
@@ -108,6 +120,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Translated"
+    ],
     "streamType": "novels",
     "quality": "N/A",
     "baseUrl": "https://novelnext.dramanovels.io",
@@ -133,6 +148,9 @@
     },
     "version": "1.0.0",
     "language": "English",
+    "languageType": [
+      "Translated"
+    ],
     "streamType": "novels",
     "quality": "N/A",
     "baseUrl": "https://readnovelfull.com/",
@@ -158,6 +176,9 @@
     },
     "version": "1.0.1",
     "language": "English",
+    "languageType": [
+      "Translated"
+    ],
     "streamType": "novels",
     "quality": "N/A",
     "baseUrl": "https://readnovel.eu/",
