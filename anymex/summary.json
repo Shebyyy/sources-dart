@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 240,
-    "files_processed": 244,
+    "files_found": 241,
+    "files_processed": 245,
     "files_failed": 0,
     "api_added": 4
   },
@@ -291,10 +291,10 @@
         "novels",
         "other"
       ],
-      "total_sources": 80,
+      "total_sources": 81,
       "sources_by_type": {
         "anime": {
-          "count": 59,
+          "count": 60,
           "sources": [
             "123Anime",
             "1TamilCrow",
@@ -329,6 +329,7 @@
             "DonghuaStream",
             "Doramaland",
             "HDFilme",
+            "IMDb",
             "IPTV-org",
             "KimCartoon",
             "Kisskh",
