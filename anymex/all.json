@@ -80,7 +80,7 @@
             "name": "50/50",
             "icon": "https://files.catbox.moe/741wp7.png"
           },
-          "version": "1.0.0",
+          "version": "1.0.1",
           "language": "English",
           "languageType": [
             "Subbed"
@@ -131,40 +131,6 @@
           "languageClean": "Arabic",
           "hasDub": false,
           "hasSub": false
-        },
-        {
-          "sourceName": "AllAnime",
-          "iconUrl": "https://allmanga.to/android-icon-192x192.png",
-          "author": {
-            "name": "50/50",
-            "icon": "https://files.catbox.moe/741wp7.png"
-          },
-          "version": "1.0.1",
-          "language": "English",
-          "languageType": [
-            "Subbed"
-          ],
-          "streamType": "HLS",
-          "quality": "1080p",
-          "baseUrl": "https://allmanga.to/",
-          "searchBaseUrl": "https://allmanga.to/",
-          "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/allanime/allanime.js",
-          "type": "anime",
-          "asyncJS": true,
-          "softsub": true,
-          "downloadSupport": true,
-          "supportsSora": true,
-          "supportsLuna": true,
-          "supportsMojuru": true,
-          "supportsDartotsu": true,
-          "supportsAnymex": true,
-          "supportsTsumi": true,
-          "supportsHiyoku": true,
-          "supportsShirox": true,
-          "supportsEclipse": true,
-          "languageClean": "English",
-          "hasDub": false,
-          "hasSub": true
         },
         {
           "sourceName": "An1me",
@@ -345,7 +311,7 @@
             "name": "50/50",
             "icon": "https://files.catbox.moe/741wp7.png"
           },
-          "version": "1.0.8",
+          "version": "1.1.0",
           "language": "English",
           "languageType": [
             "Subbed"
@@ -608,75 +574,6 @@
           "hasSub": false
         },
         {
-          "sourceName": "AnimeToast",
-          "iconUrl": "https://www.animetoast.cc/wp-content/uploads/2018/03/toastfavi-300x300.png",
-          "author": {
-            "name": "50/50 & Cufiy",
-            "icon": "https://files.catbox.moe/741wp7.png"
-          },
-          "version": "1.2.14",
-          "language": "German",
-          "languageType": [
-            "Dubbed",
-            "Subbed"
-          ],
-          "streamType": "MP4",
-          "quality": "1080p",
-          "baseUrl": "https://www.animetoast.cc/",
-          "searchBaseUrl": "https://www.animetoast.cc/?s=the%s",
-          "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/animetoast/animetoast_v2.js",
-          "asyncJS": true,
-          "type": "anime",
-          "supportsMojuru": true,
-          "supportsDartotsu": true,
-          "supportsSora": true,
-          "supportsLuna": true,
-          "supportsAnymex": true,
-          "supportsTsumi": true,
-          "supportsHiyoku": true,
-          "supportsShirox": true,
-          "supportsEclipse": true,
-          "languageClean": "German",
-          "hasDub": false,
-          "hasSub": false
-        },
-        {
-          "sourceName": "Animetsu",
-          "iconUrl": "https://animetsu.live/apple-touch-icon.png",
-          "author": {
-            "name": "50/50",
-            "icon": "https://files.catbox.moe/741wp7.png"
-          },
-          "version": "3.0.2",
-          "language": "English",
-          "languageType": [
-            "Dubbed",
-            "Subbed"
-          ],
-          "streamType": "HLS",
-          "quality": "1080p",
-          "baseUrl": "https://animetsu.to/",
-          "searchBaseUrl": "https://animetsu.to/",
-          "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/gojowtf/gojowtf.js",
-          "asyncJS": true,
-          "type": "anime",
-          "softsub": true,
-          "downloadSupport": false,
-          "note": "",
-          "supportsMojuru": true,
-          "supportsDartotsu": true,
-          "supportsSora": true,
-          "supportsLuna": true,
-          "supportsAnymex": true,
-          "supportsTsumi": true,
-          "supportsHiyoku": true,
-          "supportsShirox": true,
-          "supportsEclipse": true,
-          "languageClean": "English",
-          "hasDub": false,
-          "hasSub": true
-        },
-        {
           "sourceName": "AnimeVerse",
           "iconUrl": "https://animeverse.to/apple-touch-icon.png",
           "author": {
@@ -751,7 +648,7 @@
             "name": "50/50",
             "icon": "https://files.catbox.moe/741wp7.png"
           },
-          "version": "1.0.0",
+          "version": "1.0.1",
           "language": "Indonesian",
           "languageType": [
             "Native"
@@ -937,36 +834,6 @@
           "supportsHiyoku": true,
           "supportsEclipse": true,
           "languageClean": "Arabic",
-          "hasDub": false,
-          "hasSub": false
-        },
-        {
-          "sourceName": "CoFlix",
-          "iconUrl": "https://coflix.cc/wp-content/uploads/2022/10/cropped-coflix-180x180-1.png",
-          "author": {
-            "name": "50/50",
-            "icon": "https://files.catbox.moe/741wp7.png"
-          },
-          "version": "1.0.2",
-          "language": "French",
-          "languageType": [
-            "Subbed"
-          ],
-          "streamType": "HLS",
-          "quality": "1080p",
-          "baseUrl": "https://uqload.cx/",
-          "searchBaseUrl": "https://uqload.cx/",
-          "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/coflix/coflix.js",
-          "type": "shows/movies/anime",
-          "asyncJS": true,
-          "softsub": false,
-          "downloadSupport": false,
-          "supportsSora": true,
-          "supportsLuna": true,
-          "supportsTsumi": true,
-          "supportsHiyoku": true,
-          "supportsEclipse": true,
-          "languageClean": "French",
           "hasDub": false,
           "hasSub": false
         },
@@ -1162,35 +1029,6 @@
           "hasSub": true
         },
         {
-          "sourceName": "KimCartoon",
-          "iconUrl": "https://i2.wp.com/kimcartoon.com.co/wp-content/uploads/2023/03/favicon.png",
-          "author": {
-            "name": "50/50",
-            "icon": "https://files.catbox.moe/741wp7.png"
-          },
-          "version": "1.0.2",
-          "language": "English",
-          "languageType": [
-            "Native"
-          ],
-          "streamType": "HLS",
-          "quality": "1080p",
-          "baseUrl": "https://vidmoly.to/",
-          "searchBaseUrl": "https://kimcartoon.com.co/?s=%s",
-          "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/kimcartoon/kimcartoon.js",
-          "asyncJS": true,
-          "type": "anime/shows/movies",
-          "downloadSupport": false,
-          "supportsSora": true,
-          "supportsLuna": true,
-          "supportsTsumi": true,
-          "supportsHiyoku": true,
-          "supportsEclipse": true,
-          "languageClean": "English",
-          "hasDub": false,
-          "hasSub": false
-        },
-        {
           "sourceName": "Kisskh",
           "iconUrl": "https://files.catbox.moe/wi6a1a.png",
           "author": {
@@ -1249,36 +1087,6 @@
           "supportsTsumi": true,
           "supportsHiyoku": true,
           "supportsShirox": true,
-          "supportsEclipse": true,
-          "languageClean": "English",
-          "hasDub": false,
-          "hasSub": true
-        },
-        {
-          "sourceName": "LordFlix",
-          "iconUrl": "https://lordflix.org/mstile-150x150.png",
-          "author": {
-            "name": "50/50",
-            "icon": "https://files.catbox.moe/741wp7.png"
-          },
-          "version": "1.0.1",
-          "language": "English",
-          "languageType": [
-            "Native"
-          ],
-          "streamType": "HLS",
-          "quality": "4K",
-          "baseUrl": "https://lordflix.org/",
-          "searchBaseUrl": "https://lordflix.org/",
-          "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/lordflix/lordflix.js",
-          "type": "shows/movies/anime",
-          "asyncJS": true,
-          "softsub": true,
-          "downloadSupport": false,
-          "supportsSora": true,
-          "supportsLuna": true,
-          "supportsTsumi": true,
-          "supportsHiyoku": true,
           "supportsEclipse": true,
           "languageClean": "English",
           "hasDub": false,
@@ -1454,15 +1262,15 @@
             "name": "50/50",
             "icon": "https://files.catbox.moe/741wp7.png"
           },
-          "version": "1.0.0",
+          "version": "1.0.1",
           "language": "English",
           "languageType": [
             "Subbed"
           ],
           "streamType": "HLS",
           "quality": "1080p",
-          "baseUrl": "https://beta.otaku-streamers.com/",
-          "searchBaseUrl": "https://beta.otaku-streamers.com/",
+          "baseUrl": "https://otaku-streamers.com/",
+          "searchBaseUrl": "https://otaku-streamers.com/",
           "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/otaku-streamers/otaku-streamers.js",
           "type": "anime",
           "asyncJS": true,
@@ -6300,9 +6108,11 @@
           "iconUrl": "https://animejara.com/wp-content/uploads/2025/12/cropped-LOGO_ANIJARA7.png",
           "author": {
             "name": "xdfkenny",
-            "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj"
+            "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+            "url": "https://github.com/xdfkenny"
           },
-          "version": "1.0.2",
+          "description": "Módulo de AnimeJara — anime y películas en español latino, sub y japones (AnimeJara.com)",
+          "version": "1.1.1",
           "language": "Spanish (DUB/SUB)",
           "streamType": "HLS",
           "quality": "1080p",
@@ -6310,6 +6120,8 @@
           "searchBaseUrl": "https://animejara.com/catalogo/?q=%s",
           "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/dev/henaojara/henaojara.js",
           "type": "anime",
+          "downloadSupport": true,
+          "combo": false,
           "asyncJS": true,
           "streamAsyncJS": false,
           "softsub": false,
@@ -6320,7 +6132,6 @@
           "supportsAnymex": true,
           "supportsTsumi": true,
           "supportsHiyoku": true,
-          "downloadSupport": false,
           "languageClean": "Spanish",
           "hasDub": true,
           "hasSub": true
