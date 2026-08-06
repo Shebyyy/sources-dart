@@ -968,6 +968,40 @@
           "hasSub": false
         },
         {
+          "sourceName": "Hexa",
+          "iconUrl": "https://hexa.su/favicon.ico",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.1.0",
+          "language": "English",
+          "languageType": [
+            "Native"
+          ],
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://hexa.su/",
+          "searchBaseUrl": "https://hexa.su/",
+          "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/hexa/hexa.js",
+          "type": "shows/movies/anime",
+          "asyncJS": true,
+          "softsub": true,
+          "downloadSupport": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsDartotsu": true,
+          "supportsAnymex": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsShirox": true,
+          "supportsMojuru": true,
+          "supportsEclipse": true,
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
           "sourceName": "IMDb",
           "iconUrl": "https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_iPhone_retina_180x180._CB1582158069_UX196_.png",
           "author": {
@@ -1035,7 +1069,7 @@
             "name": "50/50",
             "icon": "https://files.catbox.moe/741wp7.png"
           },
-          "version": "1.0.0",
+          "version": "1.0.1",
           "language": "English",
           "languageType": [
             "Native"
@@ -1419,36 +1453,6 @@
           "hasSub": false
         },
         {
-          "sourceName": "Tsumi (詰み) - Literally Everything 2.0",
-          "iconUrl": "https://files.catbox.moe/krovkt.png",
-          "author": {
-            "name": "50/50",
-            "icon": "https://files.catbox.moe/741wp7.png"
-          },
-          "version": "1.1.3",
-          "language": "English",
-          "languageType": [
-            "Native"
-          ],
-          "streamType": "HLS",
-          "quality": "4K",
-          "baseUrl": "https://google.com/",
-          "searchBaseUrl": "https://google.com/",
-          "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/checkmate/checkmate.js",
-          "type": "anime/movies/shows",
-          "asyncJS": true,
-          "softsub": true,
-          "downloadSupport": true,
-          "supportsSora": true,
-          "supportsLuna": true,
-          "supportsTsumi": true,
-          "supportsHiyoku": true,
-          "supportsEclipse": true,
-          "languageClean": "English",
-          "hasDub": false,
-          "hasSub": true
-        },
-        {
           "sourceName": "Turkish123",
           "iconUrl": "https://hds.turkish123.com/wp-content/uploads/favicon.png",
           "author": {
@@ -1484,7 +1488,7 @@
             "name": "50/50",
             "icon": "https://files.catbox.moe/741wp7.png"
           },
-          "version": "1.0.1",
+          "version": "1.0.2",
           "language": "English",
           "languageType": [
             "Native"
@@ -1518,7 +1522,7 @@
             "name": "50/50",
             "icon": "https://files.catbox.moe/741wp7.png"
           },
-          "version": "1.1.6",
+          "version": "1.2.0",
           "language": "English",
           "languageType": [
             "Native"
@@ -1548,7 +1552,7 @@
             "name": "50/50",
             "icon": "https://files.catbox.moe/741wp7.png"
           },
-          "version": "1.2.2",
+          "version": "1.2.3",
           "language": "English",
           "languageType": [
             "Native"
@@ -1608,7 +1612,7 @@
             "name": "50/50",
             "icon": "https://files.catbox.moe/741wp7.png"
           },
-          "version": "1.0.0",
+          "version": "1.0.1",
           "language": "English",
           "languageType": [
             "Native"
@@ -1630,40 +1634,6 @@
           "languageClean": "English",
           "hasDub": false,
           "hasSub": true
-        },
-        {
-          "sourceName": "WatchAnimeWorld",
-          "iconUrl": "https://watchanimeworld.in/wp-content/uploads/cropped-AW_Smiley-192x192.png",
-          "author": {
-            "name": "50/50",
-            "icon": "https://files.catbox.moe/741wp7.png"
-          },
-          "version": "1.0.1",
-          "language": "Hindi",
-          "languageType": [
-            "Subbed"
-          ],
-          "streamType": "HLS",
-          "quality": "1080p",
-          "baseUrl": "https://watchanimeworld.in/",
-          "searchBaseUrl": "https://watchanimeworld.in/",
-          "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/watchanimeworld/watchanimeworld.js",
-          "type": "anime",
-          "asyncJS": true,
-          "softsub": false,
-          "downloadSupport": false,
-          "supportsMojuru": true,
-          "supportsDartotsu": true,
-          "supportsSora": true,
-          "supportsLuna": true,
-          "supportsAnymex": true,
-          "supportsTsumi": true,
-          "supportsHiyoku": true,
-          "supportsShirox": true,
-          "supportsEclipse": true,
-          "languageClean": "Hindi",
-          "hasDub": false,
-          "hasSub": false
         },
         {
           "sourceName": "XiaoXintv",

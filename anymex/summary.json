@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 238,
-    "files_processed": 242,
+    "files_found": 237,
+    "files_processed": 241,
     "files_failed": 0,
     "api_added": 4
   },
@@ -314,10 +314,10 @@
         "novels",
         "other"
       ],
-      "total_sources": 75,
+      "total_sources": 74,
       "sources_by_type": {
         "anime": {
-          "count": 54,
+          "count": 53,
           "sources": [
             "123Anime",
             "1TamilCrow",
@@ -348,6 +348,7 @@
             "DonghuaStream",
             "Doramaland",
             "HDFilme",
+            "Hexa",
             "IMDb",
             "IPTV-org",
             "Kisskh",
@@ -362,14 +363,12 @@
             "Peachify",
             "Senshi",
             "ToonTales",
-            "Tsumi (詰み) - Literally Everything 2.0",
             "Turkish123",
             "VidCore",
             "VidEasy",
             "VidFast",
             "VidLink",
             "VidUp",
-            "WatchAnimeWorld",
             "XiaoXintv",
             "XPass",
             "YummyAnime"
