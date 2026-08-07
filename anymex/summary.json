@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 237,
-    "files_processed": 241,
+    "files_found": 238,
+    "files_processed": 242,
     "files_failed": 0,
     "api_added": 4
   },
@@ -41,14 +41,15 @@
         "anime",
         "other"
       ],
-      "total_sources": 4,
+      "total_sources": 5,
       "sources_by_type": {
         "anime": {
-          "count": 3,
+          "count": 4,
           "sources": [
             "AllManga",
             "AniDB",
-            "AnimeJara"
+            "AnimeJara",
+            "YFSP"
           ]
         },
         "other": {
