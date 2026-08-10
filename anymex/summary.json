@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 239,
-    "files_processed": 243,
+    "files_found": 240,
+    "files_processed": 244,
     "files_failed": 0,
     "api_added": 4
   },
@@ -39,15 +39,22 @@
     "xdfkenny": {
       "types": [
         "anime",
+        "novels",
         "other"
       ],
-      "total_sources": 6,
+      "total_sources": 7,
       "sources_by_type": {
         "anime": {
           "count": 2,
           "sources": [
             "AllManga",
             "AniDB"
+          ]
+        },
+        "novels": {
+          "count": 1,
+          "sources": [
+            "Comix"
           ]
         },
         "other": {
