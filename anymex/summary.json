@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 240,
-    "files_processed": 244,
+    "files_found": 241,
+    "files_processed": 245,
     "files_failed": 0,
     "api_added": 4
   },
@@ -42,7 +42,7 @@
         "novels",
         "other"
       ],
-      "total_sources": 7,
+      "total_sources": 8,
       "sources_by_type": {
         "anime": {
           "count": 2,
@@ -52,8 +52,9 @@
           ]
         },
         "novels": {
-          "count": 1,
+          "count": 2,
           "sources": [
+            "AllManga Novels",
             "Comix"
           ]
         },
