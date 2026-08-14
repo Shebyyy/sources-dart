@@ -6,7 +6,7 @@
       "name": "50/50",
       "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "Russian",
     "languageType": [
       "Dubbed",
@@ -14,8 +14,8 @@
     ],
     "streamType": "MP4 & HLS",
     "quality": "4K",
-    "baseUrl": "https://rezka.ag",
-    "searchBaseUrl": "https://rezka.ag",
+    "baseUrl": "https://hdrezka.me",
+    "searchBaseUrl": "https://hdrezka.me",
     "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/hdrezka/hdrezka.js",
     "type": "movies/shows/anime",
     "asyncJS": true,

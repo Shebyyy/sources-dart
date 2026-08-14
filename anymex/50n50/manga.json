@@ -2,7 +2,7 @@
   {
     "sourceName": "Comix",
     "iconURL": "https://files.catbox.moe/ksu7ea.png",
-    "version": "1.0",
+    "version": "1.1",
     "language": "English",
     "languageType": [
       "Translated"
@@ -25,7 +25,7 @@
   {
     "sourceName": "KaliScan",
     "iconURL": "https://kaliscan.io/static/sites/icons/apple-touch-icon.png",
-    "version": "1.0",
+    "version": "1.1",
     "language": "English",
     "languageType": [
       "Translated"
@@ -71,7 +71,7 @@
   {
     "sourceName": "MangaDex",
     "iconURL": "https://files.catbox.moe/ouogm2.png",
-    "version": "1.0",
+    "version": "1.1",
     "language": "English",
     "languageType": [
       "Translated"
@@ -94,7 +94,7 @@
   {
     "sourceName": "MangaFire",
     "iconURL": "https://s.mfcdn.cc/assets/sites/mangafire/favicon.png?v3",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "English",
     "languageType": [
       "Translated"
@@ -117,7 +117,7 @@
   {
     "sourceName": "MangaFreak",
     "iconURL": "https://files.catbox.moe/903u7e.png",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "English",
     "languageType": [
       "Translated"
@@ -278,7 +278,7 @@
   {
     "sourceName": "WeebCentral",
     "iconURL": "https://favicons.statusgator.com/1bi5zotvuQiK08wI.png",
-    "version": "1.0",
+    "version": "1.1",
     "language": "English",
     "languageType": [
       "Translated"
