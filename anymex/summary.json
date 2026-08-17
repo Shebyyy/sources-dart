@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 241,
-    "files_processed": 245,
+    "files_found": 240,
+    "files_processed": 244,
     "files_failed": 0,
     "api_added": 4
   },
@@ -240,7 +240,7 @@
         "novels",
         "other"
       ],
-      "total_sources": 74,
+      "total_sources": 73,
       "sources_by_type": {
         "anime": {
           "count": 53,
@@ -301,7 +301,7 @@
           ]
         },
         "manga": {
-          "count": 13,
+          "count": 12,
           "sources": [
             "Comix",
             "KaliScan",
@@ -310,7 +310,6 @@
             "MangaFire",
             "MangaFreak",
             "MangaKatana",
-            "MangaPark",
             "MangaPub",
             "MangaTaro",
             "MangaWorld",
@@ -357,7 +356,7 @@
     "xdfkenny": {
       "types": [
         "anime",
-        "novels",
+        "manga",
         "other"
       ],
       "total_sources": 8,
@@ -369,10 +368,10 @@
             "AniDB"
           ]
         },
-        "novels": {
+        "manga": {
           "count": 2,
           "sources": [
-            "AllManga Novels",
+            "AllManga Manga",
             "Comix"
           ]
         },

@@ -1805,7 +1805,7 @@
         {
           "sourceName": "MangaDex",
           "iconURL": "https://files.catbox.moe/ouogm2.png",
-          "version": "1.1",
+          "version": "1.2",
           "language": "English",
           "languageType": [
             "Translated"
@@ -1851,7 +1851,7 @@
         {
           "sourceName": "MangaFreak",
           "iconURL": "https://files.catbox.moe/903u7e.png",
-          "version": "1.0.2",
+          "version": "1.0.3",
           "language": "English",
           "languageType": [
             "Translated"
@@ -1880,29 +1880,6 @@
             "Translated"
           ],
           "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangakatana/mangakatana.js",
-          "author": {
-            "name": "50/50",
-            "iconURL": "https://files.catbox.moe/741wp7.png"
-          },
-          "type": "mangas",
-          "supportsDartotsu": true,
-          "supportsLuna": true,
-          "supportsAnymex": true,
-          "supportsEclipse": true,
-          "supportsShirox": true,
-          "languageClean": "English",
-          "hasDub": false,
-          "hasSub": false
-        },
-        {
-          "sourceName": "MangaPark",
-          "iconURL": "https://files.catbox.moe/jvjmzf.png",
-          "version": "1.0",
-          "language": "English",
-          "languageType": [
-            "Translated"
-          ],
-          "scriptURL": "https://git.luna-app.eu/50n50/sources/raw/branch/main/mangapark/mangapark.js",
           "author": {
             "name": "50/50",
             "iconURL": "https://files.catbox.moe/741wp7.png"
@@ -6140,63 +6117,67 @@
           "hasSub": true
         }
       ],
-      "novels": [
+      "manga": [
         {
-          "sourceName": "AllManga Novels",
-          "iconUrl": "https://allmanga.to/pics/avatar-w.png",
+          "sourceName": "AllManga Manga",
+          "iconURL": "https://allmanga.to/pics/avatar-w.png",
           "author": {
             "name": "xdfkenny",
-            "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+            "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "description": "Módulo de novelas/manga de AllManga (allmanga.to) — el build de manga del ecosistema AllAnime (230k+ series). Búsqueda y detalles vía GraphQL (mangas/manga, sin token), capítulos desde availableChaptersDetail (soporta números fraccionarios 25.5/14.1), contenido: páginas de imagen desde chapterPages con token aaReq + descifrado AES-GCM (mismo flujo que el módulo de anime AllManga, con fallback de keygen). Timer-safe para el JSContext de Sora. LIMITACIÓN CONOCIDA: el lector de novelas de Sora carga el HTML sin base URL (sin Referer) y el CDN de imágenes (aln.youtube-anime.com) exige un Referer de la plataforma → las imágenes de capítulo no renderizan en la app (sí en navegador); búsqueda/detalles/capítulos funcionan.",
-          "version": "1.0.3",
+          "description": "Módulo tipo manga de AllManga (allmanga.to) — el build de manga del ecosistema AllAnime (230k+ series). Búsqueda y detalles vía GraphQL (mangas/manga, sin token), capítulos desde availableChaptersDetail (soporta números fraccionarios 25.5/14.1), páginas de imagen desde chapterPages con token aaReq + descifrado AES-GCM (mismo flujo que el módulo de anime AllManga, con fallback de keygen). Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda; las páginas se entregan como URLs de imagen directas.",
+          "version": "1.1.2",
           "language": "English",
           "languageType": [
             "Translated"
           ],
-          "streamType": "novels",
+          "streamType": "mangas",
           "quality": "N/A",
           "baseUrl": "https://allmanga.to/",
           "searchBaseUrl": "https://allmanga.to/search-manga?keyword=%s",
-          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/allmanga-novels/allmanga-novels.js",
-          "type": "novels",
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/allmanga-novels/allmanga-novels.js",
+          "type": "mangas",
           "downloadSupport": false,
-          "combo": false,
           "asyncJS": true,
-          "streamAsyncJS": false,
-          "novel": true,
-          "supportsMojuru": true,
+          "softsub": false,
           "supportsDartotsu": true,
-          "supportsSora": true,
           "supportsLuna": true,
           "supportsAnymex": true,
-          "supportsTsumi": true,
-          "supportsHiyoku": true,
+          "supportsEclipse": true,
+          "supportsShirox": true,
           "languageClean": "English",
           "hasDub": false,
           "hasSub": false
         },
         {
           "sourceName": "Comix",
-          "iconUrl": "https://comix.to/favicon.ico",
+          "iconURL": "https://comix.to/favicon.ico",
           "author": {
             "name": "xdfkenny",
-            "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+            "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "description": "Módulo de Comix (comix.to / comix.ws) — comics en inglés vía su API protegida por el SDK anti-scraping X-Scramble. Implementación 100% JS del token `_` por request y del descifrado de respuestas (cadenas de cajas-S con claves extraídas del chunk seguro), sin proxy ni navegador.",
-          "version": "1.0.5",
+          "description": "Módulo tipo manga de Comix (comix.to / comix.ws) — cómics y manga en inglés vía su API protegida por el SDK anti-scraping X-Scramble. Implementación 100% JS del token `_` por request y del descifrado de respuestas (cadenas de cajas-S con claves extraídas del chunk seguro), sin proxy ni navegador. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda.",
+          "version": "1.1.2",
           "language": "English",
-          "streamType": "novels",
+          "languageType": [
+            "Translated"
+          ],
+          "streamType": "mangas",
           "quality": "Alta",
           "baseUrl": "https://comix.to/",
           "searchBaseUrl": "https://comix.to/browse?q=%s",
-          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/comix/comix.js",
-          "type": "novels",
-          "asyncJS": true,
-          "novel": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/comix/comix.js",
+          "type": "mangas",
           "downloadSupport": false,
+          "asyncJS": true,
+          "softsub": false,
+          "supportsDartotsu": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsEclipse": true,
+          "supportsShirox": true,
           "languageClean": "English",
           "hasDub": false,
           "hasSub": false
