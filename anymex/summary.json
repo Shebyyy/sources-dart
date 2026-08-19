@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 240,
-    "files_processed": 244,
+    "files_found": 242,
+    "files_processed": 246,
     "files_failed": 0,
     "api_added": 4
   },
@@ -391,10 +391,10 @@
         "anime",
         "other"
       ],
-      "total_sources": 16,
+      "total_sources": 18,
       "sources_by_type": {
         "anime": {
-          "count": 13,
+          "count": 15,
           "sources": [
             "Anime Base (DUB)",
             "Anime Base (ENG SUB)",
@@ -402,6 +402,8 @@
             "AniWorld (ENG SUB)",
             "AniWorld (GER DUB)",
             "AniWorld (GER SUB)",
+            "Filmo",
+            "Filmo (EN)",
             "Filmpalast",
             "FireAnime DUB",
             "FireAnime English (SUB)",

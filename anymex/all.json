@@ -2517,6 +2517,50 @@
           "hasSub": true
         },
         {
+          "sourceName": "Filmo",
+          "iconUrl": "https://filmo.to/favicon.ico",
+          "author": {
+            "name": "Cufiy",
+            "icon": "https://files.catbox.moe/ttj4fc.gif",
+            "url": "https://github.com/JMcrafter26"
+          },
+          "version": "1.0.0",
+          "type": "Movies/Shows",
+          "language": "German (DUB)",
+          "streamType": "HLS",
+          "quality": "720p",
+          "baseUrl": "https://filmo.to",
+          "searchBaseUrl": "https://filmo.to/search/title/%s",
+          "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/filmo/filmo.js",
+          "asyncJS": true,
+          "downloadSupport": true,
+          "languageClean": "German",
+          "hasDub": true,
+          "hasSub": false
+        },
+        {
+          "sourceName": "Filmo (EN)",
+          "iconUrl": "https://filmo.to/favicon.ico",
+          "author": {
+            "name": "Ye",
+            "icon": "https://files.catbox.moe/x9vnf7.gif",
+            "url": "https://github.com/"
+          },
+          "version": "1.0.0",
+          "type": "Movies/Shows",
+          "language": "English (DUB)",
+          "streamType": "HLS",
+          "quality": "720p",
+          "baseUrl": "https://filmo.to",
+          "searchBaseUrl": "https://filmo.to/search/title/%s",
+          "scriptUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/modules/filmo/filmo_en.js",
+          "asyncJS": true,
+          "downloadSupport": true,
+          "languageClean": "English",
+          "hasDub": true,
+          "hasSub": false
+        },
+        {
           "sourceName": "Filmpalast",
           "iconUrl": "https://files.catbox.moe/tv81m8.png",
           "author": {
