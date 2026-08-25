@@ -711,6 +711,35 @@
           "hasSub": true
         },
         {
+          "id": "jUaRK",
+          "sourceName": "AniStream",
+          "iconUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/anistream/icon.png",
+          "version": "1.0.4",
+          "language": "Multi-Language",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://anistream.one/",
+          "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/anistream/anistream.js",
+          "softsub": true,
+          "manifestUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/anistream/anistream.json",
+          "status": "active",
+          "addedAt": "2026-06-01 16:33:08",
+          "installCount": 0,
+          "type": "anime",
+          "note": "",
+          "recommendation": 0,
+          "downloadSupport": true,
+          "combo": false,
+          "featured": 0,
+          "author": {
+            "name": "Sheby",
+            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV5QZYcWJtmyE3PvSxaJQao_vIGclDxn1Iv6UceLljBQ&amp;s=10"
+          },
+          "languageClean": "Multi-Language",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
           "sourceName": "AniTube",
           "iconUrl": "https://www.anitube.news/wp-content/uploads/cropped-Favicon6-192x192.png",
           "author": {
@@ -2301,6 +2330,35 @@
           "supportsLuna": true,
           "supportsTsumi": true,
           "supportsHiyoku": true,
+          "languageClean": "German",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "id": "j5Oqv",
+          "sourceName": "Movie2k",
+          "iconUrl": "https://favicon.im/movie2k.cx?larger=true",
+          "version": "0.1.2",
+          "language": "German",
+          "streamType": "MP4",
+          "quality": "1080p - 720p - DVD - CAM",
+          "baseUrl": "https://movie2k.cx/",
+          "scriptUrl": "https://raw.githubusercontent.com/CPRmichel/sora-movie2k-module/main/movie2k.js",
+          "softsub": false,
+          "manifestUrl": "https://raw.githubusercontent.com/CPRmichel/sora-movie2k-module/refs/heads/main/movie2k.json",
+          "status": "active",
+          "addedAt": "2026-04-22 15:30:23",
+          "installCount": 0,
+          "type": "shows/movies",
+          "note": "",
+          "recommendation": 0,
+          "downloadSupport": "",
+          "combo": false,
+          "featured": 0,
+          "author": {
+            "name": "shadowbroker",
+            "icon": "https://favicon.im/movie2k.cx?larger=true"
+          },
           "languageClean": "German",
           "hasDub": false,
           "hasSub": false
@@ -5487,6 +5545,44 @@
     }
   },
   {
+    "author": "justbbcr",
+    "repo": "https://github.com/justbbcr/streamex.git",
+    "types": {
+      "anime": [
+        {
+          "id": "j6VYM",
+          "sourceName": "StreameX",
+          "iconUrl": "https://www.streamex.net/favicon.ico",
+          "version": "1.0.4",
+          "language": "French",
+          "streamType": "MP4",
+          "quality": "1080p",
+          "baseUrl": "https://www.streamex.net/",
+          "scriptUrl": "https://raw.githubusercontent.com/justbbcr/streamex/main/streamex.js",
+          "softsub": true,
+          "manifestUrl": "https://raw.githubusercontent.com/justbbcr/streamex/main/streamex.json",
+          "status": "active",
+          "addedAt": "2026-03-08 21:09:33",
+          "installCount": 26,
+          "type": "anime/shows/movies",
+          "note": "",
+          "recommendation": 0,
+          "downloadSupport": true,
+          "combo": false,
+          "featured": 0,
+          "author": {
+            "name": "Kamizu",
+            "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+            "url": "https://github.com/justbbcr"
+          },
+          "languageClean": "French",
+          "hasDub": false,
+          "hasSub": true
+        }
+      ]
+    }
+  },
+  {
     "author": "mxfia19",
     "repo": "https://gitlab.com/mxfia19-group/module-sora.git",
     "types": {
@@ -5956,12 +6052,50 @@
     }
   },
   {
+    "author": "soony5",
+    "repo": "https://github.com/Soony5/MangaWorld.git",
+    "types": {
+      "novels": [
+        {
+          "id": "jEY0b",
+          "sourceName": "MangaWorld Novels",
+          "iconUrl": "https://raw.githubusercontent.com/Soony5/MangaWorld/refs/heads/main/android-icon-192x192.png",
+          "version": "1.0.0",
+          "language": "Italian",
+          "streamType": "novels",
+          "quality": "Alta",
+          "baseUrl": "https://www.mangaworld.mx/",
+          "scriptUrl": "https://raw.githubusercontent.com/Soony5/MangaWorld/refs/heads/main/mangaworld.js",
+          "softsub": false,
+          "manifestUrl": "https://raw.githubusercontent.com/Soony5/MangaWorld/refs/heads/main/mangaworld.json",
+          "status": "active",
+          "addedAt": "2026-04-24 16:10:02",
+          "installCount": 0,
+          "type": "novels",
+          "note": "",
+          "recommendation": 0,
+          "downloadSupport": "",
+          "combo": false,
+          "featured": 0,
+          "author": {
+            "name": "Soony5",
+            "icon": "https://files.catbox.moe/8r9nye.png",
+            "url": "https://github.com/Soony5"
+          },
+          "languageClean": "Italian",
+          "hasDub": false,
+          "hasSub": false
+        }
+      ]
+    }
+  },
+  {
     "author": "xdfkenny",
     "repo": "https://github.com/xdfkenny/xdfkenny-sora-modules.git",
     "types": {
       "anime": [
         {
-          "sourceName": "AllManga",
+          "sourceName": "AllAnime",
           "iconUrl": "https://allmanga.to/pics/avatar-w.png",
           "author": {
             "name": "xdfkenny",
@@ -6204,6 +6338,41 @@
           "hasSub": true
         },
         {
+          "sourceName": "HydraHD",
+          "iconUrl": "https://hydrahd.ws/fav-192.png",
+          "author": {
+            "name": "xdfkenny",
+            "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+            "url": "https://github.com/xdfkenny"
+          },
+          "description": "Módulo de HydraHD (hydrahd.ws) — películas y series en inglés (sub/dub) con calidad real variable por título, hasta 4K. Cada servidor se etiqueta con su resolución VERDADERA medida del manifiesto HLS y su idioma de audio con bandera (🇬🇧 inglés); los servidores multi-audio (Hydra2/VixSrc) generan una entrada adicional por idioma detectado (🇮🇹 italiano, etc.) que reproduce ese audio por defecto. Streams: servidores embebidos + resolvers keyless (VixSrc, MoviesAPI, xpass) + espejos VidSrc (hasta 3) y VidFast con servidores 4K; todo en paralelo con timeouts acotados y workers que nunca abortan el resultado. Subtítulos: lista completa de idiomas al instante (playlist + OpenSubtitles REST + v3 + Community); inglés se autoselecciona. Sin claves API.",
+          "version": "2.2.1",
+          "language": "English (SUB/DUB)",
+          "streamType": "HLS/MP4",
+          "quality": "Up to 4K",
+          "baseUrl": "https://hydrahd.ws/",
+          "searchBaseUrl": "https://hydrahd.ws/index.php?menu=search&query=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/hydrahd/hydrahd.js",
+          "type": "movies/shows/anime",
+          "downloadSupport": true,
+          "combo": false,
+          "asyncJS": true,
+          "streamAsyncJS": false,
+          "softsub": true,
+          "supportsMojuru": false,
+          "supportsDartotsu": false,
+          "supportsSora": true,
+          "supportsShirox": true,
+          "supportsLuna": true,
+          "supportsAnymex": false,
+          "supportsTsumi": false,
+          "supportsHiyoku": false,
+          "supportsEclipse": true,
+          "languageClean": "English",
+          "hasDub": true,
+          "hasSub": true
+        },
+        {
           "sourceName": "HydraHD (Shirox)",
           "iconUrl": "https://hydrahd.ws/fav-192.png",
           "author": {
@@ -6228,6 +6397,68 @@
           "credits": "Original module and stream strategy by Jay (JayGxnzalez) — https://github.com/JayGxnzalez/hydrahd. Now serves the unified xdfkenny module (dual Sora/Shirox subtitle output); Jay's vendored hydrahd-shirox.js kept in-repo as fallback.",
           "languageClean": "English",
           "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "HydraHD (Shirox)",
+          "iconUrl": "https://hydrahd.ws/fav-192.png",
+          "author": {
+            "name": "Jay (JayGxnzalez)",
+            "icon": "https://avatars.githubusercontent.com/JayGxnzalez?s=400",
+            "url": "https://github.com/JayGxnzalez"
+          },
+          "description": "HydraHD (hydrahd.ws) — módulo unificado de xdfkenny (v2.2.0) con soporte dual de subtítulos: `subtitles` como pares [etiqueta,url] para Sora y `allSubtitles` [{url,label,kind}] para el menú de Shirox. Servidores etiquetados con resolución real, multi-audio por idioma, resolvers keyless (VixSrc, MoviesAPI, xpass) + espejos. Sinopsis real vía Cinemeta. Sin claves API.",
+          "version": "1.2.1",
+          "language": "English",
+          "streamType": "HLS/MP4",
+          "quality": "Up to 4K",
+          "baseUrl": "https://hydrahd.ws/",
+          "searchBaseUrl": "https://hydrahd.ws/index.php?menu=search&query=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/hydrahd/hydrahd.js",
+          "type": "movies/shows/anime",
+          "downloadSupport": true,
+          "combo": false,
+          "asyncJS": true,
+          "streamAsyncJS": false,
+          "softsub": true,
+          "credits": "Original module and stream strategy by Jay (JayGxnzalez) — https://github.com/JayGxnzalez/hydrahd. Now serves the unified xdfkenny module (dual Sora/Shirox subtitle output); Jay's vendored hydrahd-shirox.js kept in-repo as fallback.",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "HydraHD SubTest",
+          "iconUrl": "https://hydrahd.ws/fav-192.png",
+          "author": {
+            "name": "xdfkenny",
+            "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+            "url": "https://github.com/xdfkenny"
+          },
+          "description": "MÓDULO DE PRUEBA — clon exacto de HydraHD v2.2.1 (mismos servidores y streams) con SOLO dos cambios en subtítulos: (1) la fuente es únicamente Stremio v3 con la corrección de ruta imdbId:temporada:episodio para series (los query params eran ignorados por v3); (2) curaduría por bytes: cada idioma descarga TODAS sus candidatas y renderiza solo la más grande (traducción más completa), inglés primero, con cobertura completa (tope de seguridad de 120 mediciones), un reintento ante fallos transitorios, filtro de confianza por nombre de archivo (los APIs devuelven archivos de OTRAS temporadas en la misma búsqueda y el más grande ganaba aunque perteneciera a otro episodio) y respaldo UTF-8 si el deadline se acerca. No es para uso diario.",
+          "version": "0.2.2",
+          "language": "English (SUB/DUB)",
+          "streamType": "HLS/MP4",
+          "quality": "Up to 4K",
+          "baseUrl": "https://hydrahd.ws/",
+          "searchBaseUrl": "https://hydrahd.ws/index.php?menu=search&query=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/test/stremio-subs-test/stremio-subs-test.js",
+          "type": "movies/shows/anime",
+          "downloadSupport": true,
+          "combo": false,
+          "asyncJS": true,
+          "streamAsyncJS": false,
+          "softsub": true,
+          "supportsMojuru": false,
+          "supportsDartotsu": false,
+          "supportsSora": true,
+          "supportsShirox": true,
+          "supportsLuna": true,
+          "supportsAnymex": false,
+          "supportsTsumi": false,
+          "supportsHiyoku": false,
+          "supportsEclipse": true,
+          "languageClean": "English",
+          "hasDub": true,
           "hasSub": true
         },
         {

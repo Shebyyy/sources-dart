@@ -706,6 +706,35 @@
     "hasSub": true
   },
   {
+    "id": "jUaRK",
+    "sourceName": "AniStream",
+    "iconUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/anistream/icon.png",
+    "version": "1.0.4",
+    "language": "Multi-Language",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://anistream.one/",
+    "scriptUrl": "https://git.luna-app.eu/50n50/sources/raw/branch/main/anistream/anistream.js",
+    "softsub": true,
+    "manifestUrl": "https://git.luna-app.eu/Cufiy/sora-modules/raw/branch/main/anistream/anistream.json",
+    "status": "active",
+    "addedAt": "2026-06-01 16:33:08",
+    "installCount": 0,
+    "type": "anime",
+    "note": "",
+    "recommendation": 0,
+    "downloadSupport": true,
+    "combo": false,
+    "featured": 0,
+    "author": {
+      "name": "Sheby",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV5QZYcWJtmyE3PvSxaJQao_vIGclDxn1Iv6UceLljBQ&amp;s=10"
+    },
+    "languageClean": "Multi-Language",
+    "hasDub": false,
+    "hasSub": true
+  },
+  {
     "sourceName": "AniTube",
     "iconUrl": "https://www.anitube.news/wp-content/uploads/cropped-Favicon6-192x192.png",
     "author": {

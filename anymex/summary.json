@@ -1,6 +1,6 @@
 {
   "output_root": "/home/runner/work/sources-dart/sources-dart/anymex",
-  "total_repositories": 9,
+  "total_repositories": 11,
   "canonical_types": [
     "anime",
     "manga",
@@ -8,10 +8,10 @@
     "other"
   ],
   "statistics": {
-    "files_found": 243,
-    "files_processed": 243,
+    "files_found": 246,
+    "files_processed": 250,
     "files_failed": 0,
-    "api_added": 0
+    "api_added": 4
   },
   "repositories": {
     "ibro": {
@@ -240,10 +240,10 @@
         "novels",
         "other"
       ],
-      "total_sources": 72,
+      "total_sources": 73,
       "sources_by_type": {
         "anime": {
-          "count": 52,
+          "count": 53,
           "sources": [
             "123Anime",
             "1TamilCrow",
@@ -266,6 +266,7 @@
             "AnimeWeek",
             "AnimeXin",
             "AniNeko",
+            "AniStream",
             "AniTube",
             "Anoboye",
             "Asia2TV",
@@ -340,13 +341,14 @@
       "types": [
         "anime"
       ],
-      "total_sources": 2,
+      "total_sources": 3,
       "sources_by_type": {
         "anime": {
-          "count": 2,
+          "count": 3,
           "sources": [
             "Kinoger",
-            "Moflix"
+            "Moflix",
+            "Movie2k"
           ]
         }
       }
@@ -357,12 +359,12 @@
         "manga",
         "other"
       ],
-      "total_sources": 9,
+      "total_sources": 12,
       "sources_by_type": {
         "anime": {
           "count": 2,
           "sources": [
-            "AllManga",
+            "AllAnime",
             "AniDB"
           ]
         },
@@ -374,12 +376,15 @@
           ]
         },
         "other": {
-          "count": 5,
+          "count": 8,
           "sources": [
             "AnimeJara",
             "FlixLatam",
             "HydraHD",
+            "HydraHD",
             "HydraHD (Shirox)",
+            "HydraHD (Shirox)",
+            "HydraHD SubTest",
             "YFSP"
           ]
         }
@@ -418,6 +423,34 @@
             "Catflix (Website Down)",
             "Moflix",
             "RGShows"
+          ]
+        }
+      }
+    },
+    "soony5": {
+      "types": [
+        "novels"
+      ],
+      "total_sources": 1,
+      "sources_by_type": {
+        "novels": {
+          "count": 1,
+          "sources": [
+            "MangaWorld Novels"
+          ]
+        }
+      }
+    },
+    "justbbcr": {
+      "types": [
+        "anime"
+      ],
+      "total_sources": 1,
+      "sources_by_type": {
+        "anime": {
+          "count": 1,
+          "sources": [
+            "StreameX"
           ]
         }
       }
