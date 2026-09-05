@@ -14,6 +14,65 @@
     "api_added": 4
   },
   "repositories": {
+    "emp0ry": {
+      "types": [
+        "anime"
+      ],
+      "total_sources": 9,
+      "sources_by_type": {
+        "anime": {
+          "count": 9,
+          "sources": [
+            "AniDub",
+            "AniLiberty",
+            "AnimeVost",
+            "Doramaland",
+            "HDRezka",
+            "OnWave",
+            "SameBand",
+            "ShizaProject",
+            "YummyAnime"
+          ]
+        }
+      }
+    },
+    "cufiy": {
+      "types": [
+        "anime",
+        "other"
+      ],
+      "total_sources": 18,
+      "sources_by_type": {
+        "anime": {
+          "count": 15,
+          "sources": [
+            "Anime Base (DUB)",
+            "Anime Base (ENG SUB)",
+            "Anime Base (SUB)",
+            "AniWorld (ENG SUB)",
+            "AniWorld (GER DUB)",
+            "AniWorld (GER SUB)",
+            "Filmo",
+            "Filmo (EN)",
+            "Filmpalast",
+            "FireAnime DUB",
+            "FireAnime English (SUB)",
+            "FireAnime SUB",
+            "Latanime",
+            "s.to (ENG DUB)",
+            "s.to (GER DUB)"
+          ]
+        },
+        "other": {
+          "count": 3,
+          "sources": [
+            "Catflix (Website Down)",
+            "Moflix",
+            "RGShows"
+          ]
+        }
+      }
+    },
     "ibro": {
       "types": [
         "anime",
@@ -147,42 +206,6 @@
         }
       }
     },
-    "emp0ry": {
-      "types": [
-        "anime"
-      ],
-      "total_sources": 9,
-      "sources_by_type": {
-        "anime": {
-          "count": 9,
-          "sources": [
-            "AniDub",
-            "AniLiberty",
-            "AnimeVost",
-            "Doramaland",
-            "HDRezka",
-            "OnWave",
-            "SameBand",
-            "ShizaProject",
-            "YummyAnime"
-          ]
-        }
-      }
-    },
-    "alexrica": {
-      "types": [
-        "anime"
-      ],
-      "total_sources": 1,
-      "sources_by_type": {
-        "anime": {
-          "count": 1,
-          "sources": [
-            "JKanime"
-          ]
-        }
-      }
-    },
     "sobet": {
       "types": [
         "anime"
@@ -199,36 +222,57 @@
         }
       }
     },
-    "mxfia19": {
+    "cprmichel": {
       "types": [
-        "anime",
-        "other"
+        "anime"
       ],
-      "total_sources": 15,
+      "total_sources": 3,
       "sources_by_type": {
         "anime": {
-          "count": 11,
+          "count": 3,
           "sources": [
-            "Aether",
-            "Anime Kami",
-            "anime ultra",
-            "Anime-Sama",
-            "dessin-anime",
-            "Miruro",
-            "Movix",
-            "Nakastream",
-            "Nakios",
-            "Purstream",
-            "VoirAnime"
+            "Kinoger",
+            "Moflix",
+            "Movie2k"
+          ]
+        }
+      }
+    },
+    "xdfkenny": {
+      "types": [
+        "anime",
+        "manga",
+        "other"
+      ],
+      "total_sources": 14,
+      "sources_by_type": {
+        "anime": {
+          "count": 3,
+          "sources": [
+            "AllAnime",
+            "AniDB",
+            "Torrentio"
+          ]
+        },
+        "manga": {
+          "count": 2,
+          "sources": [
+            "AllManga Manga",
+            "Comix"
           ]
         },
         "other": {
-          "count": 4,
+          "count": 9,
           "sources": [
-            "Bingebox",
-            "Cinepulse",
-            "LiveWatch",
-            "Twitch NoSub"
+            "AnimeJara",
+            "FlixLatam",
+            "HydraHD",
+            "HydraHD",
+            "HydraHD (Shirox)",
+            "HydraHD (Shirox)",
+            "HydraHD SubTest",
+            "KissAsian",
+            "YFSP"
           ]
         }
       }
@@ -337,94 +381,50 @@
         }
       }
     },
-    "cprmichel": {
+    "mxfia19": {
+      "types": [
+        "anime",
+        "other"
+      ],
+      "total_sources": 15,
+      "sources_by_type": {
+        "anime": {
+          "count": 11,
+          "sources": [
+            "Aether",
+            "Anime Kami",
+            "anime ultra",
+            "Anime-Sama",
+            "dessin-anime",
+            "Miruro",
+            "Movix",
+            "Nakastream",
+            "Nakios",
+            "Purstream",
+            "VoirAnime"
+          ]
+        },
+        "other": {
+          "count": 4,
+          "sources": [
+            "Bingebox",
+            "Cinepulse",
+            "LiveWatch",
+            "Twitch NoSub"
+          ]
+        }
+      }
+    },
+    "alexrica": {
       "types": [
         "anime"
       ],
-      "total_sources": 3,
+      "total_sources": 1,
       "sources_by_type": {
         "anime": {
-          "count": 3,
+          "count": 1,
           "sources": [
-            "Kinoger",
-            "Moflix",
-            "Movie2k"
-          ]
-        }
-      }
-    },
-    "xdfkenny": {
-      "types": [
-        "anime",
-        "manga",
-        "other"
-      ],
-      "total_sources": 14,
-      "sources_by_type": {
-        "anime": {
-          "count": 3,
-          "sources": [
-            "AllAnime",
-            "AniDB",
-            "Torrentio"
-          ]
-        },
-        "manga": {
-          "count": 2,
-          "sources": [
-            "AllManga Manga",
-            "Comix"
-          ]
-        },
-        "other": {
-          "count": 9,
-          "sources": [
-            "AnimeJara",
-            "FlixLatam",
-            "HydraHD",
-            "HydraHD",
-            "HydraHD (Shirox)",
-            "HydraHD (Shirox)",
-            "HydraHD SubTest",
-            "KissAsian",
-            "YFSP"
-          ]
-        }
-      }
-    },
-    "cufiy": {
-      "types": [
-        "anime",
-        "other"
-      ],
-      "total_sources": 18,
-      "sources_by_type": {
-        "anime": {
-          "count": 15,
-          "sources": [
-            "Anime Base (DUB)",
-            "Anime Base (ENG SUB)",
-            "Anime Base (SUB)",
-            "AniWorld (ENG SUB)",
-            "AniWorld (GER DUB)",
-            "AniWorld (GER SUB)",
-            "Filmo",
-            "Filmo (EN)",
-            "Filmpalast",
-            "FireAnime DUB",
-            "FireAnime English (SUB)",
-            "FireAnime SUB",
-            "Latanime",
-            "s.to (ENG DUB)",
-            "s.to (GER DUB)"
-          ]
-        },
-        "other": {
-          "count": 3,
-          "sources": [
-            "Catflix (Website Down)",
-            "Moflix",
-            "RGShows"
+            "JKanime"
           ]
         }
       }
