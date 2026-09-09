@@ -113,7 +113,7 @@
       "url": "https://github.com/xdfkenny"
     },
     "description": "Módulo de HydraHD (hydrahd.ws) — películas y series en inglés (sub/dub) con calidad real variable por título, hasta 4K. Cada servidor se etiqueta con su resolución VERDADERA medida del manifiesto HLS y su idioma de audio con bandera (🇬🇧 inglés); los servidores multi-audio (Hydra2/VixSrc) generan una entrada adicional por idioma detectado (🇮🇹 italiano, etc.) que reproduce ese audio por defecto. Streams: servidores embebidos + resolvers keyless (VixSrc, MoviesAPI, xpass) + espejos VidSrc (hasta 3) y VidFast con servidores 4K; todo en paralelo con timeouts acotados y workers que nunca abortan el resultado. Subtítulos: lista completa de idiomas al instante (playlist + OpenSubtitles REST + v3 + Community); inglés se autoselecciona. Sin claves API.",
-    "version": "2.2.1",
+    "version": "2.3.0",
     "language": "English (SUB/DUB)",
     "streamType": "HLS/MP4",
     "quality": "Up to 4K",
@@ -174,8 +174,8 @@
       "icon": "https://avatars.githubusercontent.com/JayGxnzalez?s=400",
       "url": "https://github.com/JayGxnzalez"
     },
-    "description": "HydraHD (hydrahd.ws) — módulo unificado de xdfkenny (v2.2.0) con soporte dual de subtítulos: `subtitles` como pares [etiqueta,url] para Sora y `allSubtitles` [{url,label,kind}] para el menú de Shirox. Servidores etiquetados con resolución real, multi-audio por idioma, resolvers keyless (VixSrc, MoviesAPI, xpass) + espejos. Sinopsis real vía Cinemeta. Sin claves API.",
-    "version": "1.2.1",
+    "description": "HydraHD (hydrahd.ws) — módulo unificado de xdfkenny (v2.3.0) con soporte dual de subtítulos: `subtitles` como pares [etiqueta,url] para Sora y `allSubtitles` [{url,label,kind}] para el menú de Shirox. Servidores etiquetados con resolución real, multi-audio por idioma, resolvers keyless (VixSrc, MoviesAPI, xpass) + espejos. Sinopsis real vía Cinemeta. Pósters: IMDb (metahub) para películas con coincidencia exacta, nativo TMDB a alta resolución (w1280) como respaldo. Sin claves API.",
+    "version": "1.3.0",
     "language": "English",
     "streamType": "HLS/MP4",
     "quality": "Up to 4K",
