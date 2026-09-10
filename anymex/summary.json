@@ -1,6 +1,6 @@
 {
   "output_root": "/home/runner/work/sources-dart/sources-dart/anymex",
-  "total_repositories": 11,
+  "total_repositories": 10,
   "canonical_types": [
     "anime",
     "manga",
@@ -8,34 +8,12 @@
     "other"
   ],
   "statistics": {
-    "files_found": 177,
-    "files_processed": 236,
+    "files_found": 168,
+    "files_processed": 227,
     "files_failed": 0,
     "api_added": 59
   },
   "repositories": {
-    "emp0ry": {
-      "types": [
-        "anime"
-      ],
-      "total_sources": 9,
-      "sources_by_type": {
-        "anime": {
-          "count": 9,
-          "sources": [
-            "AniDub",
-            "AniLiberty",
-            "AnimeVost",
-            "Doramaland",
-            "HDRezka",
-            "OnWave",
-            "SameBand",
-            "ShizaProject",
-            "YummyAnime"
-          ]
-        }
-      }
-    },
     "cufiy": {
       "types": [
         "anime",
