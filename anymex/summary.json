@@ -8,198 +8,12 @@
     "other"
   ],
   "statistics": {
-    "files_found": 168,
-    "files_processed": 227,
+    "files_found": 166,
+    "files_processed": 274,
     "files_failed": 0,
-    "api_added": 59
+    "api_added": 108
   },
   "repositories": {
-    "cufiy": {
-      "types": [
-        "anime",
-        "other"
-      ],
-      "total_sources": 18,
-      "sources_by_type": {
-        "anime": {
-          "count": 15,
-          "sources": [
-            "Anime Base (DUB)",
-            "Anime Base (ENG SUB)",
-            "Anime Base (SUB)",
-            "AniWorld (ENG SUB)",
-            "AniWorld (GER DUB)",
-            "AniWorld (GER SUB)",
-            "Filmo",
-            "Filmo (EN)",
-            "Filmpalast",
-            "FireAnime DUB",
-            "FireAnime English (SUB)",
-            "FireAnime SUB",
-            "Latanime",
-            "s.to (ENG DUB)",
-            "s.to (GER DUB)"
-          ]
-        },
-        "other": {
-          "count": 3,
-          "sources": [
-            "Catflix (Website Down)",
-            "Moflix",
-            "RGShows"
-          ]
-        }
-      }
-    },
-    "ibro": {
-      "types": [
-        "anime",
-        "novels"
-      ],
-      "total_sources": 114,
-      "sources_by_type": {
-        "anime": {
-          "count": 111,
-          "sources": [
-            "111movies",
-            "AbleFlix",
-            "AllAnime",
-            "AniBunker",
-            "AniDB",
-            "Anify",
-            "Anikoto",
-            "Anikuro",
-            "Anime-Portal",
-            "AnimeLIB (DUB - First Stream)",
-            "AnimeLIB (DUB - Studio Band)",
-            "AnimeLIB (DUB)",
-            "AnimeLIB (HardSUB - SubVost)",
-            "AnimeLIB (HardSUB - Ушастая)",
-            "AnimeLIB (SOFTSUB)",
-            "AnimeLIB (SUB - All Streams)",
-            "AnimeLIB (SUB - First Stream)",
-            "Animepahe",
-            "Animepahe (DUB)",
-            "Animepahe (SUB)",
-            "AnimeStars",
-            "Animetsu",
-            "Animex",
-            "Animex (DUB)",
-            "Animex (SUB)",
-            "AnimeZ",
-            "Aniwave",
-            "Aniwave (SCRAPER)",
-            "Anizone",
-            "ArabicToons",
-            "Autoembed",
-            "Bingeflix",
-            "Black Clover Pace",
-            "Borucut",
-            "CinemaDeck",
-            "CinemaDeck 2",
-            "Cinepulse",
-            "City Sonic",
-            "Concentrated Bleach",
-            "DBZ Recut",
-            "Development",
-            "Dragon Ball Recut",
-            "Dragon Ball Super: Ultra Instinct Cut",
-            "DRAMA COOL",
-            "FlickyStream",
-            "FRAnime",
-            "Frembed (Movies)",
-            "GidOnline",
-            "HD Today",
-            "HDRezka",
-            "Hexa",
-            "HopCorn+",
-            "Jut.su",
-            "KDramaHood (BROKEN)",
-            "Kepala Bergetar 4",
-            "Kepala Bergetar 9",
-            "KinoGer",
-            "KissAssAnime",
-            "KissKH",
-            "Kuudere",
-            "Let's Stream",
-            "LUNAR",
-            "Lycoris Cafe",
-            "Mokmobi (BROKEN)",
-            "Movies7.im",
-            "MovieZone (BROKEN)",
-            "Movix",
-            "MyFlixer",
-            "Narucannon",
-            "Net3lix",
-            "One Pace",
-            "One Pace (French)",
-            "One Pace (Spanish)",
-            "One Piece Film Red: AmaLee Score",
-            "One Piece Treasure Edition",
-            "Onigashima Paced",
-            "Otakuu",
-            "Peak",
-            "Purstream",
-            "Rama Oriental Fansub",
-            "Rebuild of Naruto",
-            "RGShows",
-            "RistoAnime",
-            "Rive",
-            "RuMov",
-            "SFlix",
-            "SpacePowerFans",
-            "StreamCloud",
-            "Sudatchi",
-            "Sunduq",
-            "Tanime",
-            "ToonAnime",
-            "TopCinema",
-            "UASERIAL",
-            "VidAPI",
-            "VidFast",
-            "Vidify",
-            "VidLink",
-            "Vidnest",
-            "Vidrock",
-            "VidSrc",
-            "VidSrc.cc",
-            "Vidzee",
-            "VixSrc",
-            "WaveWatch",
-            "WTFlix",
-            "WTFlix - Animepahe",
-            "WTFlix - EmbedSU",
-            "XPrime",
-            "Yu Yu Hakusho Pace",
-            "Yummy Anime (Clone - SovetRomantica)"
-          ]
-        },
-        "novels": {
-          "count": 3,
-          "sources": [
-            "NovelBuddy",
-            "NovelDot",
-            "NovelFire"
-          ]
-        }
-      }
-    },
-    "sobet": {
-      "types": [
-        "anime"
-      ],
-      "total_sources": 3,
-      "sources_by_type": {
-        "anime": {
-          "count": 3,
-          "sources": [
-            "AnimeUnity",
-            "AnimeWorld",
-            "StreamingUnity"
-          ]
-        }
-      }
-    },
     "cprmichel": {
       "types": [
         "anime"
@@ -220,37 +34,176 @@
       "types": [
         "anime",
         "manga",
+        "novels",
         "other"
       ],
-      "total_sources": 15,
+      "total_sources": 148,
       "sources_by_type": {
         "anime": {
-          "count": 4,
+          "count": 104,
           "sources": [
+            "Unknown",
+            "Unknown",
+            "123Anime",
+            "123Anime",
+            "Aether",
+            "Aether",
+            "Airflix",
+            "Airflix",
+            "AK.SV",
+            "AK.SV",
             "AllAnime",
+            "AllAnime",
+            "An1me",
+            "An1me",
             "AniDB",
+            "AniDB",
+            "AniDub",
+            "AniDub",
+            "AniLiberty",
+            "AniLiberty",
+            "Anime-Sama",
+            "Anime-Sama",
+            "AnimeAV1",
+            "AnimeAV1",
+            "AnimeDefenders",
+            "AnimeDefenders",
+            "AnimeGG",
+            "AnimeGG",
+            "AnimeLand",
+            "AnimeLand",
+            "AnimeLib",
+            "AnimeLib",
             "AnimeNexus",
-            "Torrentio"
+            "AnimeNexus",
+            "AnimeNoSub",
+            "AnimeNoSub",
+            "AnimeUnity",
+            "AnimeUnity",
+            "AnimeVost",
+            "AnimeVost",
+            "AnimeWorld",
+            "AnimeWorld",
+            "AniNeko",
+            "AniNeko",
+            "AniTube",
+            "AniTube",
+            "Aniwave",
+            "Aniwave",
+            "Black Clover Pace",
+            "Black Clover Pace",
+            "Borucut",
+            "Borucut",
+            "Concentrated Bleach",
+            "Concentrated Bleach",
+            "DBZ Recut",
+            "DBZ Recut",
+            "Dragon Ball Recut",
+            "Dragon Ball Recut",
+            "GidOnline",
+            "GidOnline",
+            "IMDb",
+            "IMDb",
+            "IPTV-org",
+            "IPTV-org",
+            "Kisskh",
+            "Kisskh",
+            "LmAnime",
+            "LmAnime",
+            "Monoschinos2",
+            "Monoschinos2",
+            "Nakanime",
+            "Nakanime",
+            "Nimegami",
+            "Nimegami",
+            "Nivod",
+            "Nivod",
+            "OneTouch TV",
+            "OneTouch TV",
+            "Onigashima Paced",
+            "Onigashima Paced",
+            "OnWave",
+            "OnWave",
+            "Otaku-Streamers",
+            "Otaku-Streamers",
+            "Peachify",
+            "Peachify",
+            "StreamCloud",
+            "StreamCloud",
+            "StreamingUnity",
+            "StreamingUnity",
+            "ToonTales",
+            "ToonTales",
+            "Torrentio",
+            "Torrentio",
+            "VidCore",
+            "VidCore",
+            "VidEasy",
+            "VidEasy",
+            "VidFast",
+            "VidFast",
+            "VoirAnime",
+            "VoirAnime",
+            "XPass",
+            "XPass"
           ]
         },
         "manga": {
-          "count": 2,
+          "count": 16,
           "sources": [
             "AllManga Manga",
-            "Comix"
+            "AllManga Manga",
+            "Comix",
+            "Comix",
+            "MangaBuddy",
+            "MangaBuddy",
+            "MangaDex",
+            "MangaDex",
+            "MangaFreak",
+            "MangaFreak",
+            "MangaWorld",
+            "MangaWorld",
+            "Scan Sama",
+            "Scan Sama",
+            "WeebCentral",
+            "WeebCentral"
+          ]
+        },
+        "novels": {
+          "count": 6,
+          "sources": [
+            "ChiReads",
+            "ChiReads",
+            "LnCrawler",
+            "LnCrawler",
+            "ReadNovels",
+            "ReadNovels"
           ]
         },
         "other": {
-          "count": 9,
+          "count": 22,
           "sources": [
+            "Unknown",
+            "Unknown",
+            "Unknown",
+            "Unknown",
+            "Unknown",
+            "Unknown",
+            "Unknown",
             "AnimeJara",
+            "AnimeJara",
+            "FlixLatam",
             "FlixLatam",
             "HydraHD",
             "HydraHD",
+            "HydraHD",
+            "HydraHD (Shirox)",
             "HydraHD (Shirox)",
             "HydraHD (Shirox)",
             "HydraHD SubTest",
             "KissAsian",
+            "KissAsian",
+            "YFSP",
             "YFSP"
           ]
         }
@@ -381,6 +334,100 @@
           "count": 1,
           "sources": [
             "HDRezka"
+          ]
+        }
+      }
+    },
+    "ibro": {
+      "types": [
+        "anime",
+        "novels"
+      ],
+      "total_sources": 35,
+      "sources_by_type": {
+        "anime": {
+          "count": 33,
+          "sources": [
+            "AniBunker",
+            "AniDB",
+            "Anikoto",
+            "Anikuro",
+            "Anime-Portal",
+            "Animepahe",
+            "Animex",
+            "Animex (DUB)",
+            "Animex (SUB)",
+            "Aniwave",
+            "Anizone",
+            "ArabicToons",
+            "Black Clover Pace",
+            "Borucut",
+            "Concentrated Bleach",
+            "DBZ Recut",
+            "Dragon Ball Recut",
+            "DRAMA COOL",
+            "KissKH",
+            "Lycoris Cafe",
+            "Narucannon",
+            "One Pace",
+            "One Pace (French)",
+            "One Pace (Spanish)",
+            "One Piece Film Red: AmaLee Score",
+            "One Piece Treasure Edition",
+            "Onigashima Paced",
+            "Rama Oriental Fansub",
+            "Rebuild of Naruto",
+            "RistoAnime",
+            "SpacePowerFans",
+            "StreamCloud",
+            "Yu Yu Hakusho Pace"
+          ]
+        },
+        "novels": {
+          "count": 2,
+          "sources": [
+            "NovelBuddy",
+            "NovelFire"
+          ]
+        }
+      }
+    },
+    "cufiy": {
+      "types": [
+        "anime"
+      ],
+      "total_sources": 11,
+      "sources_by_type": {
+        "anime": {
+          "count": 11,
+          "sources": [
+            "AniWorld (ENG SUB)",
+            "AniWorld (GER DUB)",
+            "AniWorld (GER SUB)",
+            "Filmo",
+            "Filmo (EN)",
+            "Filmpalast",
+            "FireAnime DUB",
+            "FireAnime English (SUB)",
+            "FireAnime SUB",
+            "Latanime",
+            "s.to (GER DUB)"
+          ]
+        }
+      }
+    },
+    "sobet": {
+      "types": [
+        "anime"
+      ],
+      "total_sources": 3,
+      "sources_by_type": {
+        "anime": {
+          "count": 3,
+          "sources": [
+            "AnimeUnity",
+            "AnimeWorld",
+            "StreamingUnity"
           ]
         }
       }
