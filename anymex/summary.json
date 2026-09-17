@@ -1,6 +1,6 @@
 {
   "output_root": "/home/runner/work/sources-dart/sources-dart/anymex",
-  "total_repositories": 10,
+  "total_repositories": 11,
   "canonical_types": [
     "anime",
     "manga",
@@ -9,9 +9,9 @@
   ],
   "statistics": {
     "files_found": 166,
-    "files_processed": 219,
+    "files_processed": 224,
     "files_failed": 0,
-    "api_added": 53
+    "api_added": 58
   },
   "repositories": {
     "cprmichel": {
@@ -345,6 +345,24 @@
             "FireAnime SUB",
             "Latanime",
             "s.to (GER DUB)"
+          ]
+        }
+      }
+    },
+    "mxfia19-twitch": {
+      "types": [
+        "anime"
+      ],
+      "total_sources": 5,
+      "sources_by_type": {
+        "anime": {
+          "count": 5,
+          "sources": [
+            "Aniclipse",
+            "Anikura",
+            "AnimeSalt",
+            "VidHawk",
+            "VidRift"
           ]
         }
       }
