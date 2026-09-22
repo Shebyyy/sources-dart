@@ -2342,6 +2342,30 @@
           "hasSub": false
         },
         {
+          "sourceName": "111movies",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/111movies/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.3",
+          "language": "English",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://111movies.com/",
+          "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=71fdb081b0133511ac14ac0cc10fd307&query=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/111movies/111movies.js",
+          "type": "shows/movies",
+          "downloadSupport": false,
+          "asyncJS": true,
+          "softsub": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/111movies/111movies.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
           "sourceName": "123Anime",
           "iconUrl": "https://123animehub.cc/assets/favicons/apple-touch-icon.png",
           "author": {
@@ -2412,6 +2436,41 @@
           "languageClean": "English",
           "hasDub": false,
           "hasSub": true
+        },
+        {
+          "sourceName": "1TamilCrow",
+          "iconUrl": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.1tamilcrow.net/wp-content/uploads/2020/09/Tamil-Crow-e1600735514979.png",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.3",
+          "language": "Tamil",
+          "languageType": [
+            "Native"
+          ],
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://www.1tamilcrow.net/",
+          "searchBaseUrl": "https://www.1tamilcrow.net/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/1tamilcrow/1tamilcrow.js",
+          "type": "anime",
+          "asyncJS": true,
+          "softsub": false,
+          "downloadSupport": false,
+          "supportsMojuru": true,
+          "supportsDartotsu": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsShirox": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/1tamilcrow/1tamilcrow.js",
+          "languageClean": "Tamil",
+          "hasDub": false,
+          "hasSub": false
         },
         {
           "sourceName": "Aether",
@@ -2598,7 +2657,7 @@
             "url": "https://github.com/xdfkenny"
           },
           "description": "Módulo de AllManga (allmanga.to) — anime en inglés (sub/dub) vía el flow oficial AllAnime (aaReq + tobeparsed + clock). v1.10.0: keygen build 166 epoch 2957 (mask 0VmOiOT…, key 43724f7d…, boot ld1faaOf3G:, mensaje boot mkissa:k7:2957:mkissa.to:166) + URLs /anime/<CUID> y episodios /p-<n>. v1.9.3: build 141 + manejo NEED_CAPTCHA/rate-limit + vidPath legacy deshabilitado.",
-          "version": "1.10.1",
+          "version": "1.10.2",
           "language": "English (SUB/DUB)",
           "streamType": "HLS/MP4",
           "quality": "1080p",
@@ -2850,6 +2909,88 @@
           "hasSub": false
         },
         {
+          "sourceName": "Anify",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/anify/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.4",
+          "language": "English",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://anify.to/",
+          "searchBaseUrl": "https://anify.to/search-ajax",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anify/anify.js",
+          "type": "anime",
+          "asyncJS": true,
+          "softsub": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anify/anify.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "AniHQ",
+          "iconUrl": "https://anihq.to/wp-content/uploads/cropped-Icon-1-1-192x192.png",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.4",
+          "language": "English",
+          "languageType": [
+            "Subbed"
+          ],
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://anihq.strp2p.com/",
+          "searchBaseUrl": "https://anihq.strp2p.com/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anihq/anihq.js",
+          "type": "anime",
+          "asyncJS": true,
+          "softsub": true,
+          "downloadSupport": false,
+          "supportsMojuru": true,
+          "supportsDartotsu": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsShirox": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anihq/anihq.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "Anikoto",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/anikoto/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.18",
+          "language": "English",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://anikototv.to/",
+          "searchBaseUrl": "https://anikototv.to/search?query=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anikoto/anikoto.js",
+          "type": "anime",
+          "downloadSupport": true,
+          "asyncJS": true,
+          "softsub": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anikoto/anikoto.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
           "sourceName": "AniLiberty",
           "iconUrl": "https://aniliberty.top/static/favicon-96x96.png",
           "author": {
@@ -2896,6 +3037,52 @@
           "languageClean": "Russian",
           "hasDub": false,
           "hasSub": false
+        },
+        {
+          "sourceName": "Anime Base (DUB)",
+          "iconUrl": "https://anime-base.net/images/ablogo.png",
+          "author": {
+            "name": "Cufiy",
+            "icon": "https://files.catbox.moe/ttj4fc.gif",
+            "url": "https://github.com/JMcrafter26"
+          },
+          "version": "1.0.3",
+          "language": "German (DUB)",
+          "streamType": "HLS",
+          "quality": "720p",
+          "baseUrl": "https://anime-base.net/",
+          "searchBaseUrl": "https://anime-base.net/search=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anime-base/anime-base.js",
+          "type": "anime",
+          "downloadSupport": true,
+          "asyncJS": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anime-base/anime-base.js",
+          "languageClean": "German",
+          "hasDub": true,
+          "hasSub": false
+        },
+        {
+          "sourceName": "Anime-Portal",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/animeportal/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.4",
+          "language": "Russian",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://anime-portal.su/",
+          "searchBaseUrl": "https://anime-portal.su/?do=search&subaction=search&search_start=0&full_search=0&story=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animeportal/animeportal.js",
+          "type": "anime",
+          "asyncJS": true,
+          "softsub": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animeportal/animeportal.js",
+          "languageClean": "Russian",
+          "hasDub": false,
+          "hasSub": true
         },
         {
           "sourceName": "Anime-Sama",
@@ -2956,7 +3143,7 @@
             "name": "50/50",
             "icon": "https://files.catbox.moe/741wp7.png"
           },
-          "version": "1.0.1",
+          "version": "1.0.2",
           "language": "Spanish",
           "languageType": [
             "Subbed"
@@ -3160,6 +3347,40 @@
           "languageClean": "English",
           "hasDub": false,
           "hasSub": true
+        },
+        {
+          "sourceName": "AnimeHeaven",
+          "iconUrl": "https://animeheaven.me/ah_logo.png",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.1.0",
+          "language": "English",
+          "languageType": [
+            "Subbed"
+          ],
+          "streamType": "HLS",
+          "quality": "720p",
+          "baseUrl": "https://animeheaven.me/",
+          "searchBaseUrl": "https://animeheaven.me/search.php?s=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animeheaven/animeheaven.js",
+          "type": "anime",
+          "asyncJS": true,
+          "downloadSupport": true,
+          "supportsMojuru": true,
+          "supportsDartotsu": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsShirox": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animeheaven/animeheaven.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
         },
         {
           "sourceName": "AnimeLand",
@@ -3440,6 +3661,74 @@
           "hasSub": false
         },
         {
+          "sourceName": "AnimesDigital",
+          "iconUrl": "https://animesdigital.org/wp-content/uploads/2025/03/cropped-logo-e1740827992823-192x192.png",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.2",
+          "language": "Portuguese",
+          "languageType": [
+            "Subbed"
+          ],
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://animesdigital.org/home/",
+          "searchBaseUrl": "https://animesdigital.org/home",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animesdigital/animesdigital.js",
+          "type": "anime",
+          "asyncJS": true,
+          "softsub": false,
+          "downloadSupport": false,
+          "supportsMojuru": true,
+          "supportsDartotsu": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsShirox": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animesdigital/animesdigital.js",
+          "languageClean": "Portuguese",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "AnimeSRBIJA",
+          "iconUrl": "https://emojigraph.org/media/joypixels/flag-serbia_1f1f7-1f1f8.png",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.1",
+          "language": "Serbian",
+          "languageType": [
+            "Subbed"
+          ],
+          "streamType": "m3u8",
+          "quality": "720p",
+          "baseUrl": "https://www.animesrbija.com/",
+          "searchBaseUrl": "https://www.animesrbija.com/filter?search=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animesrbija/animesrbija.js",
+          "asyncJS": true,
+          "type": "anime",
+          "supportsMojuru": true,
+          "supportsDartotsu": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsShirox": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animesrbija/animesrbija.js",
+          "languageClean": "Serbian",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
           "sourceName": "AnimeUnity",
           "iconUrl": "https://raw.githubusercontent.com/cranci1/Ryu/2f10226aa087154974a70c1ec78aa83a47daced9/Ryu/Assets.xcassets/Sources/AnimeUnity.imageset/apple-touch-icon.jpg",
           "author": {
@@ -3530,13 +3819,48 @@
           "hasSub": false
         },
         {
+          "sourceName": "AnimeWeek",
+          "iconUrl": "https://aniweek.com/apple-touch-icon.png",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.9",
+          "language": "Korean",
+          "languageType": [
+            "Subbed"
+          ],
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://aniweek.com/",
+          "searchBaseUrl": "https://aniweek.com/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animeweek/animeweek.js",
+          "type": "anime",
+          "asyncJS": true,
+          "softsub": true,
+          "downloadSupport": false,
+          "supportsMojuru": true,
+          "supportsDartotsu": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsShirox": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animeweek/animeweek.js",
+          "languageClean": "Korean",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
           "sourceName": "AnimeWorld",
           "iconUrl": "https://raw.githubusercontent.com/cranci1/Ryu/d48d716ec6c5ef9ae7b3711c117f920b0c7eb1ce/Ryu/Assets.xcassets/Sources/AnimeWorld.imageset/animeworld.png",
           "author": {
             "name": "sobet",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPQ1qIiALbM3xDWGsuJzu6ItaQGwb9ICRRw&s"
           },
-          "version": "1.1.1",
+          "version": "1.1.2",
           "language": "Italian",
           "streamType": "MP4",
           "quality": "1080p",
@@ -3570,6 +3894,41 @@
           "asyncJS": true,
           "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/AnimeWorld/animeworld.js",
           "languageClean": "Italian",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "AnimeXin",
+          "iconUrl": "https://animexin.dev/wp-content/uploads/2020/06/cropped-index-192x192.jpg",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.1",
+          "language": "Indonesian",
+          "languageType": [
+            "Native"
+          ],
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://animexin.dev/",
+          "searchBaseUrl": "https://animexin.dev/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animexin/animexin.js",
+          "type": "anime",
+          "asyncJS": true,
+          "softsub": false,
+          "downloadSupport": false,
+          "supportsMojuru": true,
+          "supportsDartotsu": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsShirox": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animexin/animexin.js",
+          "languageClean": "Indonesian",
           "hasDub": false,
           "hasSub": false
         },
@@ -3766,6 +4125,118 @@
           "hasSub": true
         },
         {
+          "sourceName": "Anizone",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/anizone/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.7",
+          "language": "English",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://anizone.to/",
+          "searchBaseUrl": "https://anizone.to/anime?search=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anizone/anizone.js",
+          "type": "anime",
+          "note": "Use default (Apple Player) or external player to watch the streams (e.g. VLC).",
+          "asyncJS": true,
+          "softsub": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anizone/anizone.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "Anoboye",
+          "iconUrl": "https://i3.wp.com/anoboye.com/wp-content/uploads/2025/05/Anoboye-300x300.jpg",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.1",
+          "language": "Chinese",
+          "languageType": [
+            "Native"
+          ],
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://anoboye.com/",
+          "searchBaseUrl": "https://anoboye.com/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anoboye/anoboye.js",
+          "type": "anime",
+          "asyncJS": true,
+          "softsub": false,
+          "downloadSupport": false,
+          "supportsMojuru": true,
+          "supportsDartotsu": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsShirox": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anoboye/anoboye.js",
+          "languageClean": "Chinese",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "ArabicToons",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/arabictoons/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "2.0.10",
+          "language": "Arabic (DUB)",
+          "streamType": "HLS",
+          "quality": "720p",
+          "baseUrl": "https://www.arabic-toons.com/",
+          "searchBaseUrl": "https://www.arabic-toons.com/livesearch.php?q=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/arabictoons/arabictoons.js",
+          "type": "anime/shows/movies",
+          "asyncJS": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/arabictoons/arabictoons.js",
+          "languageClean": "Arabic",
+          "hasDub": true,
+          "hasSub": false
+        },
+        {
+          "sourceName": "Asia2TV",
+          "iconUrl": "https://ww1.asia2tv.pw/wp-content/uploads/2021/01/logo-1.png",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.2",
+          "language": "Arabic",
+          "languageType": [
+            "Native"
+          ],
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://ww1.asia2tv.pw/",
+          "searchBaseUrl": "https://ww1.asia2tv.pw/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/asia2tv/asia2tv.js",
+          "type": "shows/movies",
+          "asyncJS": true,
+          "softsub": false,
+          "downloadSupport": false,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/asia2tv/asia2tv.js",
+          "languageClean": "Arabic",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
           "sourceName": "Black Clover Pace",
           "iconUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/blackCloverPace/icon.png",
           "author": {
@@ -3773,7 +4244,7 @@
             "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
             "url": "https://github.com/xibrox"
           },
-          "version": "1.0.1",
+          "version": "1.0.2",
           "language": "English",
           "streamType": "MP4",
           "quality": "1080p - 720p - 480p",
@@ -3819,7 +4290,7 @@
             "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
             "url": "https://github.com/xibrox"
           },
-          "version": "1.0.2",
+          "version": "1.0.3",
           "language": "English",
           "streamType": "MP4",
           "quality": "1080p - 720p - 480p",
@@ -3865,7 +4336,7 @@
             "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
             "url": "https://github.com/xibrox"
           },
-          "version": "1.0.7",
+          "version": "1.0.8",
           "language": "English",
           "streamType": "MP4",
           "quality": "1080p - 720p - 480p",
@@ -3913,7 +4384,7 @@
             "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
             "url": "https://github.com/xibrox"
           },
-          "version": "1.0.0",
+          "version": "1.0.1",
           "language": "English",
           "streamType": "MP4",
           "quality": "1080p - 720p - 480p",
@@ -3954,6 +4425,103 @@
           "hasSub": false
         },
         {
+          "sourceName": "dessin-anime",
+          "iconUrl": "https://git.luna-app.eu/MXFia19/sources/raw/branch/main/dessin-anime/icon.png",
+          "author": {
+            "name": "MXFia19",
+            "icon": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg",
+            "url": "https://github.com/MXFia19"
+          },
+          "version": "1.0.1",
+          "language": "French",
+          "streamType": "MP4",
+          "quality": "1080p",
+          "baseUrl": "https://dessinanime.cc/",
+          "searchBaseUrl": "https://dessinanime.cc/api/search?q",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/dessin-anime/dessin-anime.js",
+          "type": "anime",
+          "downloadSupport": true,
+          "asyncJS": true,
+          "softsub": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "changelog": "player4me now decrypted 100% locally (AES-128-CBC, no more localhost); works on Shirox after tapping Verify Cloudflare for dessinanime.cc",
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/dessin-anime/dessin-anime.js",
+          "languageClean": "French",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "DonghuaStream",
+          "iconUrl": "https://donghuastream.org/wp-content/uploads/2023/05/cropped-Donghua-Stream-scaled-1-192x192.jpeg",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.0",
+          "language": "Chinese",
+          "languageType": [
+            "Native"
+          ],
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://donghuastream.org/",
+          "searchBaseUrl": "https://donghuastream.org/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/donghuastream/donghuastream.js",
+          "type": "anime",
+          "asyncJS": true,
+          "softsub": false,
+          "downloadSupport": false,
+          "supportsMojuru": true,
+          "supportsDartotsu": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsShirox": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/donghuastream/donghuastream.js",
+          "languageClean": "Chinese",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "Doramaland",
+          "iconUrl": "https://dorama.land/favicon.ico",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.0",
+          "language": "Russian",
+          "languageType": [
+            "Native"
+          ],
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://dorama.land/",
+          "searchBaseUrl": "https://dorama.land/search?q=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/doramaland/doramaland.js",
+          "type": "anime/shows/movies",
+          "asyncJS": true,
+          "softsub": true,
+          "downloadSupport": false,
+          "supportsMojuru": true,
+          "supportsDartotsu": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsShirox": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/doramaland/doramaland.js",
+          "languageClean": "Russian",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
           "sourceName": "Dragon Ball Recut",
           "iconUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/dragonballrecut/icon.png",
           "author": {
@@ -4002,6 +4570,52 @@
           "languageClean": "Japanese",
           "hasDub": false,
           "hasSub": true
+        },
+        {
+          "sourceName": "Filmo (EN)",
+          "iconUrl": "https://filmo.to/favicon.ico",
+          "author": {
+            "name": "Ye",
+            "icon": "https://files.catbox.moe/x9vnf7.gif",
+            "url": "https://github.com/"
+          },
+          "version": "1.0.0",
+          "type": "Movies/Shows",
+          "language": "English (DUB)",
+          "streamType": "HLS",
+          "quality": "720p",
+          "baseUrl": "https://filmo.to/",
+          "searchBaseUrl": "https://filmo.to/search/title/%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/filmo/filmo.js",
+          "asyncJS": true,
+          "downloadSupport": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/filmo/filmo.js",
+          "languageClean": "English",
+          "hasDub": true,
+          "hasSub": false
+        },
+        {
+          "sourceName": "Filmpalast",
+          "iconUrl": "https://files.catbox.moe/tv81m8.png",
+          "author": {
+            "name": "Cufiy",
+            "icon": "https://files.catbox.moe/ttj4fc.gif",
+            "url": "https://github.com/JMcrafter26"
+          },
+          "version": "1.3.5",
+          "type": "Movies/Shows",
+          "language": "German (DUB)",
+          "streamType": "HLS",
+          "quality": "720p",
+          "baseUrl": "https://filmpalast.to/",
+          "searchBaseUrl": "https://filmpalast.to/search/title/%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/filmpalast/filmpalast.js",
+          "asyncJS": true,
+          "streamAsyncJS": false,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/filmpalast/filmpalast.js",
+          "languageClean": "German",
+          "hasDub": true,
+          "hasSub": false
         },
         {
           "sourceName": "GidOnline",
@@ -4047,6 +4661,30 @@
           "asyncJS": true,
           "softsub": true,
           "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/gidonline/gidonline.js",
+          "languageClean": "Russian",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "HDRezka",
+          "iconUrl": "https://rezka.ag/i/share.jpg",
+          "author": {
+            "name": "anonymous",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.2",
+          "language": "Russian",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://rezka.ag/",
+          "searchBaseUrl": "https://rezka.ag/search/?do=search&subaction=search&q=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/hdrezka/hdrezka.js",
+          "asyncJS": true,
+          "streamAsyncJS": true,
+          "softsub": true,
+          "type": "shows/movies/anime",
+          "downloadSupport": false,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/hdrezka/hdrezka.js",
           "languageClean": "Russian",
           "hasDub": false,
           "hasSub": true
@@ -4240,13 +4878,60 @@
           "hasSub": true
         },
         {
+          "sourceName": "Kuudere",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/kuudere/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.2",
+          "language": "English",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://kuudere.to/",
+          "searchBaseUrl": "https://kuudere.to/search?keyword=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/kuudere/kuudere.js",
+          "type": "anime",
+          "downloadSupport": false,
+          "asyncJS": true,
+          "softsub": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/kuudere/kuudere.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "Latanime",
+          "iconUrl": "https://latanime.org/public/img/logito.png",
+          "author": {
+            "name": "Cufiy",
+            "icon": "https://files.catbox.moe/ttj4fc.gif",
+            "url": "https://github.com/JMcrafter26"
+          },
+          "version": "1.0.2",
+          "language": "Spanish (DUB)",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "type": "anime",
+          "baseUrl": "https://latanime.org/",
+          "searchBaseUrl": "https://latanime.org/buscar?q=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/latanime/latanime.js",
+          "asyncJS": true,
+          "downloadSupport": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/latanime/latanime.js",
+          "languageClean": "Spanish",
+          "hasDub": true,
+          "hasSub": false
+        },
+        {
           "sourceName": "LmAnime",
           "iconUrl": "https://lmanime.com/wp-content/uploads/2022/09/cropped-site-icon-192x192.png",
           "author": {
             "name": "50/50",
             "icon": "https://files.catbox.moe/741wp7.png"
           },
-          "version": "1.0.0",
+          "version": "1.0.1",
           "language": "English",
           "languageType": [
             "Subbed"
@@ -4308,6 +4993,68 @@
           "languageClean": "English",
           "hasDub": false,
           "hasSub": true
+        },
+        {
+          "sourceName": "LuciferDonghua",
+          "iconUrl": "https://i.ibb.co/MwKW01H/cropped-lucifer-donghua-DP-192x192-webp.png",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.0",
+          "language": "English",
+          "languageType": [
+            "Translated"
+          ],
+          "streamType": "HLS",
+          "quality": "4K",
+          "baseUrl": "https://luciferdonghua.in/",
+          "searchBaseUrl": "https://luciferdonghua.in/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/luciferdonghua/luciferdonghua.js",
+          "type": "anime",
+          "asyncJS": true,
+          "softsub": false,
+          "downloadSupport": false,
+          "supportsMojuru": true,
+          "supportsDartotsu": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsShirox": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/luciferdonghua/luciferdonghua.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "Miruro",
+          "iconUrl": "https://www.miruro.to/assets/logo-Dnw3w3dS.png",
+          "author": {
+            "name": "MXFia19",
+            "icon": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg",
+            "url": "https://github.com/MXFia19"
+          },
+          "version": "1.0.4",
+          "language": "English",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://www.miruro.to/",
+          "searchBaseUrl": "https://www.miruro.to/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/miruro/miruro.js",
+          "type": "anime",
+          "downloadSupport": true,
+          "asyncJS": true,
+          "softsub": false,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "changelog": "use the more stable owo HLS variant (/hls/owo.m3u8) instead of uwu (/stream/uwu.m3u8)",
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/miruro/miruro.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
         },
         {
           "sourceName": "Monoschinos2",
@@ -4382,6 +5129,33 @@
           "hasSub": false
         },
         {
+          "sourceName": "Movix",
+          "iconUrl": "https://movix.online/movix.png",
+          "author": {
+            "name": "MXFia19",
+            "icon": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg",
+            "url": "https://github.com/MXFia19"
+          },
+          "version": "2.0.18",
+          "language": "French",
+          "streamType": "HLS/MP4",
+          "quality": "1080p",
+          "baseUrl": "https://movix.cloud/",
+          "searchBaseUrl": "https://api.themoviedb.org/3/search/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/movix/movix.js",
+          "type": "anime/shows/movies",
+          "downloadSupport": true,
+          "asyncJS": true,
+          "softsub": false,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "changelog": "anime now queries the anime probe AND all standard sources in parallel (more links); filemoon fully local + PoW worker offload with fallback; skip hanging hosts -> faster",
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/movix/movix.js",
+          "languageClean": "French",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
           "sourceName": "Nakanime",
           "iconUrl": "https://nakanime.tv/favicon.ico",
           "author": {
@@ -4432,6 +5206,57 @@
           "changelog": "fix ok.ru/mail.ru 403 on iOS: stream Referer must be the CDN's own origin (same-origin), not my.mail.ru, and NO cookie (verified vs working browser request)",
           "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/nakanime/nakanime.js",
           "languageClean": "French",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "Nakastream",
+          "iconUrl": "https://git.luna-app.eu/MXFia19/sources/raw/branch/main/Nakastream/w5bf88w.png",
+          "author": {
+            "name": "MXFia19",
+            "icon": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg",
+            "url": "https://github.com/MXFia19"
+          },
+          "version": "1.0.4",
+          "language": "French",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://nakastream.tv/",
+          "searchBaseUrl": "https://nakastream.tv/api/v1/browse/catalog?search=",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/Nakastream/Nakastream.js",
+          "type": "shows/movies",
+          "downloadSupport": true,
+          "asyncJS": true,
+          "softsub": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "changelog": "mise en place des bons headers pour eviter erreur 403",
+          "settings": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/Nakastream/Nakastream.js",
+          "languageClean": "French",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "Narucannon",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/narucannon/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "2.0.9",
+          "language": "English",
+          "streamType": "MP4",
+          "quality": "1080p - 720p - 480p",
+          "baseUrl": "https://pixeldrain.net/",
+          "searchBaseUrl": "https://pixeldrain.net/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/narucannon/narucannon.js",
+          "type": "anime",
+          "note": "Use external player to watch the streams (e.g. VLC).",
+          "asyncJS": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/narucannon/narucannon.js",
+          "languageClean": "English",
           "hasDub": false,
           "hasSub": false
         },
@@ -4568,6 +5393,73 @@
           "hasSub": true
         },
         {
+          "sourceName": "One Pace",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/onepace/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "2.0.9",
+          "language": "English",
+          "streamType": "MP4",
+          "quality": "1080p - 720p - 480p",
+          "baseUrl": "https://pixeldrain.net/",
+          "searchBaseUrl": "https://onepace.net/en/watch",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/onepace/onepace.js",
+          "type": "anime",
+          "asyncJS": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/onepace/onepace.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "One Piece Film Red: AmaLee Score",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/onePieceFilmRedAmaLeeScore/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.2",
+          "language": "English",
+          "streamType": "MP4",
+          "quality": "1080p - 720p - 480p",
+          "baseUrl": "https://pixeldrain.net/",
+          "searchBaseUrl": "https://pixeldrain.net/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/onePieceFilmRedAmaLeeScore/onePieceFilmRedAmaLeeScore.js",
+          "type": "anime",
+          "downloadSupport": false,
+          "asyncJS": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/onePieceFilmRedAmaLeeScore/onePieceFilmRedAmaLeeScore.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "One Piece Treasure Edition",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/onePieceTreasureEdition/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.2",
+          "language": "English",
+          "streamType": "MP4",
+          "quality": "1080p - 720p - 480p",
+          "baseUrl": "https://pixeldrain.net/",
+          "searchBaseUrl": "https://pixeldrain.net/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/onePieceTreasureEdition/onePieceTreasureEdition.js",
+          "type": "anime",
+          "asyncJS": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/onePieceTreasureEdition/onePieceTreasureEdition.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
           "sourceName": "OneTouch TV",
           "iconUrl": "https://onetouchtv.xyz/favicon.png",
           "author": {
@@ -4660,7 +5552,7 @@
             "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
             "url": "https://github.com/xibrox"
           },
-          "version": "1.0.1",
+          "version": "1.0.2",
           "language": "English",
           "streamType": "MP4",
           "quality": "1080p - 720p - 480p",
@@ -4730,7 +5622,7 @@
             "name": "50/50",
             "icon": "https://files.catbox.moe/741wp7.png"
           },
-          "version": "1.0.1",
+          "version": "1.0.2",
           "language": "English",
           "languageType": [
             "Subbed"
@@ -4794,6 +5686,41 @@
           "hasSub": true
         },
         {
+          "sourceName": "Otakutsu",
+          "iconUrl": "https://otakutsu.cc/favicon.ico",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.1",
+          "language": "English",
+          "languageType": [
+            "Dubbed",
+            "Subbed"
+          ],
+          "baseUrl": "https://otakutsu.cc/",
+          "searchBaseUrl": "https://otakutsu.cc/browse?query=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/otakutsu/otakutsu.js",
+          "type": "anime",
+          "quality": "1080p",
+          "streamType": "HLS",
+          "asyncJS": true,
+          "downloadSupport": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsDartotsu": true,
+          "supportsAnymex": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsShirox": true,
+          "supportsMojuru": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/otakutsu/otakutsu.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
           "sourceName": "Peachify",
           "iconUrl": "https://peachify.top/favicon.ico",
           "author": {
@@ -4852,6 +5779,176 @@
           "supportsEclipse": true,
           "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/peachify/peachify.js",
           "languageClean": "English",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "Purstream",
+          "iconUrl": "https://purstream.wiki/assets/icones/favicon.png",
+          "author": {
+            "name": "MXFia19",
+            "icon": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg",
+            "url": "https://github.com/MXFia19"
+          },
+          "version": "1.0.3",
+          "language": "French",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://purstream.me/",
+          "searchBaseUrl": "https://api.purstream.me/api/v1/search-bar/search/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/purstream/purstream.js",
+          "type": "anime/shows/movies",
+          "downloadSupport": true,
+          "asyncJS": true,
+          "softsub": true,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "changelog": "fix auto url change.",
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/purstream/purstream.js",
+          "languageClean": "French",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "Rebuild of Naruto",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/rebuildOfNaruto/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.2",
+          "language": "English",
+          "streamType": "MKV",
+          "quality": "1080p - 720p - 480p",
+          "baseUrl": "https://pixeldrain.net/",
+          "searchBaseUrl": "https://pixeldrain.net/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/rebuildOfNaruto/rebuildOfNaruto.js",
+          "type": "anime",
+          "note": "Use external player to watch the streams (e.g. VLC).",
+          "downloadSupport": true,
+          "asyncJS": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/rebuildOfNaruto/rebuildOfNaruto.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "RGShows",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/rgshows/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.2",
+          "language": "English",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://www.rgshows.me/",
+          "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=9801b6b0548ad57581d111ea690c85c8&query=%s&include_adult=false",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/rgshows/rgshows.js",
+          "type": "shows/movies",
+          "downloadSupport": false,
+          "asyncJS": true,
+          "softsub": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/rgshows/rgshows.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "RistoAnime",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/ristoanime/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "2.0.5",
+          "language": "Arabic",
+          "streamType": "MP4",
+          "quality": "1080p",
+          "baseUrl": "https://ristoanime.org/",
+          "searchBaseUrl": "https://ristoanime.org/?s=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/ristoanime/ristoanime.js",
+          "type": "anime",
+          "asyncJS": true,
+          "softsub": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/ristoanime/ristoanime.js",
+          "languageClean": "Arabic",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "SameBand",
+          "iconUrl": "https://sameband.studio/templates/sameband/dleimages/favicon/touch-icon-ipad.png",
+          "author": {
+            "name": "anonymous",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.2",
+          "language": "Russian",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://sameband.studio/",
+          "searchBaseUrl": "https://sameband.studio/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/sameband/sameband.js",
+          "asyncJS": true,
+          "streamAsyncJS": true,
+          "softsub": false,
+          "type": "anime",
+          "downloadSupport": false,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/sameband/sameband.js",
+          "languageClean": "Russian",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "ShizaProject",
+          "iconUrl": "https://git.luna-app.eu/emp0ry/sources/raw/branch/main/shizaproject/logo.png",
+          "author": {
+            "name": "anonymous",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.2",
+          "language": "Russian",
+          "streamType": "HLS",
+          "quality": "720p",
+          "baseUrl": "https://shizaproject.com/",
+          "searchBaseUrl": "https://shizaproject.com/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/shizaproject/shizaproject.js",
+          "asyncJS": true,
+          "streamAsyncJS": true,
+          "softsub": false,
+          "type": "anime",
+          "downloadSupport": false,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/shizaproject/shizaproject.js",
+          "languageClean": "Russian",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "SpacePowerFans",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/spacepowerfans/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.0",
+          "language": "Arabic",
+          "streamType": "MP4",
+          "quality": "1080p",
+          "baseUrl": "https://spacepowerfans.com/",
+          "searchBaseUrl": "https://spacepowerfans.com/search/?s_keyword=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/spacepowerfans/spacepowerfans.js",
+          "type": "anime",
+          "downloadSupport": true,
+          "asyncJS": true,
+          "softsub": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/spacepowerfans/spacepowerfans.js",
+          "languageClean": "Arabic",
           "hasDub": false,
           "hasSub": true
         },
@@ -4952,7 +6049,7 @@
             "name": "50/50",
             "icon": "https://files.catbox.moe/741wp7.png"
           },
-          "version": "1.0.0",
+          "version": "1.0.1",
           "language": "English",
           "languageType": [
             "Native"
@@ -5008,6 +6105,29 @@
           "languageClean": "English",
           "hasDub": false,
           "hasSub": false
+        },
+        {
+          "sourceName": "TopCinema",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/topcinema/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.1.0",
+          "language": "Arabic",
+          "streamType": "HLS & MP4",
+          "quality": "1080p",
+          "baseUrl": "https://web6.topcinema.cam/",
+          "searchBaseUrl": "https://web6.topcinema.cam/search/?query=%s&type=all",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/topcinema/topcinema.js",
+          "type": "anime/shows/movies",
+          "asyncJS": true,
+          "softsub": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/topcinema/topcinema.js",
+          "languageClean": "Arabic",
+          "hasDub": false,
+          "hasSub": true
         },
         {
           "sourceName": "Torrentio",
@@ -5073,6 +6193,82 @@
           "supportsHiyoku": true,
           "languageClean": "Multi",
           "hasDub": true,
+          "hasSub": true
+        },
+        {
+          "sourceName": "Turkish123",
+          "iconUrl": "https://hds.turkish123.com/wp-content/uploads/favicon.png",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.7",
+          "language": "Turkish",
+          "languageType": [
+            "Native"
+          ],
+          "streamType": "HLS",
+          "quality": "8K UHD",
+          "baseUrl": "https://hds.turkish123.com/",
+          "searchBaseUrl": "https://hds.turkish123.com/?s=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/turkish123/turkish123.js",
+          "asyncJS": true,
+          "type": "movies/shows",
+          "supportsSora": true,
+          "supportsLuna": true,
+          "downloadSupport": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/turkish123/turkish123.js",
+          "languageClean": "Turkish",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "UASERIAL",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/uaserial/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "2.0.4",
+          "language": "Ukrainian",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://uaserial.me/",
+          "searchBaseUrl": "https://uaserial.me/search?query=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/uaserial/uaserial.js",
+          "type": "anime/shows/movies",
+          "asyncJS": true,
+          "softsub": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/uaserial/uaserial.js",
+          "languageClean": "Ukrainian",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "VidAPI",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/vidapi/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "2.0.7",
+          "language": "English",
+          "streamType": "HLS",
+          "quality": "4K",
+          "baseUrl": "https://vidapi.xyz/",
+          "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=71fdb081b0133511ac14ac0cc10fd307&query=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/vidapi/vidapi.js",
+          "type": "shows/movies",
+          "asyncJS": true,
+          "softsub": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/vidapi/vidapi.js",
+          "languageClean": "English",
+          "hasDub": false,
           "hasSub": true
         },
         {
@@ -5214,7 +6410,7 @@
             "name": "50/50",
             "icon": "https://files.catbox.moe/741wp7.png"
           },
-          "version": "1.2.4",
+          "version": "1.2.5",
           "language": "English",
           "languageType": [
             "Native"
@@ -5270,6 +6466,61 @@
           "hasSub": true
         },
         {
+          "sourceName": "VidLink",
+          "iconUrl": "https://files.catbox.moe/cp4uzk.png",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.1",
+          "language": "English",
+          "languageType": [
+            "Native"
+          ],
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://vidlink.pro/",
+          "searchBaseUrl": "https://vidlink.pro",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/vidlink/vidlink.js",
+          "type": "shows/movies/anime",
+          "asyncJS": true,
+          "softsub": true,
+          "downloadSupport": false,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/vidlink/vidlink.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
+          "sourceName": "Vidrock",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/vidrock/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.4",
+          "language": "English",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://vidrock.net/",
+          "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=9801b6b0548ad57581d111ea690c85c8&query=%s&include_adult=false",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/vidrock/vidrock.js",
+          "type": "shows/movies",
+          "downloadSupport": false,
+          "asyncJS": true,
+          "softsub": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/vidrock/vidrock.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
           "sourceName": "VoirAnime",
           "iconUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/voir-anime/IMG_9709.jpg",
           "author": {
@@ -5326,6 +6577,37 @@
           "hasSub": false
         },
         {
+          "sourceName": "XiaoXintv",
+          "iconUrl": "https://files.catbox.moe/ngvoho.png",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.0",
+          "language": "Chinese",
+          "languageType": [
+            "Native"
+          ],
+          "streamType": "HLS",
+          "quality": "1080p",
+          "baseUrl": "https://xiaoxintv.cc/",
+          "searchBaseUrl": "https://xiaoxintv.cc/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/xiaoxintv/xiaoxintv.js",
+          "type": "anime/movies/shows",
+          "asyncJS": true,
+          "softsub": true,
+          "downloadSupport": false,
+          "supportsSora": true,
+          "supportsLuna": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "supportsEclipse": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/xiaoxintv/xiaoxintv.js",
+          "languageClean": "Chinese",
+          "hasDub": false,
+          "hasSub": true
+        },
+        {
           "sourceName": "XPass",
           "iconUrl": "https://img.icons8.com/color/48/netflix.png",
           "author": {
@@ -5388,6 +6670,28 @@
           "languageClean": "English",
           "hasDub": false,
           "hasSub": true
+        },
+        {
+          "sourceName": "Yu Yu Hakusho Pace",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/yuYuHakushoPace/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.1",
+          "language": "English",
+          "streamType": "MP4",
+          "quality": "1080p - 720p - 480p",
+          "baseUrl": "https://pixeldrain.net/",
+          "searchBaseUrl": "https://pixeldrain.net/",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/yuYuHakushoPace/yuYuHakushoPace.js",
+          "type": "anime",
+          "asyncJS": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/yuYuHakushoPace/yuYuHakushoPace.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
         }
       ],
       "manga": [
@@ -5528,6 +6832,36 @@
           "hasSub": false
         },
         {
+          "sourceName": "KaliScan",
+          "iconURL": "https://kaliscan.io/static/sites/icons/apple-touch-icon.png",
+          "version": "1.1",
+          "language": "English",
+          "languageType": [
+            "Translated"
+          ],
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/kaliscan/kaliscan.js",
+          "author": {
+            "name": "50/50",
+            "iconURL": "https://files.catbox.moe/741wp7.png",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "type": "mangas",
+          "supportsDartotsu": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsEclipse": true,
+          "supportsShirox": true,
+          "baseUrl": "https://kaliscan.io/",
+          "searchBaseUrl": "https://kaliscan.io/",
+          "streamType": "mangas",
+          "quality": "N/A",
+          "asyncJS": true,
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/kaliscan/kaliscan.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
           "sourceName": "MangaBuddy",
           "iconURL": "https://mangabuddy.com/static/sites/mangabuddy/icons/apple-touch-icon.png",
           "version": "2.0",
@@ -5636,6 +6970,36 @@
           "hasSub": false
         },
         {
+          "sourceName": "MangaFire",
+          "iconURL": "https://s.mfcdn.cc/assets/sites/mangafire/favicon.png?v3",
+          "version": "1.0.2",
+          "language": "English",
+          "languageType": [
+            "Translated"
+          ],
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangafire/mangafire.js",
+          "author": {
+            "name": "50/50",
+            "iconURL": "https://files.catbox.moe/741wp7.png",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "type": "mangas",
+          "supportsDartotsu": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsEclipse": true,
+          "supportsShirox": true,
+          "baseUrl": "https://mangafire.to/",
+          "searchBaseUrl": "https://mangafire.to/",
+          "streamType": "mangas",
+          "quality": "N/A",
+          "asyncJS": true,
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangafire/mangafire.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
           "sourceName": "MangaFreak",
           "iconURL": "https://files.catbox.moe/903u7e.png",
           "version": "1.0.3",
@@ -5685,6 +7049,66 @@
           "streamType": "mangas",
           "quality": "N/A",
           "asyncJS": true,
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "MangaKatana",
+          "iconURL": "https://mangakatana.com/static/img/fav.png",
+          "version": "1.0",
+          "language": "English",
+          "languageType": [
+            "Translated"
+          ],
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangakatana/mangakatana.js",
+          "author": {
+            "name": "50/50",
+            "iconURL": "https://files.catbox.moe/741wp7.png",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "type": "mangas",
+          "supportsDartotsu": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsEclipse": true,
+          "supportsShirox": true,
+          "baseUrl": "https://mangakatana.com/",
+          "searchBaseUrl": "https://mangakatana.com/",
+          "streamType": "mangas",
+          "quality": "N/A",
+          "asyncJS": true,
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangakatana/mangakatana.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "MangaTaro",
+          "iconURL": "https://mangataro.org/content/media/cropped-favicon-192x192.png",
+          "version": "1.0.1",
+          "language": "English",
+          "languageType": [
+            "Translated"
+          ],
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangataro/mangataro.js",
+          "author": {
+            "name": "50/50",
+            "iconURL": "https://files.catbox.moe/741wp7.png",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "type": "mangas",
+          "supportsDartotsu": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsEclipse": true,
+          "supportsShirox": true,
+          "baseUrl": "https://mangataro.org/",
+          "searchBaseUrl": "https://mangataro.org/",
+          "streamType": "mangas",
+          "quality": "N/A",
+          "asyncJS": true,
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangataro/mangataro.js",
           "languageClean": "English",
           "hasDub": false,
           "hasSub": false
@@ -5740,6 +7164,36 @@
           "quality": "N/A",
           "asyncJS": true,
           "languageClean": "Italian",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "RumanHua1",
+          "iconURL": "https://i.ibb.co/TDfbbwDB/Untitled-design.png",
+          "version": "1.0",
+          "language": "Chinese",
+          "languageType": [
+            "Translated"
+          ],
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/rumanhua1/rumanhua1.js",
+          "author": {
+            "name": "50/50",
+            "iconURL": "https://files.catbox.moe/741wp7.png",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "type": "mangas",
+          "supportsDartotsu": true,
+          "supportsLuna": true,
+          "supportsAnymex": true,
+          "supportsEclipse": true,
+          "supportsShirox": true,
+          "baseUrl": "http://rumanhua1.com/",
+          "searchBaseUrl": "http://rumanhua1.com/",
+          "streamType": "mangas",
+          "quality": "N/A",
+          "asyncJS": true,
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/rumanhua1/rumanhua1.js",
+          "languageClean": "Chinese",
           "hasDub": false,
           "hasSub": false
         },
@@ -5906,6 +7360,35 @@
           "hasSub": false
         },
         {
+          "sourceName": "LightNovelWorld",
+          "iconUrl": "https://lightnovelworld.org/static/favicon.ico",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.0",
+          "language": "English",
+          "languageType": [
+            "Translated"
+          ],
+          "streamType": "novels",
+          "quality": "N/A",
+          "baseUrl": "https://lightnovelworld.org/",
+          "searchBaseUrl": "https://lightnovelworld.org/api/search/?q=%s&search_type=title",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/lightnovelworld/lightnovelworld.js",
+          "type": "novels",
+          "asyncJS": true,
+          "novel": true,
+          "downloadSupport": false,
+          "supportsSora": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/lightnovelworld/lightnovelworld.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
           "sourceName": "LnCrawler",
           "iconUrl": "https://files.catbox.moe/ec7bnh.png",
           "author": {
@@ -5959,6 +7442,104 @@
           "supportsTsumi": true,
           "supportsHiyoku": true,
           "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/lncrawler/lncrawler.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "NovelBuddy",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/novelbuddy/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.1.2",
+          "language": "English",
+          "streamType": "novels",
+          "quality": "N/A",
+          "baseUrl": "https://novelbuddy.com/",
+          "searchBaseUrl": "https://novelbuddy.com/search?sort=views&q=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/novelbuddy/novelbuddy.js",
+          "type": "novels",
+          "asyncJS": true,
+          "novel": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/novelbuddy/novelbuddy.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "NovelDot",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/noveldot/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.4",
+          "language": "English",
+          "streamType": "novels",
+          "quality": "N/A",
+          "baseUrl": "https://noveldot.com/",
+          "searchBaseUrl": "https://www.noveldot.com/novel/lnsearchlive/index.php",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/noveldot/noveldot.js",
+          "type": "novels",
+          "asyncJS": true,
+          "novel": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/noveldot/noveldot.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "NovelFire",
+          "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/novelfire/icon.png",
+          "author": {
+            "name": "ibro",
+            "icon": "https://files.catbox.moe/741wp7.png",
+            "url": "https://github.com/xibrox"
+          },
+          "version": "1.0.6",
+          "language": "English",
+          "streamType": "novels",
+          "quality": "N/A",
+          "baseUrl": "https://novelfire.net/",
+          "searchBaseUrl": "https://novelfire.net/ajax/searchLive?inputContent=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/novelfire/novelfire.js",
+          "type": "novels",
+          "asyncJS": true,
+          "novel": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/novelfire/novelfire.js",
+          "languageClean": "English",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
+          "sourceName": "ReadNovelFull",
+          "iconUrl": "https://readnovelfull.com/img/logo.png",
+          "author": {
+            "name": "50/50",
+            "icon": "https://files.catbox.moe/741wp7.png"
+          },
+          "version": "1.0.0",
+          "language": "English",
+          "languageType": [
+            "Translated"
+          ],
+          "streamType": "novels",
+          "quality": "N/A",
+          "baseUrl": "https://readnovelfull.com/",
+          "searchBaseUrl": "https://readnovelfull.com/search/?wd=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/readnovelfull/readnovelfull.js",
+          "type": "novels",
+          "asyncJS": true,
+          "novel": true,
+          "downloadSupport": false,
+          "supportsSora": true,
+          "supportsTsumi": true,
+          "supportsHiyoku": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/readnovelfull/readnovelfull.js",
           "languageClean": "English",
           "hasDub": false,
           "hasSub": false
@@ -24741,6 +26322,29 @@
           "hasSub": true
         },
         {
+          "sourceName": "Catflix (Website Down)",
+          "iconUrl": "https://github.com/JMcrafter26/sora-modules/blob/main/modules/catflix/icon.png?raw=true",
+          "author": {
+            "name": "Cufiy",
+            "icon": "https://files.catbox.moe/ttj4fc.gif",
+            "url": "https://github.com/JMcrafter26"
+          },
+          "version": "1.1.464",
+          "language": "English (DUB)",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "type": "movies/shows/anime",
+          "baseUrl": "https://catflix.su/",
+          "searchBaseUrl": "https://catflix.su/search?q=%s",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/catflix/catflix.js",
+          "asyncJS": true,
+          "softsub": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/catflix/catflix.js",
+          "languageClean": "English",
+          "hasDub": true,
+          "hasSub": true
+        },
+        {
           "sourceName": "FlixLatam",
           "iconUrl": "https://flixlatam.com/themes/dooplay/assets/img/favicon.png",
           "author": {
@@ -25102,6 +26706,29 @@
           "hasSub": true
         },
         {
+          "sourceName": "Moflix",
+          "iconUrl": "https://moflix-stream.xyz/favicon/icon-512x512.png",
+          "author": {
+            "name": "Cufiy",
+            "icon": "https://files.catbox.moe/ttj4fc.gif",
+            "url": "https://github.com/JMcrafter26"
+          },
+          "version": "1.0.13",
+          "language": "German",
+          "streamType": "HLS",
+          "quality": "1080p",
+          "type": "movie/series",
+          "baseUrl": "https://moflix-stream.xyz/",
+          "searchBaseUrl": "https://moflix-stream.xyz/api/v1/search/%s?loader=searchAutocomplete",
+          "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/moflix/moflix.js",
+          "asyncJS": true,
+          "downloadSupport": true,
+          "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/moflix/moflix.js",
+          "languageClean": "German",
+          "hasDub": false,
+          "hasSub": false
+        },
+        {
           "sourceName": "YFSP",
           "iconUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/yfsp/icon.png",
           "author": {
@@ -25145,7 +26772,7 @@
             "url": "https://github.com/xdfkenny"
           },
           "description": "Módulo de YFSP (yfsp.tv) — películas, series, variedades y anime en chino. Usa el API firmado de iYifan: búsqueda sin firma, detalles/episodios/streams vía vv+pub (MD5) con claves rotadas extraídas de la página. Tier gratuito real: 576P (720P/1080P/4K son solo VIP). Reintentos con fallback a=0→a=1 contra rate-limit (code 5) y páginas de error HTML del edge.",
-          "version": "1.0.4",
+          "version": "1.0.5",
           "language": "Chinese (SUB)",
           "streamType": "HLS",
           "quality": "576p",

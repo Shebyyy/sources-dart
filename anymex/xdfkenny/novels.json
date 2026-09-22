@@ -58,6 +58,35 @@
     "hasSub": false
   },
   {
+    "sourceName": "LightNovelWorld",
+    "iconUrl": "https://lightnovelworld.org/static/favicon.ico",
+    "author": {
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "novels",
+    "quality": "N/A",
+    "baseUrl": "https://lightnovelworld.org/",
+    "searchBaseUrl": "https://lightnovelworld.org/api/search/?q=%s&search_type=title",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/lightnovelworld/lightnovelworld.js",
+    "type": "novels",
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true,
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/lightnovelworld/lightnovelworld.js",
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
     "sourceName": "LnCrawler",
     "iconUrl": "https://files.catbox.moe/ec7bnh.png",
     "author": {
@@ -111,6 +140,104 @@
     "supportsTsumi": true,
     "supportsHiyoku": true,
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/lncrawler/lncrawler.js",
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
+    "sourceName": "NovelBuddy",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/novelbuddy/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://files.catbox.moe/741wp7.png",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.1.2",
+    "language": "English",
+    "streamType": "novels",
+    "quality": "N/A",
+    "baseUrl": "https://novelbuddy.com/",
+    "searchBaseUrl": "https://novelbuddy.com/search?sort=views&q=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/novelbuddy/novelbuddy.js",
+    "type": "novels",
+    "asyncJS": true,
+    "novel": true,
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/novelbuddy/novelbuddy.js",
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
+    "sourceName": "NovelDot",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/noveldot/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://files.catbox.moe/741wp7.png",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.4",
+    "language": "English",
+    "streamType": "novels",
+    "quality": "N/A",
+    "baseUrl": "https://noveldot.com/",
+    "searchBaseUrl": "https://www.noveldot.com/novel/lnsearchlive/index.php",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/noveldot/noveldot.js",
+    "type": "novels",
+    "asyncJS": true,
+    "novel": true,
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/noveldot/noveldot.js",
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
+    "sourceName": "NovelFire",
+    "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/novelfire/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://files.catbox.moe/741wp7.png",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.6",
+    "language": "English",
+    "streamType": "novels",
+    "quality": "N/A",
+    "baseUrl": "https://novelfire.net/",
+    "searchBaseUrl": "https://novelfire.net/ajax/searchLive?inputContent=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/novelfire/novelfire.js",
+    "type": "novels",
+    "asyncJS": true,
+    "novel": true,
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/novelfire/novelfire.js",
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
+    "sourceName": "ReadNovelFull",
+    "iconUrl": "https://readnovelfull.com/img/logo.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
+    },
+    "version": "1.0.0",
+    "language": "English",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "novels",
+    "quality": "N/A",
+    "baseUrl": "https://readnovelfull.com/",
+    "searchBaseUrl": "https://readnovelfull.com/search/?wd=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/readnovelfull/readnovelfull.js",
+    "type": "novels",
+    "asyncJS": true,
+    "novel": true,
+    "downloadSupport": false,
+    "supportsSora": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true,
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/readnovelfull/readnovelfull.js",
     "languageClean": "English",
     "hasDub": false,
     "hasSub": false

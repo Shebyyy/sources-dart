@@ -18717,6 +18717,29 @@
     "hasSub": true
   },
   {
+    "sourceName": "Catflix (Website Down)",
+    "iconUrl": "https://github.com/JMcrafter26/sora-modules/blob/main/modules/catflix/icon.png?raw=true",
+    "author": {
+      "name": "Cufiy",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "1.1.464",
+    "language": "English (DUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "type": "movies/shows/anime",
+    "baseUrl": "https://catflix.su/",
+    "searchBaseUrl": "https://catflix.su/search?q=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/catflix/catflix.js",
+    "asyncJS": true,
+    "softsub": true,
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/catflix/catflix.js",
+    "languageClean": "English",
+    "hasDub": true,
+    "hasSub": true
+  },
+  {
     "sourceName": "FlixLatam",
     "iconUrl": "https://flixlatam.com/themes/dooplay/assets/img/favicon.png",
     "author": {
@@ -19078,6 +19101,29 @@
     "hasSub": true
   },
   {
+    "sourceName": "Moflix",
+    "iconUrl": "https://moflix-stream.xyz/favicon/icon-512x512.png",
+    "author": {
+      "name": "Cufiy",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
+    },
+    "version": "1.0.13",
+    "language": "German",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "type": "movie/series",
+    "baseUrl": "https://moflix-stream.xyz/",
+    "searchBaseUrl": "https://moflix-stream.xyz/api/v1/search/%s?loader=searchAutocomplete",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/moflix/moflix.js",
+    "asyncJS": true,
+    "downloadSupport": true,
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/moflix/moflix.js",
+    "languageClean": "German",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
     "sourceName": "YFSP",
     "iconUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/yfsp/icon.png",
     "author": {
@@ -19121,7 +19167,7 @@
       "url": "https://github.com/xdfkenny"
     },
     "description": "Módulo de YFSP (yfsp.tv) — películas, series, variedades y anime en chino. Usa el API firmado de iYifan: búsqueda sin firma, detalles/episodios/streams vía vv+pub (MD5) con claves rotadas extraídas de la página. Tier gratuito real: 576P (720P/1080P/4K son solo VIP). Reintentos con fallback a=0→a=1 contra rate-limit (code 5) y páginas de error HTML del edge.",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "language": "Chinese (SUB)",
     "streamType": "HLS",
     "quality": "576p",
