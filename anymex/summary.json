@@ -30,6 +30,20 @@
         }
       }
     },
+    "alexrica": {
+      "types": [
+        "anime"
+      ],
+      "total_sources": 1,
+      "sources_by_type": {
+        "anime": {
+          "count": 1,
+          "sources": [
+            "JKanime"
+          ]
+        }
+      }
+    },
     "xdfkenny": {
       "types": [
         "anime",
@@ -299,20 +313,6 @@
             "Cinepulse",
             "LiveWatch",
             "Twitch NoSub"
-          ]
-        }
-      }
-    },
-    "alexrica": {
-      "types": [
-        "anime"
-      ],
-      "total_sources": 1,
-      "sources_by_type": {
-        "anime": {
-          "count": 1,
-          "sources": [
-            "JKanime"
           ]
         }
       }
