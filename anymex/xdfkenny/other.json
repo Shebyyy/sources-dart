@@ -18690,7 +18690,7 @@
       "url": "https://github.com/xdfkenny"
     },
     "description": "Módulo de AnimeJara — anime y películas en español latino, sub y japones (AnimeJara.com)",
-    "version": "1.1.8",
+    "version": "1.1.9",
     "language": "Spanish (DUB/SUB)",
     "streamType": "HLS",
     "quality": "1080p",
@@ -18720,11 +18720,11 @@
     "sourceName": "Catflix (Website Down)",
     "iconUrl": "https://github.com/JMcrafter26/sora-modules/blob/main/modules/catflix/icon.png?raw=true",
     "author": {
-      "name": "Cufiy",
-      "icon": "https://files.catbox.moe/ttj4fc.gif",
-      "url": "https://github.com/JMcrafter26"
+      "name": "xdfkenny & Cufiy",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.1.464",
+    "version": "1.1.466",
     "language": "English (DUB)",
     "streamType": "HLS",
     "quality": "1080p",
@@ -18748,7 +18748,7 @@
       "url": "https://github.com/xdfkenny"
     },
     "description": "Módulo de FlixLatam (flixlatam.com) — películas, series y anime en español latino (LAT/SUB). Resuelve streams HLS desencriptando los embeds vidurl: proof-of-work SHA-256 + AES-256-CBC en JS puro y desofuscando el P.A.C.K.E.R. de VidHide (minochinos.com); ofrece además por idioma el embed voe.sx resolviendo su challenge Altcha PBKDF2/SHA-256 en JS puro. El máster HLS de VidHide incluye variantes 480p/720p/1080p.",
-    "version": "1.1.12",
+    "version": "1.1.13",
     "language": "Spanish (DUB/SUB)",
     "streamType": "HLS",
     "quality": "1080p",
@@ -18818,7 +18818,7 @@
       "url": "https://github.com/xdfkenny"
     },
     "description": "Módulo de HydraHD (hydrahd.ws) — películas y series en inglés (sub/dub) con calidad real variable por título, hasta 4K. Cada servidor se etiqueta con su resolución VERDADERA medida del manifiesto HLS y su idioma de audio con bandera (🇬🇧 inglés); los servidores multi-audio (Hydra2/VixSrc) generan una entrada adicional por idioma detectado (🇮🇹 italiano, etc.) que reproduce ese audio por defecto. Streams: servidores embebidos + resolvers keyless (VixSrc, MoviesAPI, xpass) + espejos VidSrc (hasta 3) y VidFast con servidores 4K; todo en paralelo con timeouts acotados y workers que nunca abortan el resultado. Subtítulos: lista completa de idiomas al instante (playlist + OpenSubtitles REST + v3 + Community); inglés se autoselecciona. Sin claves API.",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "language": "English (SUB/DUB)",
     "streamType": "HLS/MP4",
     "quality": "Up to 4K",
@@ -18918,12 +18918,12 @@
     "sourceName": "HydraHD (Shirox)",
     "iconUrl": "https://hydrahd.ws/fav-192.png",
     "author": {
-      "name": "Jay (JayGxnzalez)",
-      "icon": "https://avatars.githubusercontent.com/JayGxnzalez?s=400",
-      "url": "https://github.com/JayGxnzalez"
+      "name": "xdfkenny & Jay (JayGxnzalez)",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
     "description": "HydraHD (hydrahd.ws) — módulo unificado de xdfkenny (v2.3.0) con soporte dual de subtítulos: `subtitles` como pares [etiqueta,url] para Sora y `allSubtitles` [{url,label,kind}] para el menú de Shirox. Servidores etiquetados con resolución real, multi-audio por idioma, resolvers keyless (VixSrc, MoviesAPI, xpass) + espejos. Sinopsis real vía Cinemeta. Pósters: IMDb (metahub) para películas con coincidencia exacta, nativo TMDB a alta resolución (w1280) como respaldo. Sin claves API.",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "language": "English",
     "streamType": "HLS/MP4",
     "quality": "Up to 4K",
@@ -19039,7 +19039,7 @@
       "url": "https://github.com/xdfkenny"
     },
     "description": "Módulo de KissAsian (kissasian.su) — doramas asiáticos (coreanos, chinos, japoneses, tailandeses) y películas con subtítulos en inglés. Búsqueda vía ajax/filter, episodios vía ajax/ep-list, detalles vía ajax/info y streams HLS desencriptados desde player.dramavideo.se (AES-128-CBC).",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "Asian (SUB) - Korean, Chinese, Japanese, Thai",
     "streamType": "HLS",
     "quality": "1080p",
@@ -19104,11 +19104,11 @@
     "sourceName": "Moflix",
     "iconUrl": "https://moflix-stream.xyz/favicon/icon-512x512.png",
     "author": {
-      "name": "Cufiy",
-      "icon": "https://files.catbox.moe/ttj4fc.gif",
-      "url": "https://github.com/JMcrafter26"
+      "name": "xdfkenny & Cufiy",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.13",
+    "version": "1.0.14",
     "language": "German",
     "streamType": "HLS",
     "quality": "1080p",
@@ -19132,7 +19132,7 @@
       "url": "https://github.com/xdfkenny"
     },
     "description": "Módulo de YFSP (yfsp.tv) — películas, series, variedades y anime en chino. Usa el API firmado de iYifan: búsqueda sin firma, detalles/episodios/streams vía vv+pub (MD5) con claves rotadas extraídas de la página. Tier gratuito real: 576P (720P/1080P/4K son solo VIP). Reintentos con fallback a=0→a=1 contra rate-limit (code 5) y páginas de error HTML del edge.",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "language": "Chinese (SUB)",
     "streamType": "HLS",
     "quality": "576p",

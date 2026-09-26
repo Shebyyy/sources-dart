@@ -8,8 +8,8 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "description": "Módulo tipo manga de AllManga (allmanga.to) — el build de manga del ecosistema AllAnime (230k+ series). Búsqueda y detalles vía GraphQL (mangas/manga, sin token), capítulos desde availableChaptersDetail (soporta números fraccionarios 25.5/14.1), páginas de imagen desde chapterPages con token aaReq + descifrado AES-GCM (mismo flujo que el módulo de anime AllManga, con fallback de keygen). v1.2.0: keygen build 166 epoch 2957 (boot mkissa:k7:2957:mkissa.to:166); auto-registro del persisted query en PersistedQueryNotFound. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda; las páginas se entregan como URLs de imagen directas.",
-    "version": "1.2.1",
+    "description": "Módulo tipo manga de AllManga (allmanga.to) — el build de manga del ecosistema AllAnime (230k+ series). Búsqueda y detalles vía GraphQL (mangas/manga, sin token), capítulos desde availableChaptersDetail (soporta números fraccionarios 25.5/14.1), páginas de imagen desde chapterPages con token aaReq + descifrado AES-GCM (mismo flujo que el módulo de anime AllManga, con fallback de keygen). v1.3.0: keygen build 175 epoch 2960 lane k9 (boot 175|mkissa|mkissa.to|2960|k9, IV epoch:buildId:qh:ts:lane) + auto-registro del persisted query en PersistedQueryNotFound. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda; las páginas se entregan como URLs de imagen directas.",
+    "version": "1.3.0",
     "language": "English",
     "languageType": [
       "Translated"
@@ -77,7 +77,7 @@
       "url": "https://github.com/xdfkenny"
     },
     "description": "Módulo tipo manga de Comix (comix.to / comix.ws) — cómics y manga en inglés vía su API protegida por el SDK anti-scraping X-Scramble. Implementación 100% JS del token `_` por request y del descifrado de respuestas (cadenas de cajas-S con claves extraídas del chunk seguro), sin proxy ni navegador. Resiliencia estilo AllManga: fallback multi-host (comix.to → comix.ws), cabeceras completas de navegador y clasificación de fallos Cloudflare/502 en el log. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda.",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "language": "English",
     "languageType": [
       "Translated"
@@ -138,16 +138,17 @@
   {
     "sourceName": "KaliScan",
     "iconURL": "https://kaliscan.io/static/sites/icons/apple-touch-icon.png",
-    "version": "1.1",
+    "version": "1.3",
     "language": "English",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/kaliscan/kaliscan.js",
     "author": {
-      "name": "50/50",
-      "iconURL": "https://files.catbox.moe/741wp7.png",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
     "type": "mangas",
     "supportsDartotsu": true,
@@ -168,15 +169,17 @@
   {
     "sourceName": "MangaBuddy",
     "iconURL": "https://mangabuddy.com/static/sites/mangabuddy/icons/apple-touch-icon.png",
-    "version": "2.0",
+    "version": "2.1",
     "language": "English",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangabuddy/mangabuddy.js",
     "author": {
-      "name": "50/50",
-      "iconURL": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
     "type": "mangas",
     "supportsDartotsu": true,
@@ -222,15 +225,17 @@
   {
     "sourceName": "MangaDex",
     "iconURL": "https://files.catbox.moe/ouogm2.png",
-    "version": "1.2",
+    "version": "1.3",
     "language": "English",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangadex/mangadex.js",
     "author": {
-      "name": "50/50",
-      "iconURL": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
     "type": "mangas",
     "supportsDartotsu": true,
@@ -276,16 +281,17 @@
   {
     "sourceName": "MangaFire",
     "iconURL": "https://s.mfcdn.cc/assets/sites/mangafire/favicon.png?v3",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "language": "English",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangafire/mangafire.js",
     "author": {
-      "name": "50/50",
-      "iconURL": "https://files.catbox.moe/741wp7.png",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
     "type": "mangas",
     "supportsDartotsu": true,
@@ -306,15 +312,17 @@
   {
     "sourceName": "MangaFreak",
     "iconURL": "https://files.catbox.moe/903u7e.png",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "language": "English",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangafreak/mangafreak.js",
     "author": {
-      "name": "50/50",
-      "iconURL": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
     "type": "mangas",
     "supportsDartotsu": true,
@@ -360,16 +368,17 @@
   {
     "sourceName": "MangaKatana",
     "iconURL": "https://mangakatana.com/static/img/fav.png",
-    "version": "1.0",
+    "version": "1.1",
     "language": "English",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangakatana/mangakatana.js",
     "author": {
-      "name": "50/50",
-      "iconURL": "https://files.catbox.moe/741wp7.png",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
     "type": "mangas",
     "supportsDartotsu": true,
@@ -390,16 +399,17 @@
   {
     "sourceName": "MangaTaro",
     "iconURL": "https://mangataro.org/content/media/cropped-favicon-192x192.png",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "English",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangataro/mangataro.js",
     "author": {
-      "name": "50/50",
-      "iconURL": "https://files.catbox.moe/741wp7.png",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
     "type": "mangas",
     "supportsDartotsu": true,
@@ -420,15 +430,16 @@
   {
     "sourceName": "MangaWorld",
     "iconUrl": "https://www.mangaworld.mx/public/assets/seo/favicon-96x96.png",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "Italian",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangaworld/mangaworld.js",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
     "type": "mangas",
     "supportsDartotsu": true,
@@ -474,16 +485,17 @@
   {
     "sourceName": "RumanHua1",
     "iconURL": "https://i.ibb.co/TDfbbwDB/Untitled-design.png",
-    "version": "1.0",
+    "version": "1.1",
     "language": "Chinese",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/rumanhua1/rumanhua1.js",
     "author": {
-      "name": "50/50",
-      "iconURL": "https://files.catbox.moe/741wp7.png",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
     "type": "mangas",
     "supportsDartotsu": true,
@@ -528,15 +540,17 @@
   {
     "sourceName": "Scan Sama",
     "iconURL": "https://raw.githubusercontent.com/Anime-Sama/IMG/img/autres/logo.png",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "language": "French",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/scan-sama/scan-sama.js",
     "author": {
-      "name": "MXFia19",
-      "iconURL": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg"
+      "name": "xdfkenny & MXFia19",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
     "type": "mangas",
     "baseURL": "https://anime-sama.to/",
@@ -552,15 +566,17 @@
   {
     "sourceName": "WeebCentral",
     "iconURL": "https://favicons.statusgator.com/1bi5zotvuQiK08wI.png",
-    "version": "1.1",
+    "version": "1.2",
     "language": "English",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/weebcentral/weebcentral.js",
     "author": {
-      "name": "50/50",
-      "iconURL": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
     "type": "mangas",
     "supportsDartotsu": true,

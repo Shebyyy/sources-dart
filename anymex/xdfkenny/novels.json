@@ -3,10 +3,11 @@
     "sourceName": "ChiReads",
     "iconUrl": "https://chireads.com/wp-content/uploads/2020/04/2020LOGO-2.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "French",
     "languageType": [
       "Native"
@@ -61,10 +62,11 @@
     "sourceName": "LightNovelWorld",
     "iconUrl": "https://lightnovelworld.org/static/favicon.ico",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "English",
     "languageType": [
       "Translated"
@@ -119,10 +121,11 @@
     "sourceName": "LnCrawler",
     "iconUrl": "https://files.catbox.moe/ec7bnh.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "English",
     "languageType": [
       "Translated"
@@ -148,11 +151,11 @@
     "sourceName": "NovelBuddy",
     "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/novelbuddy/icon.png",
     "author": {
-      "name": "ibro",
-      "icon": "https://files.catbox.moe/741wp7.png",
-      "url": "https://github.com/xibrox"
+      "name": "xdfkenny & ibro",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.1.2",
+    "version": "1.1.3",
     "language": "English",
     "streamType": "novels",
     "quality": "N/A",
@@ -171,11 +174,11 @@
     "sourceName": "NovelDot",
     "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/noveldot/icon.png",
     "author": {
-      "name": "ibro",
-      "icon": "https://files.catbox.moe/741wp7.png",
-      "url": "https://github.com/xibrox"
+      "name": "xdfkenny & ibro",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.4",
+    "version": "1.0.6",
     "language": "English",
     "streamType": "novels",
     "quality": "N/A",
@@ -194,11 +197,11 @@
     "sourceName": "NovelFire",
     "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/novelfire/icon.png",
     "author": {
-      "name": "ibro",
-      "icon": "https://files.catbox.moe/741wp7.png",
-      "url": "https://github.com/xibrox"
+      "name": "xdfkenny & ibro",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.6",
+    "version": "1.0.8",
     "language": "English",
     "streamType": "novels",
     "quality": "N/A",
@@ -217,10 +220,11 @@
     "sourceName": "ReadNovelFull",
     "iconUrl": "https://readnovelfull.com/img/logo.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "English",
     "languageType": [
       "Translated"
@@ -246,10 +250,11 @@
     "sourceName": "ReadNovels",
     "iconUrl": "https://readnovel.eu/apple-touch-icon.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny & 50/50",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "English",
     "languageType": [
       "Translated"
