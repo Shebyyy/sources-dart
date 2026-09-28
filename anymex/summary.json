@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 226,
-    "files_processed": 284,
+    "files_found": 228,
+    "files_processed": 286,
     "files_failed": 0,
     "api_added": 58
   },
@@ -51,10 +51,10 @@
         "novels",
         "other"
       ],
-      "total_sources": 208,
+      "total_sources": 210,
       "sources_by_type": {
         "anime": {
-          "count": 152,
+          "count": 153,
           "sources": [
             "Unknown",
             "Unknown",
@@ -70,6 +70,7 @@
             "AK.SV",
             "AllAnime",
             "AllAnime",
+            "AllAnime (Shirox)",
             "An1me",
             "An1me",
             "AniDB",
@@ -211,10 +212,11 @@
           ]
         },
         "manga": {
-          "count": 21,
+          "count": 22,
           "sources": [
             "AllManga Manga",
             "AllManga Manga",
+            "AllManga Manga (Shirox)",
             "Comix",
             "Comix",
             "KaliScan",
