@@ -68,6 +68,40 @@
     "hasSub": false
   },
   {
+    "sourceName": "AllManga Manga (Eclipse)",
+    "description": "Módulo tipo manga de AllManga (allmanga.to) — el build de manga del ecosistema AllAnime (230k+ series). Búsqueda y detalles vía GraphQL (mangas/manga, sin token), capítulos desde availableChaptersDetail (soporta números fraccionarios 25.5/14.1), páginas de imagen desde chapterPages con token aaReq + descifrado AES-GCM (mismo flujo que el módulo de anime AllManga, con fallback de keygen). v1.4.0: fetchv2 impersonate:chrome en apiQuery (chapterPages + search/details) y bootstrap — fingerprint de navegador completo contra la API. v1.3.0: keygen build 175 epoch 2960 lane k9 (boot 175|mkissa|mkissa.to|2960|k9, IV epoch:buildId:qh:ts:lane) + auto-registro del persisted query en PersistedQueryNotFound. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda; las páginas se entregan como URLs de imagen directas. Eclipse-ported copy (shim prelude + baseUrl fields); logic identical to allmanga-novels.",
+    "version": "1.4.0-e2",
+    "language": "English",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "mangas",
+    "type": "mangas",
+    "quality": "N/A",
+    "baseUrl": "https://allmanga.to/",
+    "searchBaseUrl": "https://allmanga.to/search-manga?keyword=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/allmanga-novels/allmanga-novels.js",
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/allmanga-novels/allmanga-novels.js",
+    "iconUrl": "https://allmanga.to/pics/avatar-w.png",
+    "iconURL": "https://allmanga.to/pics/avatar-w.png",
+    "author": {
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "asyncJS": true,
+    "softsub": false,
+    "downloadSupport": false,
+    "supportsAnymex": false,
+    "supportsDartotsu": false,
+    "supportsEclipse": true,
+    "supportsLuna": true,
+    "supportsShirox": false,
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
     "sourceName": "AllManga Manga (Shirox)",
     "iconUrl": "https://allmanga.to/pics/avatar-w.png",
     "iconURL": "https://allmanga.to/pics/avatar-w.png",
@@ -170,6 +204,40 @@
     "hasSub": false
   },
   {
+    "sourceName": "Comix (Eclipse)",
+    "description": "Módulo tipo manga de Comix (comix.to / comix.ws) — cómics y manga en inglés vía su API protegida por el SDK anti-scraping X-Scramble. Implementación 100% JS del token `_` por request y del descifrado de respuestas (cadenas de cajas-S con claves extraídas del chunk seguro), sin proxy ni navegador. Resiliencia estilo AllManga: fallback multi-host (comix.to → comix.ws), cabeceras completas de navegador y clasificación de fallos Cloudflare/502 en el log. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda. Eclipse-ported copy (shim prelude + baseUrl fields); logic identical to comix.",
+    "version": "1.1.4-e2",
+    "language": "English",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "mangas",
+    "type": "mangas",
+    "quality": "Alta",
+    "baseUrl": "https://comix.to/",
+    "searchBaseUrl": "https://comix.to/browse?q=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/comix/comix.js",
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/comix/comix.js",
+    "iconUrl": "https://comix.to/favicon.ico",
+    "iconURL": "https://comix.to/favicon.ico",
+    "author": {
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "asyncJS": true,
+    "softsub": false,
+    "downloadSupport": false,
+    "supportsAnymex": false,
+    "supportsDartotsu": false,
+    "supportsEclipse": true,
+    "supportsLuna": true,
+    "supportsShirox": false,
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
     "sourceName": "KaliScan",
     "iconURL": "https://kaliscan.io/static/sites/icons/apple-touch-icon.png",
     "version": "1.3",
@@ -196,6 +264,37 @@
     "quality": "N/A",
     "asyncJS": true,
     "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/kaliscan/kaliscan.js",
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
+    "sourceName": "KaliScan (Eclipse)",
+    "version": "1.3-e2",
+    "language": "English",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "mangas",
+    "type": "mangas",
+    "quality": "N/A",
+    "baseUrl": "https://kaliscan.io/",
+    "searchBaseUrl": "https://kaliscan.io/",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/kaliscan/kaliscan.js",
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/kaliscan/kaliscan.js",
+    "iconURL": "https://kaliscan.io/static/sites/icons/apple-touch-icon.png",
+    "author": {
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "asyncJS": true,
+    "supportsAnymex": true,
+    "supportsDartotsu": true,
+    "supportsEclipse": true,
+    "supportsLuna": true,
+    "supportsShirox": true,
     "languageClean": "English",
     "hasDub": false,
     "hasSub": false
@@ -257,6 +356,37 @@
     "hasSub": false
   },
   {
+    "sourceName": "MangaBuddy (Eclipse)",
+    "version": "2.1-e2",
+    "language": "English",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "mangas",
+    "type": "mangas",
+    "quality": "N/A",
+    "baseUrl": "https://mangak.io/",
+    "searchBaseUrl": "https://mangak.io/?keyword=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangabuddy/mangabuddy.js",
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangabuddy/mangabuddy.js",
+    "iconURL": "https://mangabuddy.com/static/sites/mangabuddy/icons/apple-touch-icon.png",
+    "author": {
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "asyncJS": true,
+    "supportsAnymex": true,
+    "supportsDartotsu": true,
+    "supportsEclipse": true,
+    "supportsLuna": true,
+    "supportsShirox": true,
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
     "sourceName": "MangaDex",
     "iconURL": "https://files.catbox.moe/ouogm2.png",
     "version": "1.3",
@@ -313,6 +443,37 @@
     "hasSub": false
   },
   {
+    "sourceName": "MangaDex (Eclipse)",
+    "version": "1.3-e2",
+    "language": "English",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "mangas",
+    "type": "mangas",
+    "quality": "N/A",
+    "baseUrl": "https://api.mangadex.org/",
+    "searchBaseUrl": "https://api.mangadex.org/?keyword=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangadex/mangadex.js",
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangadex/mangadex.js",
+    "iconURL": "https://files.catbox.moe/ouogm2.png",
+    "author": {
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "asyncJS": true,
+    "supportsAnymex": true,
+    "supportsDartotsu": true,
+    "supportsEclipse": true,
+    "supportsLuna": true,
+    "supportsShirox": true,
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
     "sourceName": "MangaFire",
     "iconURL": "https://s.mfcdn.cc/assets/sites/mangafire/favicon.png?v3",
     "version": "1.0.3",
@@ -339,6 +500,37 @@
     "quality": "N/A",
     "asyncJS": true,
     "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangafire/mangafire.js",
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
+    "sourceName": "MangaFire (Eclipse)",
+    "version": "1.0.3-e2",
+    "language": "English",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "mangas",
+    "type": "mangas",
+    "quality": "N/A",
+    "baseUrl": "https://mangafire.to/",
+    "searchBaseUrl": "https://mangafire.to/",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangafire/mangafire.js",
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangafire/mangafire.js",
+    "iconURL": "https://s.mfcdn.cc/assets/sites/mangafire/favicon.png?v3",
+    "author": {
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "asyncJS": true,
+    "supportsAnymex": true,
+    "supportsDartotsu": true,
+    "supportsEclipse": true,
+    "supportsLuna": true,
+    "supportsShirox": true,
     "languageClean": "English",
     "hasDub": false,
     "hasSub": false
@@ -400,6 +592,37 @@
     "hasSub": false
   },
   {
+    "sourceName": "MangaFreak (Eclipse)",
+    "version": "1.0.4-e2",
+    "language": "English",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "mangas",
+    "type": "mangas",
+    "quality": "N/A",
+    "baseUrl": "https://ww2.mangafreak.me/",
+    "searchBaseUrl": "https://ww2.mangafreak.me/?keyword=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangafreak/mangafreak.js",
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangafreak/mangafreak.js",
+    "iconURL": "https://files.catbox.moe/903u7e.png",
+    "author": {
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "asyncJS": true,
+    "supportsAnymex": true,
+    "supportsDartotsu": true,
+    "supportsEclipse": true,
+    "supportsLuna": true,
+    "supportsShirox": true,
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
     "sourceName": "MangaKatana",
     "iconURL": "https://mangakatana.com/static/img/fav.png",
     "version": "1.1",
@@ -431,6 +654,37 @@
     "hasSub": false
   },
   {
+    "sourceName": "MangaKatana (Eclipse)",
+    "version": "1.1-e2",
+    "language": "English",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "mangas",
+    "type": "mangas",
+    "quality": "N/A",
+    "baseUrl": "https://mangakatana.com/",
+    "searchBaseUrl": "https://mangakatana.com/",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangakatana/mangakatana.js",
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangakatana/mangakatana.js",
+    "iconURL": "https://mangakatana.com/static/img/fav.png",
+    "author": {
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "asyncJS": true,
+    "supportsAnymex": true,
+    "supportsDartotsu": true,
+    "supportsEclipse": true,
+    "supportsLuna": true,
+    "supportsShirox": true,
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
     "sourceName": "MangaTaro",
     "iconURL": "https://mangataro.org/content/media/cropped-favicon-192x192.png",
     "version": "1.0.2",
@@ -457,6 +711,37 @@
     "quality": "N/A",
     "asyncJS": true,
     "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangataro/mangataro.js",
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
+    "sourceName": "MangaTaro (Eclipse)",
+    "version": "1.0.2-e2",
+    "language": "English",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "mangas",
+    "type": "mangas",
+    "quality": "N/A",
+    "baseUrl": "https://mangataro.org/",
+    "searchBaseUrl": "https://mangataro.org/",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangataro/mangataro.js",
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangataro/mangataro.js",
+    "iconURL": "https://mangataro.org/content/media/cropped-favicon-192x192.png",
+    "author": {
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "asyncJS": true,
+    "supportsAnymex": true,
+    "supportsDartotsu": true,
+    "supportsEclipse": true,
+    "supportsLuna": true,
+    "supportsShirox": true,
     "languageClean": "English",
     "hasDub": false,
     "hasSub": false
@@ -517,6 +802,36 @@
     "hasSub": false
   },
   {
+    "sourceName": "MangaWorld (Eclipse)",
+    "version": "1.0.1-e2",
+    "language": "Italian",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "mangas",
+    "type": "mangas",
+    "quality": "N/A",
+    "baseUrl": "https://www.mangaworld.mx/",
+    "searchBaseUrl": "https://www.mangaworld.mx/?keyword=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangaworld/mangaworld.js",
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangaworld/mangaworld.js",
+    "iconUrl": "https://www.mangaworld.mx/public/assets/seo/favicon-96x96.png",
+    "author": {
+      "name": "xdfkenny & 50/50",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "asyncJS": true,
+    "supportsAnymex": true,
+    "supportsDartotsu": true,
+    "supportsEclipse": true,
+    "supportsLuna": true,
+    "supportsShirox": true,
+    "languageClean": "Italian",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
     "sourceName": "RumanHua1",
     "iconURL": "https://i.ibb.co/TDfbbwDB/Untitled-design.png",
     "version": "1.1",
@@ -543,6 +858,37 @@
     "quality": "N/A",
     "asyncJS": true,
     "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/rumanhua1/rumanhua1.js",
+    "languageClean": "Chinese",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
+    "sourceName": "RumanHua1 (Eclipse)",
+    "version": "1.1-e2",
+    "language": "Chinese",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "mangas",
+    "type": "mangas",
+    "quality": "N/A",
+    "baseUrl": "http://rumanhua1.com/",
+    "searchBaseUrl": "http://rumanhua1.com/",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/rumanhua1/rumanhua1.js",
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/rumanhua1/rumanhua1.js",
+    "iconURL": "https://i.ibb.co/TDfbbwDB/Untitled-design.png",
+    "author": {
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "asyncJS": true,
+    "supportsAnymex": true,
+    "supportsDartotsu": true,
+    "supportsEclipse": true,
+    "supportsLuna": true,
+    "supportsShirox": true,
     "languageClean": "Chinese",
     "hasDub": false,
     "hasSub": false
@@ -593,6 +939,35 @@
     "streamType": "mangas",
     "quality": "N/A",
     "asyncJS": true,
+    "languageClean": "French",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
+    "sourceName": "Scan Sama (Eclipse)",
+    "version": "1.2.4-e2",
+    "language": "French",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "mangas",
+    "type": "mangas",
+    "quality": "N/A",
+    "baseUrl": "https://anime-sama.to/",
+    "searchBaseUrl": "https://anime-sama.to/?keyword=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/scan-sama/scan-sama.js",
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/scan-sama/scan-sama.js",
+    "iconURL": "https://raw.githubusercontent.com/Anime-Sama/IMG/img/autres/logo.png",
+    "author": {
+      "name": "xdfkenny & MXFia19",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "asyncJS": true,
+    "baseURL": "https://anime-sama.to/",
+    "searchBaseURL": "https://anime-sama.to/catalogue/",
+    "supportsEclipse": true,
     "languageClean": "French",
     "hasDub": false,
     "hasSub": false
@@ -649,6 +1024,37 @@
     "streamType": "mangas",
     "quality": "N/A",
     "asyncJS": true,
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
+    "sourceName": "WeebCentral (Eclipse)",
+    "version": "1.2-e2",
+    "language": "English",
+    "languageType": [
+      "Translated"
+    ],
+    "streamType": "mangas",
+    "type": "mangas",
+    "quality": "N/A",
+    "baseUrl": "https://weebcentral.com/",
+    "searchBaseUrl": "https://weebcentral.com/?keyword=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/weebcentral/weebcentral.js",
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/weebcentral/weebcentral.js",
+    "iconURL": "https://favicons.statusgator.com/1bi5zotvuQiK08wI.png",
+    "author": {
+      "name": "xdfkenny & 50/50",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "asyncJS": true,
+    "supportsAnymex": true,
+    "supportsDartotsu": true,
+    "supportsEclipse": true,
+    "supportsLuna": true,
+    "supportsShirox": true,
     "languageClean": "English",
     "hasDub": false,
     "hasSub": false
