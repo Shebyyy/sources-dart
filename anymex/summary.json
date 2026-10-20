@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 249,
-    "files_processed": 307,
+    "files_found": 252,
+    "files_processed": 310,
     "files_failed": 0,
     "api_added": 58
   },
@@ -51,7 +51,7 @@
         "novels",
         "other"
       ],
-      "total_sources": 231,
+      "total_sources": 234,
       "sources_by_type": {
         "anime": {
           "count": 153,
@@ -276,7 +276,7 @@
           ]
         },
         "other": {
-          "count": 24,
+          "count": 27,
           "sources": [
             "Unknown",
             "Unknown",
@@ -300,6 +300,9 @@
             "KissAsian",
             "KissAsian",
             "Moflix",
+            "MyselfBBS",
+            "Nunuju",
+            "XgCartoon",
             "YFSP",
             "YFSP"
           ]
