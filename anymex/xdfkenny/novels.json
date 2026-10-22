@@ -3,11 +3,10 @@
     "sourceName": "ChiReads",
     "iconUrl": "https://chireads.com/wp-content/uploads/2020/04/2020LOGO-2.png",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "1.0.2",
+    "version": "1.0.1",
     "language": "French",
     "languageType": [
       "Native"
@@ -33,10 +32,11 @@
     "sourceName": "ChiReads",
     "iconUrl": "https://chireads.com/wp-content/uploads/2020/04/2020LOGO-2.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "French",
     "languageType": [
       "Native"
@@ -446,11 +446,10 @@
     "sourceName": "ReadNovels",
     "iconUrl": "https://readnovel.eu/apple-touch-icon.png",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "1.0.3",
+    "version": "1.0.1",
     "language": "English",
     "languageType": [
       "Translated"
@@ -476,10 +475,11 @@
     "sourceName": "ReadNovels",
     "iconUrl": "https://readnovel.eu/apple-touch-icon.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.1",
+    "version": "1.0.3",
     "language": "English",
     "languageType": [
       "Translated"

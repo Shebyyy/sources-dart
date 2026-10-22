@@ -86,10 +86,11 @@
     "sourceName": "123Anime",
     "iconUrl": "https://123animehub.cc/assets/favicons/apple-touch-icon.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.4",
+    "version": "1.0.6",
     "language": "English",
     "languageType": [
       "Dubbed",
@@ -122,11 +123,10 @@
     "sourceName": "123Anime",
     "iconUrl": "https://123animehub.cc/assets/favicons/apple-touch-icon.png",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "1.0.6",
+    "version": "1.0.4",
     "language": "English",
     "languageType": [
       "Dubbed",
@@ -163,7 +163,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.4",
+    "version": "1.0.5",
     "language": "Tamil",
     "languageType": [
       "Native"
@@ -195,11 +195,11 @@
     "sourceName": "Aether",
     "iconUrl": "https://aether.bar/favicon.ico",
     "author": {
-      "name": "xdfkenny & MXFia19",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "MXFia19",
+      "icon": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg",
+      "url": "https://github.com/MXFia19"
     },
-    "version": "1.2.3",
+    "version": "1.2.2",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
@@ -222,11 +222,11 @@
     "sourceName": "Aether",
     "iconUrl": "https://aether.bar/favicon.ico",
     "author": {
-      "name": "MXFia19",
-      "icon": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg",
-      "url": "https://github.com/MXFia19"
+      "name": "xdfkenny & MXFia19",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.2.2",
+    "version": "1.2.3",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
@@ -377,8 +377,8 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "description": "Módulo de AllManga (allmanga.to) — anime en inglés (sub/dub) vía el flow oficial AllAnime (aaReq + tobeparsed + clock). v1.12.0: keygen build 179 epoch 2962 lane k7 (boot 179|mkissa|k7|<epoch>|mkissa.to, IV epoch:buildId:qh:ts:lane, mask o55/m8U/4FY=…, key 93ae3a7e…). v1.11.0: keygen build 175 epoch 2960 lane k7. v1.9.3: build 141 + manejo NEED_CAPTCHA/rate-limit + vidPath legacy deshabilitado.",
-    "version": "1.12.0",
+    "description": "Módulo de AllManga (allmanga.to) — anime en inglés (sub/dub) vía el flow oficial AllAnime (aaReq + tobeparsed + clock). v1.10.0: keygen build 166 epoch 2957 (mask 0VmOiOT…, key 43724f7d…, boot ld1faaOf3G:, mensaje boot mkissa:k7:2957:mkissa.to:166) + URLs /anime/<CUID> y episodios /p-<n>. v1.9.3: build 141 + manejo NEED_CAPTCHA/rate-limit + vidPath legacy deshabilitado.",
+    "version": "1.10.0",
     "language": "English (SUB/DUB)",
     "streamType": "HLS/MP4",
     "quality": "1080p",
@@ -412,8 +412,8 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "description": "Módulo de AllManga (allmanga.to) — anime en inglés (sub/dub) vía el flow oficial AllAnime (aaReq + tobeparsed + clock). v1.10.0: keygen build 166 epoch 2957 (mask 0VmOiOT…, key 43724f7d…, boot ld1faaOf3G:, mensaje boot mkissa:k7:2957:mkissa.to:166) + URLs /anime/<CUID> y episodios /p-<n>. v1.9.3: build 141 + manejo NEED_CAPTCHA/rate-limit + vidPath legacy deshabilitado.",
-    "version": "1.10.0",
+    "description": "Módulo de AllManga (allmanga.to) — anime en inglés (sub/dub) vía el flow oficial AllAnime (aaReq + tobeparsed + clock). v1.13.0: keygen build 181 epoch 2963 lane k7 (boot 181:mkissa:mkissa.to:<epoch>:k7, IV epoch:buildId:qh:ts:lane, mask Yh7GkKY7p1E=…, key 5ce91c85…). v1.12.0: keygen build 179 epoch 2962 lane k7. v1.11.0: keygen build 175 epoch 2960 lane k7. v1.9.3: build 141 + manejo NEED_CAPTCHA/rate-limit + vidPath legacy deshabilitado.",
+    "version": "1.13.0",
     "language": "English (SUB/DUB)",
     "streamType": "HLS/MP4",
     "quality": "1080p",
@@ -447,8 +447,8 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "description": "Módulo de AllAnime (allmanga.to) — build Shirox con fetchv2 impersonate:chrome en todas las llamadas a la API (api.mkissa.net / api.allanime.day / clock / bootstrap), fingerprint de navegador completo contra el edge de Cloudflare. Base v1.13.0: keygen build 179 epoch 2962 lane k7 (boot 179|mkissa|k7|<epoch>|mkissa.to, IV epoch:buildId:qh:ts:lane, mask o55/m8U/4FY=…) + retry con IV legacy en NEED_CAPTCHA + v1.12.0 impersonation. v1.12.1: normalización toResponseLike (fetchv2 que resuelve con string o con .json() síncrono ya no devuelve búsquedas vacías) + guard de 4xx/5xx por host. Para Sora/Luna clásicos, usa el módulo 'AllAnime' clásico.",
-    "version": "1.13.0",
+    "description": "Módulo de AllAnime (allmanga.to) — build Shirox con fetchv2 impersonate:chrome en todas las llamadas a la API (api.mkissa.net / api.allanime.day / clock / bootstrap), fingerprint de navegador completo contra el edge de Cloudflare. v1.14.0: keygen build 181 epoch 2963 lane k7 (boot 181:mkissa:mkissa.to:<epoch>:k7, IV epoch:buildId:qh:ts:lane, mask Yh7GkKY7p1E=…) + retry con IV legacy en NEED_CAPTCHA. v1.13.0: keygen build 179 + impersonation + toResponseLike. Para Sora/Luna clásicos, usa el módulo 'AllAnime' clásico.",
+    "version": "1.14.0",
     "language": "English (SUB/DUB)",
     "streamType": "HLS/MP4",
     "quality": "1080p",
@@ -550,41 +550,6 @@
   {
     "sourceName": "AniDB",
     "iconUrl": "https://anidb.app/images/fav-192.png",
-    "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
-    },
-    "description": "Módulo de AniDB (anidb.app) — el mismo backend que usa ani-cli: búsqueda vía /browse, episodios del API público frontend y streams HLS multi-idioma (jpn/eng) desde los embeds JWPlayer (hls.anidb.app).",
-    "version": "1.0.0",
-    "language": "English (SUB/DUB)",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://anidb.app/",
-    "searchBaseUrl": "https://anidb.app/browse?q=%s",
-    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anidb/anidb.js",
-    "type": "anime",
-    "downloadSupport": true,
-    "combo": false,
-    "asyncJS": true,
-    "streamAsyncJS": false,
-    "softsub": false,
-    "supportsMojuru": false,
-    "supportsDartotsu": false,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": false,
-    "supportsTsumi": false,
-    "supportsHiyoku": false,
-    "supportsShirox": false,
-    "supportsEclipse": true,
-    "languageClean": "English",
-    "hasDub": true,
-    "hasSub": true
-  },
-  {
-    "sourceName": "AniDB",
-    "iconUrl": "https://anidb.app/images/fav-192.png",
     "iconFallbackUrl": [
       "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anidb/icon.png",
       "https://www.google.com/s2/favicons?sz=192&domain=anidb.net"
@@ -616,6 +581,41 @@
     "supportsTsumi": false,
     "supportsHiyoku": false,
     "supportsShirox": true,
+    "supportsEclipse": true,
+    "languageClean": "English",
+    "hasDub": true,
+    "hasSub": true
+  },
+  {
+    "sourceName": "AniDB",
+    "iconUrl": "https://anidb.app/images/fav-192.png",
+    "author": {
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "description": "Módulo de AniDB (anidb.app) — el mismo backend que usa ani-cli: búsqueda vía /browse, episodios del API público frontend y streams HLS multi-idioma (jpn/eng) desde los embeds JWPlayer (hls.anidb.app).",
+    "version": "1.0.0",
+    "language": "English (SUB/DUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://anidb.app/",
+    "searchBaseUrl": "https://anidb.app/browse?q=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anidb/anidb.js",
+    "type": "anime",
+    "downloadSupport": true,
+    "combo": false,
+    "asyncJS": true,
+    "streamAsyncJS": false,
+    "softsub": false,
+    "supportsMojuru": false,
+    "supportsDartotsu": false,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsAnymex": false,
+    "supportsTsumi": false,
+    "supportsHiyoku": false,
+    "supportsShirox": false,
     "supportsEclipse": true,
     "languageClean": "English",
     "hasDub": true,
@@ -737,7 +737,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.19",
+    "version": "1.0.20",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
@@ -757,10 +757,11 @@
     "sourceName": "AniLiberty",
     "iconUrl": "https://aniliberty.top/static/favicon-96x96.png",
     "author": {
-      "name": "anonymous",
-      "icon": "https://git.luna-app.eu/avatars/11bb6ee2fdba48e70ee21594f4ac96344358be3bb9770732ba8c406b5cda98f0?size=512$0"
+      "name": "xdfkenny & anonymous",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.7",
+    "version": "1.0.8",
     "language": "Russian",
     "streamType": "HLS",
     "quality": "1080p",
@@ -781,11 +782,10 @@
     "sourceName": "AniLiberty",
     "iconUrl": "https://aniliberty.top/static/favicon-96x96.png",
     "author": {
-      "name": "xdfkenny & anonymous",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "anonymous",
+      "icon": "https://git.luna-app.eu/avatars/11bb6ee2fdba48e70ee21594f4ac96344358be3bb9770732ba8c406b5cda98f0?size=512$0"
     },
-    "version": "1.0.8",
+    "version": "1.0.7",
     "language": "Russian",
     "streamType": "HLS",
     "quality": "1080p",
@@ -852,32 +852,6 @@
     "sourceName": "Anime-Sama",
     "iconUrl": "https://anime-sama.pw/logo_icon.png",
     "author": {
-      "name": "MXFia19",
-      "icon": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg",
-      "url": "https://github.com/MXFia19"
-    },
-    "version": "1.1.3",
-    "language": "French",
-    "streamType": "MP4",
-    "quality": "1080p",
-    "baseUrl": "https://anime-sama.to/",
-    "searchBaseUrl": "https://anime-sama.to/",
-    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anime-sama/anime-sama.js",
-    "type": "anime",
-    "downloadSupport": true,
-    "asyncJS": true,
-    "softsub": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anime-sama/anime-sama.js",
-    "languageClean": "French",
-    "hasDub": false,
-    "hasSub": true
-  },
-  {
-    "sourceName": "Anime-Sama",
-    "iconUrl": "https://anime-sama.pw/logo_icon.png",
-    "author": {
       "name": "xdfkenny & MXFia19",
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
@@ -901,14 +875,39 @@
     "hasSub": true
   },
   {
+    "sourceName": "Anime-Sama",
+    "iconUrl": "https://anime-sama.pw/logo_icon.png",
+    "author": {
+      "name": "MXFia19",
+      "icon": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg",
+      "url": "https://github.com/MXFia19"
+    },
+    "version": "1.1.3",
+    "language": "French",
+    "streamType": "MP4",
+    "quality": "1080p",
+    "baseUrl": "https://anime-sama.to/",
+    "searchBaseUrl": "https://anime-sama.to/",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anime-sama/anime-sama.js",
+    "type": "anime",
+    "downloadSupport": true,
+    "asyncJS": true,
+    "softsub": true,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anime-sama/anime-sama.js",
+    "languageClean": "French",
+    "hasDub": false,
+    "hasSub": true
+  },
+  {
     "sourceName": "AnimeAV1",
     "iconUrl": "https://animeav1.com/favicon.png",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "1.0.3",
+    "version": "1.0.1",
     "language": "Spanish",
     "languageType": [
       "Subbed"
@@ -941,10 +940,11 @@
     "sourceName": "AnimeAV1",
     "iconUrl": "https://animeav1.com/favicon.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.1",
+    "version": "1.0.3",
     "language": "Spanish",
     "languageType": [
       "Subbed"
@@ -1225,41 +1225,6 @@
     "sourceName": "AnimeLib",
     "iconUrl": "https://i.ibb.co/rfktbGyD/Untitled-design.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
-    },
-    "version": "1.0.6",
-    "language": "Russian",
-    "languageType": [
-      "Dubbed"
-    ],
-    "streamType": "MP4 & HLS",
-    "quality": "4K",
-    "baseUrl": "https://animelib.org/ru",
-    "searchBaseUrl": "https://animelib.org/ru",
-    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animelib/animelib.js",
-    "type": "anime",
-    "asyncJS": true,
-    "softsub": true,
-    "downloadSupport": false,
-    "supportsMojuru": true,
-    "supportsDartotsu": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsAnymex": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true,
-    "supportsShirox": true,
-    "supportsEclipse": true,
-    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animelib/animelib.js",
-    "languageClean": "Russian",
-    "hasDub": false,
-    "hasSub": true
-  },
-  {
-    "sourceName": "AnimeLib",
-    "iconUrl": "https://i.ibb.co/rfktbGyD/Untitled-design.png",
-    "author": {
       "name": "xdfkenny",
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
@@ -1293,38 +1258,38 @@
     "hasSub": true
   },
   {
-    "sourceName": "AnimeNexus",
-    "iconUrl": "https://anime.nexus/favicon-32x32.png",
+    "sourceName": "AnimeLib",
+    "iconUrl": "https://i.ibb.co/rfktbGyD/Untitled-design.png",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "description": "Módulo de AnimeNexus — anime y películas en inglés (SUB/DUB) (anime.nexus)",
-    "version": "1.0.0",
-    "language": "English (SUB/DUB)",
-    "streamType": "HLS",
-    "quality": "1080p",
-    "baseUrl": "https://anime.nexus/",
-    "searchBaseUrl": "https://anime.nexus/series?search=%s",
-    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anime-nexus/anime-nexus.js",
+    "version": "1.0.6",
+    "language": "Russian",
+    "languageType": [
+      "Dubbed"
+    ],
+    "streamType": "MP4 & HLS",
+    "quality": "4K",
+    "baseUrl": "https://animelib.org/ru",
+    "searchBaseUrl": "https://animelib.org/ru",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animelib/animelib.js",
     "type": "anime",
-    "downloadSupport": false,
-    "combo": false,
     "asyncJS": true,
-    "streamAsyncJS": false,
-    "softsub": false,
-    "supportsMojuru": false,
-    "supportsDartotsu": false,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsMojuru": true,
+    "supportsDartotsu": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "supportsAnymex": false,
-    "supportsTsumi": false,
-    "supportsHiyoku": false,
-    "supportsShirox": false,
+    "supportsAnymex": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true,
+    "supportsShirox": true,
     "supportsEclipse": true,
-    "languageClean": "English",
-    "hasDub": true,
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animelib/animelib.js",
+    "languageClean": "Russian",
+    "hasDub": false,
     "hasSub": true
   },
   {
@@ -1363,14 +1328,48 @@
     "hasSub": true
   },
   {
-    "sourceName": "AnimeNoSub",
-    "iconUrl": "https://i3.wp.com/animenosub.to/wp-content/uploads/2024/04/cropped-favicon-192x192.png",
+    "sourceName": "AnimeNexus",
+    "iconUrl": "https://anime.nexus/favicon-32x32.png",
     "author": {
       "name": "xdfkenny",
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.6",
+    "description": "Módulo de AnimeNexus — anime y películas en inglés (SUB/DUB) (anime.nexus)",
+    "version": "1.0.0",
+    "language": "English (SUB/DUB)",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://anime.nexus/",
+    "searchBaseUrl": "https://anime.nexus/series?search=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anime-nexus/anime-nexus.js",
+    "type": "anime",
+    "downloadSupport": false,
+    "combo": false,
+    "asyncJS": true,
+    "streamAsyncJS": false,
+    "softsub": false,
+    "supportsMojuru": false,
+    "supportsDartotsu": false,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsAnymex": false,
+    "supportsTsumi": false,
+    "supportsHiyoku": false,
+    "supportsShirox": false,
+    "supportsEclipse": true,
+    "languageClean": "English",
+    "hasDub": true,
+    "hasSub": true
+  },
+  {
+    "sourceName": "AnimeNoSub",
+    "iconUrl": "https://i3.wp.com/animenosub.to/wp-content/uploads/2024/04/cropped-favicon-192x192.png",
+    "author": {
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
+    },
+    "version": "1.0.5",
     "language": "English",
     "languageType": [
       "Dubbed",
@@ -1401,10 +1400,11 @@
     "sourceName": "AnimeNoSub",
     "iconUrl": "https://i3.wp.com/animenosub.to/wp-content/uploads/2024/04/cropped-favicon-192x192.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.5",
+    "version": "1.0.6",
     "language": "English",
     "languageType": [
       "Dubbed",
@@ -1505,16 +1505,16 @@
     "sourceName": "AnimeUnity",
     "iconUrl": "https://raw.githubusercontent.com/cranci1/Ryu/2f10226aa087154974a70c1ec78aa83a47daced9/Ryu/Assets.xcassets/Sources/AnimeUnity.imageset/apple-touch-icon.jpg",
     "author": {
-      "name": "xdfkenny & sobet",
+      "name": "xdfkenny",
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.1.3",
+    "version": "1.1.4",
     "language": "Italian",
-    "streamType": "mp4",
-    "quality": "720p",
-    "baseUrl": "https://animeunity.so",
-    "searchBaseUrl": "https://www.animeunity.so/archivio?title=%s",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://www.animeunity.to/",
+    "searchBaseUrl": "https://www.animeunity.to/archivio?title=%s",
     "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/AnimeUnity/animeunity.js",
     "asyncJS": true,
     "type": "anime",
@@ -1633,11 +1633,10 @@
     "sourceName": "AnimeWorld",
     "iconUrl": "https://raw.githubusercontent.com/cranci1/Ryu/d48d716ec6c5ef9ae7b3711c117f920b0c7eb1ce/Ryu/Assets.xcassets/Sources/AnimeWorld.imageset/animeworld.png",
     "author": {
-      "name": "xdfkenny & sobet",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "sobet",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPQ1qIiALbM3xDWGsuJzu6ItaQGwb9ICRRw&s"
     },
-    "version": "1.1.3",
+    "version": "1.1.1",
     "language": "Italian",
     "streamType": "MP4",
     "quality": "1080p",
@@ -1656,10 +1655,11 @@
     "sourceName": "AnimeWorld",
     "iconUrl": "https://raw.githubusercontent.com/cranci1/Ryu/d48d716ec6c5ef9ae7b3711c117f920b0c7eb1ce/Ryu/Assets.xcassets/Sources/AnimeWorld.imageset/animeworld.png",
     "author": {
-      "name": "sobet",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPQ1qIiALbM3xDWGsuJzu6ItaQGwb9ICRRw&s"
+      "name": "xdfkenny & sobet",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.1.1",
+    "version": "1.1.3",
     "language": "Italian",
     "streamType": "MP4",
     "quality": "1080p",
@@ -1682,7 +1682,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "language": "Indonesian",
     "languageType": [
       "Native"
@@ -1858,11 +1858,11 @@
     "sourceName": "Aniwave",
     "iconUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/aniwave/icon.png",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
     },
-    "version": "2.0.28",
+    "version": "2.0.27",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
@@ -1883,11 +1883,11 @@
     "sourceName": "Aniwave",
     "iconUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/aniwave/icon.png",
     "author": {
-      "name": "ibro",
-      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
-      "url": "https://github.com/xibrox"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "2.0.27",
+    "version": "2.0.28",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
@@ -2068,29 +2068,6 @@
     "sourceName": "Borucut",
     "iconUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/borucut/icon.png",
     "author": {
-      "name": "ibro",
-      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
-      "url": "https://github.com/xibrox"
-    },
-    "version": "1.0.2",
-    "language": "English",
-    "streamType": "MP4",
-    "quality": "1080p - 720p - 480p",
-    "baseUrl": "https://pixeldrain.net/",
-    "searchBaseUrl": "https://pixeldrain.net/",
-    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/borucut/borucut.js",
-    "type": "anime",
-    "asyncJS": true,
-    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/borucut/borucut.js",
-    "iconURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/borucut/icon.png",
-    "languageClean": "English",
-    "hasDub": false,
-    "hasSub": false
-  },
-  {
-    "sourceName": "Borucut",
-    "iconUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/borucut/icon.png",
-    "author": {
       "name": "xdfkenny",
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
@@ -2111,14 +2088,37 @@
     "hasSub": false
   },
   {
+    "sourceName": "Borucut",
+    "iconUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/borucut/icon.png",
+    "author": {
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
+    },
+    "version": "1.0.2",
+    "language": "English",
+    "streamType": "MP4",
+    "quality": "1080p - 720p - 480p",
+    "baseUrl": "https://pixeldrain.net/",
+    "searchBaseUrl": "https://pixeldrain.net/",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/borucut/borucut.js",
+    "type": "anime",
+    "asyncJS": true,
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/borucut/borucut.js",
+    "iconURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/borucut/icon.png",
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
     "sourceName": "Concentrated Bleach",
     "iconUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/concentratedBleach/icon.png",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "ibro",
+      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
+      "url": "https://github.com/xibrox"
     },
-    "version": "1.0.9",
+    "version": "1.0.7",
     "language": "English",
     "streamType": "MP4",
     "quality": "1080p - 720p - 480p",
@@ -2138,11 +2138,11 @@
     "sourceName": "Concentrated Bleach",
     "iconUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/concentratedBleach/icon.png",
     "author": {
-      "name": "ibro",
-      "icon": "https://git.luna-app.eu/ibro/services/raw/branch/main/profile.jpg",
-      "url": "https://github.com/xibrox"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.7",
+    "version": "1.0.9",
     "language": "English",
     "streamType": "MP4",
     "quality": "1080p - 720p - 480p",
@@ -2277,7 +2277,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "Russian",
     "languageType": [
       "Native"
@@ -2363,7 +2363,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "Movies/Shows",
     "language": "English (DUB)",
     "streamType": "HLS",
@@ -2405,11 +2405,11 @@
     "sourceName": "GidOnline",
     "iconUrl": "https://files.catbox.moe/vo4xzy.png",
     "author": {
-      "name": "Cufiy",
-      "icon": "https://files.catbox.moe/ttj4fc.gif",
-      "url": "https://github.com/JMcrafter26"
+      "name": "xdfkenny & Cufiy",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.0",
+    "version": "1.0.2",
     "language": "Russian",
     "streamType": "HLS",
     "quality": "1080p",
@@ -2429,11 +2429,11 @@
     "sourceName": "GidOnline",
     "iconUrl": "https://files.catbox.moe/vo4xzy.png",
     "author": {
-      "name": "xdfkenny & Cufiy",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "Cufiy",
+      "icon": "https://files.catbox.moe/ttj4fc.gif",
+      "url": "https://github.com/JMcrafter26"
     },
-    "version": "1.0.1",
+    "version": "1.0.0",
     "language": "Russian",
     "streamType": "HLS",
     "quality": "1080p",
@@ -2478,10 +2478,11 @@
     "sourceName": "IMDb",
     "iconUrl": "https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_iPhone_retina_180x180._CB1582158069_UX196_.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "English",
     "languageType": [
       "Native"
@@ -2509,11 +2510,10 @@
     "sourceName": "IMDb",
     "iconUrl": "https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_iPhone_retina_180x180._CB1582158069_UX196_.png",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "1.0.1",
+    "version": "1.0.0",
     "language": "English",
     "languageType": [
       "Native"
@@ -2692,10 +2692,11 @@
     "sourceName": "LmAnime",
     "iconUrl": "https://lmanime.com/wp-content/uploads/2022/09/cropped-site-icon-192x192.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.0",
+    "version": "1.0.2",
     "language": "English",
     "languageType": [
       "Subbed"
@@ -2727,11 +2728,10 @@
     "sourceName": "LmAnime",
     "iconUrl": "https://lmanime.com/wp-content/uploads/2022/09/cropped-site-icon-192x192.png",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "1.0.2",
+    "version": "1.0.0",
     "language": "English",
     "languageType": [
       "Subbed"
@@ -2826,11 +2826,10 @@
     "sourceName": "Monoschinos2",
     "iconUrl": "https://files.catbox.moe/jz9l88.png",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "1.0.4",
+    "version": "1.0.3",
     "language": "Spanish",
     "languageType": [
       "Dubbed",
@@ -2863,10 +2862,11 @@
     "sourceName": "Monoschinos2",
     "iconUrl": "https://files.catbox.moe/jz9l88.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.3",
+    "version": "1.0.4",
     "language": "Spanish",
     "languageType": [
       "Dubbed",
@@ -3031,11 +3031,10 @@
     "sourceName": "Nimegami",
     "iconUrl": "https://nimegami.id/wp-content/uploads/2018/07/cropped-logo-3v2-192x192.png",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "1.0.1",
+    "version": "1.0.0",
     "language": "Indonesian",
     "languageType": [
       "Native"
@@ -3067,10 +3066,11 @@
     "sourceName": "Nimegami",
     "iconUrl": "https://nimegami.id/wp-content/uploads/2018/07/cropped-logo-3v2-192x192.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "Indonesian",
     "languageType": [
       "Native"
@@ -3232,10 +3232,11 @@
     "sourceName": "OneTouch TV",
     "iconUrl": "https://onetouchtv.xyz/favicon.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "English",
     "languageType": [
       "Subbed"
@@ -3263,11 +3264,10 @@
     "sourceName": "OneTouch TV",
     "iconUrl": "https://onetouchtv.xyz/favicon.png",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "1.0.2",
+    "version": "1.0.1",
     "language": "English",
     "languageType": [
       "Subbed"
@@ -3341,11 +3341,10 @@
     "sourceName": "OnWave",
     "iconUrl": "https://onwavedub.org/logo.png",
     "author": {
-      "name": "xdfkenny & anonymous",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "anonymous",
+      "icon": "https://git.luna-app.eu/avatars/11bb6ee2fdba48e70ee21594f4ac96344358be3bb9770732ba8c406b5cda98f0?size=512$0"
     },
-    "version": "1.0.4",
+    "version": "1.0.3",
     "language": "Russian",
     "streamType": "HLS",
     "quality": "1080p",
@@ -3366,10 +3365,11 @@
     "sourceName": "OnWave",
     "iconUrl": "https://onwavedub.org/logo.png",
     "author": {
-      "name": "anonymous",
-      "icon": "https://git.luna-app.eu/avatars/11bb6ee2fdba48e70ee21594f4ac96344358be3bb9770732ba8c406b5cda98f0?size=512$0"
+      "name": "xdfkenny & anonymous",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.3",
+    "version": "1.0.4",
     "language": "Russian",
     "streamType": "HLS",
     "quality": "1080p",
@@ -3497,11 +3497,10 @@
     "sourceName": "Peachify",
     "iconUrl": "https://peachify.top/favicon.ico",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "1.0.3",
+    "version": "1.0.1",
     "language": "English",
     "languageType": [
       "Native"
@@ -3529,10 +3528,11 @@
     "sourceName": "Peachify",
     "iconUrl": "https://peachify.top/favicon.ico",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.1",
+    "version": "1.0.3",
     "language": "English",
     "languageType": [
       "Native"
@@ -3803,6 +3803,29 @@
     "sourceName": "StreamingUnity",
     "iconUrl": "https://play-lh.googleusercontent.com/-BHc2mPj6oRWk0cjwMn5oYSd7rYl5RW1xn8BWdizIHBuh4cBQ6ev_EsxmA4Trt0o2jQ",
     "author": {
+      "name": "xdfkenny & sobet & alessio",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
+    },
+    "version": "10000002",
+    "language": "Italian",
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://streamingcommunityz.build/it",
+    "searchBaseUrl": "https://streamingcommunityz.build/it/archive?search=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/StreamingUnity/script.js",
+    "asyncJS": true,
+    "type": "shows/movies",
+    "settings": true,
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/StreamingUnity/script.js",
+    "languageClean": "Italian",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
+    "sourceName": "StreamingUnity",
+    "iconUrl": "https://play-lh.googleusercontent.com/-BHc2mPj6oRWk0cjwMn5oYSd7rYl5RW1xn8BWdizIHBuh4cBQ6ev_EsxmA4Trt0o2jQ",
+    "author": {
       "name": "sobet & alessio",
       "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPQ1qIiALbM3xDWGsuJzu6ItaQGwb9ICRRw&s"
     },
@@ -3822,25 +3845,34 @@
     "hasSub": false
   },
   {
-    "sourceName": "StreamingUnity",
-    "iconUrl": "https://play-lh.googleusercontent.com/-BHc2mPj6oRWk0cjwMn5oYSd7rYl5RW1xn8BWdizIHBuh4cBQ6ev_EsxmA4Trt0o2jQ",
+    "sourceName": "ToonTales",
+    "iconUrl": "https://www.toontales.net/wp-content/uploads/cropped-favicon-192x192.png",
     "author": {
-      "name": "xdfkenny & sobet & alessio",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "10000001",
-    "language": "Italian",
-    "streamType": "HLS",
+    "version": "1.0.0",
+    "language": "English",
+    "languageType": [
+      "Native"
+    ],
+    "streamType": "mp4",
+    "encrypted": true,
     "quality": "1080p",
-    "baseUrl": "https://streamingcommunityz.us/it",
-    "searchBaseUrl": "https://streamingcommunityz.us/it/archive?title=%s",
-    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/StreamingUnity/script.js",
+    "baseUrl": "https://www.toontales.net/",
+    "searchBaseUrl": "https://www.toontales.net/",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/toontales/toontales.js",
+    "type": "shows",
     "asyncJS": true,
-    "type": "shows/movies",
-    "settings": true,
-    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/StreamingUnity/script.js",
-    "languageClean": "Italian",
+    "softsub": false,
+    "downloadSupport": true,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true,
+    "supportsEclipse": true,
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/toontales/toontales.js",
+    "languageClean": "English",
     "hasDub": false,
     "hasSub": false
   },
@@ -3878,38 +3910,6 @@
     "hasSub": false
   },
   {
-    "sourceName": "ToonTales",
-    "iconUrl": "https://www.toontales.net/wp-content/uploads/cropped-favicon-192x192.png",
-    "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
-    },
-    "version": "1.0.0",
-    "language": "English",
-    "languageType": [
-      "Native"
-    ],
-    "streamType": "mp4",
-    "encrypted": true,
-    "quality": "1080p",
-    "baseUrl": "https://www.toontales.net/",
-    "searchBaseUrl": "https://www.toontales.net/",
-    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/toontales/toontales.js",
-    "type": "shows",
-    "asyncJS": true,
-    "softsub": false,
-    "downloadSupport": true,
-    "supportsSora": true,
-    "supportsLuna": true,
-    "supportsTsumi": true,
-    "supportsHiyoku": true,
-    "supportsEclipse": true,
-    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/toontales/toontales.js",
-    "languageClean": "English",
-    "hasDub": false,
-    "hasSub": false
-  },
-  {
     "sourceName": "TopCinema",
     "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/topcinema/icon.png",
     "author": {
@@ -3917,7 +3917,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.1.1",
+    "version": "1.1.2",
     "language": "Arabic",
     "streamType": "HLS & MP4",
     "quality": "1080p",
@@ -4006,7 +4006,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.8",
+    "version": "1.0.9",
     "language": "Turkish",
     "languageType": [
       "Native"
@@ -4150,11 +4150,10 @@
     "sourceName": "VidEasy",
     "iconUrl": "https://www.videasy.net/logo.png",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
     },
-    "version": "1.2.2",
+    "version": "1.2.0",
     "language": "English",
     "languageType": [
       "Native"
@@ -4182,10 +4181,11 @@
     "sourceName": "VidEasy",
     "iconUrl": "https://www.videasy.net/logo.png",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.2.0",
+    "version": "1.2.2",
     "language": "English",
     "languageType": [
       "Native"
@@ -4332,11 +4332,11 @@
     "sourceName": "VoirAnime",
     "iconUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/voir-anime/IMG_9709.jpg",
     "author": {
-      "name": "MXFia19",
-      "icon": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg",
-      "url": "https://github.com/MXFia19"
+      "name": "xdfkenny & MXFia19",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.7",
+    "version": "1.0.8",
     "language": "French",
     "streamType": "MP4",
     "quality": "1080p",
@@ -4360,11 +4360,11 @@
     "sourceName": "VoirAnime",
     "iconUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/voir-anime/IMG_9709.jpg",
     "author": {
-      "name": "xdfkenny & MXFia19",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "MXFia19",
+      "icon": "https://i.pinimg.com/1200x/89/78/33/89783349d3270e4ab071db9a038db8ea.jpg",
+      "url": "https://github.com/MXFia19"
     },
-    "version": "1.0.8",
+    "version": "1.0.7",
     "language": "French",
     "streamType": "MP4",
     "quality": "1080p",
