@@ -30,6 +30,40 @@
         }
       }
     },
+    "mxfia19": {
+      "types": [
+        "anime",
+        "other"
+      ],
+      "total_sources": 15,
+      "sources_by_type": {
+        "anime": {
+          "count": 11,
+          "sources": [
+            "Aether",
+            "Anime Kami",
+            "anime ultra",
+            "Anime-Sama",
+            "dessin-anime",
+            "Miruro",
+            "Movix",
+            "Nakastream",
+            "Nakios",
+            "Purstream",
+            "VoirAnime"
+          ]
+        },
+        "other": {
+          "count": 4,
+          "sources": [
+            "Bingebox",
+            "Cinepulse",
+            "LiveWatch",
+            "Twitch NoSub"
+          ]
+        }
+      }
+    },
     "xdfkenny": {
       "types": [
         "anime",
@@ -291,40 +325,6 @@
             "XgCartoon",
             "YFSP",
             "YFSP"
-          ]
-        }
-      }
-    },
-    "mxfia19": {
-      "types": [
-        "anime",
-        "other"
-      ],
-      "total_sources": 15,
-      "sources_by_type": {
-        "anime": {
-          "count": 11,
-          "sources": [
-            "Aether",
-            "Anime Kami",
-            "anime ultra",
-            "Anime-Sama",
-            "dessin-anime",
-            "Miruro",
-            "Movix",
-            "Nakastream",
-            "Nakios",
-            "Purstream",
-            "VoirAnime"
-          ]
-        },
-        "other": {
-          "count": 4,
-          "sources": [
-            "Bingebox",
-            "Cinepulse",
-            "LiveWatch",
-            "Twitch NoSub"
           ]
         }
       }

@@ -8,8 +8,8 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "description": "Módulo tipo manga de AllManga (allmanga.to) — el build de manga del ecosistema AllAnime (230k+ series). Búsqueda y detalles vía GraphQL (mangas/manga, sin token), capítulos desde availableChaptersDetail (soporta números fraccionarios 25.5/14.1), páginas de imagen desde chapterPages con token aaReq + descifrado AES-GCM (mismo flujo que el módulo de anime AllManga, con fallback de keygen). v1.5.0: keygen build 181 epoch 2963 lane k9 (boot 181:mkissa:mkissa.to:<epoch>:k9, IV epoch:buildId:qh:ts:lane, mask Yh7GkKY7p1E=…) + auto-registro del persisted query en PersistedQueryNotFound. v1.4.0: keygen build 179. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda; las páginas se entregan como URLs de imagen directas.",
-    "version": "1.5.0",
+    "description": "Módulo tipo manga de AllManga (allmanga.to) — el build de manga del ecosistema AllAnime (230k+ series). Búsqueda y detalles vía GraphQL (mangas/manga, sin token), capítulos desde availableChaptersDetail (soporta números fraccionarios 25.5/14.1), páginas de imagen desde chapterPages con token aaReq + descifrado AES-GCM (mismo flujo que el módulo de anime AllManga, con fallback de keygen). v1.2.0: keygen build 166 epoch 2957 (boot mkissa:k7:2957:mkissa.to:166); auto-registro del persisted query en PersistedQueryNotFound. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda; las páginas se entregan como URLs de imagen directas.",
+    "version": "1.2.0",
     "language": "English",
     "languageType": [
       "Translated"
@@ -42,8 +42,8 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "description": "Módulo tipo manga de AllManga (allmanga.to) — el build de manga del ecosistema AllAnime (230k+ series). Búsqueda y detalles vía GraphQL (mangas/manga, sin token), capítulos desde availableChaptersDetail (soporta números fraccionarios 25.5/14.1), páginas de imagen desde chapterPages con token aaReq + descifrado AES-GCM (mismo flujo que el módulo de anime AllManga, con fallback de keygen). v1.2.0: keygen build 166 epoch 2957 (boot mkissa:k7:2957:mkissa.to:166); auto-registro del persisted query en PersistedQueryNotFound. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda; las páginas se entregan como URLs de imagen directas.",
-    "version": "1.2.0",
+    "description": "Módulo tipo manga de AllManga (allmanga.to) — el build de manga del ecosistema AllAnime (230k+ series). Búsqueda y detalles vía GraphQL (mangas/manga, sin token), capítulos desde availableChaptersDetail (soporta números fraccionarios 25.5/14.1), páginas de imagen desde chapterPages con token aaReq + descifrado AES-GCM (mismo flujo que el módulo de anime AllManga, con fallback de keygen). v1.5.0: keygen build 181 epoch 2963 lane k9 (boot 181:mkissa:mkissa.to:<epoch>:k9, IV epoch:buildId:qh:ts:lane, mask Yh7GkKY7p1E=…) + auto-registro del persisted query en PersistedQueryNotFound. v1.4.0: keygen build 179. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda; las páginas se entregan como URLs de imagen directas.",
+    "version": "1.5.0",
     "language": "English",
     "languageType": [
       "Translated"
@@ -145,7 +145,7 @@
       "url": "https://github.com/xdfkenny"
     },
     "description": "Módulo tipo manga de Comix (comix.to / comix.ws) — cómics y manga en inglés vía su API protegida por el SDK anti-scraping X-Scramble. Implementación 100% JS del token `_` por request y del descifrado de respuestas (cadenas de cajas-S con claves extraídas del chunk seguro), sin proxy ni navegador. Resiliencia estilo AllManga: fallback multi-host (comix.to → comix.ws), cabeceras completas de navegador y clasificación de fallos Cloudflare/502 en el log. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda.",
-    "version": "1.1.4",
+    "version": "1.1.3",
     "language": "English",
     "languageType": [
       "Translated"
@@ -179,7 +179,7 @@
       "url": "https://github.com/xdfkenny"
     },
     "description": "Módulo tipo manga de Comix (comix.to / comix.ws) — cómics y manga en inglés vía su API protegida por el SDK anti-scraping X-Scramble. Implementación 100% JS del token `_` por request y del descifrado de respuestas (cadenas de cajas-S con claves extraídas del chunk seguro), sin proxy ni navegador. Resiliencia estilo AllManga: fallback multi-host (comix.to → comix.ws), cabeceras completas de navegador y clasificación de fallos Cloudflare/502 en el log. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda.",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "language": "English",
     "languageType": [
       "Translated"
@@ -538,17 +538,15 @@
   {
     "sourceName": "MangaFreak",
     "iconURL": "https://files.catbox.moe/903u7e.png",
-    "version": "1.0.4",
+    "version": "1.0.3",
     "language": "English",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangafreak/mangafreak.js",
     "author": {
-      "name": "xdfkenny",
-      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "iconURL": "https://files.catbox.moe/741wp7.png"
     },
     "type": "mangas",
     "supportsDartotsu": true,
@@ -567,15 +565,17 @@
   {
     "sourceName": "MangaFreak",
     "iconURL": "https://files.catbox.moe/903u7e.png",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "language": "English",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangafreak/mangafreak.js",
     "author": {
-      "name": "50/50",
-      "iconURL": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny",
+      "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
     "type": "mangas",
     "supportsDartotsu": true,
@@ -749,16 +749,15 @@
   {
     "sourceName": "MangaWorld",
     "iconUrl": "https://www.mangaworld.mx/public/assets/seo/favicon-96x96.png",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "language": "Italian",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangaworld/mangaworld.js",
     "author": {
-      "name": "xdfkenny",
-      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
-      "url": "https://github.com/xdfkenny"
+      "name": "50/50",
+      "icon": "https://files.catbox.moe/741wp7.png"
     },
     "type": "mangas",
     "supportsDartotsu": true,
@@ -777,15 +776,16 @@
   {
     "sourceName": "MangaWorld",
     "iconUrl": "https://www.mangaworld.mx/public/assets/seo/favicon-96x96.png",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "Italian",
     "languageType": [
       "Translated"
     ],
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangaworld/mangaworld.js",
     "author": {
-      "name": "50/50",
-      "icon": "https://files.catbox.moe/741wp7.png"
+      "name": "xdfkenny",
+      "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
+      "url": "https://github.com/xdfkenny"
     },
     "type": "mangas",
     "supportsDartotsu": true,
