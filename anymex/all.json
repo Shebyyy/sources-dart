@@ -1708,15 +1708,15 @@
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "version": "1.0.7",
+          "version": "1.1.0",
           "language": "Arabic",
           "languageType": [
             "Subbed"
           ],
           "streamType": "MP4",
           "quality": "1080p",
-          "baseUrl": "https://ak.sv/",
-          "searchBaseUrl": "https://ak.sv/search?q=%s",
+          "baseUrl": "https://akwam.ss/",
+          "searchBaseUrl": "https://akwam.ss/search?q=%s",
           "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/aksv/aksv.js",
           "asyncJS": true,
           "type": "movies/shows",
@@ -2865,7 +2865,7 @@
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "version": "1.0.2",
+          "version": "1.1.0",
           "language": "Serbian",
           "languageType": [
             "Subbed"
@@ -2920,12 +2920,12 @@
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "version": "1.1.4",
+          "version": "1.1.5",
           "language": "Italian",
           "streamType": "HLS",
           "quality": "1080p",
-          "baseUrl": "https://www.animeunity.to/",
-          "searchBaseUrl": "https://www.animeunity.to/archivio?title=%s",
+          "baseUrl": "https://www.animeunity.co/",
+          "searchBaseUrl": "https://www.animeunity.co/archivio?title=%s",
           "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/AnimeUnity/animeunity.js",
           "asyncJS": true,
           "type": "anime",
@@ -3072,7 +3072,7 @@
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "version": "1.0.3",
+          "version": "1.0.4",
           "language": "Indonesian",
           "languageType": [
             "Native"
@@ -3277,12 +3277,12 @@
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "version": "2.0.28",
+          "version": "2.1.0",
           "language": "English",
           "streamType": "HLS",
           "quality": "1080p",
-          "baseUrl": "https://aniwaves.ru/",
-          "searchBaseUrl": "https://aniwaves.ru/filter?keyword=%s",
+          "baseUrl": "https://aniwaves.tv/",
+          "searchBaseUrl": "https://aniwaves.tv/filter?keyword=%s",
           "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/aniwave/aniwave.js",
           "type": "anime",
           "downloadSupport": true,
@@ -4063,7 +4063,7 @@
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "version": "1.0.3",
+          "version": "1.0.4",
           "language": "Spanish (DUB)",
           "streamType": "HLS",
           "quality": "1080p",
@@ -4460,7 +4460,7 @@
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "version": "1.0.1",
+          "version": "2.0.0",
           "language": "Indonesian",
           "languageType": [
             "Native"
@@ -4855,7 +4855,7 @@
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "version": "1.0.2",
+          "version": "1.0.3",
           "language": "English",
           "languageType": [
             "Dubbed",
@@ -4954,12 +4954,12 @@
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "version": "1.0.4",
+          "version": "1.0.5",
           "language": "French",
           "streamType": "HLS",
           "quality": "1080p",
-          "baseUrl": "https://purstream.me/",
-          "searchBaseUrl": "https://api.purstream.me/api/v1/search-bar/search/",
+          "baseUrl": "https://purstream.gg/",
+          "searchBaseUrl": "https://api.purstream.gg/api/v1/search-bar/search/%s",
           "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/purstream/purstream.js",
           "type": "anime/shows/movies",
           "downloadSupport": true,
@@ -5127,12 +5127,12 @@
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "version": "1.0.1",
+          "version": "1.1.0",
           "language": "Arabic",
           "streamType": "MP4",
           "quality": "1080p",
           "baseUrl": "https://spacepowerfans.com/",
-          "searchBaseUrl": "https://spacepowerfans.com/search/?s_keyword=%s",
+          "searchBaseUrl": "https://spacepowerfans.com/",
           "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/spacepowerfans/spacepowerfans.js",
           "type": "anime",
           "downloadSupport": true,
@@ -5219,12 +5219,12 @@
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "version": "10000002",
+          "version": "10000003",
           "language": "Italian",
           "streamType": "HLS",
           "quality": "1080p",
-          "baseUrl": "https://streamingcommunityz.build/it",
-          "searchBaseUrl": "https://streamingcommunityz.build/it/archive?search=%s",
+          "baseUrl": "https://streamingcommunityz.nexus/it",
+          "searchBaseUrl": "https://streamingcommunityz.nexus/it/archive?search=%s",
           "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/StreamingUnity/script.js",
           "asyncJS": true,
           "type": "shows/movies",
@@ -5307,12 +5307,12 @@
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "version": "1.1.2",
+          "version": "1.1.3",
           "language": "Arabic",
           "streamType": "HLS & MP4",
           "quality": "1080p",
-          "baseUrl": "https://web6.topcinema.cam/",
-          "searchBaseUrl": "https://web6.topcinema.cam/search/?query=%s&type=all",
+          "baseUrl": "https://topcinemaa.vip/",
+          "searchBaseUrl": "https://topcinemaa.vip/search/?query=%s&type=all",
           "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/topcinema/topcinema.js",
           "type": "anime/shows/movies",
           "asyncJS": true,
@@ -6312,7 +6312,7 @@
         {
           "sourceName": "MangaDex",
           "iconURL": "https://files.catbox.moe/ouogm2.png",
-          "version": "1.3",
+          "version": "1.4",
           "language": "English",
           "languageType": [
             "Translated"
@@ -6340,7 +6340,7 @@
         },
         {
           "sourceName": "MangaDex (Eclipse)",
-          "version": "1.3-e2",
+          "version": "1.4-e1",
           "language": "English",
           "languageType": [
             "Translated"
@@ -6372,7 +6372,7 @@
         {
           "sourceName": "MangaFire",
           "iconURL": "https://s.mfcdn.cc/assets/sites/mangafire/favicon.png?v3",
-          "version": "1.0.3",
+          "version": "2.0.0",
           "language": "English",
           "languageType": [
             "Translated"
@@ -6390,8 +6390,8 @@
           "supportsAnymex": true,
           "supportsEclipse": true,
           "supportsShirox": true,
-          "baseUrl": "https://mangafire.to/",
-          "searchBaseUrl": "https://mangafire.to/",
+          "baseUrl": "https://mangafire.cc/",
+          "searchBaseUrl": "https://mangafire.cc/search?q=%s",
           "streamType": "mangas",
           "quality": "N/A",
           "asyncJS": true,
@@ -6402,7 +6402,7 @@
         },
         {
           "sourceName": "MangaFire (Eclipse)",
-          "version": "1.0.3-e2",
+          "version": "2.0.0-e1",
           "language": "English",
           "languageType": [
             "Translated"
@@ -6410,8 +6410,8 @@
           "streamType": "mangas",
           "type": "mangas",
           "quality": "N/A",
-          "baseUrl": "https://mangafire.to/",
-          "searchBaseUrl": "https://mangafire.to/",
+          "baseUrl": "https://mangafire.cc/",
+          "searchBaseUrl": "https://mangafire.cc/search?q=%s",
           "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangafire/mangafire.js",
           "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/mangafire/mangafire.js",
           "iconURL": "https://s.mfcdn.cc/assets/sites/mangafire/favicon.png?v3",
@@ -7049,21 +7049,21 @@
         },
         {
           "sourceName": "LightNovelWorld",
-          "iconUrl": "https://lightnovelworld.org/static/favicon.ico",
+          "iconUrl": "https://chikari.moe/favicon.ico",
           "author": {
             "name": "xdfkenny",
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "version": "1.0.1",
+          "version": "2.0.0",
           "language": "English",
           "languageType": [
             "Translated"
           ],
           "streamType": "novels",
           "quality": "N/A",
-          "baseUrl": "https://lightnovelworld.org/",
-          "searchBaseUrl": "https://lightnovelworld.org/api/search/?q=%s&search_type=title",
+          "baseUrl": "https://chikari.moe/",
+          "searchBaseUrl": "https://chikari.moe/api/novels/search?q=%s",
           "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/lightnovelworld/lightnovelworld.js",
           "type": "novels",
           "asyncJS": true,
@@ -7079,7 +7079,7 @@
         },
         {
           "sourceName": "LightNovelWorld (Eclipse)",
-          "version": "1.0.1-e2",
+          "version": "2.0.0-e2",
           "language": "English",
           "languageType": [
             "Translated"
@@ -7088,11 +7088,11 @@
           "type": "novels",
           "quality": "N/A",
           "novel": true,
-          "baseUrl": "https://lightnovelworld.org/",
-          "searchBaseUrl": "https://lightnovelworld.org/api/search/?q=%s&search_type=title",
+          "baseUrl": "https://chikari.moe/",
+          "searchBaseUrl": "https://chikari.moe/api/novels/search?q=%s",
           "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/lightnovelworld/lightnovelworld.js",
           "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/lightnovelworld/lightnovelworld.js",
-          "iconUrl": "https://lightnovelworld.org/static/favicon.ico",
+          "iconUrl": "https://chikari.moe/favicon.ico",
           "author": {
             "name": "xdfkenny",
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
@@ -26148,7 +26148,7 @@
             "url": "https://github.com/xdfkenny"
           },
           "description": "Módulo de AnimeJara — anime y películas en español latino, sub y japones (AnimeJara.com)",
-          "version": "1.1.10",
+          "version": "1.1.11",
           "language": "Spanish (DUB/SUB)",
           "streamType": "HLS",
           "quality": "1080p",
@@ -26276,7 +26276,7 @@
             "url": "https://github.com/xdfkenny"
           },
           "description": "Módulo de FlixLatam (flixlatam.com) — películas, series y anime en español latino (LAT/SUB). Resuelve streams HLS desencriptando los embeds vidurl: proof-of-work SHA-256 + AES-256-CBC en JS puro y desofuscando el P.A.C.K.E.R. de VidHide (minochinos.com); ofrece además por idioma el embed voe.sx resolviendo su challenge Altcha PBKDF2/SHA-256 en JS puro. El máster HLS de VidHide incluye variantes 480p/720p/1080p.",
-          "version": "1.1.13",
+          "version": "1.1.15",
           "language": "Spanish (DUB/SUB)",
           "streamType": "HLS",
           "quality": "1080p",
@@ -26566,13 +26566,13 @@
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "description": "Módulo de KissAsian (kissasian.su) — doramas asiáticos (coreanos, chinos, japoneses, tailandeses) y películas con subtítulos en inglés. Búsqueda vía ajax/filter, episodios vía ajax/ep-list, detalles vía ajax/info y streams HLS desencriptados desde player.dramavideo.se (AES-128-CBC).",
-          "version": "1.0.2",
+          "description": "Modulo de KissAsian (kissasian.ng, sucesor de kissasian.su) — doramas asiaticos con subtitulos en ingles. Busqueda via WordPress ?s=, episodios via lista Madara y streams HLS desencriptados (AES-128-CBC) desde el player de dramavideo.se.",
+          "version": "2.0.0",
           "language": "Asian (SUB) - Korean, Chinese, Japanese, Thai",
           "streamType": "HLS",
           "quality": "1080p",
-          "baseUrl": "https://kissasian.su/",
-          "searchBaseUrl": "https://kissasian.su/filter?keyword=%s",
+          "baseUrl": "https://kissasian.ng/",
+          "searchBaseUrl": "https://kissasian.ng/?s=%s",
           "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/kissasian/kissasian.js",
           "type": "movies/shows/anime",
           "downloadSupport": true,
@@ -26764,13 +26764,13 @@
             "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
             "url": "https://github.com/xdfkenny"
           },
-          "description": "Módulo de YFSP (yfsp.tv) — películas, series, variedades y anime en chino. Usa el API firmado de iYifan: búsqueda sin firma, detalles/episodios/streams vía vv+pub (MD5) con claves rotadas extraídas de la página. Tier gratuito real: 576P (720P/1080P/4K son solo VIP). Reintentos con fallback a=0→a=1 contra rate-limit (code 5) y páginas de error HTML del edge.",
-          "version": "1.0.7",
+          "description": "Módulo de IYF (iyf.tv, sucesor de yfsp.tv) — películas, series, variedades y anime en chino. Usa el API firmado de iYifan: búsqueda sin firma, detalles/episodios/streams vía vv+pub (MD5) con claves rotadas extraídas de la página. Tier gratuito real: 576P (720P/1080P/4K son solo VIP). Reintentos con fallback a=0→a=1 contra rate-limit (code 5) y páginas de error HTML del edge.",
+          "version": "1.1.0",
           "language": "Chinese (SUB)",
           "streamType": "HLS",
           "quality": "576p",
-          "baseUrl": "https://www.yfsp.tv/",
-          "searchBaseUrl": "https://www.yfsp.tv/search/%s",
+          "baseUrl": "https://www.iyf.tv/",
+          "searchBaseUrl": "https://www.iyf.tv/search/%s",
           "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/yfsp/yfsp.js",
           "type": "movies/shows/anime",
           "downloadSupport": true,
