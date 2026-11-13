@@ -8,8 +8,8 @@
     "other"
   ],
   "statistics": {
-    "files_found": 255,
-    "files_processed": 258,
+    "files_found": 259,
+    "files_processed": 262,
     "files_failed": 0,
     "api_added": 3
   },
@@ -80,10 +80,10 @@
         "novels",
         "other"
       ],
-      "total_sources": 234,
+      "total_sources": 238,
       "sources_by_type": {
         "anime": {
-          "count": 153,
+          "count": 154,
           "sources": [
             "Unknown",
             "Unknown",
@@ -191,6 +191,7 @@
             "Nivod",
             "Nivod",
             "One Pace",
+            "One Pace (DUB)",
             "One Piece Film Red: AmaLee Score",
             "One Piece Treasure Edition",
             "OneTouch TV",
@@ -241,7 +242,7 @@
           ]
         },
         "manga": {
-          "count": 35,
+          "count": 37,
           "sources": [
             "AllManga Manga",
             "AllManga Manga",
@@ -252,6 +253,7 @@
             "Comix (Eclipse)",
             "KaliScan",
             "KaliScan (Eclipse)",
+            "MangaBall",
             "MangaBuddy",
             "MangaBuddy",
             "MangaBuddy (Eclipse)",
@@ -270,6 +272,7 @@
             "MangaWorld",
             "MangaWorld",
             "MangaWorld (Eclipse)",
+            "ReadFreeComicsOnline",
             "RumanHua1",
             "RumanHua1 (Eclipse)",
             "Scan Sama",
@@ -305,7 +308,7 @@
           ]
         },
         "other": {
-          "count": 27,
+          "count": 28,
           "sources": [
             "Unknown",
             "Unknown",
@@ -331,6 +334,7 @@
             "Moflix",
             "MyselfBBS",
             "Nunuju",
+            "USA TV",
             "XgCartoon",
             "YFSP",
             "酷播TV (YFSP)"

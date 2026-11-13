@@ -144,8 +144,8 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "description": "Módulo tipo manga de Comix (comix.to / comix.ws) — cómics y manga en inglés vía su API protegida por el SDK anti-scraping X-Scramble. Implementación 100% JS del token `_` por request y del descifrado de respuestas (cadenas de cajas-S con claves extraídas del chunk seguro), sin proxy ni navegador. Resiliencia estilo AllManga: fallback multi-host (comix.to → comix.ws), cabeceras completas de navegador y clasificación de fallos Cloudflare/502 en el log. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda.",
-    "version": "1.1.4",
+    "description": "Módulo tipo manga de Comix (comix.to / comix.ws) — cómics y manga en inglés vía su API protegida por el SDK anti-scraping X-Scramble. v2: el SDK rota constantes en cada deploy, así que el módulo extrae kid + tabla de claves (1088 bytes) directamente del chunk apicore-*.js vigente al inicio de sesión (parser genérico del string-pool ofuscado, sin eval) y firma cada request `_` con doble SHA-256; descifra respuestas cifradas (x-enc) con el stream XOR de la tabla. Resiliencia estilo AllManga: cabeceras completas de navegador y clasificación de fallos Cloudflare/403 en el log. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda.",
+    "version": "2.0.0",
     "language": "English",
     "languageType": [
       "Translated"
@@ -205,8 +205,8 @@
   },
   {
     "sourceName": "Comix (Eclipse)",
-    "description": "Módulo tipo manga de Comix (comix.to / comix.ws) — cómics y manga en inglés vía su API protegida por el SDK anti-scraping X-Scramble. Implementación 100% JS del token `_` por request y del descifrado de respuestas (cadenas de cajas-S con claves extraídas del chunk seguro), sin proxy ni navegador. Resiliencia estilo AllManga: fallback multi-host (comix.to → comix.ws), cabeceras completas de navegador y clasificación de fallos Cloudflare/502 en el log. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda. Eclipse-ported copy (shim prelude + baseUrl fields); logic identical to comix.",
-    "version": "1.1.4-e2",
+    "description": "Módulo tipo manga de Comix (comix.to / comix.ws) — cómics y manga en inglés vía su API protegida por el SDK anti-scraping X-Scramble. Implementación 100% JS del token `_` (SHA-256 con IV derivado de la clave estática del chunk apicore, prefijo bm6) y del descifrado de respuestas (tabla XOR rotada 1024B), extraídas del chunk seguro 2026-11-12, sin proxy ni navegador. Resiliencia estilo AllManga: fallback multi-host (comix.to → comix.ws), cabeceras completas de navegador y clasificación de fallos Cloudflare/502 en el log. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda. Eclipse-ported copy (shim prelude + baseUrl fields); logic identical to comix.",
+    "version": "1.2.0-e2",
     "language": "English",
     "languageType": [
       "Translated"
@@ -239,8 +239,8 @@
   },
   {
     "sourceName": "KaliScan",
-    "iconURL": "https://kaliscan.io/static/sites/icons/apple-touch-icon.png",
-    "version": "1.3",
+    "iconURL": "https://kaliscan.org/wp-content/uploads/2023/07/kaliscan.jpg",
+    "version": "2.0.0",
     "language": "English",
     "languageType": [
       "Translated"
@@ -258,8 +258,8 @@
     "supportsAnymex": true,
     "supportsEclipse": true,
     "supportsShirox": true,
-    "baseUrl": "https://kaliscan.io/",
-    "searchBaseUrl": "https://kaliscan.io/",
+    "baseUrl": "https://kaliscan.org/",
+    "searchBaseUrl": "https://kaliscan.org/?s=%s&post_type=wp-manga",
     "streamType": "mangas",
     "quality": "N/A",
     "asyncJS": true,
@@ -270,7 +270,7 @@
   },
   {
     "sourceName": "KaliScan (Eclipse)",
-    "version": "1.3-e2",
+    "version": "1.4-e2",
     "language": "English",
     "languageType": [
       "Translated"
@@ -278,11 +278,11 @@
     "streamType": "mangas",
     "type": "mangas",
     "quality": "N/A",
-    "baseUrl": "https://kaliscan.io/",
-    "searchBaseUrl": "https://kaliscan.io/",
+    "baseUrl": "https://kaliscan.org/",
+    "searchBaseUrl": "https://kaliscan.org/?s=%s&post_type=wp-manga",
     "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/kaliscan/kaliscan.js",
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/kaliscan/kaliscan.js",
-    "iconURL": "https://kaliscan.io/static/sites/icons/apple-touch-icon.png",
+    "iconURL": "https://kaliscan.org/wp-content/uploads/2023/07/kaliscan.jpg",
     "author": {
       "name": "xdfkenny",
       "iconURL": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
@@ -295,6 +295,34 @@
     "supportsEclipse": true,
     "supportsLuna": true,
     "supportsShirox": true,
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
+    "sourceName": "MangaBall",
+    "iconURL": "https://raw.githubusercontent.com/JayGxnzalez/Modules/refs/heads/main/MangaBall/Icon.png",
+    "version": "1.2.0",
+    "language": "English",
+    "languageType": [
+      "Translated"
+    ],
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangaball/mangaball.js",
+    "author": {
+      "name": "Jay",
+      "iconURL": "https://avatars.githubusercontent.com/JayGxnzalez?s=400",
+      "icon": "https://avatars.githubusercontent.com/JayGxnzalez?s=400",
+      "url": "https://github.com/JayGxnzalez"
+    },
+    "type": "mangas",
+    "supportsShirox": true,
+    "supportsLuna": true,
+    "baseUrl": "https://mangaball.com/",
+    "searchBaseUrl": "https://api.mangaball.com/api/v1/title/search-advanced?keyword=%s&sort_by=lastupdate&sort_order=desc&tag_mode=AND&use_user_settings=false&page=1&limit=36",
+    "streamType": "mangas",
+    "quality": "N/A",
+    "asyncJS": true,
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/mangaball/mangaball.js",
     "languageClean": "English",
     "hasDub": false,
     "hasSub": false
@@ -832,6 +860,28 @@
     "hasSub": false
   },
   {
+    "sourceName": "ReadFreeComicsOnline",
+    "iconURL": "https://www.google.com/s2/favicons?sz=128&domain=readfreecomicsonline.com",
+    "version": "2.0.0",
+    "language": "English",
+    "baseUrl": "https://readfreecomicsonline.com",
+    "searchBaseUrl": "https://readfreecomicsonline.com/?s=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/Sora-Modules/main/readfreecomicsonline/readfreecomicsonline.js",
+    "author": {
+      "name": "Jay",
+      "iconURL": "https://avatars.githubusercontent.com/JayGxnzalez?s=400"
+    },
+    "type": "mangas",
+    "streamType": "mangas",
+    "quality": "N/A",
+    "novel": false,
+    "asyncJS": true,
+    "supportsShirox": true,
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
     "sourceName": "RumanHua1",
     "iconURL": "https://i.ibb.co/TDfbbwDB/Untitled-design.png",
     "version": "1.1",
@@ -864,7 +914,7 @@
   },
   {
     "sourceName": "RumanHua1 (Eclipse)",
-    "version": "1.1-e2",
+    "version": "1.2-e2",
     "language": "Chinese",
     "languageType": [
       "Translated"
@@ -872,8 +922,8 @@
     "streamType": "mangas",
     "type": "mangas",
     "quality": "N/A",
-    "baseUrl": "http://rumanhua1.com/",
-    "searchBaseUrl": "http://rumanhua1.com/",
+    "baseUrl": "http://rumanhua2.com/",
+    "searchBaseUrl": "http://rumanhua2.com/s?k=%s",
     "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/rumanhua1/rumanhua1.js",
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/eclipse/rumanhua1/rumanhua1.js",
     "iconURL": "https://i.ibb.co/TDfbbwDB/Untitled-design.png",

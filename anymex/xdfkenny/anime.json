@@ -226,11 +226,11 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.2.3",
+    "version": "1.2.4",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
-    "baseUrl": "https://aether.bar/",
+    "baseUrl": "https://aether.ist/",
     "searchBaseUrl": "https://api.themoviedb.org/3/search/multi",
     "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/aether/aether.js",
     "type": "shows/movies/anime",
@@ -239,7 +239,7 @@
     "softsub": true,
     "supportsSora": true,
     "supportsLuna": true,
-    "changelog": "Add fast.aether scrape servers + vdrk subtitle source",
+    "changelog": "v1.2.4: fix stream Referer (self-origin, kaxate CDN 403); baseUrl moved to aether.ist",
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/aether/aether.js",
     "languageClean": "English",
     "hasDub": false,
@@ -285,7 +285,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "language": "English",
     "languageType": [
       "Subbed"
@@ -518,7 +518,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.5",
+    "version": "1.0.6",
     "language": "Greek",
     "languageType": [
       "Subbed"
@@ -701,7 +701,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.1.1",
+    "version": "1.1.2",
     "language": "English",
     "languageType": [
       "Subbed"
@@ -833,7 +833,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.5",
+    "version": "1.0.6",
     "language": "Russian",
     "streamType": "HLS",
     "quality": "1080p",
@@ -882,7 +882,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.1.4",
+    "version": "1.2.0",
     "language": "French",
     "streamType": "MP4",
     "quality": "1080p",
@@ -1754,7 +1754,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.1",
+    "version": "2.0.0",
     "language": "English",
     "languageType": [
       "Dubbed",
@@ -1762,8 +1762,8 @@
     ],
     "streamType": "HLS",
     "quality": "1080p",
-    "baseUrl": "https://anineko.to/",
-    "searchBaseUrl": "https://anineko.to/",
+    "baseUrl": "https://anineko.cc/",
+    "searchBaseUrl": "https://anineko.cc/",
     "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/anineko/anineko.js",
     "type": "anime",
     "asyncJS": true,
@@ -1912,7 +1912,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.8",
+    "version": "2.0.0",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
@@ -2241,7 +2241,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.1",
+    "version": "1.1.0",
     "language": "Chinese",
     "languageType": [
       "Native"
@@ -2386,7 +2386,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.3.6",
+    "version": "1.4.0",
     "type": "Movies/Shows",
     "language": "German (DUB)",
     "streamType": "HLS",
@@ -2457,7 +2457,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.3",
+    "version": "2.0.0",
     "language": "Russian",
     "streamType": "HLS",
     "quality": "1080p",
@@ -2830,7 +2830,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.4",
+    "version": "2.0.0",
     "language": "Spanish",
     "languageType": [
       "Dubbed",
@@ -3184,6 +3184,29 @@
     "hasSub": false
   },
   {
+    "sourceName": "One Pace (DUB)",
+    "iconUrl": "https://raw.githubusercontent.com/JayGxnzalez/Modules/main/One-Pace-DUB/One_Pace_Logo.png",
+    "author": {
+      "name": "Jay (rebuilt by xdfkenny)",
+      "icon": "https://avatars.githubusercontent.com/JayGxnzalez?s=400",
+      "url": "https://github.com/JayGxnzalez"
+    },
+    "version": "2.0.0",
+    "language": "English",
+    "streamType": "MP4",
+    "quality": "480p - 720p - 1080p",
+    "baseUrl": "https://onepace.net/",
+    "searchBaseUrl": "https://onepace.net/en/watch?search=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/onepacedub/onepacedub.js",
+    "type": "anime",
+    "asyncJS": true,
+    "downloadSupport": true,
+    "softsub": false,
+    "languageClean": "English",
+    "hasDub": false,
+    "hasSub": false
+  },
+  {
     "sourceName": "One Piece Film Red: AmaLee Score",
     "iconUrl": "https://git.luna-app.eu/ibro/services/raw/branch/main/onePieceFilmRedAmaLeeScore/icon.png",
     "author": {
@@ -3191,12 +3214,12 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.3",
+    "version": "2.0.0",
     "language": "English",
     "streamType": "MP4",
-    "quality": "1080p - 720p - 480p",
-    "baseUrl": "https://pixeldrain.net/",
-    "searchBaseUrl": "https://pixeldrain.net/",
+    "quality": "1080p",
+    "baseUrl": "https://drive.google.com/",
+    "searchBaseUrl": "https://drive.google.com/",
     "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/onePieceFilmRedAmaLeeScore/onePieceFilmRedAmaLeeScore.js",
     "type": "anime",
     "downloadSupport": false,
@@ -3429,7 +3452,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.3",
+    "version": "1.0.4",
     "language": "English",
     "languageType": [
       "Subbed"
@@ -3465,7 +3488,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.3",
+    "version": "1.1.0",
     "language": "English",
     "languageType": [
       "Dubbed",
@@ -3501,7 +3524,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.3",
+    "version": "1.0.4",
     "language": "English",
     "languageType": [
       "Native"
@@ -3585,24 +3608,24 @@
   },
   {
     "sourceName": "Re:ANIME",
-    "iconUrl": "https://reanime.to/favicon.ico",
+    "iconUrl": "https://reanime.cz/favicon.ico",
     "author": {
       "name": "xdfkenny",
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "2.0.0",
+    "version": "2.1.0",
     "language": "English",
     "streamType": "HLS",
     "quality": "1080p",
-    "baseUrl": "https://reanime.to/",
-    "searchBaseUrl": "https://reanime.to/search?q=%s",
+    "baseUrl": "https://reanime.cz/",
+    "searchBaseUrl": "https://reanime.cz/search?q=%s",
     "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/kuudere/kuudere.js",
     "type": "anime",
     "downloadSupport": false,
     "asyncJS": true,
     "softsub": true,
-    "note": "kuudere.to rebranded to reanime.to. Search/details/episodes via SSR scraping. Streams open the flixcloud site player (its HLS playlists are XOR-encoded for its own patched hls.js, so native players cannot play the raw m3u8s).",
+    "note": "kuudere.to rebranded to reanime.cz. Search/details/episodes via SSR scraping. Streams open the flixcloud site player (its HLS playlists are XOR-encoded for its own patched hls.js, so native players cannot play the raw m3u8s).",
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/kuudere/kuudere.js",
     "languageClean": "English",
     "hasDub": false,
@@ -3829,7 +3852,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "10000003",
+    "version": "10000004",
     "language": "Italian",
     "streamType": "HLS",
     "quality": "1080p",
@@ -4118,7 +4141,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.5",
+    "version": "1.0.6",
     "language": "English",
     "languageType": [
       "Native"
@@ -4248,7 +4271,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.2.7",
+    "version": "1.2.8",
     "language": "English",
     "languageType": [
       "Native"
@@ -4280,7 +4303,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "language": "English",
     "languageType": [
       "Native"
@@ -4364,18 +4387,18 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.8",
+    "version": "1.1.0",
     "language": "French",
     "streamType": "MP4",
     "quality": "1080p",
-    "baseUrl": "https://voir-anime.to",
-    "searchBaseUrl": "https://voir-anime.to/?s=",
+    "baseUrl": "https://voiranime.buzz",
+    "searchBaseUrl": "https://voiranime.buzz/?s=",
     "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/voir-anime/voir-anime.js",
     "type": "anime",
     "downloadSupport": true,
     "asyncJS": true,
     "softsub": false,
-    "changelog": "logs Supabase: ajoute ep_number + media_url (l alerte Discord affiche enfin le numero d episode)",
+    "changelog": "domaine mort voir-anime.to -> voiranime.buzz ; recherche via POST admin-ajax (bypass challenge Cloudflare) + fallback HTML",
     "supportsSora": true,
     "supportsLuna": true,
     "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/voir-anime/voir-anime.js",
@@ -4456,7 +4479,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "language": "English",
     "languageType": [
       "Native"
