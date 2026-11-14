@@ -448,7 +448,7 @@
       "url": "https://github.com/xdfkenny"
     },
     "description": "Módulo de AllAnime (allmanga.to) — build Shirox con fetchv2 impersonate:chrome en todas las llamadas a la API (api.mkissa.net / api.allanime.day / clock / bootstrap), fingerprint de navegador completo contra el edge de Cloudflare. v1.14.0: keygen build 181 epoch 2963 lane k7 (boot 181:mkissa:mkissa.to:<epoch>:k7, IV epoch:buildId:qh:ts:lane, mask Yh7GkKY7p1E=…) + retry con IV legacy en NEED_CAPTCHA. v1.13.0: keygen build 179 + impersonation + toResponseLike. Para Sora/Luna clásicos, usa el módulo 'AllAnime' clásico.",
-    "version": "1.14.0",
+    "version": "1.15.0",
     "language": "English (SUB/DUB)",
     "streamType": "HLS/MP4",
     "quality": "1080p",
@@ -1466,6 +1466,43 @@
     "languageClean": "Portuguese",
     "hasDub": false,
     "hasSub": false
+  },
+  {
+    "sourceName": "AnimesFHD",
+    "iconUrl": "https://animesfhd.net/assets/img/pwa/icon-192.png",
+    "author": {
+      "name": "animesfhd",
+      "icon": "https://github.com/animesfhd.png",
+      "url": "https://github.com/animesfhd"
+    },
+    "version": "1.0.0",
+    "language": "Portuguese",
+    "languageType": [
+      "Subbed",
+      "Dubbed"
+    ],
+    "streamType": "HLS",
+    "quality": "1080p",
+    "baseUrl": "https://animesfhd.net",
+    "searchBaseUrl": "https://animesfhd.net/api/series?pagination=1&page=1&per_page=24&q=%s",
+    "scriptUrl": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animesfhd/animesfhd.js",
+    "type": "anime",
+    "asyncJS": true,
+    "softsub": true,
+    "downloadSupport": false,
+    "supportsMojuru": true,
+    "supportsDartotsu": true,
+    "supportsSora": true,
+    "supportsLuna": true,
+    "supportsAnymex": true,
+    "supportsTsumi": true,
+    "supportsHiyoku": true,
+    "supportsShirox": true,
+    "supportsEclipse": true,
+    "scriptURL": "https://raw.githubusercontent.com/xdfkenny/xdfkenny-sora-modules/main/animesfhd/animesfhd.js",
+    "languageClean": "Portuguese",
+    "hasDub": false,
+    "hasSub": true
   },
   {
     "sourceName": "AnimeSRBIJA",
@@ -2513,7 +2550,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "language": "English",
     "languageType": [
       "Native"
@@ -4208,7 +4245,7 @@
       "icon": "https://yt3.googleusercontent.com/NHr6Y6qhYIUeoyIBdgeEYArXI1_ebVcLAuf562jPB6WSFTunOwPVuWC90eAG1zmeD6_Wy9_0mTs=s160-c-k-c0x00ffffff-no-rj",
       "url": "https://github.com/xdfkenny"
     },
-    "version": "1.2.2",
+    "version": "1.3.0",
     "language": "English",
     "languageType": [
       "Native"

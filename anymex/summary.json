@@ -8,9 +8,9 @@
     "other"
   ],
   "statistics": {
-    "files_found": 259,
-    "files_processed": 262,
-    "files_failed": 0,
+    "files_found": 266,
+    "files_processed": 263,
+    "files_failed": 6,
     "api_added": 3
   },
   "repositories": {
@@ -80,10 +80,10 @@
         "novels",
         "other"
       ],
-      "total_sources": 238,
+      "total_sources": 239,
       "sources_by_type": {
         "anime": {
-          "count": 154,
+          "count": 155,
           "sources": [
             "Unknown",
             "Unknown",
@@ -131,6 +131,7 @@
             "AnimeNoSub",
             "AnimeNoSub",
             "AnimesDigital",
+            "AnimesFHD",
             "AnimeSRBIJA",
             "AnimeUnity",
             "AnimeUnity",
