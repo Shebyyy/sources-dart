@@ -14,65 +14,6 @@
     "api_added": 3
   },
   "repositories": {
-    "cprmichel": {
-      "types": [
-        "anime",
-        "other"
-      ],
-      "total_sources": 6,
-      "sources_by_type": {
-        "anime": {
-          "count": 3,
-          "sources": [
-            "Kinoger",
-            "Moflix",
-            "Movie2k"
-          ]
-        },
-        "other": {
-          "count": 3,
-          "sources": [
-            "Unknown",
-            "Unknown",
-            "NFLBite"
-          ]
-        }
-      }
-    },
-    "mxfia19": {
-      "types": [
-        "anime",
-        "other"
-      ],
-      "total_sources": 15,
-      "sources_by_type": {
-        "anime": {
-          "count": 11,
-          "sources": [
-            "Aether",
-            "Anime Kami",
-            "anime ultra",
-            "Anime-Sama",
-            "dessin-anime",
-            "Miruro",
-            "Movix",
-            "Nakastream",
-            "Nakios",
-            "Purstream",
-            "VoirAnime"
-          ]
-        },
-        "other": {
-          "count": 4,
-          "sources": [
-            "Bingebox",
-            "Cinepulse",
-            "LiveWatch",
-            "Twitch NoSub"
-          ]
-        }
-      }
-    },
     "xdfkenny": {
       "types": [
         "anime",
@@ -343,6 +284,40 @@
         }
       }
     },
+    "mxfia19": {
+      "types": [
+        "anime",
+        "other"
+      ],
+      "total_sources": 15,
+      "sources_by_type": {
+        "anime": {
+          "count": 11,
+          "sources": [
+            "Aether",
+            "Anime Kami",
+            "anime ultra",
+            "Anime-Sama",
+            "dessin-anime",
+            "Miruro",
+            "Movix",
+            "Nakastream",
+            "Nakios",
+            "Purstream",
+            "VoirAnime"
+          ]
+        },
+        "other": {
+          "count": 4,
+          "sources": [
+            "Bingebox",
+            "Cinepulse",
+            "LiveWatch",
+            "Twitch NoSub"
+          ]
+        }
+      }
+    },
     "alexrica": {
       "types": [
         "anime"
@@ -353,6 +328,31 @@
           "count": 1,
           "sources": [
             "JKanime"
+          ]
+        }
+      }
+    },
+    "cprmichel": {
+      "types": [
+        "anime",
+        "other"
+      ],
+      "total_sources": 6,
+      "sources_by_type": {
+        "anime": {
+          "count": 3,
+          "sources": [
+            "Kinoger",
+            "Moflix",
+            "Movie2k"
+          ]
+        },
+        "other": {
+          "count": 3,
+          "sources": [
+            "Unknown",
+            "Unknown",
+            "NFLBite"
           ]
         }
       }
