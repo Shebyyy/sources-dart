@@ -318,6 +318,20 @@
         }
       }
     },
+    "alexrica": {
+      "types": [
+        "anime"
+      ],
+      "total_sources": 1,
+      "sources_by_type": {
+        "anime": {
+          "count": 1,
+          "sources": [
+            "JKanime"
+          ]
+        }
+      }
+    },
     "cprmichel": {
       "types": [
         "anime",
@@ -339,20 +353,6 @@
             "Unknown",
             "Unknown",
             "NFLBite"
-          ]
-        }
-      }
-    },
-    "alexrica": {
-      "types": [
-        "anime"
-      ],
-      "total_sources": 1,
-      "sources_by_type": {
-        "anime": {
-          "count": 1,
-          "sources": [
-            "JKanime"
           ]
         }
       }
