@@ -206,7 +206,7 @@
   {
     "sourceName": "Comix (Eclipse)",
     "description": "Módulo tipo manga de Comix (comix.to / comix.ws) — cómics y manga en inglés vía su API protegida por el SDK anti-scraping X-Scramble. Implementación 100% JS del token `_` (SHA-256 con IV derivado de la clave estática del chunk apicore, prefijo bm6) y del descifrado de respuestas (tabla XOR rotada 1024B), extraídas del chunk seguro 2026-11-12, sin proxy ni navegador. Resiliencia estilo AllManga: fallback multi-host (comix.to → comix.ws), cabeceras completas de navegador y clasificación de fallos Cloudflare/502 en el log. Contrato mangas de kanzen: searchResults / extractDetails / extractChapters / extractImages con salida cruda. Eclipse-ported copy (shim prelude + baseUrl fields); logic identical to comix.",
-    "version": "1.2.0-e2",
+    "version": "1.2.0",
     "language": "English",
     "languageType": [
       "Translated"
@@ -330,7 +330,7 @@
   {
     "sourceName": "MangaBuddy",
     "iconURL": "https://mangabuddy.com/static/sites/mangabuddy/icons/apple-touch-icon.png",
-    "version": "2.1",
+    "version": "2.2",
     "language": "English",
     "languageType": [
       "Translated"
@@ -352,6 +352,8 @@
     "streamType": "mangas",
     "quality": "N/A",
     "asyncJS": true,
+    "baseUrl": "https://mangak.io/",
+    "searchBaseUrl": "https://mangak.io/search?q=%s",
     "languageClean": "English",
     "hasDub": false,
     "hasSub": false
@@ -417,7 +419,7 @@
   {
     "sourceName": "MangaDex",
     "iconURL": "https://files.catbox.moe/ouogm2.png",
-    "version": "1.4",
+    "version": "1.5",
     "language": "English",
     "languageType": [
       "Translated"
@@ -439,6 +441,8 @@
     "streamType": "mangas",
     "quality": "N/A",
     "asyncJS": true,
+    "baseUrl": "https://mangadex.org/",
+    "searchBaseUrl": "https://api.mangadex.org/manga?title=%s",
     "languageClean": "English",
     "hasDub": false,
     "hasSub": false
@@ -593,7 +597,7 @@
   {
     "sourceName": "MangaFreak",
     "iconURL": "https://files.catbox.moe/903u7e.png",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "language": "English",
     "languageType": [
       "Translated"
@@ -615,6 +619,8 @@
     "streamType": "mangas",
     "quality": "N/A",
     "asyncJS": true,
+    "baseUrl": "https://ww2.mangafreak.me/",
+    "searchBaseUrl": "https://ww2.mangafreak.me/Find/%s",
     "languageClean": "English",
     "hasDub": false,
     "hasSub": false
@@ -804,7 +810,7 @@
   {
     "sourceName": "MangaWorld",
     "iconUrl": "https://www.mangaworld.mx/public/assets/seo/favicon-96x96.png",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "language": "Italian",
     "languageType": [
       "Translated"
@@ -825,13 +831,15 @@
     "streamType": "mangas",
     "quality": "N/A",
     "asyncJS": true,
+    "baseUrl": "https://www.mangaworld.me/",
+    "searchBaseUrl": "https://www.mangaworld.me/archive?keyword=%s",
     "languageClean": "Italian",
     "hasDub": false,
     "hasSub": false
   },
   {
     "sourceName": "MangaWorld (Eclipse)",
-    "version": "1.0.1-e2",
+    "version": "1.1.0",
     "language": "Italian",
     "languageType": [
       "Translated"
@@ -884,7 +892,7 @@
   {
     "sourceName": "RumanHua1",
     "iconURL": "https://i.ibb.co/TDfbbwDB/Untitled-design.png",
-    "version": "1.1",
+    "version": "1.2",
     "language": "Chinese",
     "languageType": [
       "Translated"
@@ -902,8 +910,8 @@
     "supportsAnymex": true,
     "supportsEclipse": true,
     "supportsShirox": true,
-    "baseUrl": "http://rumanhua1.com/",
-    "searchBaseUrl": "http://rumanhua1.com/",
+    "baseUrl": "http://rumanhua2.com",
+    "searchBaseUrl": "http://rumanhua2.com/",
     "streamType": "mangas",
     "quality": "N/A",
     "asyncJS": true,
@@ -970,7 +978,7 @@
   {
     "sourceName": "Scan Sama",
     "iconURL": "https://raw.githubusercontent.com/Anime-Sama/IMG/img/autres/logo.png",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "language": "French",
     "languageType": [
       "Translated"
@@ -989,6 +997,8 @@
     "streamType": "mangas",
     "quality": "N/A",
     "asyncJS": true,
+    "baseUrl": "https://anime-sama.to/",
+    "searchBaseUrl": "https://anime-sama.to/template-php/defaut/fetch.php",
     "languageClean": "French",
     "hasDub": false,
     "hasSub": false
@@ -1052,7 +1062,7 @@
   {
     "sourceName": "WeebCentral",
     "iconURL": "https://favicons.statusgator.com/1bi5zotvuQiK08wI.png",
-    "version": "1.2",
+    "version": "1.3",
     "language": "English",
     "languageType": [
       "Translated"
@@ -1074,6 +1084,8 @@
     "streamType": "mangas",
     "quality": "N/A",
     "asyncJS": true,
+    "baseUrl": "https://weebcentral.com/",
+    "searchBaseUrl": "https://weebcentral.com/search/simple?text=%s",
     "languageClean": "English",
     "hasDub": false,
     "hasSub": false
